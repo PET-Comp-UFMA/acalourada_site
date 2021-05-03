@@ -83,7 +83,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #87CEFA;
+  background: #8155BA;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -100,14 +100,14 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #050C38;
+  background: #5C038C;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background:#050C38;
-  color:  #fff; 
+  background:#5C038C;
+  color:  #fff;
 }
 
 /* Sections Header
@@ -126,7 +126,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #87CEFA;
+  background: #381460;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -208,6 +208,7 @@ h6 {
   margin: 0;
   max-height: 50px;
 }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -324,7 +325,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #87CEFA;
+  background-color: #381460;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -394,11 +395,11 @@ h6 {
 /* Mobile Nav Toggle */
 
 #mobile-nav-toggle {
-  position: fixed;
+  position: absolute;
   right: 0;
   top: 0;
   z-index: 999;
-  margin: 15px 15px 0 0;
+  margin: 0px 15px 0 0;
   border: 0;
   background: none;
   font-size: 24px;
@@ -409,7 +410,7 @@ h6 {
 }
 
 #mobile-nav-toggle i {
-  color: #87CEFA;
+  color: #381460;
 }
 
 /* Mobile Nav Styling */
@@ -420,7 +421,7 @@ h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: #87CEFA;
+  background: #381460;
 
   left: -260px;
   width: 260px;
@@ -468,11 +469,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #87CEFA;
+  color: #381460;
 }
 
 #mobile-nav ul .menu-item-active {
-  color:#87CEFA;
+  color:#381460;
 }
 
 #mobile-body-overly {
@@ -610,11 +611,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid transparent;
   top: -15%;
   left: -15%;
-  background: #87CEFA;
+  background: #381460;
 }
 
 #intro-2 .play-btn:hover::after {
-  border-left: 15px solid #87CEFA;
+  border-left: 15px solid #381460;
   -webkit-transform: scale(20); 
   transform: scale(20);
 }
@@ -652,11 +653,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #87CEFA;
+  border: 2px solid #381460;
 }
 
 #intro-2 .about-btn:hover {
-  background: #87CEFA;
+  background: #381460;
   color: #fff;
 }
 
@@ -711,7 +712,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color:#87CEFA;
+  color:#8155BA;
 }
 
 #intro p {
@@ -723,7 +724,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#87CEFA 50%, rgba(101, 111, 150, 0.15) 52%);
+  background: radial-gradient(#8155BA 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -766,11 +767,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid transparent;
   top: -15%;
   left: -15%;
-  background: #87CEFA;
+  background: #8155BA;
 }
 
 #intro .play-btn:hover::after {
-  border-left: 15px solid #87CEFA;
+  border-left: 15px solid #8155BA;
   -webkit-transform: scale(20); 
   transform: scale(20);
 }
@@ -808,20 +809,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #87CEFA;
+  border: 2px solid #8155BA;
 }
 
 #intro-2 .about-btn:hover {
-  background: #87CEFA;
+  background: #381460;
   color: #fff;
 }
-
-
-
-
-
-
-
 
 @-webkit-keyframes pulsate-btn {
   0% {
@@ -849,6 +843,17 @@ body.mobile-nav-active #mobile-nav-toggle {
     transform: scale(1, 1);
     opacity: 0;
   }
+}
+/*--------------------------------------------------------------
+# Banner Section
+--------------------------------------------------------------*/
+
+#banner {
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  background-color: #936ec2e0;
+  padding: 60px 0 40px 0;
 }
 
 /*--------------------------------------------------------------
@@ -951,7 +956,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker .details a:hover {
-  color: #87CEFA;
+  color: #381460;
 }
 
 #speakers .speaker:hover .details {
@@ -986,7 +991,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers-details .details .social a:hover {
-  background: #87CEFA;
+  background: #381460;
   color: #fff;
 }
 
@@ -1035,7 +1040,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .nav-tabs a.active {
-  background-color: #87CEFA;
+  background-color: #381460;
   color: #fff;
 }
 
@@ -1127,7 +1132,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 40px;
 }
 .faq-whatsapp{
-  background: #51A2A6;
+  background: #381460;
   color:white;
 }
 
@@ -1561,14 +1566,14 @@ td, th {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #050C38;
+  background: #381460;
   padding: 0 0 10px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #3C4858 ;
+  background: #352e41 ;
   padding: 5px 15px 5px 15px;
 }
 
@@ -1620,7 +1625,7 @@ td, th {
 }
 
 #footer .footer-top .social-links a:hover {
-  background:#050C38;
+  background:#381460;
   color:  #fff;
 }
 
