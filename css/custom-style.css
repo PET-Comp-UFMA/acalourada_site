@@ -95,3 +95,32 @@ width: 68%;
 #link-tutorial{
     padding: 0 0 0 0 !important;
 }
+
+/* Rodape */
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+div.body-content{
+    padding-bottom: 180px;
+}
+
+footer.fixar-rodape{
+    background: #ffab62;
+    width: 100%;
+    height: 180px;
+    margin-top: auto;
+}
+
+/*@media (min-height: 611px) {
+    footer.fixar-rodape{
+        background: #ffab62;
+        width: 100%;
+        height: 180px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+}*/
