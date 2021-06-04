@@ -57,8 +57,16 @@
 }*/
 
 #img-esq {
-  width: 25%;
+  width: 39%;
 }
+
+#img-esq-1 {
+  width: 45%;
+}
+
+/*#fundo-logo {
+  background-color: #192D43;
+}*/
 
 #img-centro {
   width: 100%;
@@ -516,7 +524,7 @@ h6 {
 }
 
 #mobile-nav ul li a {
-  color: #000;
+  color: #ffffff;
   font-size: 17px;
   overflow: hidden;
   padding: 10px 22px 10px 15px;
