@@ -73,6 +73,7 @@
 }
 
 #img-dir {
+  padding-top: 10px;
   width: 27%;
 }
 
@@ -521,6 +522,10 @@ h6 {
 
 #mobile-nav ul li {
   position: relative;
+}
+
+#mobile-nav ul li .dropdown-item {
+  color: #000;
 }
 
 #mobile-nav ul li a {
