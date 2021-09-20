@@ -38,19 +38,18 @@
 </head>
 
 <body>
-<div class="wrapper">
-    <div class="banner">
-        <div>   
-            <a href="index.html" ><img src="img/favicon.ico" alt="" class="img-fluid" id="img-esq"></a>
-            <a href="http://www.deinf.ufma.br/cocom/site/" ><img src="img/LOGOCocom2.png" alt="" class="img-fluid" id="img-esq-1"></a>
-        </div>
-        <div>
-            <a href="index.html"><img src="img/banner2020.png" class="img-fluid" id="img-centro"></a>
-        </div>
-        <div>
-            <a href="https://portalpadrao.ufma.br/site" target="_blank"><img src="img/supporters/1.png" alt="" class="img-fluid" id="img-dir"></a>
-        </div>
+
+  <div class="banner">
+    <div>   
+        <a href="index.html" ><img src="img/favicon.ico" alt="" class="img-fluid" id="img-esq"></a>
     </div>
+    <div>
+        <a href="index.html"><img src="img/banner2021_1.png" width="100%" class="img-fluid" id="img-centro"></a>
+    </div>
+    <div>
+        <a href="https://portalpadrao.ufma.br/site" target="_blank"><img src="img/supporters/1.png" width="52%" alt="" class="img-fluid" id="img-dir"></a>
+    </div>
+</div>
     <!--==========================
         Header
     ============================-->
@@ -58,7 +57,7 @@
         <div class="container">
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
-                    <li><a href="index.html">Home</a></li>
+                    <li class="menu-active"><a href="index.html">Home</a></li>
                     <!--<li class="dropdown">
                       <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Chamada</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -73,11 +72,9 @@
                     </li>-->
                     <li><a href="inscricoes.html">Inscrições</a></li>
                     <li><a href="programacao.html">Programação</a></li>
-                    <li class="dropdown menu-active">
+                    <li class="dropdown">
                       <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Informações</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="registros.html">Registros</a>  
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="materiais.html">Materiais</a>     
                             <div class="dropdown-divider"></div>
@@ -85,15 +82,6 @@
                         </div>
                      </a>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Versões</a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="index.html">2021.1</a> 
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item"  href="index.html">2020.2</a>  
-                          </div>
-                       </a>
-                      </li> 
                     <!--<li class="dropdown">
                       <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pós-evento</a>   
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -106,6 +94,15 @@
                         </div>
                      </a>
                     </li>-->
+                    <li class="dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Versões</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item"  href="index.html">2021.1</a> 
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item"  href="2020.2/index.html">2020.2</a> 
+                        </div>
+                     </a>
+                    </li> 
                 </ul>
             </nav>
             <!-- #nav-menu-container -->
@@ -113,43 +110,95 @@
         </div>
     </header>
 
-    <section id="materials" class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-
-        <div class="container wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-            <div class="section-header">
-                <h2>MATERIAIS</h2>
+        <section id="info">
+         <div class="container">
+            <div  class="section-header"> <!-- para mudar a cor é so acessar essa clase em style.css -->
+                <h2>Local</h2>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-sm">
-                    <h4 class="schedule-day-title">Guia do Calouro</h4>
-                    <strong><p align="center" class="">O guia possui informações básicas sobre o dia a dia do estudante na UFMA.</p></strong>
-                    <div class="speaker">
-                        <center><a align="center" href="https://drive.google.com/drive/folders/1RPCokfm2Vv6-5bR_y3AxoZX54zLXXWdE?usp=sharing">
-                            <button class="faq-whatsapp btn">Baixe Aqui!</button>
-                        </a></center>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <h4 class="schedule-day-title">Guia do SIGAA</h4>
-                    <strong><p align="center" class="">Apresentar o SIGAA, ensinando as funcionalidades dessa plataforma acadêmica da UFMA.</p></strong>
-                    <div class="speaker">
-                        <center>
-                            <a align="center" href="https://drive.google.com/drive/folders/1RPCokfm2Vv6-5bR_y3AxoZX54zLXXWdE?usp=sharing" target="_blank">
-                                
-                                <button class="faq-whatsapp btn">Baixe Aqui!</button>
-                            </a>
-                        </center>   
-                    </div>
-                </div>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum egestas tellus sed mi varius luctus. 
+                Nunc ut leo nulla. Ut pretium ultricies placerat. Aliquam egestas massa at purus convallis ornare. 
+                Nullam quam elit, malesuada interdum mauris et, finibus blandit massa. Phasellus maximus, ex et bibendum consectetur, 
+                ex tellus vehicula diam, eu hendrerit ligula justo nec sapien. Suspendisse pulvinar sed dolor id cursus. 
+                Maecenas interdum dui dapibus erat porta, nec posuere risus scelerisque. Sed vitae dui varius, auctor justo a, 
+                bibendum enim. Suspendisse pellentesque tortor eu posuere gravida.</p>
+         </div>
+
+         <div class="container text-center">
+            <div class="maps1">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1122.093948971546!2d-44.30848047051652!3d-2.5584263458454153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x780f0a32464f4178!2sCCET!5e1!3m2!1spt-BR!2sbr!4v1619092173090!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
-    </section>
 
-    <!--==========================
+        </section>
+
+        <section id="galery" class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+            <div class="container wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                <div class="section-header">
+                    <h2>Galeria</h2>
+                </div>
+                <div class="justify-content-center"></div>
+                   <div class="galeria">          
+                      <figure>
+                        <img src="img/comp2.jpg" class="img-fluid img-galeria" alt="">
+                        <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, harum!</figcaption>
+                      </figure>
+                        
+                        <figure>
+                          <img src="img/comp2.jpg" class="img-fluid img-galeria" alt="">
+                          <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, harum!</figcaption>
+                        </figure>
+                        
+                               
+                        <figure>
+                          <img src="img/comp2.jpg" class="img-fluid img-galeria" alt="">
+                          <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, harum!</figcaption>
+                        </figure>
+                   
+                        <figure>
+                          <img src="img/comp2.jpg" class="img-fluid img-galeria" alt="">
+                          <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, harum!</figcaption>
+  
+                        </figure>
+        
+                        <figure>
+                          <img src="img/comp2.jpg" class="img-fluid img-galeria" alt="">
+                          <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, harum!</figcaption>
+  
+                        </figure>
+  
+                        <figure>
+                          <img src="img/comp2.jpg" class="img-fluid img-galeria" alt="">
+                          <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, harum!</figcaption>
+                        </figure>
+                        
+                               
+                        <figure>
+                          <img src="img/comp2.jpg" class="img-fluid img-galeria" alt="">
+                          <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, harum!</figcaption>
+                        </figure>
+                   
+                        <figure>
+                          <img src="img/comp2.jpg" class="img-fluid img-galeria" alt="">
+                          <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, harum!</figcaption>
+  
+                        </figure>
+        
+                        <figure>
+                          <img src="img/comp2.jpg" class="img-fluid img-galeria" alt="">
+                          <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, harum!</figcaption>
+  
+                        </figure>
+                   
+                    
+                   </div>
+                </div>
+            </section>
+     
+       <!--==========================
         Footer
     ============================-->
 
-    <footer id="footer" class="fixar-rodape">
+    <footer id="footer">
         <div class="footer-top">
             <div class="footer-info" id="contatos">
                 <h4 >Contatos</h4>
@@ -164,10 +213,9 @@
         </div>
 
         <div class="copyright">
-            <strong>Acalourada 2020.2 - PETCOMP</strong>
+            <strong>Evento - XXXX XXXX</strong>
         </div>
     </footer>
-</div>
   
   <!-- #footer -->
 
