@@ -16,24 +16,18 @@
 
                                 <!--<p>Orientações para participação da Acalourada Digital</p>-->
 
-                                <ol>
-                                    <ol>
+                                <ol style="padding-left: 0px">
+                                    <ol style="padding-left: 0px">
                                         <strong>
                                             Inscreva-se no <a href="https://forms.gle/vMCmDHgovw3SeTqj8">Formulário de
                                                 Inscrição</a> a para participar do evento.
                                         </strong>
                                     </ol>
-                                    <ol>
+                                    <ol style="padding-left: 0px">
                                         <strong>
                                             Acesse o grupo do <a
-                                                href="https://chat.whatsapp.com/ILPySnxXCLF8RQhJte9K9e">Whatsapp</a>
+                                                href="https://chat.whatsapp.com/Bqx2zYOx8aF8vlhq47X2kz">Whatsapp</a>
                                             para ficar por dentro de tudo ou fale conosco pelo email.
-                                        </strong>
-                                    </ol>
-                                    <ol>
-                                        <strong>
-                                            A sessão de jogos será realizada através do <a
-                                                href="https://discord.gg/jgUJ5Bq5gK">Discord</a> da Acalourada.
                                         </strong>
                                     </ol>
                                 </ol>
