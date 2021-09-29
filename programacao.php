@@ -105,10 +105,10 @@
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
-                                    <img src="img/speakers/luigi.jpg" alt="Luigi Dovera">
+                                    <img src="img/speakers/arthur.png" alt="Arthur Passos">
                                 </div>
                                 <div class="speaker">
-                                    <img src="img/speakers/arthur.png" alt="Arthur Passos">
+                                    <img src="img/speakers/fundo.png" alt="">
                                 </div><br>
 
                                 <h4>Mesa redonda com egressos</h4>
@@ -127,7 +127,7 @@
                         <h2 class="schedule-day-title">Dia 21/10</h2>
                         <div class="row schedule-item">
                             <div class="col-md-2">
-                              <time>09:00-09:30</time>
+                              <time>09:00-09:20</time>
                           </div>
                           <div class="col-md-10">
                               <div class="speaker">
@@ -137,57 +137,62 @@
                                   <img src="img/speakers/fundo.png" alt="">
                               </div>
                               <h4>LabTour - Dexters</h4>
-                              <p>Apresentador(a): a definir</p>
+                              <p>Apresentador(a): Prof. Luis Rivero</p>
                           </div>
                           </div>
+
+
                         <div class="row schedule-item">
                           <div class="col-md-2">
-                            <time>09:30-10:00</time>
+                            <time>09:20-09:40</time>
                           </div>
                           <div class="col-md-10">
                             <div class="speaker">
-                                <img src="img/speakers/fundo.png" alt="" >
+                                <img src="img/labs/lacmor.png" alt="LACMOR" >
                             </div>
                             <div class="speaker">
                                 <img src="img/speakers/fundo.png" alt="">
                             </div>
-                            <h4>LabTour - a definir </h4>
-                            <p>Apresentador(a): a definir</p>
+                            <h4>LabTour - LACMOR </h4>
+                            <p>Apresentador(a): Prof. Alexandre César</p>
                           </div>
                         </div>
+
+
                         <div class="row schedule-item">
                             <div class="col-md-2">
-                              <time>10:00-10:30</time>
+                              <time>09:40-10:00</time>
                           </div>
                           <hr/>
                           <div class="col-md-10">
                               <div class="speaker">
-                                <img src="img/speakers/fundo.png" alt="Laws">
+                                <img src="img/labs/viplab.png" alt="VIPLab">
                               </div>
                               <div class="speaker">
                                   <img src="img/speakers/fundo.png" alt="">
                               </div>
               
-                              <h4>LabTour - a definir</h4>
-                              <p>Apresentador(a): a definir</p>                             
+                              <h4>LabTour - VIPLab</h4>
+                              <p>Apresentador(a): Prof. Geraldo Braz</p>                             
                         </div>
                         </div>
 
+
                         <div class="row schedule-item">
                             <div class="col-md-2">
-                              <time>10:30-11:00</time>
+                              <time>10:00-10:20</time>
                           </div>
                           <hr/>
                           <div class="col-md-10">
                             <div class="speaker">
-                              <img src="img/speakers/fundo.png" alt="telemidia">
+                              <img src="img/labs/labmint.png" alt="LABMINT">
                             </div>
                             <div class="speaker">
                                 <img src="img/speakers/fundo.png" alt="">
                             </div>
               
-                              <h4>LabTour - a definir</h4>
-                              <p>Apresentador(a): a definir</p>   
+                              <h4>LabTour - LABMINT</h4>
+                              <p>Apresentador(a): Prof. Tiago Bonini</p>   
                         </div>
                         </div>
                           
@@ -195,30 +200,78 @@
 
                           <div class="row schedule-item">
                             <div class="col-md-2">
-                              <time>11:00-11:30</time>
+                              <time>10:20-10:40</time>
                           </div>
                           <hr/>
                           <div class="col-md-10">
                             <div class="speaker">
-                              <img src="img/speakers/fundo.png" alt="">
+                              <img src="img/speakers/areolino.png" alt="Areolino Neto">
                             </div>
                             <div class="speaker">
                                 <img src="img/speakers/fundo.png" alt="">
                             </div>
               
-                              <h4>LabTour - a definir</h4>
-                              <p>Apresentador(a): a definir</p>
+                              <h4>LabTour - InovaTec</h4>
+                              <p>Apresentador(a): Prof. Areolino Neto</p>
                               
                           </div>
                           </div>
 
                           <div class="row schedule-item">
                             <div class="col-md-2">
-                              <time>11:30-12:00</time>
+                              <time>10:40-11:00</time>
                           </div>
                           <div class="col-md-10">
                               <div class="speaker">
-                                <img src="img/speakers/fundo.png" alt="LSDi">
+                                <img src="img/labs/lsdi.png" alt="LSDI">
+                              </div>
+                              <div class="speaker">
+                                  <img src="img/speakers/fundo.png" alt="">
+                              </div>
+                              <h4>LabTour - LSDI</h4>
+                              <p>Apresentador(a): Prof. Francisco Silva</p>
+                          </div>
+                          </div>
+
+                          <div class="row schedule-item">
+                            <div class="col-md-2">
+                              <time>10:40-11:00</time>
+                          </div>
+                          <div class="col-md-10">
+                              <div class="speaker">
+                                <img src="img/labs/fundo.png" alt="">
+                              </div>
+                              <div class="speaker">
+                                  <img src="img/speakers/fundo.png" alt="">
+                              </div>
+                              <h4>LabTour - a definir</h4>
+                              <p>Apresentador(a): a definir</p>
+                          </div>
+                          </div>
+
+                          <div class="row schedule-item">
+                            <div class="col-md-2">
+                              <time>10:40-11:00</time>
+                          </div>
+                          <div class="col-md-10">
+                              <div class="speaker">
+                                <img src="img/labs/fundo.png" alt="">
+                              </div>
+                              <div class="speaker">
+                                  <img src="img/speakers/fundo.png" alt="">
+                              </div>
+                              <h4>LabTour - a definir</h4>
+                              <p>Apresentador(a): a definir</p>
+                          </div>
+                          </div>
+
+                          <div class="row schedule-item">
+                            <div class="col-md-2">
+                              <time>10:40-11:00</time>
+                          </div>
+                          <div class="col-md-10">
+                              <div class="speaker">
+                                <img src="img/labs/fundo.png" alt="">
                               </div>
                               <div class="speaker">
                                   <img src="img/speakers/fundo.png" alt="">
