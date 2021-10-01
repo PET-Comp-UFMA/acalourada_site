@@ -108,14 +108,14 @@
                                     <img src="img/speakers/arthur.png" alt="Arthur Passos">
                                 </div>
                                 <div class="speaker">
-                                    <img src="img/speakers/fundo.png" alt="">
+                                    <img src="img/speakers/yandson.jpg" alt="Yandson Costa">
                                 </div><br>
 
                                 <h4>Mesa redonda com egressos</h4>
                                 <p>Apresentador(a): Egressos de computação</p>
 
                                 <div class="speaker">
-                                    <img src="img/speakers/fundo.png" alt="">
+                                    <img src="img/speakers/daniel.jpg" alt="Daniel Pinto">
                                 </div>
                                 <div class="speaker">
                                     <img src="img/speakers/fundo.png" alt="">
@@ -233,54 +233,6 @@
                           </div>
                           </div>
 
-                          <div class="row schedule-item">
-                            <div class="col-md-2">
-                              <time>10:40-11:00</time>
-                          </div>
-                          <div class="col-md-10">
-                              <div class="speaker">
-                                <img src="img/labs/fundo.png" alt="">
-                              </div>
-                              <div class="speaker">
-                                  <img src="img/speakers/fundo.png" alt="">
-                              </div>
-                              <h4>LabTour - a definir</h4>
-                              <p>Apresentador(a): a definir</p>
-                          </div>
-                          </div>
-
-                          <div class="row schedule-item">
-                            <div class="col-md-2">
-                              <time>10:40-11:00</time>
-                          </div>
-                          <div class="col-md-10">
-                              <div class="speaker">
-                                <img src="img/labs/fundo.png" alt="">
-                              </div>
-                              <div class="speaker">
-                                  <img src="img/speakers/fundo.png" alt="">
-                              </div>
-                              <h4>LabTour - a definir</h4>
-                              <p>Apresentador(a): a definir</p>
-                          </div>
-                          </div>
-
-                          <div class="row schedule-item">
-                            <div class="col-md-2">
-                              <time>10:40-11:00</time>
-                          </div>
-                          <div class="col-md-10">
-                              <div class="speaker">
-                                <img src="img/labs/fundo.png" alt="">
-                              </div>
-                              <div class="speaker">
-                                  <img src="img/speakers/fundo.png" alt="">
-                              </div>
-                              <h4>LabTour - a definir</h4>
-                              <p>Apresentador(a): a definir</p>
-                          </div>
-                          </div>
-
 
                         
                         <!-- Schdule Day 4 -->
@@ -314,7 +266,7 @@
                             <div class="speaker">
                                 <img src="img/speakers/fundo.png" alt="">
                             </div>
-                            <h4>Apresentação - Girls++ (Provisório)</h4>
+                            <h4>Apresentação - Girls++</h4>
                             <p>Apresentador(a): a definir</p>
                         </div>
                         </div>
