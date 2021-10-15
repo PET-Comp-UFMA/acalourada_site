@@ -22,7 +22,7 @@
                         <p class="mb-4 pb-0">Deseja participar?</p>
                         
                         <!--<a href="https://youtu.be/hPt2zWgXKiQ" class="venobox play-btn mb-4 vbox-item" data-vbtype="video" data-autoplay="true"></a>-->
-                        <a href="inscricoes.html" class="about-btn scrollto">Inscreva-se!!!</a>
+                        <a href="inscricoes.php" class="about-btn scrollto">Inscreva-se!!!</a>
                     </div>
                 </div>
                 <div id="intro" class="carousel-item item-2">
