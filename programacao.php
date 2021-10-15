@@ -261,13 +261,13 @@
                         </div>
                         <div class="col-md-10">
                             <div class="speaker">
-                              <img src="img/speakers/fundo.png" alt="">
+                              <img src="img/speakers/luigi.jpg" alt="Luigi Dovera">
                             </div>
                             <div class="speaker">
                                 <img src="img/speakers/fundo.png" alt="">
                             </div>
                             <h4>Apresentação - Girls++</h4>
-                            <p>Apresentador(a): a definir</p>
+                            <p>Apresentador(a): Luigi Dovera</p>
                         </div>
                         </div>
                             
@@ -300,7 +300,7 @@
                               <div class="speaker">
                                   <img src="img/speakers/andre.jpg" alt="André Filipe">
                               </div>
-                              <h4>Encerramento e premiação</h4>
+                              <h4>Encerramento</h4>
                               <p>Apresentador(a): Lukas Gabriel e André Filipe</p>
                           </div>
                           </div>
