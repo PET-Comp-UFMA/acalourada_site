@@ -327,13 +327,13 @@
                           </div>
                           <div class="col-md-10">
                               <div class="speaker">
-                                <img src="img/speakers/lukasgabriel.jpeg" alt="Lukas Gabriel">
+                                <img src="img/speakers/lucho.jpg" alt="Prof. Luis Riveiro">
                               </div>
                               <div class="speaker">
                                   <img src="img/speakers/pedrorocha.jpg" alt="Pedro Rocha">
                               </div>
                               <h4>Encerramento</h4>
-                              <p>Apresentador(a): Lukas Gabriel e Pedro Rocha</p>
+                              <p>Apresentador(a): Prof. Luis Riveiro e Pedro Rocha</p>
                           </div>
                           </div>
 
