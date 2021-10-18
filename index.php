@@ -106,7 +106,7 @@
 
                     <div class="col-lg-2 col-md-4 col-xs-6">
                         <div class="supporter-logo">
-                            <a href="https://pet.ufma.br/comp/" target="_blank">
+                            <a href="https://petcompufma.org/" target="_blank">
                                 <img src="img/supporters/4.png" class="img-fluid" alt="">
                             </a>
                         </div>

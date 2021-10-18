@@ -26,13 +26,13 @@
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
-                                    <img src="img/speakers/andre.jpg" alt="André Filipe">
+                                    <img src="img/speakers/andre.jpg" alt="André Barreto">
                                 </div>
                                 <div class="speaker">
                                     <img src="img/speakers/luigi.jpg" alt="Luigi Dovera">
                                 </div>
                                 <h4>Dinâmica de apresentação</h4>
-                                <p>Apresentador(a): André Filipe e Luigi Dovera</p>
+                                <p>Apresentador(a): André Barreto e Luigi Dovera</p>
                             </div>
                         </div>
                         <div class="row schedule-item">
@@ -74,14 +74,14 @@
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
-                                    <img src="img/speakers/andre.jpg" alt="André Filipe">
+                                    <img src="img/speakers/andre.jpg" alt="André Barreto">
                                 </div>
                                 <div class="speaker">
                                     <img src="img/speakers/joaovictor.jpg" alt="João Víctor">
                                 </div>
                                 
                                 <h4>Apresentação PETComp</h4>
-                                <p>Apresentador(a): André Filipe e João Víctor</p>
+                                <p>Apresentador(a): André Barreto e João Víctor</p>
                             </div>                          
                         </div>
                         <div class="row schedule-item">
@@ -233,6 +233,38 @@
                           </div>
                           </div>
 
+                          <div class="row schedule-item">
+                            <div class="col-md-2"><br>
+                              <time>11:00-11:20</time>
+                          </div>
+                          <div class="col-md-10">
+                              <div class="speaker">
+                                <img src="img/labs/laws.png" alt="LAWS">
+                              </div>
+                              <div class="speaker">
+                                  <img src="img/speakers/fundo.png" alt="">
+                              </div>
+                              <h4>LabTour - LAWS</h4>
+                              <p>Apresentador(a): Kleydson Beckman</p>
+                          </div>
+                          </div>
+
+                          <div class="row schedule-item">
+                            <div class="col-md-2"><br>
+                              <time>11:20-11:40</time>
+                          </div>
+                          <div class="col-md-10">
+                              <div class="speaker">
+                                <img src="img/labs/telemidia.png" alt="Telemídia">
+                              </div>
+                              <div class="speaker">
+                                  <img src="img/speakers/fundo.png" alt="">
+                              </div>
+                              <h4>LabTour - Telemídia</h4>
+                              <p>Apresentador(a): Kleydson Beckman</p>
+                          </div>
+                          </div>
+
 
                         
                         <!-- Schdule Day 4 -->
@@ -277,7 +309,7 @@
                             <time>10:00-11:00</time>
                         </div>
                         <div class="col-md-10">
-                            <div class="speaker">
+                            <div class="speaker">   
                               <img src="img/speakers/joaovictor.jpg" alt="João Víctor">
                             </div>
                             <div class="speaker">
@@ -298,10 +330,10 @@
                                 <img src="img/speakers/lukasgabriel.jpeg" alt="Lukas Gabriel">
                               </div>
                               <div class="speaker">
-                                  <img src="img/speakers/andre.jpg" alt="André Filipe">
+                                  <img src="img/speakers/pedrorocha.jpg" alt="Pedro Rocha">
                               </div>
                               <h4>Encerramento</h4>
-                              <p>Apresentador(a): Lukas Gabriel e André Filipe</p>
+                              <p>Apresentador(a): Lukas Gabriel e Pedro Rocha</p>
                           </div>
                           </div>
 
