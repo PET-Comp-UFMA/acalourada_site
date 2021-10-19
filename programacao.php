@@ -211,7 +211,7 @@
                                 <img src="img/speakers/fundo.png" alt="">
                             </div>
               
-                              <h4>LabTour - InovaTec</h4>
+                              <h4>LabTour - InovTec</h4>
                               <p>Apresentador(a): Prof. Areolino Neto</p>
                               
                           </div>
@@ -332,7 +332,7 @@
                               <div class="speaker">
                                   <img src="img/speakers/pedrorocha.jpg" alt="Pedro Rocha">
                               </div>
-                              <h4>Encerramento</h4>
+                              <h4>Encerramento e Premiação</h4>
                               <p>Apresentador(a): Prof. Luis Riveiro e Pedro Rocha</p>
                           </div>
                           </div>
