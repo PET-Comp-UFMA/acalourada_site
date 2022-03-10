@@ -70,7 +70,7 @@
                         <h2 class="schedule-day-title">Dia 20/10</h2>
                         <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                                <time>XX:XX-XX:XX0</time>
+                                <time>XX:XX-XX:XX</time>
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
