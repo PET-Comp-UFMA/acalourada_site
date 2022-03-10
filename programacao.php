@@ -19,7 +19,7 @@
                     
                     <!-- Schdule Day 1 -->
                     <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
-                        <h2 class="schedule-day-title">Dia 19/10</h2>
+                        <h2 class="schedule-day-title">Dia 12/04</h2><!--12-15/04-->
                         <div class="row schedule-item">
                             <div class="col-md-2"><br>
                                 <time>XX:XX-XX:XX</time>
@@ -67,7 +67,7 @@
                         </div>
 
                         <!-- Schdule Day 2 -->
-                        <h2 class="schedule-day-title">Dia 20/10</h2>
+                        <h2 class="schedule-day-title">Dia 13/04</h2>
                         <div class="row schedule-item">
                             <div class="col-md-2"><br>
                                 <time>XX:XX-XX:XX</time>
@@ -124,7 +124,7 @@
                         </div>
 
                         <!-- Schdule Day 3 -->
-                        <h2 class="schedule-day-title">Dia 21/10</h2>
+                        <h2 class="schedule-day-title">Dia 14/04</h2>
                         <div class="row schedule-item">
                             <div class="col-md-2"><br>
                               <time>XX:XX-XX:XX</time>
@@ -268,7 +268,7 @@
 
                         
                         <!-- Schdule Day 4 -->
-                        <h2 class="schedule-day-title">Dia 22/10</h2>
+                        <h2 class="schedule-day-title">Dia 15/04</h2>
                         <div class="row schedule-item">
                           <div class="col-md-2"><br>
                             <time>XX:XX-XX:XX</time>
