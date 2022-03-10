@@ -22,7 +22,7 @@
                         <h2 class="schedule-day-title">Dia 19/10</h2>
                         <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                                <time>09:00-09:30</time>
+                                <time>XX:XX-XX:XX</time>
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
@@ -37,7 +37,7 @@
                         </div>
                         <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                                <time>09:30-11:00</time>
+                                <time>XX:XX-XX:XX</time>
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
@@ -52,7 +52,7 @@
                         </div>
                         <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                                <time>11:00-11:30</time>
+                                <time>XX:XX-XX:XX</time>
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
@@ -70,7 +70,7 @@
                         <h2 class="schedule-day-title">Dia 20/10</h2>
                         <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                                <time> 09:00-09:30</time>
+                                <time>XX:XX-XX:XX0</time>
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
@@ -86,7 +86,7 @@
                         </div>
                         <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                                <time>9:30-10:30</time>
+                                <time>XX:XX-XX:XX</time>
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
@@ -101,7 +101,7 @@
                         </div>
                         <div class="row schedule-item">
                             <div class="col-md-2"><br><br><br>
-                                <time>10:30-12:00</time>
+                                <time>XX:XX-XX:XX</time>
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
@@ -127,7 +127,7 @@
                         <h2 class="schedule-day-title">Dia 21/10</h2>
                         <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                              <time>09:00-09:20</time>
+                              <time>XX:XX-XX:XX</time>
                           </div>
                           <div class="col-md-10">
                               <div class="speaker">
@@ -144,7 +144,7 @@
 
                         <div class="row schedule-item">
                           <div class="col-md-2"><br>
-                            <time>09:20-09:40</time>
+                            <time>XX:XX-XX:XX</time>
                           </div>
                           <div class="col-md-10">
                             <div class="speaker">
@@ -161,7 +161,7 @@
 
                         <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                              <time>09:40-10:00</time>
+                              <time>XX:XX-XX:XX</time>
                           </div>
                           <hr/>
                           <div class="col-md-10">
@@ -180,7 +180,7 @@
 
                         <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                              <time>10:00-10:20</time>
+                              <time>XX:XX-XX:XX</time>
                           </div>
                           <hr/>
                           <div class="col-md-10">
@@ -200,7 +200,7 @@
 
                           <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                              <time>10:20-10:40</time>
+                              <time>XX:XX-XX:XX</time>
                           </div>
                           <hr/>
                           <div class="col-md-10">
@@ -219,7 +219,7 @@
 
                           <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                              <time>10:40-11:00</time>
+                              <time>XX:XX-XX:XX</time>
                           </div>
                           <div class="col-md-10">
                               <div class="speaker">
@@ -235,7 +235,7 @@
 
                           <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                              <time>11:00-11:20</time>
+                              <time>XX:XX-XX:XX</time>
                           </div>
                           <div class="col-md-10">
                               <div class="speaker">
@@ -251,7 +251,7 @@
 
                           <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                              <time>11:20-11:40</time>
+                              <time>XX:XX-XX:XX</time>
                           </div>
                           <div class="col-md-10">
                               <div class="speaker">
@@ -271,7 +271,7 @@
                         <h2 class="schedule-day-title">Dia 22/10</h2>
                         <div class="row schedule-item">
                           <div class="col-md-2"><br>
-                            <time>09:00-09:30</time>
+                            <time>XX:XX-XX:XX</time>
                           </div>
                           <div class="col-md-10">
                             <div class="speaker">
@@ -289,7 +289,7 @@
                         <!-- -->
                         <div class="row schedule-item">
                           <div class="col-md-2"><br>
-                            <time>09:30-10:00</time>
+                            <time>XX:XX-XX:XX</time>
                         </div>
                         <div class="col-md-10">
                             <div class="speaker">
@@ -306,7 +306,7 @@
                         <!-- -->
                         <div class="row schedule-item">
                           <div class="col-md-2"><br>
-                            <time>10:00-11:00</time>
+                            <time>XX:XX-XX:XX</time>
                         </div>
                         <div class="col-md-10">
                             <div class="speaker">   
@@ -323,7 +323,7 @@
                         <!-- -->
                         <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                              <time>11:00-11:30</time>
+                              <time>XX:XX-XX:XX</time>
                           </div>
                           <div class="col-md-10">
                               <div class="speaker">
