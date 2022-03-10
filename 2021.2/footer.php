@@ -13,7 +13,7 @@
     </div>
 
     <div class="copyright">
-        <strong>Acalourada 2022.1 - PETCOMP</strong>
+        <strong>Acalourada 2021.2 - PETCOMP</strong>
     </div>
 </footer>
 </div>
