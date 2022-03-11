@@ -6,7 +6,7 @@
                     id="img-esq-1"></a>
         </div>
         <div>
-            <a href="index.html"><img src="img/banner2021_1.png" class="img-fluid" id="img-centro"></a>
+            <a href="index.php"><img src="img/banner2021_1.png" class="img-fluid" id="img-centro"></a>
         </div>
         <div>
             <a href="https://portalpadrao.ufma.br/site" target="_blank"><img src="img/supporters/1.png" alt=""
@@ -18,7 +18,7 @@
         <div class="container">
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <!--<li class="dropdown">
                       <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Chamada</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
