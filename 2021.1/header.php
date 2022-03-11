@@ -1,12 +1,12 @@
 <div class="wrapper">
     <div class="banner">
         <div>
-            <a href="index.html"><img src="img/favicon.ico" alt="" class="img-fluid" id="img-esq"></a>
-            <a href="http://www.deinf.ufma.br/cocom/site/"><img src="img/LOGOCocom2.png" alt="" class="img-fluid"
+            <a href="index.php"><img src="img/favicon.ico" alt="" class="img-fluid" id="img-esq"></a>
+            <a href="http://www.deinf.ufma.br/cocom/site/" target="_blank"><img src="img/LOGOCocom2.png" alt="" class="img-fluid"
                     id="img-esq-1"></a>
         </div>
         <div>
-            <a href="index.html"><img src="img/banner2021_1.png" class="img-fluid" id="img-centro"></a>
+            <a href="index.php"><img src="img/banner2021_1.png" class="img-fluid" id="img-centro"></a>
         </div>
         <div>
             <a href="https://portalpadrao.ufma.br/site" target="_blank"><img src="img/supporters/1.png" alt=""
