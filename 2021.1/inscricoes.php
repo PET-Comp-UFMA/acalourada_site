@@ -19,17 +19,17 @@
                         <ol>
                             <ol>
                               <strong>
-                                Inscreva-se no <a href="https://forms.gle/vMCmDHgovw3SeTqj8">Formulário de Inscrição</a> a para participar do evento.
+                                Inscreva-se no Formulário de Inscrição</a> a para participar do evento.
                               </strong>
                             </ol>
                             <ol>
                               <strong>
-                                Acesse o grupo do <a href="https://chat.whatsapp.com/ILPySnxXCLF8RQhJte9K9e">Whatsapp</a> para ficar por dentro de tudo ou fale conosco pelo email.
+                                Acesse o grupo do Whatsapp</a> para ficar por dentro de tudo ou fale conosco pelo email.
                               </strong>
                             </ol>
                             <ol>
                               <strong>
-                                A sessão de jogos será realizada através do <a href="https://discord.gg/jgUJ5Bq5gK">Discord</a> da Acalourada.
+                                A sessão de jogos será realizada através do Discord</a> da Acalourada.
                               </strong>
                           </ol>
                         </ol>
@@ -37,7 +37,7 @@
                 </div>
 
                     <br>
-                    <button class="faq-whatsapp btn"><a class="btn-subscription-text"href="https://forms.gle/vMCmDHgovw3SeTqj8">Inscreva-se</a></button>
+                    <button class="faq-whatsapp btn"><a class="btn-subscription-text">Inscreva-se</a></button>
                     <br><br>
                 </div>
             </div>
@@ -47,7 +47,7 @@
 
     <!--==========================
         Footer
-    ============================-->
+    ============================
 
     <footer id="footer" class="fixar-rodape">
         <div class="footer-top">
@@ -67,7 +67,7 @@
             <strong>Acalourada 2021.1 - PETCOMP</strong>
         </div>
     </footer>
-    </div>
+    </div>-->
 
 <?php 
     require_once('footer.php');

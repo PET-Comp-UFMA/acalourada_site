@@ -21,17 +21,17 @@
                         <ol>
                             <ol>
                               <strong>
-                                Inscreva-se no <a href="https://docs.google.com/forms/d/e/1FAIpQLSc9Zr495jVE0pOYjaxyECel_jUsrLME_AXaCWskpJxKHWg57w/viewform">Formulário de Inscrição</a> a para participar do evento.
+                                Inscreva-se no Formulário de Inscrição</a> a para participar do evento.
                               </strong>
                             </ol>
                             <ol>
                               <strong>
-                                Acesse o grupo do <a href="https://chat.whatsapp.com/Hhi3HEXoYez5EBQDXa84F8">Whatsapp</a> para ficar por dentro de tudo ou fale conosco pelo email.
+                                Acesse o grupo do Whatsapp</a> para ficar por dentro de tudo ou fale conosco pelo email.
                               </strong>
                             </ol>
                             <ol>
                               <strong>
-                                A sessão de jogos será realizada através do <a href="https://discord.gg/jgUJ5Bq5gK">Discord</a> da Acalourada.
+                                A sessão de jogos será realizada através do Discord</a> da Acalourada.
                               </strong>
                           </ol>
                         </ol>

@@ -19,14 +19,14 @@
                                 <ol style="padding-left: 0px">
                                     <ol style="padding-left: 0px">
                                         <strong>
-                                            Inscreva-se no <a href="https://forms.gle/pYY2qq6pQofhCn2G9">Formulário de
+                                            Inscreva-se no <a>Formulário de
                                                 Inscrição</a> a para participar do evento.
                                         </strong>
                                     </ol>
                                     <ol style="padding-left: 0px">
                                         <strong>
                                             Acesse o grupo do <a
-                                                href="https://chat.whatsapp.com/Bqx2zYOx8aF8vlhq47X2kz">Whatsapp</a>
+                                               >Whatsapp</a>
                                             para ficar por dentro de tudo ou fale conosco pelo email.
                                         </strong>
                                     </ol>
@@ -36,7 +36,7 @@
 
                         <br>
                         <button class="faq-whatsapp btn"><a class="btn-subscription-text"
-                                href="https://forms.gle/pYY2qq6pQofhCn2G9">Inscreva-se</a></button>
+                                >Inscreva-se</a></button>
                         <br><br>
                     </div>
                 </div>
