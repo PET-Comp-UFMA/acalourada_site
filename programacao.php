@@ -56,13 +56,13 @@
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
-                                    <img src="img/speakers/lucho.jpg" alt="Luis Rivero">
+                                    <!--<img src="img/speakers/lucho.jpg" alt="Luis Rivero">-->
                                 </div>
                                 <div class="speaker">
                                     <img src="img/speakers/fundo.png" alt="">
                                 </div>
                                 <h4>Apresentação da SBC</h4>
-                                <p>Apresentador(a): Prof. Luis Rivero</p>
+                                <p>Apresentador(a): A definir</p>
                             </div>                          
                         </div>
 
