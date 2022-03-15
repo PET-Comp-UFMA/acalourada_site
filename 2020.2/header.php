@@ -1,7 +1,7 @@
 <div class="wrapper">
     <div class="banner">
         <div>
-            <a href="index.php"><img src="img/favicon.ico" alt="" class="img-fluid" id="img-esq"></a>
+            <a href="index.php"><img src="../img/favicon-v1/logo-acalourada.svg" alt="" class="img-fluid" id="img-esq"></a>
             <a href="http://www.deinf.ufma.br/cocom/site/" target="_blank"><img src="img/LOGOCocom2.png" alt="" class="img-fluid"
                     id="img-esq-1"></a>
         </div>

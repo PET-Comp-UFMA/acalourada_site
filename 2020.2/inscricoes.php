@@ -49,7 +49,7 @@
 
     <!--==========================
         Footer
-    ============================-->
+    ============================
 
     <footer id="footer" class="fixar-rodape">
         <div class="footer-top">
@@ -69,7 +69,7 @@
             <strong>Acalourada 2020.2 - PETCOMP</strong>
         </div>
     </footer>
-</div>
+</div>-->
   
 <?php 
     require_once('footer.php');
