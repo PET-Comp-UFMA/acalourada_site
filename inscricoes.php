@@ -26,7 +26,7 @@
                                     <ol style="padding-left: 0px">
                                         <strong>
                                             Acesse o grupo do <a
-                                                href="#">Whatsapp</a>
+                                                href="https://chat.whatsapp.com/GE63Bbw0nil2LUWMj3ssOH">Whatsapp</a>
                                             para ficar por dentro de tudo ou fale conosco pelo email.
                                         </strong>
                                     </ol>
