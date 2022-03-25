@@ -350,7 +350,7 @@
                                   <img src="img/speakers/Lucas Farias.jpg" alt="A definir">
                               </div>
                               <h4>Encerramento e Premiação</h4>
-                              <p>Apresentador(a): A definir</p>
+                              <p>Apresentador(a): Prof. Luis Rivero e Lucas Farias</p>
                           </div>
                           </div>
 
