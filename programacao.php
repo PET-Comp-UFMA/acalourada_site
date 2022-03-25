@@ -22,47 +22,47 @@
                         <h2 class="schedule-day-title">Dia 12/04</h2><!--12-15/04-->
                         <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                                <time>XX:XX-XX:XX</time>
+                                <time>09:00-09:30</time>
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
-                                    <!-- <img src="img/speakers/andre.jpg" alt="A definir"> -->
+                                    <img src="img/speakers/Valter.png" alt="A definir"> -->
                                 </div>
                                 <div class="speaker">
                                     <!-- <img src="img/speakers/luigi.jpg" alt="A definir"> -->
                                 </div>
                                 <h4>Dinâmica de apresentação</h4>
-                                <p>Apresentador(a): A definir</p>
+                                <p>Apresentador(a): Valter Abreu e Matheus Vinicius</p>
                             </div>
                         </div>
-                        <!-- <div class="row schedule-item">
+                        <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                                <time>XX:XX-XX:XX</time>
+                                <time>09:30-11:00</time>
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
-                                    <img src="img/speakers/AnselmoPerfil.jpg" alt="Prof. Anselmo de Paiva">
+                                   <!-- <img src="img/speakers/AnselmoPerfil.jpg" alt="Prof. Anselmo de Paiva">-->
                                 </div>
                                 <div class="speaker">
                                     <img src="img/speakers/fundo.png" alt="">
                                 </div>
-                                <h4>Palestra / apresentação NCA</h4>
-                                <p>Apresentador(a): Prof. Anselmo de Paiva</p>
+                                <h4>Palestra</h4>
+                                <p>Apresentador(a): A definir</p>
                             </div>
-                        </div> -->
+                        </div> 
                         <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                                <time>XX:XX-XX:XX</time>
+                                <time>11:00-11:30</time>
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
-                                    <!--<img src="img/speakers/lucho.jpg" alt="Luis Rivero">-->
+                                    <img src="img/speakers/lucho.jpg" alt="Luis Rivero">
                                 </div>
                                 <div class="speaker">
                                     <img src="img/speakers/fundo.png" alt="">
                                 </div>
                                 <h4>Apresentação da SBC</h4>
-                                <p>Apresentador(a): A definir</p>
+                                <p>Apresentador(a): Prof. Luis Rivero</p>
                             </div>                          
                         </div>
 
@@ -70,23 +70,23 @@
                         <h2 class="schedule-day-title">Dia 13/04</h2>
                         <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                                <time>XX:XX-XX:XX</time>
+                                <time>09:00-09:30</time>
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
-                                    <!-- <img src="img/speakers/andre.jpg" alt="A definir"> -->
+                                    <img src="img/speakers/Lucas Farias.jpg" alt="A definir"> 
                                 </div>
                                 <div class="speaker">
-                                    <!-- <img src="img/speakers/joaovictor.jpg" alt="A definir"> -->
+                                    <img src="img/speakers/Melquezedeque Costa.png" alt="A definir"> 
                                 </div>
                                 
                                 <h4>Apresentação PETComp</h4>
-                                <p>Apresentador(a): A definir</p>
+                                <p>Apresentador(a): Melquezedeque Costa e Lucas Farias</p>
                             </div>                          
                         </div>
-                        <!-- <div class="row schedule-item">
+                        <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                                <time>XX:XX-XX:XX</time>
+                                <time>09:30-10:30</time>
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
@@ -96,12 +96,12 @@
                                     <img src="img/speakers/fundo.png" alt="">
                                 </div>
                                 <h4>Apresentação da coordenação / curso</h4>
-                                <p>Apresentador(a): Coordenadora Simara</p>
+                                <p>Apresentador(a): A definir</p>
                             </div>
-                        </div> -->
+                        </div>
                         <div class="row schedule-item">
                             <div class="col-md-2"><br><br><br>
-                                <time>XX:XX-XX:XX</time>
+                                <time>10:30-12:00</time>
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
@@ -127,7 +127,7 @@
                         <h2 class="schedule-day-title">Dia 14/04</h2>
                         <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                              <time>XX:XX-XX:XX</time>
+                              <time>09:00-09:20</time>
                           </div>
                           <div class="col-md-10">
                               <div class="speaker">
@@ -146,7 +146,7 @@
 
                         <div class="row schedule-item">
                           <div class="col-md-2"><br>
-                            <time>XX:XX-XX:XX</time>
+                            <time>09:20-09:40</time>
                           </div>
                           <div class="col-md-10">
                             <div class="speaker">
@@ -165,7 +165,7 @@
 
                         <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                              <time>XX:XX-XX:XX</time>
+                              <time>09:40-10:00</time>
                           </div>
                           <hr/>
                           <div class="col-md-10">
@@ -186,7 +186,7 @@
 
                         <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                              <time>XX:XX-XX:XX</time>
+                              <time>10:00-10:20</time>
                           </div>
                           <hr/>
                           <div class="col-md-10">
@@ -208,7 +208,7 @@
 
                           <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                              <time>XX:XX-XX:XX</time>
+                              <time>10:20-10:40</time>
                           </div>
                           <hr/>
                           <div class="col-md-10">
@@ -229,7 +229,7 @@
 
                           <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                              <time>XX:XX-XX:XX</time>
+                              <time>10:40-11:00</time>
                           </div>
                           <div class="col-md-10">
                               <div class="speaker">
@@ -247,7 +247,7 @@
 
                           <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                              <time>XX:XX-XX:XX</time>
+                              <time>11:00-11:20</time>
                           </div>
                           <div class="col-md-10">
                               <div class="speaker">
@@ -265,7 +265,7 @@
 
                           <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                              <time>XX:XX-XX:XX</time>
+                              <time>11:20-11:40</time>
                           </div>
                           <div class="col-md-10">
                               <div class="speaker">
@@ -287,7 +287,7 @@
                         <h2 class="schedule-day-title">Dia 15/04</h2>
                         <div class="row schedule-item">
                           <div class="col-md-2"><br>
-                            <time>XX:XX-XX:XX</time>
+                            <time>09:00-09:30</time>
                           </div>
                           <div class="col-md-10">
                             <div class="speaker">
@@ -306,48 +306,48 @@
                         <!-- -->
                         <div class="row schedule-item">
                           <div class="col-md-2"><br>
-                            <time>XX:XX-XX:XX</time>
+                            <time>09:30-10:30</time>
                         </div>
                         <div class="col-md-10">
                             <div class="speaker">
-                              <!-- <img src="img/speakers/luigi.jpg" alt="A definir"> -->
+                                <img src="img/speakers/jessicacristina.png" alt="">
                             </div>
                             <div class="speaker">
-                                <img src="img/speakers/fundo.png" alt="">
+                              <img src="img/speakers/Luiza.png" alt="">
                             </div>
                             <h4>Apresentação - Girls++</h4>
-                            <p>Apresentador(a): A definir</p>
+                            <p>Apresentador(a): Jessica Cristina e Luiza Melo</p>
                         </div>
                         </div>
                             
                         <!-- -->
                         <div class="row schedule-item">
                           <div class="col-md-2"><br>
-                            <time>XX:XX-XX:XX</time>
+                            <time>10:30-11:30</time>
                         </div>
                         <div class="col-md-10">
                             <div class="speaker">   
-                              <!-- <img src="img/speakers/joaovictor.jpg" alt="A definir"> -->
+                              <img src="img/speakers/Lucas Farias.jpg" alt="">
                             </div>
                             <div class="speaker">
-                                <!-- <img src="img/speakers/lukasgabriel.jpeg" alt="A definir"> -->
+                                <img src="img/speakers/Valter.png" alt="">
                             </div>
                             <h4>Dinâmica do Kahoot</h4>
-                            <p>Apresentador(a): A definir</p>
+                            <p>Apresentador(a): Lucas Farias e Valter Abreu</p>
                         </div>
                         </div>
 
                         <!-- -->
                         <div class="row schedule-item">
                             <div class="col-md-2"><br>
-                              <time>XX:XX-XX:XX</time>
+                              <time>11:30-12:00</time>
                           </div>
                           <div class="col-md-10">
                               <div class="speaker">
-                                <!-- <img src="img/speakers/lucho.jpg" alt="Prof. Luis Riveiro"> -->
+                                <img src="img/speakers/lucho.jpg" alt="Prof. Luis Riveiro">
                               </div>
                               <div class="speaker">
-                                  <!-- <img src="img/speakers/pedrorocha.jpg" alt="A definir"> -->
+                                  <img src="img/speakers/Lucas Farias.jpg" alt="A definir">
                               </div>
                               <h4>Encerramento e Premiação</h4>
                               <p>Apresentador(a): A definir</p>
