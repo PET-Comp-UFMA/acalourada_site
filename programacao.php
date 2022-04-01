@@ -41,13 +41,13 @@
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
-                                   <!-- <img src="img/speakers/AnselmoPerfil.jpg" alt="Prof. Anselmo de Paiva">-->
+                                   <img src="img/speakers/AnselmoPerfil.jpg" alt="Prof. Anselmo de Paiva">
                                 </div>
                                 <div class="speaker">
                                     <img src="img/speakers/fundo.png" alt="">
                                 </div>
                                 <h4>Palestra</h4>
-                                <p>Apresentador(a): A definir</p>
+                                <p>Apresentador(a): Prof. Anselmo de Paiva</p>
                             </div>
                         </div> 
                         <div class="row schedule-item">
@@ -96,7 +96,7 @@
                                     <img src="img/speakers/fundo.png" alt="">
                                 </div>
                                 <h4>Apresentação da coordenação / curso</h4>
-                                <p>Apresentador(a): A definir</p>
+                                <p>Apresentador(a): Prof. Simara Vieira</p>
                             </div>
                         </div>
                         <div class="row schedule-item">
@@ -284,7 +284,7 @@
 
                         
                         <!-- Schdule Day 4 -->
-                        <h2 class="schedule-day-title">Dia 15/04</h2>
+                        <h2 class="schedule-day-title">Dia 18/04</h2>
                         <div class="row schedule-item">
                           <div class="col-md-2"><br>
                             <time>09:00-09:30</time>
@@ -298,7 +298,7 @@
                             </div>
                             <h4>Apresentação da Connection/
                                 Apresentação da Atlética</h4>
-                            <p>Apresentador(a): A definir</p>
+                            <p>Apresentador(a): Presidente Mylady</p>
                             <!-- <p>Apresentador(a): Presidente Mylady e Lorde</p> -->
                           </div>
                         </div>
