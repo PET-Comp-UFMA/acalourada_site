@@ -14,7 +14,7 @@
                     <h4 class="schedule-day-title">Guia do Calouro</h4>
                     <strong><p align="center" class="">O guia possui informações básicas sobre o dia a dia do estudante na UFMA.</p></strong>
                     <div class="speaker">
-                        <center><a align="center" href="https://drive.google.com/drive/folders/1RPCokfm2Vv6-5bR_y3AxoZX54zLXXWdE?usp=sharing">
+                        <center><a align="center" href="https://drive.google.com/file/d/1CHiBmGLKwX2GWNZ81BExlrVtfDXHCCLa/view?usp=sharing" target="_blank">
                             <button class="faq-whatsapp btn">Baixe Aqui!</button>
                         </a></center>
                     </div>
@@ -24,7 +24,7 @@
                     <strong><p align="center" class="">Apresentar o SIGAA, ensinando as funcionalidades dessa plataforma acadêmica da UFMA.</p></strong>
                     <div class="speaker">
                         <center>
-                            <a align="center" href="https://drive.google.com/drive/folders/1RPCokfm2Vv6-5bR_y3AxoZX54zLXXWdE?usp=sharing" target="_blank">
+                            <a align="center" href="https://drive.google.com/file/d/1NifoFMIVKby6HDtL6DqKgHz8b2ANn2Yv/view?usp=sharing" target="_blank">
                                 
                                 <button class="faq-whatsapp btn">Baixe Aqui!</button>
                             </a>

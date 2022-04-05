@@ -96,7 +96,7 @@
                                     <img src="img/speakers/fundo.png" alt="">
                                 </div>
                                 <h4>Apresentação da coordenação / curso</h4>
-                                <p>Apresentador(a): Prof. Simara Vieira</p>
+                                <p>Apresentador(a): Prof. Antonio Abreu</p>
                             </div>
                         </div>
                         <div class="row schedule-item">
@@ -125,43 +125,42 @@
 
                         <!-- Schdule Day 3 -->
                         <h2 class="schedule-day-title">Dia 14/04</h2>
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><br>
-                              <time>09:00-09:20</time>
-                          </div>
-                          <div class="col-md-10">
-                              <div class="speaker">
-                                <!-- <img src="img/labs/dexters.jpg" alt="Dexters"> -->
-                              </div>
-                              <div class="speaker">
-                                  <img src="img/speakers/fundo.png" alt="">
-                              </div>
-                              <!-- <h4>LabTour - Dexters</h4> -->
-                              <h4>A definir</h4>
-                              <!-- <p>Apresentador(a): Prof. Luis Rivero</p> -->
-                              <p>Apresentador(a): A definir</p>
-                          </div>
-                          </div>
-
 
                         <div class="row schedule-item">
                           <div class="col-md-2"><br>
-                            <time>09:20-09:40</time>
+                            <time>09:00-09:20</time>
                           </div>
                           <div class="col-md-10">
                             <div class="speaker">
-                                <!-- <img src="img/labs/lacmor.png" alt="LACMOR" > -->
+                                <img src="img/labs/lacmor.png" alt="LACMOR" >
                             </div>
                             <div class="speaker">
                                 <img src="img/speakers/fundo.png" alt="">
                             </div>
-                            <h4>A definir</h4>
-                            <p>Apresentador(a): A definir</p>
-                            <!-- <h4>LabTour - LACMOR </h4>
-                            <p>Apresentador(a): Prof. Alexandre César</p> -->
+                            <!--<h4>A definir</h4>
+                            <p>Apresentador(a): A definir</p>-->
+                             <h4>LabTour - LACMOR </h4>
+                            <p>Apresentador(a): Prof. Alexandre César</p> 
                           </div>
                         </div>
 
+                        <div class="row schedule-item">
+                            <div class="col-md-2"><br>
+                              <time>09:20-09:40</time>
+                          </div>
+                          <div class="col-md-10">
+                              <div class="speaker">
+                                <img src="img/labs/dexters.jpg" alt="Dexters">
+                              </div>
+                              <div class="speaker">
+                                  <img src="img/speakers/fundo.png" alt="">
+                              </div>
+                                 <h4>LabTour - Dexters</h4> 
+                            <!--  <h4>A definir</h4> -->
+                              <p>Apresentador(a): Prof. Luis Rivero</p>
+                             <!--  <p>Apresentador(a): A definir</p>-->
+                          </div>
+                          </div>
 
                         <div class="row schedule-item">
                             <div class="col-md-2"><br>
