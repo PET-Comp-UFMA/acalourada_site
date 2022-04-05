@@ -46,7 +46,7 @@
                                 <div class="speaker">
                                     <img src="img/speakers/fundo.png" alt="">
                                 </div>
-                                <h4>Palestra</h4>
+                                <h4>Palestra de apresentação NCA</h4>
                                 <p>Apresentador(a): Prof. Anselmo de Paiva</p>
                             </div>
                         </div> 
