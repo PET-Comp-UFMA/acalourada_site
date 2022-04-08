@@ -29,7 +29,7 @@
                                     <img src="img/speakers/Valter.png" alt="A definir"> -->
                                 </div>
                                 <div class="speaker">
-                                    <!-- <img src="img/speakers/luigi.jpg" alt="A definir"> -->
+                                    <img src="img/speakers/mateus.png" alt="A definir"> 
                                 </div>
                                 <h4>Dinâmica de apresentação</h4>
                                 <p>Apresentador(a): Valter Abreu e Matheus Vinicius</p>
@@ -105,17 +105,21 @@
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
-                                    <!-- <img src="img/speakers/arthur.png" alt="A definir"> -->
+                                    <img src="img/speakers/arthur.png" alt="A definir"> 
                                 </div>
                                 <div class="speaker">
-                                    <!-- <img src="img/speakers/yandson.jpg" alt="A definir"> -->
-                                </div><br>
+                                    <img src="img/speakers/tutoriais/Kennedy Anderson.jpg" alt="A definir"> 
+                                </div>
+                                <br>
 
                                 <h4>Mesa redonda com egressos</h4>
                                 <p>Apresentador(a): Egressos de computação</p>
 
                                 <div class="speaker">
-                                    <!-- <img src="img/speakers/daniel.jpg" alt="A definir"> -->
+                                    <img src="img/speakers/daniel.jpg" alt="A definir">
+                                </div>
+                                <div class="speaker">
+                                    <img src="img/speakers/paulo_victor.png" alt="A definir"> 
                                 </div>
                                 <div class="speaker">
                                     <img src="img/speakers/fundo.png" alt="">
@@ -169,16 +173,16 @@
                           <hr/>
                           <div class="col-md-10">
                               <div class="speaker">
-                                <!-- <img src="img/labs/viplab.png" alt="VIPLab"> -->
+                                <img src="img/labs/viplab.png" alt="VIPLab">
                               </div>
                               <div class="speaker">
                                   <img src="img/speakers/fundo.png" alt="">
                               </div>
               
-                              <h4>A definir</h4>
-                              <p>Apresentador(a): A definir</p>                             
-                              <!-- <h4>LabTour - VIPLab</h4>
-                              <p>Apresentador(a): Prof. Geraldo Braz</p>                              -->
+                             <!-- <h4>A definir</h4>
+                              <p>Apresentador(a): A definir</p> -->                            
+                              <h4>LabTour - VIPLab</h4>
+                              <p>Apresentador(a): Prof. Geraldo Braz</p>
                         </div>
                         </div>
 
@@ -212,16 +216,16 @@
                           <hr/>
                           <div class="col-md-10">
                             <div class="speaker">
-                              <!-- <img src="img/speakers/areolino.png" alt="Areolino Neto"> -->
+                              <img src="img/labs/mecanet.png" alt="Areolino Neto"> 
                             </div>
                             <div class="speaker">
                                 <img src="img/speakers/fundo.png" alt="">
                             </div>
               
-                              <h4>A definir</h4>
-                              <p>Apresentador(a): A definir</p>
-                              <!-- <h4>LabTour - InovTec</h4>
-                              <p>Apresentador(a): Prof. Areolino Neto</p> -->
+                              <!--<h4>A definir</h4>
+                               <p>Apresentador(a): A definir</p> -->
+                              <h4>LabTour - InovTec</h4>
+                              <p>Apresentador(a): Prof. Areolino Neto</p> 
                               
                           </div>
                           </div>
