@@ -6,8 +6,8 @@
                 <strong>E-mail:</strong> petcomputacao.ufma@gmail.com
             </div>
             <div class="social-links">
-                <a href="https://twitter.com/petcompufma" class="twitter"><i class="fa fa-twitter"></i></a>
-                <a href="https://www.instagram.com/petcompufma/" class="instagram"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/petcompufma" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com/petcompufma/" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
             </div>
         </div>
     </div>
