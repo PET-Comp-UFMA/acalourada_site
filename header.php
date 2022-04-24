@@ -40,6 +40,8 @@
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="materiais.php">Materiais</a>
                             <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="registros.php">Registros</a>                             
+                            <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="faq.php">FAQ</a>
                         </div>
                         </a>
