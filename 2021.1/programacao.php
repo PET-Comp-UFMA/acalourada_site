@@ -26,10 +26,10 @@
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
-                                    <img src="img/speakers/paulo_victor.png" alt="Paulo Victor">
+                                    <img src="../img/speakers/paulo_victor.png" alt="Paulo Victor">
                                 </div>
                                 <div class="speaker">
-                                    <img src="img/speakers/tutoriais/Arthur Passos.jpg" alt="Arthur Passos<">
+                                    <img src="../img/speakers/tutoriais/Arthur Passos.jpg" alt="Arthur Passos<">
                                 </div>
                                 <h4>Dinâmica de apresentação</h4>
                                 <p>Apresentador(a): Paulo Victor e Arthur Passos</p>
@@ -41,10 +41,10 @@
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
-                                    <img src="img/speakers/AnselmoPerfil.jpg" alt="Luis Rivero">
+                                    <img src="../img/speakers/AnselmoPerfil.jpg" alt="Luis Rivero">
                                 </div>
                                 <div class="speaker">
-                                    <img src="img/speakers/fundo.png" alt="">
+                                    <img src="../img/speakers/fundo.png" alt="">
                                 </div>
                                 <h4>Palestra / apresentação NCA</h4>
                                 <p>Apresentador(a): Prof. Anselmo de Paiva</p>
@@ -56,10 +56,10 @@
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
-                                    <img src="img/speakers/DEINF.png"PETComp">
+                                    <img src="../img/speakers/DEINF.png"PETComp">
                                 </div>
                                 <div class="speaker">
-                                    <img src="img/speakers/fundo.png" alt="">
+                                    <img src="../img/speakers/fundo.png" alt="">
                                 </div>
                                 <h4>Apresentação da coordenação / curso</h4>
                                 <p>Apresentador(a): Coordenadora Simara</p>
@@ -74,10 +74,10 @@
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
-                                    <img src="img/speakers/tutoriais/Arthur Passos.jpg"PETComp">
+                                    <img src="../img/speakers/tutoriais/Arthur Passos.jpg"PETComp">
                                 </div>
                                 <div class="speaker">
-                                    <img src="img/speakers/paulo_victor.png" alt="Paulo Victor">
+                                    <img src="../img/speakers/paulo_victor.png" alt="Paulo Victor">
                                 </div>
                                 
                                 <h4>Apresentação PETComp</h4>
@@ -90,10 +90,10 @@
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
-                                    <img src="img/speakers/lucho.jpg" alt="Luis Rivero">
+                                    <img src="../img/speakers/lucho.jpg" alt="Luis Rivero">
                                 </div>
                                 <div class="speaker">
-                                    <img src="img/speakers/fundo.png" alt="">
+                                    <img src="../img/speakers/fundo.png" alt="">
                                 </div>
                                 <h4>Apresentação da SBC</h4>
                                 <p>Apresentador(a): Prof. Luis Rivero</p>
@@ -105,20 +105,20 @@
                             </div>
                             <div class="col-md-10">
                                 <div class="speaker">
-                                    <img src="img/speakers/jessica.png".jpg" alt="Nathasha Araújo">
+                                    <img src="../img/speakers/jessica.png".jpg" alt="Nathasha Araújo">
                                 </div>
                                 <div class="speaker">
-                                    <img src="img/speakers/arthur.png" alt="">
+                                    <img src="../img/speakers/arthur.png" alt="">
                                 </div><br>
 
                                 <h4>Mesa redonda com egressos</h4>
                                 <p>Apresentador(a): Egressos de computação</p>
 
                                 <div class="speaker">
-                                    <img src="img/speakers/gabriel.jpeg" alt="">
+                                    <img src="../img/speakers/gabriel.jpeg" alt="">
                                 </div>
                                 <div class="speaker">
-                                    <img src="img/speakers/durand.jpeg" alt="">
+                                    <img src="../img/speakers/durand.jpeg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -131,10 +131,10 @@
                           </div>
                           <div class="col-md-10">
                               <div class="speaker">
-                                <img src="img/labs/dexters.jpg" alt="Dexters">
+                                <img src="../img/labs/dexters.jpg" alt="Dexters">
                               </div>
                               <div class="speaker">
-                                  <img src="img/speakers/fundo.png" alt="">
+                                  <img src="../img/speakers/fundo.png" alt="">
                               </div>
                               <h4>LabTour - Dexters</h4>
                               <p>Apresentador(a): Prof. Luis Rivero</p>
@@ -146,10 +146,10 @@
                           </div>
                           <div class="col-md-10">
                             <div class="speaker">
-                                <img src="img/labs/lacmor.png" alt="Lacmor" >
+                                <img src="../img/labs/lacmor.png" alt="Lacmor" >
                             </div>
                             <div class="speaker">
-                                <img src="img/speakers/fundo.png" alt="">
+                                <img src="../img/speakers/fundo.png" alt="">
                             </div>
                             <h4>LabTour - LACMOR </h4>
                             <p>Apresentador(a): Prof. Alexandre César</p>
@@ -162,10 +162,10 @@
                           <hr/>
                           <div class="col-md-10">
                               <div class="speaker">
-                                <img src="img/labs/laws.png" alt="Laws">
+                                <img src="../img/labs/laws.png" alt="Laws">
                               </div>
                               <div class="speaker">
-                                  <img src="img/speakers/fundo.png" alt="">
+                                  <img src="../img/speakers/fundo.png" alt="">
                               </div>
               
                               <h4>LabTour - LAWS</h4>
@@ -180,10 +180,10 @@
                           <hr/>
                           <div class="col-md-10">
                             <div class="speaker">
-                              <img src="img/labs/telemidia.png" alt="telemidia">
+                              <img src="../img/labs/telemidia.png" alt="telemidia">
                             </div>
                             <div class="speaker">
-                                <img src="img/speakers/fundo.png" alt="">
+                                <img src="../img/speakers/fundo.png" alt="">
                             </div>
               
                               <h4>LabTour - Telemídia</h4>
@@ -200,10 +200,10 @@
                           <hr/>
                           <div class="col-md-10">
                             <div class="speaker">
-                              <img src="img/labs/viplab.png" alt="">
+                              <img src="../img/labs/viplab.png" alt="">
                             </div>
                             <div class="speaker">
-                                <img src="img/speakers/fundo.png" alt="">
+                                <img src="../img/speakers/fundo.png" alt="">
                             </div>
               
                               <h4>VIPLab</h4>
@@ -218,10 +218,10 @@
                           </div>
                           <div class="col-md-10">
                               <div class="speaker">
-                                <img src="img/labs/lsdi.png" alt="LSDi">
+                                <img src="../img/labs/lsdi.png" alt="LSDi">
                               </div>
                               <div class="speaker">
-                                  <img src="img/speakers/fundo.png" alt="">
+                                  <img src="../img/speakers/fundo.png" alt="">
                               </div>
                               <h4>LabTour - LSDi</h4>
                               <p>Apresentador(a): Prof. Francisco Silva</p>
@@ -238,10 +238,10 @@
                           </div>
                           <div class="col-md-10">
                             <div class="speaker">
-                                <img src="img/speakers/logo_connection.png" alt="Connection" >
+                                <img src="../img/speakers/logo_connection.png" alt="Connection" >
                             </div>
                             <div class="speaker">
-                                <img src="img/speakers/lorde.png" alt="Lorde" >
+                                <img src="../img/speakers/lorde.png" alt="Lorde" >
                             </div>
                             <h4>Apresentação da Connection/
                                 Apresentação da Atlética</h4>
@@ -256,10 +256,10 @@
                         </div>
                         <div class="col-md-10">
                             <div class="speaker">
-                              <img src="img/speakers/nathasha.jpg" alt="pet">
+                              <img src="../img/speakers/nathasha.jpg" alt="pet">
                             </div>
                             <div class="speaker">
-                                <img src="img/speakers/fundo.png" alt="">
+                                <img src="../img/speakers/fundo.png" alt="">
                             </div>
                             <h4>Apresentação - Girls++</h4>
                             <p>Apresentador(a): Nathasha Pinto</p>
@@ -273,10 +273,10 @@
                         </div>
                         <div class="col-md-10">
                             <div class="speaker">
-                              <img src="img/speakers/andre.jpg" alt="">
+                              <img src="../img/speakers/andre.jpg" alt="">
                             </div>
                             <div class="speaker">
-                                <img src="img/speakers/paulo_victor.png" alt="">
+                                <img src="../img/speakers/paulo_victor.png" alt="">
                             </div>
                             <h4>Dinâmica do Kahoot</h4>
                             <p>Apresentador(a): André Barreto e Paulo Victor</p>
@@ -290,10 +290,10 @@
                           </div>
                           <div class="col-md-10">
                               <div class="speaker">
-                                <img src="img/speakers/andre.jpg" alt="">
+                                <img src="../img/speakers/andre.jpg" alt="">
                               </div>
                               <div class="speaker">
-                                  <img src="img/speakers/tutoriais/Arthur Passos.jpg" alt="Arthur Passos<">
+                                  <img src="../img/speakers/tutoriais/Arthur Passos.jpg" alt="Arthur Passos<">
                               </div>
                               <h4>Encerramento e premiação</h4>
                               <p>Apresentador(a): André Barreto e Arthur Passos</p>
@@ -309,10 +309,10 @@
                         </div>
                         <div class="col-md-10">
                             <div class="speaker">
-                              <img src="img/speakers/pet.jpg"alt ="PETComp">
+                              <img src="../img/speakers/pet.jpg"alt ="PETComp">
                             </div>
                             <div class="speaker">
-                                <img src="img/speakers/fundo.png" alt="">
+                                <img src="../img/speakers/fundo.png" alt="">
                             </div>
                             <h4>Sessão de jogos</h4>
                             <p>Apresentador(a): Aberto</p>

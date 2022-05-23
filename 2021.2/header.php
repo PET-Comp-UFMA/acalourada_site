@@ -6,10 +6,10 @@
                     id="img-esq-1"></a>
         </div>
         <div>
-            <a href="index.php"><img src="img/banner2021_2.svg" class="img-fluid" id="img-centro"></a>
+            <a href="index.php"><img src="../img/banner2021_2.svg" class="img-fluid" id="img-centro"></a>
         </div>
         <div>
-            <a href="https://portalpadrao.ufma.br/site" target="_blank"><img src="img/supporters/1.png" alt=""
+            <a href="https://portalpadrao.ufma.br/site" target="_blank"><img src="../img/supporters/1.png" alt=""
                     class="img-fluid" id="img-dir"></a>
         </div>
     </div>
