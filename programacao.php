@@ -134,7 +134,7 @@ require_once('header.php');
 
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>09:00-12:00</time>
+                        <time>08:30-11:30</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">

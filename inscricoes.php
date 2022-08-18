@@ -19,7 +19,7 @@ require_once('header.php');
                         <ol style="padding-left: 0px">
                             <ol style="padding-left: 0px">
                                 <strong>
-                                    Inscreva-se no <a href="https://forms.gle/kPkpexCb9FqJ3mgC9">Formulário de
+                                    Inscreva-se no <a href="https://forms.gle/kPkpexCb9FqJ3mgC9" target="blank">Formulário de
                                         Inscrição</a> a para participar do evento.
                                 </strong>
                             </ol>
@@ -34,7 +34,7 @@ require_once('header.php');
                 </div>
 
                 <br>
-                <button class="faq-whatsapp btn"><a class="btn-subscription-text" href="https://forms.gle/kPkpexCb9FqJ3mgC9">Inscreva-se</a></button>
+                <button class="faq-whatsapp btn"><a class="btn-subscription-text" href="https://forms.gle/kPkpexCb9FqJ3mgC9" target="blank">Inscreva-se</a></button>
                 <br><br>
             </div>
         </div>
