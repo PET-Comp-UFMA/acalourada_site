@@ -18,7 +18,7 @@ require_once('header.php');
         <div class="carousel-inner">
             <div id="intro" class="carousel-item active">
                 <div class="intro-container wow fadeIn">
-                    <h1 class="mb-4 pb-0">Acalourada Virtual de<br> Ciência da Computação<br>PETCOMP - UFMA<br> </h1>
+                    <h1 class="mb-4 pb-0">Acalourada de<br> Ciência da Computação<br>PETCOMP - UFMA<br> </h1>
                     <p class="mb-4 pb-0">Deseja participar?</p>
 
                     <!--<a href="https://youtu.be/hPt2zWgXKiQ" class="venobox play-btn mb-4 vbox-item" data-vbtype="video" data-autoplay="true"></a>-->
@@ -27,7 +27,7 @@ require_once('header.php');
             </div>
             <div id="intro" class="carousel-item item-2">
                 <div class="intro-container wow fadeIn">
-                    <h1 class="mb-4 pb-0">Acalourada Virtual de<br> Ciência da Computação<br>PETCOMP - UFMA<br> </h1>
+                    <h1 class="mb-4 pb-0">Acalourada de<br> Ciência da Computação<br>PETCOMP - UFMA<br> </h1>
                     <p class="mb-4 pb-0">Está perdido? Veja algumas dicas!</p>
 
                     <a href="https://youtu.be/hPt2zWgXKiQ" class="venobox play-btn mb-4 vbox-item" data-vbtype="video" data-autoplay="true"></a>
@@ -62,7 +62,7 @@ require_once('header.php');
                 <center>
                     <div class="col-lg-6">
                         <h2>Sobre o Evento</h2>
-                        <p>A Acalourada Virtual é uma atividade de recepção dos estudantes ingressantes no curso de <strong>Ciência da Computação</strong>
+                        <p>A Acalourada é uma atividade de recepção dos estudantes ingressantes no curso de <strong>Ciência da Computação</strong>
                             de forma totalmente virtual. Essa atividade já vem sendo desenvolvida de forma presencial
                             há mais de 3 anos em conjunto com a <strong>Coordenação de Computação</strong>, o <strong>Departamento de Informática</strong> e o
                             <strong>PET de Computação</strong>, e procura guiar os calouros através da universidade e do curso, além de mostrar as oportunidades
