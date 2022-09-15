@@ -62,7 +62,7 @@ require_once('header.php');
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
                         <h4>Dinâmica</h4>
-                        <p>Apresentador(a): josé Florêncio</p>
+                        <p>Apresentador(a): José Florêncio</p>
                     </div>
                 </div>
                 <div class="row schedule-item">
@@ -77,7 +77,7 @@ require_once('header.php');
                             <img src="img/speakers/daniel.jpg" alt="">
                         </div>
                         <h4>Mesa redonda com egressos</h4>
-                        <p>Apresentador(a): Prof. Luis Rivero</p>
+                        <p>Apresentador(a): Prof. José Florêncio</p>
                     </div>
                 </div>
 
@@ -105,19 +105,68 @@ require_once('header.php');
                 <h2 class="schedule-day-title">Dia 15/09</h2>
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>14:00</time>
+                        <time>14:00-15:00</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/pet.jpg" alt="">
+                            <img src="img/labs/dexters.jpg" alt="">
                         </div>
                         <div class="speaker">
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
-                        <h4>Tour/Apresentação dos Laboratórios</h4>
-                        <!--<p>Apresentador(a): Equipe </p>--> 
+                        <h4>LabTour - Dexters</h4>
+                        <p>Apresentador(a): Prof. Luis Rivero</p>
                     </div>
                 </div>
+
+                <div class="row schedule-item">
+                    <div class="col-md-2"><br>
+                        <time>15:00-15:30</time>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="speaker">
+                            <img src="img/labs/nca.jpg" alt="">
+                        </div>
+                        <div class="speaker">
+                            <img src="img/speakers/fundo.png" alt="">
+                        </div>
+                        <h4>LabTour - NCA</h4>
+                        <p>Apresentador(a): Prof. Anselmo</p>
+                    </div>
+                </div>
+
+                <div class="row schedule-item">
+                    <div class="col-md-2"><br>
+                        <time>15:30-16:10</time>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="speaker">
+                            <img src="img/labs/lacmor.png" alt="">
+                        </div>
+                        <div class="speaker">
+                            <img src="img/speakers/fundo.png" alt="">
+                        </div>
+                        <h4>LabTour - LACMOR</h4>
+                        <p>Apresentador(a): Prof. Alexandre</p>
+                    </div>
+                </div>
+
+                <div class="row schedule-item">
+                    <div class="col-md-2"><br>
+                        <time>16:10-17:00</time>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="speaker">
+                            <img src="img/labs/lsdi.png" alt="">
+                        </div>
+                        <div class="speaker">
+                            <img src="img/speakers/fundo.png" alt="">
+                        </div>
+                        <h4>LabTour - LSDi</h4>
+                        <p>Apresentador(a): Prof. Francisco</p>
+                    </div>
+                </div>
+
                 <!--  -->
               
                 <!-- Schdule Day 3 -->
