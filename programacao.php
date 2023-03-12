@@ -19,25 +19,26 @@ require_once('header.php');
 
             <!-- Schdule Day 1 -->
             <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
-                <h2 class="schedule-day-title">Dia 14/09</h2>
+                <h2 class="schedule-day-title">Dia 22/03</h2>
+                <h3 class="schedule-day-title">MANHÃ</h3>
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>14:00-14:30</time>
+                        <time>09:00-09:30</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/Lucas Farias.jpg" alt="">
+                            <img src="img/speakers/lucho.jpg" alt="">
                         </div>
                         <div class="speaker">
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
-                        <h4>Apresentação PETComp</h4>
-                        <p>Apresentador(a): Lucas Farias</p>
+                        <h4>Seja bem-vindo a Acalourada</h4>
+                        <p>Apresentador(a): Luis Rivero</p>
                     </div>
                 </div>
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>14:30-15:00</time>
+                        <time>09:30-10:00</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
@@ -52,42 +53,60 @@ require_once('header.php');
                 </div>
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>15:00-15:30</time>
+                        <time>10:00-11:00</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/joseflorencio.jpg" alt="">
+                            <img src="img/speakers/ufma.jpg" alt="">
                         </div>
                         <div class="speaker">
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
-                        <h4>Dinâmica</h4>
-                        <p>Apresentador(a): José Florêncio</p>
+                        <h4>Apresentação DIOAC</h4>
+                        <p>Apresentador(a): A definir</p>
                     </div>
                 </div>
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>15:30-16:30</time>
+                        <time>11:00-12:00</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/arthur.png" alt="">
+                            <img src="img/speakers/ufma.jpg" alt="">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/daniel.jpg" alt="">
+                            <img src="img/speakers/fundo.png" alt="">
                         </div>
-                        <h4>Mesa redonda com egressos</h4>
-                        <p>Apresentador(a): Prof. José Florêncio</p>
+                        <h4>Apresentação PROAES</h4>
+                        <p>Apresentador(a): A definir</p>
+                    </div>
+                </div>
+
+                <h3 class="schedule-day-title">TARDE</h3>
+
+                <div class="row schedule-item">
+                    <div class="col-md-2"><br>
+                        <time>14:00-14:30</time>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="speaker">
+                            <img src="img/speakers/Lucas Farias.jpg" alt="">
+                        </div>
+                        <div class="speaker">
+                            <img src="img/speakers/eduardamacedo.jpg" alt="">
+                        </div>
+                        <h4>Dinâmica de apresentação</h4>
+                        <p>Apresentador(a): Lucas Farias e Eduarda Macedo</p>
                     </div>
                 </div>
 
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>16:30-17:00</time>
+                        <time>14:30-15:00</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/logo_connection.png" alt="Logo da Connection Empresa Júnior">
+                        <img src="img/speakers/logo_connection.png" alt="Logo da Connection Empresa Júnior">
                         </div>
                         <div class="speaker">
                             <img src="img/speakers/lorde.png" alt="Logo da Atlética Lorde">
@@ -95,86 +114,63 @@ require_once('header.php');
                         <h4>Apresentação da Connection/
                             Apresentação da Atlética</h4>
                         <p>Apresentador(a): A definir</p>
-                        <!-- <p>Apresentador(a): Presidente Mylady e Lorde</p> -->
                     </div>
-                </div>
+                </div>          
 
-                <!-- -->
+                <div class="row schedule-item">
+                    <div class="col-md-2"><br>
+                        <time>15:00-17:00</time>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="speaker">
+                        <img src="img/speakers/pet.jpg" alt="">
+                        </div>
+                        <div class="speaker">
+                            <img src="img/speakers/fundo.png" alt="">
+                        </div>
+                        <h4>Dinâmica de jogos</h4>
+                        <p>Apresentador(a): A definir</p>
+                    </div>
+                </div>      
 
                 <!-- Schdule Day 2 -->
-                <h2 class="schedule-day-title">Dia 15/09</h2>
+                <h2 class="schedule-day-title">Dia 23/03</h2>
+                <h3 class="schedule-day-title">MANHÃ</h3>
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>14:00-15:00</time>
+                        <time>09:00-09:30</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/labs/dexters.jpg" alt="">
+                            <img src="img/speakers/Lucas Farias.jpg" alt="">
                         </div>
                         <div class="speaker">
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
-                        <h4>LabTour - Dexters</h4>
-                        <p>Apresentador(a): Prof. Luis Rivero</p>
+                        <h4>Apresentação PETComp</h4>
+                        <p>Apresentador(a): Lucas Farias</p>
                     </div>
                 </div>
 
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>15:00-15:30</time>
+                        <time>09:30-10:00</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/labs/nca.jpg" alt="">
+                            <img src="img/speakers/lucho.jpg" alt="">
                         </div>
                         <div class="speaker">
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
-                        <h4>LabTour - NCA</h4>
-                        <p>Apresentador(a): Prof. Anselmo</p>
+                        <h4>Palestra SBC</h4>
+                        <p>Apresentador(a): Luis Rivero</p>
                     </div>
                 </div>
 
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>15:30-16:10</time>
-                    </div>
-                    <div class="col-md-10">
-                        <div class="speaker">
-                            <img src="img/labs/lacmor.png" alt="">
-                        </div>
-                        <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
-                        </div>
-                        <h4>LabTour - LACMOR</h4>
-                        <p>Apresentador(a): Prof. Alexandre</p>
-                    </div>
-                </div>
-
-                <div class="row schedule-item">
-                    <div class="col-md-2"><br>
-                        <time>16:10-17:00</time>
-                    </div>
-                    <div class="col-md-10">
-                        <div class="speaker">
-                            <img src="img/labs/lsdi.png" alt="">
-                        </div>
-                        <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
-                        </div>
-                        <h4>LabTour - LSDi</h4>
-                        <p>Apresentador(a): Prof. Francisco</p>
-                    </div>
-                </div>
-
-                <!--  -->
-              
-                <!-- Schdule Day 3 -->
-                <h2 class="schedule-day-title">Dia 16/09</h2>
-               
-                <div class="row schedule-item">
-                    <div class="col-md-2"><br>
-                        <time>14:00-15:00</time>
+                        <time>10:00-12:00</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
@@ -183,56 +179,98 @@ require_once('header.php');
                         <div class="speaker">
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
-                        <h4>Palestra</h4>
-                        <p>Apresentador(a): Prof. Anselmo</p>
-                    </div>
-                </div>
-            
-                <div class="row schedule-item">
-                    <div class="col-md-2"><br>
-                        <time>15:00-16:00</time>
-                    </div>
-                    <div class="col-md-10">
-                        <div class="speaker">
-                            <img src="img/speakers/maxwellpires.jpg" alt="">
-                        </div>
-                        <div class="speaker">
-                            <img src="img/speakers/andersonlopes.jpeg" alt="">
-                        </div>
-                        <h4>Dinâmica do Kahoot</h4>
-                        <p>Apresentador(a): Maxwell Pires e Anderson Lopes</p>
+                        <h4>Apresentação NCA e Palestra</h4>
+                        <p>Apresentador(a): Prof. Anselmo Paiva</p>
                     </div>
                 </div>
 
-                 <div class="row schedule-item">
+                <h3 class="schedule-day-title">TARDE</h3>
+
+                <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>16:00-16:30</time>
+                        <time>14:00-15:30</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/lucho.jpg" alt="">
+                            <img src="img/speakers/ufma.jpg" alt="">
                         </div>
                         <div class="speaker">
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
-                        <h4>Apresentação SBC</h4>
+                        <h4>Palestra</h4>
+                        <p>Apresentador(a): A definir</p>
+                    </div>
+                </div>
+                
+                <div class="row schedule-item">
+                    <div class="col-md-2"><br>
+                        <time>15:30-17:00</time>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="speaker">
+                            <img src="img/speakers/pet.jpg" alt="">
+                        </div>
+                        <div class="speaker">
+                            <img src="img/speakers/fundo.png" alt="">
+                        </div>
+                        <h4>Mesa Redonda com Egressos do PETComp</h4>
+                        <p>Apresentador(a): Lucas Farias e Adraino França</p>
+                    </div>
+                </div>
+
+                <!--  -->
+              
+                <!-- Schdule Day 3 -->
+                <h2 class="schedule-day-title">Dia 24/03</h2>
+                <h3 class="schedule-day-title">MANHÃ</h3>
+               
+                <div class="row schedule-item">
+                    <div class="col-md-2"><br>
+                        <time>09:00-09:30</time>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="speaker">
+                            <img src="img/labs/dexters.jpg" alt="">
+                        </div>
+                        <div class="speaker">
+                            <img src="img/speakers/fundo.png" alt="">
+                        </div>
+                        <h4>Dexters</h4>
                         <p>Apresentador(a): Prof. Luis Rivero</p>
                     </div>
                 </div>
 
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>16:30-17:00</time>
+                        <time>09:30-12:00</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/lucho.jpg" alt="">
+                            <img src="img/speakers/pet.jpg" alt="">
+                        </div>
+                        <div class="speaker">
+                            <img src="img/speakers/fundo.png" alt="">
+                        </div>
+                        <h4>Labtour</h4>
+                        <p>Apresentador(a): A definir</p>
+                    </div>
+                </div>
+
+                <h3 class="schedule-day-title">TARDE</h3>
+
+                <div class="row schedule-item">
+                    <div class="col-md-2"><br>
+                        <time>14:00-14:30</time>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="speaker">
+                            <img src="img/speakers/Lucas Farias.jpg" alt="">
                         </div>
                         <div class="speaker">
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
                         <h4>Encerramento e Premiação</h4>
-                        <p>Apresentador(a): Prof. Luis Rivero</p>
+                        <p>Apresentador(a): Lucas Farias</p>
                     </div>
                 </div>
                 <!-- -->
