@@ -25,7 +25,11 @@ require_once('header.php');
                             </ol>
                             <ol style="padding-left: 0px">
                                 <strong>
+<<<<<<< HEAD
                                     Acesse o grupo do <a href="https://chat.whatsapp.com/FDVKopTpFMtKg0Bs4WdAMY">Whatsapp</a>
+=======
+                                    Acesse o grupo do <a href="https://chat.whatsapp.com/IofwGLhPszWCrV7nwd5FLP">Whatsapp</a>
+>>>>>>> 5002209540fd787df240c7c0a5fb59840d9f7332
                                     para ficar por dentro de tudo ou fale conosco pelo email.
                                 </strong>
                             </ol>

@@ -19,6 +19,7 @@ require_once('header.php');
 
             <!-- Schdule Day 1 -->
             <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+<<<<<<< HEAD
                 <h2 class="schedule-day-title">Dia 22/03</h2>
                 <h3 class="schedule-day-title">MANHÃ</h3>
                 <div class="row schedule-item">
@@ -271,6 +272,11 @@ require_once('header.php');
                         </div>
                         <h4>Encerramento e Premiação</h4>
                         <p>Apresentador(a): Lucas Farias</p>
+=======
+                <h2 class="schedule-day-title">EM BREVE</h2>
+                <div class="row schedule-item">
+
+>>>>>>> 5002209540fd787df240c7c0a5fb59840d9f7332
                     </div>
                 </div>
                 <!-- -->
