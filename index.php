@@ -63,8 +63,8 @@ require_once('header.php');
                     <div class="col-lg-6">
                         <h2>Sobre o Evento</h2>
                         <p>A Acalourada é uma atividade de recepção dos estudantes ingressantes no curso de <strong>Ciência da Computação</strong>
-                            de forma totalmente virtual. Essa atividade já vem sendo desenvolvida de forma presencial
-                            há mais de 3 anos em conjunto com a <strong>Coordenação de Computação</strong>, o <strong>Departamento de Informática</strong> e o
+                            de forma presencial. Essa atividade já vem sendo desenvolvida de forma presencial
+                            há mais de 6 anos em conjunto com a <strong>Coordenação de Computação</strong>, o <strong>Departamento de Informática</strong> e o
                             <strong>PET de Computação</strong>, e procura guiar os calouros através da universidade e do curso, além de mostrar as oportunidades
                             que a universidade oferece tanto de forma pessoal como profissional.
                         </p>
