@@ -1972,3 +1972,11 @@ td, th {
   width:100%;
   position:absolute;
 }
+
+.map-ccet {
+  width:70%;
+  height:70%;
+  display:flex;
+  justify-content: center;
+  margin:auto
+}
