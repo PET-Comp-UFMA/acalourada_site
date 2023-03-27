@@ -19,7 +19,6 @@ require_once('header.php');
 
             <!-- Schdule Day 1 -->
             <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
-<<<<<<< HEAD
                 <h2 class="schedule-day-title">Dia 22/03</h2>
                 <h3 class="schedule-day-title">MANHÃ</h3>
                 <div class="row schedule-item">
@@ -94,16 +93,32 @@ require_once('header.php');
                             <img src="img/speakers/Lucas Farias.jpg" alt="">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/eduardamacedo.jpg" alt="">
+                            <img src="img/speakers/fundo.png" alt="">
                         </div>
                         <h4>Dinâmica de apresentação</h4>
-                        <p>Apresentador(a): Lucas Farias e Eduarda Macedo</p>
+                        <p>Apresentador(a): Lucas Farias</p>
                     </div>
                 </div>
-
+                
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
                         <time>14:30-15:00</time>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="speaker">
+                        <img src="img/speakers/conspeq.png" alt="Logo da Conspeq Engenharia Jr.">
+                        </div>
+                        <div class="speaker">
+                            <img src="img/speakers/fundo.png" alt="">
+                        </div>
+                        <h4>Apresentação Conspeq Empresa Júnior de Engenharia Química</h4>
+                        <p>Apresentador(a): Bianca Menezes</p>
+                    </div>
+                </div>      
+
+                <div class="row schedule-item">
+                    <div class="col-md-2"><br>
+                        <time>15:00-15:30</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
@@ -114,13 +129,13 @@ require_once('header.php');
                         </div>
                         <h4>Apresentação da Connection/
                             Apresentação da Atlética</h4>
-                        <p>Apresentador(a): A definir</p>
+                        <p>Apresentador(a): Mylady</p>
                     </div>
-                </div>          
+                </div>
 
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>15:00-17:00</time>
+                        <time>15:30-17:00</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
@@ -130,7 +145,7 @@ require_once('header.php');
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
                         <h4>Dinâmica de jogos</h4>
-                        <p>Apresentador(a): A definir</p>
+                        <p>Apresentador(a): PETComp</p>
                     </div>
                 </div>      
 
@@ -199,7 +214,7 @@ require_once('header.php');
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
                         <h4>Palestra</h4>
-                        <p>Apresentador(a): A definir</p>
+                        <p>Apresentador(a): António Trigueiros</p>
                     </div>
                 </div>
                 
@@ -215,7 +230,7 @@ require_once('header.php');
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
                         <h4>Mesa Redonda com Egressos do PETComp</h4>
-                        <p>Apresentador(a): Lucas Farias e Adraino França</p>
+                        <p>Apresentador(a): Lucas Farias e Adriano França</p>
                     </div>
                 </div>
 
@@ -227,7 +242,7 @@ require_once('header.php');
                
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>09:00-09:30</time>
+                        <time>09:00-09:20</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
@@ -243,25 +258,71 @@ require_once('header.php');
 
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>09:30-12:00</time>
+                        <time>09:20-09:40</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/pet.jpg" alt="">
+                            <img src="img/speakers/ufma.jpg" alt="">
                         </div>
                         <div class="speaker">
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
-                        <h4>Labtour</h4>
+                        <h4>LabJedi</h4>
+                        <p>Apresentador(a): Prof. Thiago Bonini</p>
+                    </div>
+                </div>
+
+                <div class="row schedule-item">
+                    <div class="col-md-2"><br>
+                        <time>09:40-10:00</time>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="speaker">
+                            <img src="img/labs/mecanet.png" alt="">
+                        </div>
+                        <div class="speaker">
+                            <img src="img/speakers/fundo.png" alt="">
+                        </div>
+                        <h4>Inovtec</h4>
+                        <p>Apresentador(a): Francisco Viana</p>
+                    </div>
+                </div>
+
+                <div class="row schedule-item">
+                    <div class="col-md-2"><br>
+                        <time>10:00-10:20</time>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="speaker">
+                            <img src="img/labs/lacmor.png" alt="">
+                        </div>
+                        <div class="speaker">
+                            <img src="img/speakers/fundo.png" alt="">
+                        </div>
+                        <h4>Lacmor</h4>
                         <p>Apresentador(a): A definir</p>
                     </div>
                 </div>
 
-                <h3 class="schedule-day-title">TARDE</h3>
+                <div class="row schedule-item">
+                    <div class="col-md-2"><br>
+                        <time>10:20-10:40</time>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="speaker">
+                            <img src="img/labs/viplab.png" alt="">
+                        </div>
+                        <div class="speaker">
+                            <img src="img/speakers/fundo.png" alt="">
+                        </div>
+                        <h4>VipLab</h4>
+                        <p>Apresentador(a): A definir</p>
+                    </div>
+                </div>
 
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>14:00-14:30</time>
+                        <time>12:00-12:15</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
@@ -272,11 +333,6 @@ require_once('header.php');
                         </div>
                         <h4>Encerramento e Premiação</h4>
                         <p>Apresentador(a): Lucas Farias</p>
-=======
-                <h2 class="schedule-day-title">EM BREVE</h2>
-                <div class="row schedule-item">
-
->>>>>>> 5002209540fd787df240c7c0a5fb59840d9f7332
                     </div>
                 </div>
                 <!-- -->

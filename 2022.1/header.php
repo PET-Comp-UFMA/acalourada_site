@@ -46,18 +46,7 @@
                         </div>
                         </a>
                     </li>
-                    <!--<li class="dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pós-evento</a>   
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="anais.html">Anais</a> 
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="certificados.html">Certificados</a>     
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="deliberacoes.html">Deliberações</a>              
-                    </div>
-                    </a>
-                </li>-->
+
                     <li class="dropdown">
                         <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown"
                             role="button" aria-haspopup="true" aria-expanded="false">Versões</a>
@@ -74,6 +63,7 @@
                         </div>
                         </a>
                     </li>
+                    <li><a href="registros.php">Registros</a></li>
                 </ul>
             </nav>
             <!-- #nav-menu-container -->
