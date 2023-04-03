@@ -62,7 +62,9 @@
                         <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown"
                             role="button" aria-haspopup="true" aria-expanded="false">Versões</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="../index.php">2023.1</a>
+                            <a class="dropdown-item" href="../index.php">2023.1</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="../2022.2/index.php">2022.2</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="../2022.1/index.php">2022.1</a>
                             <div class="dropdown-divider"></div>
@@ -74,6 +76,7 @@
                         </div>
                         </a>
                     </li>
+                    <li><a href="registros.php">Registros</a></li>
                 </ul>
             </nav>
             <!-- #nav-menu-container -->

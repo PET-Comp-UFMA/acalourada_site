@@ -145,3 +145,16 @@ jQuery(document).ready(function( $ ) {
   }
 });
 
+//carrossel registros
+var swiper = new Swiper('.carousel', {
+  autoHeight: true,
+  spaceBetween: 50,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true
+  },
+})

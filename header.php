@@ -25,25 +25,14 @@
                     <li><a href="localizacao.php">Localização</a></li>
                     <li><a href="materiais.php">Guias</a></li>
                     <li><a href="faq.php">FAQ</a></li>
-<!--                     <li class="dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown"
-                            role="button" aria-haspopup="true" aria-expanded="false">Informações</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="materiais.php">Materiais</a>
-                            <div class="dropdown-divider"></div>
-
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="faq.php">FAQ</a>
-                        </div>
-                        </a>
-                    </li> -->
-
+                    <li><a href="registros.php">Registros</a></li>
                     <li class="dropdown">
                         <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown"
                             role="button" aria-haspopup="true" aria-expanded="false">Versões</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="index.php">2023.1</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="index.php">2023.1</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="2022.2/index.php">2022.2</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="2022.1/index.php">2022.1</a>
                             <div class="dropdown-divider"></div>
