@@ -6,7 +6,7 @@
                     id="img-esq-1"></a>
         </div>
         <div>
-            <a href="index.php"><img src="img/banner2023_1.svg" class="img-fluid" id="img-centro"></a>
+            <a href="index.php"><img src="img/banner2023_2.jpg" class="img-fluid" id="img-centro"></a>
         </div>
         <div>
             <a href="https://portalpadrao.ufma.br/site" target="_blank"><img src="img/supporters/1.png" alt=""
@@ -25,7 +25,7 @@
                     <li><a href="localizacao.php">Localização</a></li>
                     <li><a href="materiais.php">Guias</a></li>
                     <li><a href="faq.php">FAQ</a></li>
-                    <li><a href="registros.php">Registros</a></li>
+                    <!---<li><a href="registros.php">Registros</a></li>-->
                     <li class="dropdown">
                         <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown"
                             role="button" aria-haspopup="true" aria-expanded="false">Versões</a>

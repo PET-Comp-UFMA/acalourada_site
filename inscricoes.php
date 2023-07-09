@@ -19,13 +19,13 @@ require_once('header.php');
                         <ol style="padding-left: 0px">
                             <ol style="padding-left: 0px">
                                 <strong>
-                                    Inscreva-se no <a href="https://forms.gle/8yuMGQ5TPm3aTQHW8" target="blank">Formulário de
+                                    Inscreva-se no <a href="https://docs.google.com/forms/d/e/1FAIpQLSdM1OFOGmIzci-zDp6dNyKh6hAQ0nPTXhrVENJ-AmC4drKUHg/viewform?usp=sharing" target="blank">Formulário de
                                         Inscrição</a> a para participar do evento.
                                 </strong>
                             </ol>
                             <ol style="padding-left: 0px">
                                 <strong>
-                                    Acesse o grupo do <a href="https://chat.whatsapp.com/FDVKopTpFMtKg0Bs4WdAMY">Whatsapp</a>
+                                    Acesse o grupo do <a href="https://chat.whatsapp.com/HZAsPPZcoRFCd3zsZX0mFx">Whatsapp</a>
                                     para ficar por dentro de tudo ou fale conosco pelo email.
                                 </strong>
                             </ol>
@@ -34,7 +34,7 @@ require_once('header.php');
                 </div>
 
                 <br>
-                <button class="faq-whatsapp btn"><a class="btn-subscription-text" href="https://forms.gle/8yuMGQ5TPm3aTQHW8" target="blank">Inscreva-se</a></button>
+                <button class="faq-whatsapp btn"><a class="btn-subscription-text" href="https://docs.google.com/forms/d/e/1FAIpQLSdM1OFOGmIzci-zDp6dNyKh6hAQ0nPTXhrVENJ-AmC4drKUHg/viewform?usp=sharing" target="blank">Inscreva-se</a></button>
                 <br><br>
             </div>
         </div>
