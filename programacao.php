@@ -36,57 +36,10 @@ require_once('header.php');
                         <p>Apresentador(a): Luis Rivero</p>
                     </div>
                 </div>
-                <div class="row schedule-item">
-                    <div class="col-md-2"><br>
-                        <time>09:30-10:00</time>
-                    </div>
-                    <div class="col-md-10">
-                        <div class="speaker">
-                            <img src="img/speakers/DEINF.png" alt="">
-                        </div>
-                        <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
-                        </div>
-                        <h4>Apresentação da coordenação do curso</h4>
-                        <p>Apresentador(a): Prof. Antônio de Abreu</p>
-                    </div>
-                </div>
-                <div class="row schedule-item">
-                    <div class="col-md-2"><br>
-                        <time>10:00-11:00</time>
-                    </div>
-                    <div class="col-md-10">
-                        <div class="speaker">
-                            <img src="img/speakers/ufma.jpg" alt="">
-                        </div>
-                        <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
-                        </div>
-                        <h4>Apresentação DIOAC</h4>
-                        <p>Apresentador(a): A definir</p>
-                    </div>
-                </div>
-                <div class="row schedule-item">
-                    <div class="col-md-2"><br>
-                        <time>11:00-12:00</time>
-                    </div>
-                    <div class="col-md-10">
-                        <div class="speaker">
-                            <img src="img/speakers/ufma.jpg" alt="">
-                        </div>
-                        <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
-                        </div>
-                        <h4>Apresentação PROAES</h4>
-                        <p>Apresentador(a): A definir</p>
-                    </div>
-                </div>
-
-                <h3 class="schedule-day-title">TARDE</h3>
 
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>14:00-14:30</time>
+                        <time>09:30-10:30</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
@@ -99,10 +52,29 @@ require_once('header.php');
                         <p>Apresentador(a): Mikael Cauã</p>
                     </div>
                 </div>
-                
+
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>14:30-15:00</time>
+                        <time>10:30-12:00</time>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="speaker">
+                            <img src="img/speakers/DEINF.png" alt="">
+                        </div>
+                        <div class="speaker">
+                            <img src="img/speakers/fundo.png" alt="">
+                        </div>
+                        <h4>Apresentação da coordenação do curso</h4>
+                        <p>Apresentador(a): Prof. Antônio de Abreu</p>
+                    </div>
+                </div>
+
+                
+
+                <h3 class="schedule-day-title">TARDE</h3>
+                <div class="row schedule-item">
+                    <div class="col-md-2"><br>
+                        <time>14:00-15:00</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
