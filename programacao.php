@@ -43,13 +43,13 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/Mikael Caua.jpeg" alt="">
+                            <img src="img/speakers/pet.jpg" alt="">
                         </div>
                         <div class="speaker">
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
                         <h4>Dinâmica de apresentação</h4>
-                        <p>Apresentador(a): Mikael Cauã</p>
+                        <p>Apresentador(a): PETComp</p>
                     </div>
                 </div>
 
@@ -72,9 +72,26 @@ require_once('header.php');
                 
 
                 <h3 class="schedule-day-title">TARDE</h3>
+
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>14:00-15:00</time>
+                        <time>14:00-14:30</time>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="speaker">
+                            <img src="img/speakers/Mikael Caua.jpeg" alt="">
+                        </div>
+                        <div class="speaker">
+                            <img src="img/speakers/fundo.png" alt="">
+                        </div>
+                        <h4>Apresentação PETComp</h4>
+                        <p>Apresentador(a): Mikael Cauã</p>
+                    </div>
+                </div>
+
+                <div class="row schedule-item">
+                    <div class="col-md-2"><br>
+                        <time>14:30-15:00</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
@@ -217,13 +234,13 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/Mikael Caua.jpeg" alt="">
+                            <img src="img/labs/telemidia.png" alt="">
                         </div>
                         <div class="speaker">
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
-                        <h4>Apresentação PETComp</h4>
-                        <p>Apresentador(a): Mikael Cauã</p>
+                        <h4>TeleMídia</h4>
+                        <p>Apresentador(a): A definir</p>
                     </div>
                 </div>
 
@@ -287,6 +304,22 @@ require_once('header.php');
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
                         <h4>VipLab</h4>
+                        <p>Apresentador(a): A definir</p>
+                    </div>
+                </div>
+
+                <div class="row schedule-item">
+                    <div class="col-md-2"><br>
+                        <time>11:30-12:00</time>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="speaker">
+                            <img src="img/labs/lsdi.png" alt="">
+                        </div>
+                        <div class="speaker">
+                            <img src="img/speakers/fundo.png" alt="">
+                        </div>
+                        <h4>LSDi</h4>
                         <p>Apresentador(a): A definir</p>
                     </div>
                 </div>
