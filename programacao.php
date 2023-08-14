@@ -250,6 +250,22 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
+                            <img src="img/labs/lsdi.png" alt="">
+                        </div>
+                        <div class="speaker">
+                            <img src="img/speakers/fundo.png" alt="">
+                        </div>
+                        <h4>LSDi</h4>
+                        <p>Apresentador(a): A definir</p>
+                    </div>
+                </div>
+
+                <div class="row schedule-item">
+                    <div class="col-md-2"><br>
+                        <time>10:00-10:30</time>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="speaker">
                             <img src="img/speakers/ufma.jpg" alt="">
                         </div>
                         <div class="speaker">
@@ -262,39 +278,7 @@ require_once('header.php');
 
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>10:00-10:30</time>
-                    </div>
-                    <div class="col-md-10">
-                        <div class="speaker">
-                            <img src="img/labs/mecanet.png" alt="">
-                        </div>
-                        <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
-                        </div>
-                        <h4>Inovtec</h4>
-                        <p>Apresentador(a): A definir</p>
-                    </div>
-                </div>
-
-                <div class="row schedule-item">
-                    <div class="col-md-2"><br>
                         <time>10:30-11:00</time>
-                    </div>
-                    <div class="col-md-10">
-                        <div class="speaker">
-                            <img src="img/labs/lacmor.png" alt="">
-                        </div>
-                        <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
-                        </div>
-                        <h4>Lacmor</h4>
-                        <p>Apresentador(a): A definir</p>
-                    </div>
-                </div>
-
-                <div class="row schedule-item">
-                    <div class="col-md-2"><br>
-                        <time>11:00-11:30</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
@@ -310,16 +294,16 @@ require_once('header.php');
 
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>11:30-12:00</time>
+                        <time>11:00-11:30</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/labs/lsdi.png" alt="">
+                            <img src="img/labs/lacmor.png" alt="">
                         </div>
                         <div class="speaker">
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
-                        <h4>LSDi</h4>
+                        <h4>Lacmor</h4>
                         <p>Apresentador(a): A definir</p>
                     </div>
                 </div>
@@ -340,6 +324,7 @@ require_once('header.php');
                         <p>Apresentador(a): PETComp</p>
                     </div>
                 </div>
+
                 <!-- -->
 
             </div>
