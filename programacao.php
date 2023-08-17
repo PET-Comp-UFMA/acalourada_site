@@ -95,7 +95,7 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                        <img src="img/speakers/Lucas Farias.jpg" alt="Logo da Conspeq Engenharia Jr.">
+                        <img src="img/speakers/Lucas Farias.jpg" alt="Logo do Diretório Acadêmico">
                         </div>
                         <div class="speaker">
                             <img src="img/speakers/fundo.png" alt="">
@@ -122,7 +122,22 @@ require_once('header.php');
 
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>15:30-17:00</time>
+                        <time>15:30-16:00</time>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="speaker">
+                        <img src="img/speakers/conspeq.png" alt="Logo da Conspeq">
+                        </div>
+                        <div class="speaker">
+                        </div>
+                        <h4>Apresentação da Conspeq</h4>
+                        <p>Apresentador(a): Bianca Menezes</p>
+                    </div>
+                </div>
+
+                <div class="row schedule-item">
+                    <div class="col-md-2"><br>
+                        <time>16:00-17:00</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
@@ -271,7 +286,7 @@ require_once('header.php');
                         <div class="speaker">
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
-                        <h4>LabJedi</h4>
+                        <h4>LINT</h4>
                         <p>Apresentador(a): A definir</p>
                     </div>
                 </div>
@@ -304,6 +319,22 @@ require_once('header.php');
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
                         <h4>Lacmor</h4>
+                        <p>Apresentador(a): A definir</p>
+                    </div>
+                </div>
+
+                <div class="row schedule-item">
+                    <div class="col-md-2"><br>
+                        <time>11:30-12:00</time>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="speaker">
+                            <img src="img/speakers/ufma.jpg" alt="">
+                        </div>
+                        <div class="speaker">
+                            <img src="img/speakers/fundo.png" alt="">
+                        </div>
+                        <h4>InovTec</h4>
                         <p>Apresentador(a): A definir</p>
                     </div>
                 </div>
