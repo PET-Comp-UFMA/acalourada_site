@@ -329,7 +329,7 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/ufma.jpg" alt="">
+                            <img src="img/labs/inovtec.png" alt="">
                         </div>
                         <div class="speaker">
                             <img src="img/speakers/fundo.png" alt="">
