@@ -166,7 +166,7 @@ require_once('header.php');
                         <div class="speaker">
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
-                        <h4>Dexters</h4>
+                        <h4><s>Dexters</s> (Adiado)</h4>
                         <p>Apresentador(a): Prof. Luis Rivero</p>
                     </div>
                 </div>
@@ -182,7 +182,7 @@ require_once('header.php');
                         <div class="speaker">
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
-                        <h4>Palestra SBC</h4>
+                        <h4><s>Palestra SBC</s> (Adiado)</h4>
                         <p>Apresentador(a): Luis Rivero</p>
                     </div>
                 </div>
@@ -237,6 +237,37 @@ require_once('header.php');
                     </div>
                 </div>
 
+                <div class="row schedule-item">
+                    <div class="col-md-2"><br>
+                        <time>17:00-17:30</time>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="speaker">
+                            <img src="img/labs/dexters.jpg" alt="">
+                        </div>
+                        <div class="speaker">
+                            <img src="img/speakers/fundo.png" alt="">
+                        </div>
+                        <h4>Dexters</h4>
+                        <p>Apresentador(a): Prof. Luis Rivero</p>
+                    </div>
+                </div>
+
+                <div class="row schedule-item">
+                    <div class="col-md-2"><br>
+                        <time>17:30-18:00</time>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="speaker">
+                            <img src="img/speakers/lucho.jpg" alt="">
+                        </div>
+                        <div class="speaker">
+                            <img src="img/speakers/fundo.png" alt="">
+                        </div>
+                        <h4>Palestra SBC</h4>
+                        <p>Apresentador(a): Luis Rivero</p>
+                    </div>
+                </div>
                 <!--  -->
               
                 <!-- Schdule Day 3 -->
