@@ -61,7 +61,7 @@ require_once('header.php');
             <div class="row">
                 <center>
                     <div class="col-lg-6">
-                        <h2>Sobre o Evento 2024.1</h2>
+                        <h2>Sobre o Evento</h2>
                         <p>A Acalourada é uma atividade de recepção dos estudantes ingressantes no curso de <strong>Ciência da Computação</strong>
                             de forma presencial. Essa atividade já vem sendo desenvolvida de forma presencial
                             há mais de 6 anos em conjunto com a <strong>Coordenação de Computação</strong>, o <strong>Departamento de Informática</strong> e o
@@ -92,7 +92,7 @@ require_once('header.php');
                 <div class="col-lg-2 col-md-4 col-xs-6">
                     <div class="supporter-logo">
                         <a href="https://portais.ufma.br/PortalUfma/index.jsf" target="_blank">
-                            <img src="img/supporters/1.png" class="img-fluid" alt="">
+                            <img src="../img/supporters/1.png" class="img-fluid" alt="">
                         </a>
                     </div>
                 </div>
@@ -101,7 +101,7 @@ require_once('header.php');
                 <div class="col-lg-2 col-md-4 col-xs-6">
                     <div class="supporter-logo">
                         <a href="http://www.deinf.ufma.br/" target="_blank">
-                            <img src="img/supporters/3.png" class="img-fluid" alt="">
+                            <img src="../img/supporters/3.png" class="img-fluid" alt="">
                         </a>
                     </div>
                 </div>
@@ -109,7 +109,7 @@ require_once('header.php');
                 <div class="col-lg-2 col-md-4 col-xs-6">
                     <div class="supporter-logo">
                         <a href="https://petcompufma.org/" target="_blank">
-                            <img src="img/supporters/4.png" class="img-fluid" alt="">
+                            <img src="../img/supporters/4.png" class="img-fluid" alt="">
                         </a>
                     </div>
                 </div>
@@ -117,7 +117,7 @@ require_once('header.php');
                 <div class="col-lg-2 col-md-4 col-xs-6">
                     <div class="supporter-logo">
                         <a href="https://www.instagram.com/dacomp.ufma/" target="_blank">
-                            <img src="img/supporters/6.png" class="img-fluid" alt="">
+                            <img src="../img/supporters/6.png" class="img-fluid" alt="">
                         </a>
                     </div>
                 </div>

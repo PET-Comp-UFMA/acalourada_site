@@ -19,18 +19,18 @@ require_once('header.php');
 
             <!-- Schdule Day 1 -->
             <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
-                <h2 class="schedule-day-title">EM BREVE</h2>
-                <!-- <h3 class="schedule-day-title">MANHÃ</h3>
+                <h2 class="schedule-day-title">Dia 23</h2>
+                <h3 class="schedule-day-title">MANHÃ</h3>
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
                         <time>09:00-09:30</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/lucho.jpg" alt="">
+                            <img src="../img/speakers/lucho.jpg" alt="">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="../img/speakers/fundo.png" alt="">
                         </div>
                         <h4>Seja bem-vindo a Acalourada</h4>
                         <p>Apresentador(a): Luis Rivero</p>
@@ -43,10 +43,10 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/pet.jpg" alt="">
+                            <img src="../img/speakers/pet.jpg" alt="">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="../img/speakers/fundo.png" alt="">
                         </div>
                         <h4>Dinâmica de apresentação</h4>
                         <p>Apresentador(a): PETComp</p>
@@ -59,10 +59,10 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/DEINF.png" alt="">
+                            <img src="../img/speakers/DEINF.png" alt="">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="../img/speakers/fundo.png" alt="">
                         </div>
                         <h4>Apresentação da coordenação do curso</h4>
                         <p>Apresentador(a): Prof. Antônio de Abreu</p>
@@ -79,10 +79,10 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/Mikael Caua.jpeg" alt="">
+                            <img src="../img/speakers/Mikael Caua.jpeg" alt="">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="../img/speakers/fundo.png" alt="">
                         </div>
                         <h4>Apresentação PETComp</h4>
                         <p>Apresentador(a): Mikael Cauã</p>
@@ -95,10 +95,10 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                        <img src="img/speakers/Lucas Farias.jpg" alt="Logo do Diretório Acadêmico">
+                        <img src="../img/speakers/Lucas Farias.jpg" alt="Logo do Diretório Acadêmico">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="../img/speakers/fundo.png" alt="">
                         </div>
                         <h4>Apresentação Diretório Acadêmico de Ciência da Computção</h4>
                         <p>Apresentador(a): Lucas Farias</p>
@@ -111,7 +111,7 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                        <img src="img/speakers/lorde.png" alt="Logo da Atlética Lorde">
+                        <img src="../img/speakers/lorde.png" alt="Logo da Atlética Lorde">
                         </div>
                         <div class="speaker">
                         </div>
@@ -126,7 +126,7 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                        <img src="img/speakers/conspeq.png" alt="Logo da Conspeq">
+                        <img src="../img/speakers/conspeq.png" alt="Logo da Conspeq">
                         </div>
                         <div class="speaker">
                         </div>
@@ -141,17 +141,17 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                        <img src="img/speakers/pet.jpg" alt="">
+                        <img src="../img/speakers/pet.jpg" alt="">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="../img/speakers/fundo.png" alt="">
                         </div>
                         <h4>Dinâmica de jogos</h4>
                         <p>Apresentador(a): PETComp</p>
                     </div>
                 </div>      
 
-                 Schdule Day 2
+                <!-- Schdule Day 2 -->
                 <h2 class="schedule-day-title">Dia 24</h2>
                 <h3 class="schedule-day-title">MANHÃ</h3>
 
@@ -161,10 +161,10 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/labs/dexters.jpg" alt="">
+                            <img src="../img/labs/dexters.jpg" alt="">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="../img/speakers/fundo.png" alt="">
                         </div>
                         <h4><s>Dexters</s> (Adiado)</h4>
                         <p>Apresentador(a): Prof. Luis Rivero</p>
@@ -177,10 +177,10 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/lucho.jpg" alt="">
+                            <img src="../img/speakers/lucho.jpg" alt="">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="../img/speakers/fundo.png" alt="">
                         </div>
                         <h4><s>Palestra SBC</s> (Adiado)</h4>
                         <p>Apresentador(a): Luis Rivero</p>
@@ -193,10 +193,10 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/AnselmoPerfil.jpg" alt="">
+                            <img src="../img/speakers/AnselmoPerfil.jpg" alt="">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="../img/speakers/fundo.png" alt="">
                         </div>
                         <h4>Apresentação NCA e Palestra</h4>
                         <p>Apresentador(a): Prof. Anselmo Paiva</p>
@@ -211,10 +211,10 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/DA Comp.jpeg" alt="">
+                            <img src="../img/speakers/DA Comp.jpeg" alt="">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="../img/speakers/fundo.png" alt="">
                         </div>
                         <h4>Mesa Redonda com Egressos</h4>
                         <p>Apresentador(a): DA Comp</p>
@@ -227,10 +227,10 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/DEINF.png" alt="">
+                            <img src="../img/speakers/DEINF.png" alt="">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="../img/speakers/fundo.png" alt="">
                         </div>
                         <h4>Palestra Mulheres na Computação</h4>
                         <p>Apresentador(a): A definir</p>
@@ -243,10 +243,10 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/labs/dexters.jpg" alt="">
+                            <img src="../img/labs/dexters.jpg" alt="">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="../img/speakers/fundo.png" alt="">
                         </div>
                         <h4>Dexters</h4>
                         <p>Apresentador(a): Prof. Luis Rivero</p>
@@ -259,18 +259,18 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/lucho.jpg" alt="">
+                            <img src="../img/speakers/lucho.jpg" alt="">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="../img/speakers/fundo.png" alt="">
                         </div>
                         <h4>Palestra SBC</h4>
                         <p>Apresentador(a): Luis Rivero</p>
                     </div>
                 </div>
-                
+                <!--  -->
               
-                 Schdule Day 3 
+                <!-- Schdule Day 3 -->
                 <h2 class="schedule-day-title">Dia 25</h2>
                 <h3 class="schedule-day-title">MANHÃ</h3>
                
@@ -280,10 +280,10 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/labs/telemidia.png" alt="">
+                            <img src="../img/labs/telemidia.png" alt="">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="../img/speakers/fundo.png" alt="">
                         </div>
                         <h4>TeleMídia</h4>
                         <p>Apresentador(a): A definir</p>
@@ -296,10 +296,10 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/labs/lsdi.png" alt="">
+                            <img src="../img/labs/lsdi.png" alt="">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="../img/speakers/fundo.png" alt="">
                         </div>
                         <h4>LSDi</h4>
                         <p>Apresentador(a): A definir</p>
@@ -312,10 +312,10 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/ufma.jpg" alt="">
+                            <img src="../img/speakers/ufma.jpg" alt="">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="../img/speakers/fundo.png" alt="">
                         </div>
                         <h4>LINT</h4>
                         <p>Apresentador(a): A definir</p>
@@ -328,10 +328,10 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/labs/viplab.png" alt="">
+                            <img src="../img/labs/viplab.png" alt="">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="../img/speakers/fundo.png" alt="">
                         </div>
                         <h4>VipLab</h4>
                         <p>Apresentador(a): A definir</p>
@@ -344,10 +344,10 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/labs/lacmor.png" alt="">
+                            <img src="../img/labs/lacmor.png" alt="">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="../img/speakers/fundo.png" alt="">
                         </div>
                         <h4>Lacmor</h4>
                         <p>Apresentador(a): A definir</p>
@@ -360,10 +360,10 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/labs/inovtec.png" alt="">
+                            <img src="../img/labs/inovtec.png" alt="">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="../img/speakers/fundo.png" alt="">
                         </div>
                         <h4>InovTec</h4>
                         <p>Apresentador(a): A definir</p>
@@ -377,15 +377,15 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/pet.jpg" alt="">
+                            <img src="../img/speakers/pet.jpg" alt="">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="../img/speakers/fundo.png" alt="">
                         </div>
                         <h4>Minicurso de Programação em Blocos</h4>
                         <p>Apresentador(a): PETComp</p>
                     </div>
-                </div> -->
+                </div>
 
                 <!-- -->
 
