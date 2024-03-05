@@ -34,7 +34,7 @@ require_once('header.php');
                 </div>
 
                 <br>
-                <button class="faq-whatsapp btn"><a class="btn-subscription-text" href="https://docs.google.com/forms/d/e/1FAIpQLSdM1OFOGmIzci-zDp6dNyKh6hAQ0nPTXhrVENJ-AmC4drKUHg/viewform?usp=sharing" target="blank">Inscreva-se</a></button>
+                <button class="faq-whatsapp btn"><a class="btn-subscription-text" href="https://forms.gle/HCCMuguZHxjkWvZm6" target="blank">Inscreva-se</a></button>
                 <br><br>
             </div>
         </div>

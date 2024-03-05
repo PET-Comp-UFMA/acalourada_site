@@ -33,7 +33,7 @@ require_once('header.php');
                             <img src="img/speakers/pet.jpg" alt="">
                         </div>
                         <h4>Seja bem-vindo a Acalourada e apresentação do PETComp</h4>
-                        <p>Apresentador(a): Prof. Luis Rivero e Sabryna</p>
+                        <p>Apresentadores: Prof. Luis Rivero e Sabryna</p>
                     </div>
                 </div>
 
@@ -49,7 +49,7 @@ require_once('header.php');
                             <img src="img/speakers/sabryna.jpeg" alt="">
                         </div>
                         <h4>Dinâmica de apresentação</h4>
-                        <p>Apresentador(a): Thiago e Sabryna</p>
+                        <p>Apresentadores: Thiago e Sabryna</p>
                     </div>
                 </div>
 
@@ -85,7 +85,7 @@ require_once('header.php');
                             <img src="img/speakers/carlos.jpg" alt="">
                         </div>
                         <h4>Apresentação do Diretório Acadêmico de Ciência da Computação</h4>
-                        <p>Apresentador(a): Lucas Farias e Carlos Veras</p>
+                        <p>Apresentadores: Lucas Farias e Carlos Veras</p>
                     </div>
                 </div>
 
