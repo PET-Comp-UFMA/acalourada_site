@@ -126,7 +126,7 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                        <img src="img/speakers/consp=q.png" alt="Logo da Conspeq">
+                        <img src="img/speakers/connection.jpg" alt="Logo da Conspeq">
                         </div>
                         <div class="speaker">
                         </div>
