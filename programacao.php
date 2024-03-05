@@ -19,8 +19,8 @@ require_once('header.php');
 
             <!-- Schdule Day 1 -->
             <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
-                <h2 class="schedule-day-title">EM BREVE</h2>
-                <!-- <h3 class="schedule-day-title">MANHÃ</h3>
+                <h2 class="schedule-day-title">Dia 13</h2>
+                <h3 class="schedule-day-title">MANHÃ</h3>
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
                         <time>09:00-09:30</time>
@@ -30,10 +30,10 @@ require_once('header.php');
                             <img src="img/speakers/lucho.jpg" alt="">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="img/speakers/pet.jpg" alt="">
                         </div>
-                        <h4>Seja bem-vindo a Acalourada</h4>
-                        <p>Apresentador(a): Luis Rivero</p>
+                        <h4>Seja bem-vindo a Acalourada e apresentação do PETComp</h4>
+                        <p>Apresentador(a): Prof. Luis Rivero e Sabryna</p>
                     </div>
                 </div>
 
@@ -43,13 +43,13 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/pet.jpg" alt="">
+                            <img src="img/speakers/thiago.jpeg" alt="">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="img/speakers/sabryna.jpeg" alt="">
                         </div>
                         <h4>Dinâmica de apresentação</h4>
-                        <p>Apresentador(a): PETComp</p>
+                        <p>Apresentador(a): Thiago e Sabryna</p>
                     </div>
                 </div>
 
@@ -75,35 +75,35 @@ require_once('header.php');
 
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>14:00-14:30</time>
+                        <time>14:00-15:00</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/Mikael Caua.jpeg" alt="">
+                            <img src="img/speakers/Lucas Farias.jpg" alt="">
                         </div>
                         <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="img/speakers/carlos.jpg" alt="">
                         </div>
-                        <h4>Apresentação PETComp</h4>
-                        <p>Apresentador(a): Mikael Cauã</p>
+                        <h4>Apresentação do Diretório Acadêmico de Ciência da Computação</h4>
+                        <p>Apresentador(a): Lucas Farias e Carlos Veras</p>
                     </div>
                 </div>
 
-                <div class="row schedule-item">
+                <!-- <div class="row schedule-item">
                     <div class="col-md-2"><br>
                         <time>14:30-15:00</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                        <img src="img/speakers/Lucas Farias.jpg" alt="Logo do Diretório Acadêmico">
+                        <img src="img/speakers/lorde.png" alt="Logo do Diretório Acadêmico">
                         </div>
                         <div class="speaker">
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
-                        <h4>Apresentação Diretório Acadêmico de Ciência da Computção</h4>
-                        <p>Apresentador(a): Lucas Farias</p>
+                        <h4>Apresentação da Atlética</h4>
+                        <p>Apresentador(a): Mylady</p>
                     </div>
-                </div>      
+                </div>       -->
 
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
@@ -126,18 +126,18 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                        <img src="img/speakers/conspeq.png" alt="Logo da Conspeq">
+                        <img src="img/speakers/consp=q.png" alt="Logo da Conspeq">
                         </div>
                         <div class="speaker">
                         </div>
-                        <h4>Apresentação da Conspeq</h4>
-                        <p>Apresentador(a): Bianca Menezes</p>
+                        <h4>Apresentação da Connection</h4>
+                        <p>Apresentador(a): Connection</p>
                     </div>
                 </div>
 
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>16:00-17:00</time>
+                        <time>16:00-17:30</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
@@ -151,8 +151,8 @@ require_once('header.php');
                     </div>
                 </div>      
 
-                 Schdule Day 2
-                <h2 class="schedule-day-title">Dia 24</h2>
+                 <!-- Schdule Day 2 -->
+                <h2 class="schedule-day-title">Dia 14</h2>
                 <h3 class="schedule-day-title">MANHÃ</h3>
 
                 <div class="row schedule-item">
@@ -166,7 +166,7 @@ require_once('header.php');
                         <div class="speaker">
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
-                        <h4><s>Dexters</s> (Adiado)</h4>
+                        <h4>Dexters</h4>
                         <p>Apresentador(a): Prof. Luis Rivero</p>
                     </div>
                 </div>
@@ -182,8 +182,8 @@ require_once('header.php');
                         <div class="speaker">
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
-                        <h4><s>Palestra SBC</s> (Adiado)</h4>
-                        <p>Apresentador(a): Luis Rivero</p>
+                        <h4>Palestra SBC</h4>
+                        <p>Apresentador(a): Prof. Luis Rivero</p>
                     </div>
                 </div>
 
@@ -233,45 +233,17 @@ require_once('header.php');
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
                         <h4>Palestra Mulheres na Computação</h4>
-                        <p>Apresentador(a): A definir</p>
+                        <p>Apresentador(a): Profa. Simara Vieira</p>
                     </div>
                 </div>
 
-                <div class="row schedule-item">
-                    <div class="col-md-2"><br>
-                        <time>17:00-17:30</time>
-                    </div>
-                    <div class="col-md-10">
-                        <div class="speaker">
-                            <img src="img/labs/dexters.jpg" alt="">
-                        </div>
-                        <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
-                        </div>
-                        <h4>Dexters</h4>
-                        <p>Apresentador(a): Prof. Luis Rivero</p>
-                    </div>
-                </div>
+                
 
-                <div class="row schedule-item">
-                    <div class="col-md-2"><br>
-                        <time>17:30-18:00</time>
-                    </div>
-                    <div class="col-md-10">
-                        <div class="speaker">
-                            <img src="img/speakers/lucho.jpg" alt="">
-                        </div>
-                        <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
-                        </div>
-                        <h4>Palestra SBC</h4>
-                        <p>Apresentador(a): Luis Rivero</p>
-                    </div>
-                </div>
+                
                 
               
-                 Schdule Day 3 
-                <h2 class="schedule-day-title">Dia 25</h2>
+                 <!-- Schdule Day 3  -->
+                <h2 class="schedule-day-title">Dia 15</h2>
                 <h3 class="schedule-day-title">MANHÃ</h3>
                
                 <div class="row schedule-item">
@@ -354,7 +326,7 @@ require_once('header.php');
                     </div>
                 </div>
 
-                <div class="row schedule-item">
+                <!-- <div class="row schedule-item">
                     <div class="col-md-2"><br>
                         <time>11:30-12:00</time>
                     </div>
@@ -368,7 +340,7 @@ require_once('header.php');
                         <h4>InovTec</h4>
                         <p>Apresentador(a): A definir</p>
                     </div>
-                </div>
+                </div> -->
 
                 <h3 class="schedule-day-title">TARDE</h3>
                 <div class="row schedule-item">
@@ -385,7 +357,7 @@ require_once('header.php');
                         <h4>Minicurso de Programação em Blocos</h4>
                         <p>Apresentador(a): PETComp</p>
                     </div>
-                </div> -->
+                </div>
 
                 <!-- -->
 
