@@ -284,7 +284,7 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/ufma.jpg" alt="">
+                            <img src="img/labs/lint.jpeg" alt="">
                         </div>
                         <div class="speaker">
                             <img src="img/speakers/fundo.png" alt="">
@@ -326,7 +326,7 @@ require_once('header.php');
                     </div>
                 </div>
 
-                <!-- <div class="row schedule-item">
+                <div class="row schedule-item">
                     <div class="col-md-2"><br>
                         <time>11:30-12:00</time>
                     </div>
@@ -340,7 +340,7 @@ require_once('header.php');
                         <h4>InovTec</h4>
                         <p>Apresentador(a): A definir</p>
                     </div>
-                </div> -->
+                </div>
 
                 <h3 class="schedule-day-title">TARDE</h3>
                 <div class="row schedule-item">
@@ -357,6 +357,23 @@ require_once('header.php');
                         <h4>Minicurso de Programação em Blocos</h4>
                         <p>Apresentador(a): PETComp</p>
                     </div>
+                    
+                </div>
+                <div class="row schedule-item">
+                    <div class="col-md-2"><br>
+                        <time>17:00-17:30</time>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="speaker">
+                            <img src="img/speakers/labi.jpeg" alt="">
+                        </div>
+                        <div class="speaker">
+                            <img src="img/speakers/fundo.png" alt="">
+                        </div>
+                        <h4>Apresentação da Liga de Bioinformática</h4>
+                        <p>Apresentador(a): LABI</p>
+                    </div>
+                    
                 </div>
 
                 <!-- -->

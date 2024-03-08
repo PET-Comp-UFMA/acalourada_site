@@ -19,13 +19,13 @@ require_once('header.php');
                         <ol style="padding-left: 0px">
                             <ol style="padding-left: 0px">
                                 <strong>
-                                    Inscreva-se no <a href="https://docs.google.com/forms/d/e/1FAIpQLSdM1OFOGmIzci-zDp6dNyKh6hAQ0nPTXhrVENJ-AmC4drKUHg/viewform?usp=sharing" target="blank">Formulário de
+                                    Inscreva-se no <a href="https://forms.gle/HCCMuguZHxjkWvZm6" target="blank">Formulário de
                                         Inscrição</a> a para participar do evento.
                                 </strong>
                             </ol>
                             <ol style="padding-left: 0px">
                                 <strong>
-                                    Acesse o grupo do <a href="https://chat.whatsapp.com/HZAsPPZcoRFCd3zsZX0mFx">Whatsapp</a>
+                                    Acesse o grupo do <a href="https://chat.whatsapp.com/Fz3qLhBW3hZAiuUiLpSDvm">Whatsapp</a>
                                     para ficar por dentro de tudo ou fale conosco pelo email.
                                 </strong>
                             </ol>
