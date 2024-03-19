@@ -189,19 +189,21 @@ require_once('header.php');
 
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>10:00-12:00</time>
+                        <time>10:00-12:30</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/AnselmoPerfil.jpg" alt="">
+                            <img src="img/speakers/pet.jpg" alt="">
                         </div>
                         <div class="speaker">
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
-                        <h4>Apresentação NCA e Palestra</h4>
-                        <p>Apresentador(a): Prof. Anselmo Paiva</p>
+                        <h4>Minicurso de Programação em Blocos</h4>
+                        <p>Apresentador(a): PETComp</p>
                     </div>
+                    
                 </div>
+                
 
                 <h3 class="schedule-day-title">TARDE</h3>
                 
@@ -361,23 +363,22 @@ require_once('header.php');
                 <h3 class="schedule-day-title">TARDE</h3>
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>14:00-17:00</time>
+                        <time>14:00-16:00</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/pet.jpg" alt="">
+                            <img src="img/speakers/AnselmoPerfil.jpg" alt="">
                         </div>
                         <div class="speaker">
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
-                        <h4>Minicurso de Programação em Blocos</h4>
-                        <p>Apresentador(a): PETComp</p>
+                        <h4>Apresentação NCA e Palestra</h4>
+                        <p>Apresentador(a): Prof. Anselmo Paiva</p>
                     </div>
-                    
                 </div>
                 <div class="row schedule-item">
                     <div class="col-md-2"><br>
-                        <time>17:00-17:30</time>
+                        <time>16:00-16:30</time>
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
