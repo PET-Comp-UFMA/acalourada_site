@@ -127,7 +127,16 @@ a:focus {
 p {
   padding: 0;
   margin: 0 0 20px 0;
+  text-align: justify;
 }
+#map-div {
+  padding: 5rem;
+}
+.map-ccet {
+  border: 0.2rem solid #0062C0;
+}
+
+
 
 h1,
 h2,
