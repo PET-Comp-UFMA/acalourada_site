@@ -33,8 +33,8 @@ require_once('header.php');
                             <img src="img/speakers/pet.jpg" alt="">
                         </div>
                         <h4>Seja bem-vindo a Acalourada e apresentação do PETComp</h4>
-                        <p>Apresentadores: Prof. Luis Rivero e Sabryna<br>
-                        Local: Auditório 1
+                        <p>Apresentadores: A definir<br>
+                        Local: A definir
                         </p>
                     </div>
                 </div>
@@ -51,8 +51,8 @@ require_once('header.php');
                             <img src="img/speakers/sabryna.jpeg" alt="">
                         </div>
                         <h4>Dinâmica de apresentação</h4>
-                        <p>Apresentadores: Thiago e Sabryna<br>
-                        Local: Auditório 1
+                        <p>A definir<br>
+                        Local: A definir
 
                         </p>
                     </div>
