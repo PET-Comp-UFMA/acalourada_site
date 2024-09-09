@@ -25,7 +25,7 @@
                     <li><a href="localizacao.php">Localização</a></li>
                     <li><a href="materiais.php">Guias</a></li>
                     <li><a href="faq.php">FAQ</a></li>
-                    <!---<li><a href="registros.php">Registros</a></li>-->
+                    <li><a href="registros.php">Registros</a></li>
                     <li class="dropdown">
                         <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown"
                             role="button" aria-haspopup="true" aria-expanded="false">Versões</a>

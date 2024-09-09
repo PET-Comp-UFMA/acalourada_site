@@ -16,7 +16,7 @@ require_once('header.php');
                 <h2>CCET POR DENTRO</h2>
             </div>
             <div>
-                <img class="map-ccet" src="img/mapaccet.png" >
+                <img class="map-ccet" src="../img/mapaccet.png" >
             </div>
             <div>
             </div>
