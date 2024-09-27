@@ -1172,7 +1172,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #schedule .schedule-item .speaker img {
   height: 100%;
-  width: 100%;
+  width: 90%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   margin-left: 50%;

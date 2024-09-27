@@ -27,12 +27,9 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/lucho.jpg" alt="">
+                            <img src="img/favicon-v1/logo-acalourada.svg" alt="">
                         </div>
-                        <div class="speaker">
-                            <img src="img/speakers/pet.jpg" alt="">
-                        </div>
-                        <h4>Seja bem-vindo a Acalourada e apresentação do PETComp</h4>
+                        <h4>A definir</h4>
                         <p>Apresentadores: A definir<br>
                         Local: A definir
                         </p>
@@ -44,14 +41,11 @@ require_once('header.php');
                         <time>09:30-10:30</time>
                     </div>
                     <div class="col-md-10">
-                        <div class="speaker">
-                            <img src="img/speakers/thiago.jpeg" alt="">
+                    <div class="speaker">
+                            <img src="img/favicon-v1/logo-acalourada.svg" alt="">
                         </div>
-                        <div class="speaker">
-                            <img src="img/speakers/sabryna.jpeg" alt="">
-                        </div>
-                        <h4>Dinâmica de apresentação</h4>
-                        <p>A definir<br>
+                        <h4>A definir</h4>
+                        <p>Apresentador(a): A definir<br>
                         Local: A definir
 
                         </p>
@@ -64,14 +58,11 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/DEINF.png" alt="">
+                            <img src="img/favicon-v1/logo-acalourada.svg" alt="">
                         </div>
-                        <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
-                        </div>
-                        <h4>Apresentação da coordenação do curso</h4>
-                        <p>Apresentador(a): Prof. Antônio de Abreu<br>
-                        Local: Auditório 1
+                        <h4>A definir</h4>
+                        <p>Apresentador(a): A definir<br>
+                        Local: A definir
                             
                         </p>
                     </div>
@@ -87,15 +78,12 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/Lucas Farias.jpg" alt="">
-                        </div>
-                        <div class="speaker">
-                            <img src="img/speakers/carlos.jpg" alt="">
+                            <img src="img/favicon-v1/logo-acalourada.svg" alt="">
                         </div>
                         <div>
-                        <h4>Apresentação do Diretório Acadêmico de Ciência da Computação</h4>
-                        <p>Apresentadores: Lucas Farias e Carlos Veras</p>
-                        <p class="local-dacomp">Local: Auditório 1</p>
+                        <h4>A definir</h4>
+                        <p>Apresentadores: A definir</p>
+                        <p class="local-dacomp">Local: A definir</p>
                         </div>
                     </div>
                 </div>
@@ -128,14 +116,11 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/labs/dexters.jpg" alt="">
+                            <img src="img/favicon-v1/logo-acalourada.svg" alt="">
                         </div>
-                        <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
-                        </div>
-                        <h4>Dexters</h4>
-                        <p>Apresentador(a): Prof. Luis Rivero<br>
-                        Local: Online(Google Meet)
+                        <h4>A definir</h4>
+                        <p>Apresentador(a): A definir<br>
+                        Local: A definir
                         </p>
                     </div>
                 </div>
@@ -146,14 +131,11 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/lucho.jpg" alt="">
+                            <img src="img/favicon-v1/logo-acalourada.svg" alt="">
                         </div>
-                        <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
-                        </div>
-                        <h4>Palestra SBC</h4>
-                        <p>Apresentador(a): Prof. Luis Rivero<br>
-                        Local: Online(Google Meet)
+                        <h4>A definir</h4>
+                        <p>Apresentador(a): A definir<br>
+                        Local: A definir
                         </p>
                     </div>
                 </div>
@@ -163,15 +145,12 @@ require_once('header.php');
                         <time>10:00-11:30</time>
                     </div>
                     <div class="col-md-10">
-                    <div class="speaker">
-                            <img src="img/speakers/pet.jpg" alt="">
-                        </div>
                         <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="img/favicon-v1/logo-acalourada.svg" alt="">
                         </div>
-                        <h4>Minicurso de Programação em Blocos</h4>
-                        <p>Apresentador(a): PETComp<br>
-                        Local: Online(Google Meet)
+                        <h4>A definir</h4>
+                        <p>Apresentador(a):A definir<br>
+                        Local: A definir
                         </p>
                     </div>
                 </div>
@@ -181,13 +160,11 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                        <img src="img/speakers/connection.jpg" alt="Logo da Conspeq">
+                            <img src="img/favicon-v1/logo-acalourada.svg" alt="">
                         </div>
-                        <div class="speaker">
-                        </div>
-                        <h4>Apresentação da Connection</h4>
-                        <p>Apresentador(a): Connection<br>
-                        Local: Online(Google Meet)
+                        <h4>A definir</h4>
+                        <p>Apresentador(a): A definir<br>
+                        Local: A definir
                         </p>
                     </div>
                 </div>
@@ -200,14 +177,11 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/DA Comp.jpeg" alt="">
+                            <img src="img/favicon-v1/logo-acalourada.svg" alt="">
                         </div>
-                        <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
-                        </div>
-                        <h4>Mesa Redonda com Egressos</h4>
-                        <p>Apresentador(a): DA Comp<br>
-                        Local: Auditório do NCA
+                        <h4>A definir</h4>
+                        <p>Apresentador(a): A definir<br>
+                        Local: A definir
 
                         </p>
                     </div>
@@ -219,14 +193,11 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/simara.png" alt="">
+                            <img src="img/favicon-v1/logo-acalourada.svg" alt="">
                         </div>
-                        <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
-                        </div>
-                        <h4>Palestra Mulheres na Computação</h4>
-                        <p>Apresentador(a): Profa. Simara Vieira<br>
-                        Local: Auditório do NCA
+                        <h4>A definir</h4>
+                        <p>Apresentador(a): A definir<br>
+                        Local: A definir
 
                         </p>
                     </div>
@@ -237,13 +208,11 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                        <img src="img/speakers/lorde.png" alt="Logo da Atlética Lorde">
+                            <img src="img/favicon-v1/logo-acalourada.svg" alt="">
                         </div>
-                        <div class="speaker">
-                        </div>
-                        <h4>Apresentação da Atlética</h4>
-                        <p>Apresentador(a): Mylady<br>
-                        Local: Auditório do NCA
+                        <h4>A definir</h4>
+                        <p>Apresentador(a): A definir<br>
+                        Local: A definir
 
                         </p>
                     </div>
@@ -260,14 +229,11 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/labs/lsdi.png" alt="">
+                            <img src="img/favicon-v1/logo-acalourada.svg" alt="">
                         </div>
-                        <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
-                        </div>
-                        <h4>LSDi</h4>
+                        <h4>A definir</h4>
                         <p>Apresentador(a): A definir<br>
-                        Local: LSDi
+                        Local: A definir
 
                         </p>
                     </div>
@@ -279,14 +245,11 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/labs/lacmor.png" alt="">
+                            <img src="img/favicon-v1/logo-acalourada.svg" alt="">
                         </div>
-                        <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
-                        </div>
-                        <h4>LACMOR</h4>
+                        <h4>A definir</h4>
                         <p>Apresentador(a): A definir<br>
-                        Local: LACMOR
+                        Local: A definir
                         
                         </p>
                     </div>
@@ -298,16 +261,11 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/labs/laws.png" alt="">
-                            
+                            <img src="img/favicon-v1/logo-acalourada.svg" alt="">
                         </div>
-                        <div class="speaker">
-
-                            <img src="img/labs/telemidia.png" alt="">
-                        </div>
-                        <h4>LAWS + TeleMídia</h4>
+                        <h4>A definir</h4>
                         <p>Apresentador(a): A definir<br>
-                        Local: TeleMídia
+                        Local: A definir
                       
 
                         </p>
@@ -320,14 +278,11 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/labs/inovtec.png" alt="">
+                            <img src="img/favicon-v1/logo-acalourada.svg" alt="">
                         </div>
-                        <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
-                        </div>
-                        <h4>Inovtec</h4>
+                        <h4>A definir</h4>
                         <p>Apresentador(a): A definir<br>
-                        Local: Inovtec
+                        Local: A definir
 
                         </p>
                     </div>
@@ -344,9 +299,9 @@ require_once('header.php');
                         <div class="speaker">
                             <img src="img/speakers/fundo.png" alt="">
                         </div>
-                        <h4>VipLab</h4>
+                        <h4>A definir</h4>
                         <p>Apresentador(a): A definir<br>
-                        Local: VipLab
+                        Local: A definir
 
                         </p>
                     </div>
@@ -358,14 +313,11 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/labs/lint.jpeg" alt="">
+                            <img src="img/favicon-v1/logo-acalourada.svg" alt="">
                         </div>
-                        <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
-                        </div>
-                        <h4>Lint</h4>
+                        <h4>A definir</h4>
                         <p>Apresentador(a): A definir<br>
-                        Local: Lint
+                        Local: A definir
 
                         </p>
                     </div>
@@ -378,14 +330,11 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/AnselmoPerfil.jpg" alt="">
+                            <img src="img/favicon-v1/logo-acalourada.svg" alt="">
                         </div>
-                        <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
-                        </div>
-                        <h4>Apresentação NCA e Palestra</h4>
-                        <p>Apresentador(a): Prof. Anselmo Paiva<br>
-                        Local: Auditório do NCA
+                        <h4>A definir</h4>
+                        <p>Apresentador(a): A definir<br>
+                        Local: A definir
                         </p>
                         
                     </div>
@@ -397,14 +346,11 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/labi.jpeg" alt="">
+                            <img src="img/favicon-v1/logo-acalourada.svg" alt="">
                         </div>
-                        <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
-                        </div>
-                        <h4>Apresentação da Liga de Bioinformática</h4>
-                        <p>Apresentador(a): LABI<br>
-                        Local: Auditório do NCA
+                        <h4>A definir</h4>
+                        <p>Apresentador(a): A definir<br>
+                        Local: A definir
 
                         </p>
                     </div>
@@ -417,14 +363,11 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/speakers/pet.jpg" alt="">
+                            <img src="img/favicon-v1/logo-acalourada.svg" alt="">
                         </div>
-                        <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
-                        </div>
-                        <h4>Dinâmica de Jogos</h4>
-                        <p>Apresentador(a): PETComp<br>
-                        Local: Auditório do NCA
+                        <h4>A definir</h4>
+                        <p>Apresentador(a): A definir<br>
+                        Local: A definir
 
                         </p>
                     </div>
