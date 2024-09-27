@@ -294,15 +294,11 @@ require_once('header.php');
                     </div>
                     <div class="col-md-10">
                         <div class="speaker">
-                            <img src="img/labs/viplab.png" alt="">
-                        </div>
-                        <div class="speaker">
-                            <img src="img/speakers/fundo.png" alt="">
+                            <img src="img/favicon-v1/logo-acalourada.svg" alt="">
                         </div>
                         <h4>A definir</h4>
                         <p>Apresentador(a): A definir<br>
                         Local: A definir
-
                         </p>
                     </div>
                 </div>
@@ -350,9 +346,7 @@ require_once('header.php');
                         </div>
                         <h4>A definir</h4>
                         <p>Apresentador(a): A definir<br>
-                        Local: A definir
-
-                        </p>
+                        Local: A definir</p>
                     </div>
                     
                 </div>
@@ -368,7 +362,6 @@ require_once('header.php');
                         <h4>A definir</h4>
                         <p>Apresentador(a): A definir<br>
                         Local: A definir
-
                         </p>
                     </div>
                     
