@@ -40,7 +40,7 @@ require_once('header.php');
 
                                 <strong>
 
-                                    Inscreva-se no <a href="https://docs.google.com/forms/d/1lXRr3bpWKkvZV3SLhRJbMrhxKsS8fDYEzqaMZX4LpCk/edit" target="blank">Formulário de
+                                    Inscreva-se no <a href="https://docs.google.com/forms/d/1Wz-wkYwc-hBCUDbZzVcc9gIiEq2DLg2BXUcCHt4qdbU/edit" target="blank">Formulário de
 
                                         Inscrição</a> a para participar do evento.
 
@@ -70,7 +70,7 @@ require_once('header.php');
 
                 <br>
 
-                <button class="faq-whatsapp btn"><a class="btn-subscription-text" href="https://docs.google.com/forms/d/1lXRr3bpWKkvZV3SLhRJbMrhxKsS8fDYEzqaMZX4LpCk/edit" target="blank">Inscreva-se</a></button>
+                <button class="faq-whatsapp btn"><a class="btn-subscription-text" href="https://docs.google.com/forms/d/1Wz-wkYwc-hBCUDbZzVcc9gIiEq2DLg2BXUcCHt4qdbU/edit" target="blank">Inscreva-se</a></button>
 
                 <br><br>
 
