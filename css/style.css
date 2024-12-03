@@ -127,16 +127,7 @@ a:focus {
 p {
   padding: 0;
   margin: 0 0 20px 0;
-  text-align: justify;
 }
-#map-div {
-  padding: 5rem;
-}
-.map-ccet {
-  border: 0.2rem solid #0062C0;
-}
-
-
 
 h1,
 h2,
@@ -1181,7 +1172,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #schedule .schedule-item .speaker img {
   height: 100%;
-  width: 100%;
+  width: 90%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   margin-left: 50%;
@@ -1204,6 +1195,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .schedule-item p {
+  
   font-style: italic;
   color: #152b79;
   margin-bottom: 0;
@@ -1871,6 +1863,9 @@ td, th {
 }
 
 @media (max-width: 1199px) {
+  #schedule .schedule-item p {
+    text-align: right;
+  }
   #header .container {
     max-width: 100%;
   }
@@ -1983,11 +1978,12 @@ td, th {
 }
 
 .map-ccet {
+  margin-bottom: 1rem;
   width:70%;
   height:70%;
   display:flex;
   justify-content: center;
-  margin:auto
+  margin: 2rem auto;
 }
 
   .swiper {

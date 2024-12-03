@@ -1,5 +1,5 @@
     <!-- JavaScript Libraries -->
-    <script src="venobox.js"></script>
+    <script src="lib/venobox/venobox.js"></script>
     <script src="lib/jquery/jquery.min.js"></script>
     <script src="lib/jquery/jquery-migrate.min.js"></script>
 
@@ -14,10 +14,7 @@
     <script src="lib/venobox/venobox.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-    <!-- Contact Form JavaScript File -->
-    <script src="contactform/contactform.js"></script>
 
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
 
-</body>
