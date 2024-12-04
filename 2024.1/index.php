@@ -1,6 +1,6 @@
 <?php
-require_once('html_header.php');
-require_once('header.php');
+require_once('./html_header.php');
+require_once('./header.php');
 ?>
 
 <main id="main">
@@ -52,7 +52,6 @@ require_once('header.php');
             </a>
         </div>
     </div>
-
     <!--==========================
             About Section
         ============================-->
@@ -73,8 +72,6 @@ require_once('header.php');
             </div>
         </div>
     </section>
-
-
     <!--====================
             Organização
         ======================-->
@@ -84,9 +81,6 @@ require_once('header.php');
             <div class="section-header">
                 <h2>Organização</h2>
             </div>
-
-
-
             <div class="row no-gutters supporters-wrap clearfix">
 
                 <div class="col-lg-2 col-md-4 col-xs-6">
@@ -126,10 +120,8 @@ require_once('header.php');
 
         </div>
     </section>
-
 </main>
-
 <?php
-require_once('footer.php');
-require_once('html_footer.php');
+require_once('./footer.php');
+require_once('./html_footer.php');
 ?>

@@ -36,7 +36,6 @@
     <!-- Main Stylesheet File -->
     <link href="../css/style.css" rel="stylesheet">
     <link href="../css/custom-style.css" rel="stylesheet">
-    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
 </head>
