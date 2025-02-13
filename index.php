@@ -114,14 +114,6 @@ require_once('header.php');
                     </div>
                 </div>
 
-                <div class="col-lg-2 col-md-4 col-xs-6">
-                    <div class="supporter-logo">
-                        <a href="https://www.instagram.com/dacomp.ufma/" target="_blank">
-                            <img src="img/supporters/6.png" class="img-fluid" alt="">
-                        </a>
-                    </div>
-                </div>
-
             </div>
 
         </div>
