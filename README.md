@@ -1,3 +1,4 @@
-# AcalouradaVirtual
+# Acalourada 2025.1
 
-Repositório do site da acalourada realizada pelo PETComp
+Nova versão do site
+

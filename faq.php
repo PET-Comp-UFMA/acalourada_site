@@ -432,38 +432,9 @@
             </div>
 
           </div>
-          <!-- Accordion card -->
-
-          <!-- Accordion card -->
-          <div class="card">
-
-            <!-- Card header -->
-            <div class="card-header" role="tab" id="heading21">
-              <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapse21" aria-expanded="false" aria-controls="collapse21">
-                <h5 class="mb-0">
-                  O que é a Connection?
-
-
-                </h5>
-                <i class="fa fa-angle-down fa-border fa-pull-right"></i>
-              </a>
-            </div>
-
-            <!-- Card body -->
-            <div id="collapse21" class="collapse" role="tabpanel" aria-labelledby="heading21" data-parent="#accordionEx">
-              <div class="card-body">
-                <p>A <a href="http://www.connection.ufma.br/" target="_blank">Connection</a> é uma Empresa júnior que é uma associação civil sem fins lucrativos e com fins educacionais formada exclusivamente por alunos do ensino superior ou técnico, regulamentada no Brasil através da Lei 13.267/2016. Ela tem o intuito de desenvolver de forma pessoal e profissional os seus membros por meio da vivência empresarial, realizando projetos e serviços na área de computação.
-                
-                </p>
-            </div>
-
-          </div>
-          <!-- Accordion card -->
-          <!-- Accordion card -->
 
         </div>
-            </div>
-        </div>
+      </div>
          
   </section>
 

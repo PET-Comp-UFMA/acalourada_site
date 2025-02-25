@@ -1,0 +1,85 @@
+/*--------------------------------------------------------------
+# Blocos de informacoes
+--------------------------------------------------------------*/
+
+.schedule-day-title{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+    color: #1B100A;
+    font-weight: 600;
+
+    & h2{
+        font-size: 2.75rem;
+    }
+    & h3{
+        font-size: 1.5rem;
+    }
+
+}
+
+#schedule .infos {
+  border-bottom: 1px solid #c0cefa;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  transition: background-color ease-in-out 0.3s;
+  & time {
+    padding-left: 25px;
+    padding-right: 35px;
+    color: rgb(0, 0, 0);
+  }
+  & img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  & p {
+    padding-left: 35px;
+    font-style: italic;
+    color: #152b79;
+    margin-bottom: 0;
+  }
+  & h4 {
+    padding-left: 35px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+}
+
+#schedule .infos:hover {
+  background-color: #fff;
+}
+
+#schedule .schedule-item .speaker {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+#schedule .schedule-item h4 span {
+  font-style: italic;
+  color: #19328e;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.schedule-subtitle {
+  font-size: 25px;
+  font-weight: 500;
+  color: #51a2a6;
+}
+
+/*-------------------Responsividade-------------------*/
+
+@media (max-width: 767px) {
+  #schedule .nav-tabs a {
+    padding: 8px 50px;
+  }
+}
