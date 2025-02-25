@@ -100,7 +100,6 @@ width: 68%;
 .wrapper{
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 
 div.body-content{

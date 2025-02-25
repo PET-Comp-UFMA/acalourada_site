@@ -6,7 +6,7 @@
                     id="img-esq-1"></a>
         </div>
         <div>
-            <a href="index.php"><img src="../img/banner2020.png" class="img-fluid" id="img-centro"></a>
+            <a href="index.php"><img src="img/banner2020.png" class="img-fluid" id="img-centro"></a>
         </div>
         <div>
             <a href="https://portalpadrao.ufma.br/site" target="_blank"><img src="../img/supporters/1.png" alt=""
@@ -63,25 +63,25 @@
                         <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown"
                             role="button" aria-haspopup="true" aria-expanded="false">Versões</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="index.php">2025.1</a>
+                            <a class="dropdown-item" href="/acalourada_site/index.php">2025.1</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="2024.2/index.php">2024.2</a>
+                            <a class="dropdown-item" href="/acalourada_site/2024.2/index.php">2024.2</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="2024.1/index.php">2024.1</a>
+                            <a class="dropdown-item" href="/acalourada_site/2024.1/index.php">2024.1</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="2023.2/index.php">2023.2</a>
+                            <a class="dropdown-item" href="/acalourada_site/2023.2/index.php">2023.2</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="2023.1/index.php">2023.1</a>
+                            <a class="dropdown-item" href="/acalourada_site/2023.1/index.php">2023.1</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="2022.2/index.php">2022.2</a>
+                            <a class="dropdown-item" href="/acalourada_site/2022.2/index.php">2022.2</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="2022.1/index.php">2022.1</a>
+                            <a class="dropdown-item" href="/acalourada_site/2022.1/index.php">2022.1</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="2021.2/index.php">2021.2</a>
+                            <a class="dropdown-item" href="/acalourada_site/2021.2/index.php">2021.2</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="2021.1/index.php">2021.1</a>
+                            <a class="dropdown-item" href="/acalourada_site/2021.1/index.php">2021.1</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="2020.2/index.php">2020.2</a>
+                            <a class="dropdown-item" href="/acalourada_site/2020.2/index.php">2020.2</a>
                         </div>
                         </a>
                     </li>
@@ -90,3 +90,4 @@
             <!-- #nav-menu-container -->
         </div>
     </header>
+</div>

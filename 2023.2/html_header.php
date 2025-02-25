@@ -34,7 +34,7 @@
     <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Main Stylesheet File -->
-    <link href="../css/style(anosAnterioes).css" rel="stylesheet">
+    <link href="../css/style(anosAnteriores).css" rel="stylesheet">
     <link href="../css/custom-style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
