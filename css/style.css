@@ -19,7 +19,7 @@
 /*Banner*/
 
 .banner {
-  padding-top: 15px;
+  padding-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -449,7 +449,7 @@ h6 {
   right: 0;
   top: 0;
   z-index: 999;
-  margin: 0px 15px 0 0;
+  margin: 10px 10px 0 0;
   border: 0;
   background: none;
   font-size: 24px;
@@ -457,21 +457,6 @@ h6 {
   transition: all 0.4s;
   outline: none;
   cursor: pointer;
-}
-
-#mobile-nav-toggle i {
-  padding-top: 1px;
-  padding-bottom: 2px;
-  color: rgb(0, 5, 44);
-  background-color: white;
-  justify-content: center;
-  right: 22px;
-  width: 27px;
-  border-radius: 50%;
-}
-
-#mobile-nav-toggle i:hover {
-  color: rgb(0, 5, 44);
 }
 
 /* Mobile Nav Styling */
@@ -1787,6 +1772,13 @@ th {
     transition: all 0.5s;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   }
+  #header.header-scrolled,
+  #header.header-fixed {
+    background: white;
+    height: 3px;
+    transition: all 0.5s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /*sombra do menu de navegação*/
+  }
 
   #nav-menu-container {
     display: none;
@@ -1912,9 +1904,22 @@ th {
     justify-content: center;
     margin: 0 auto;
   }
+  .banner {
+    width: 90%;
+  }
+  #img-dir {
+    width: 45%;
+  }
+  #img-centro {
+    width: 100%;
+  }
+  #img-esq {
+    width: 45%;
+  }
+
 }
 
-@media (max-width:350px){
+@media (max-width:380px){
   
   #about h2{
     font-size: 30px;
@@ -1944,6 +1949,9 @@ th {
   #intro-2 p{
     font-size: 14px;
   }
+  #mobile-nav-toggle {
+    margin: 6px 8px 0 0;
+}
 }
 .map-responsive {
   overflow: hidden;
