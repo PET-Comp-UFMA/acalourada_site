@@ -43,21 +43,30 @@ require_once('header.php');
 
                 <div class="infos">
                     <time>10:30-12:00</time>
-                    <img src="img/speakers/DEINF.png" alt="">
+                    <img src="img/speakers/lucho.jpg" alt="">
                     <div class="sub-infos">
-                        <h4>Apresentação do Curso</h4>
-                        <p>Apresentador(a): Prof. Antônio de Abreu<br>Local: A definir</p>
+                        <h4>Palestra SBC e Dexters</h4>
+                        <p>Apresentador(a): Prof. Luis Rivero<br>Local: A definir</p>
                     </div>
                 </div>
 
                 <h3 class="schedule-day-title">TARDE</h3>
 
                 <div class="infos">
-                    <time>14:00-16:00</time>
-                    <img src="img/favicon-v1/logo-acalourada.svg" alt="">
+                    <time>14:00-15:00</time>
+                    <img src="img/speakers/daComp.jpeg" alt="">
                     <div class="sub-infos">
-                        <h4>Apresentação NCA e Palestra</h4>
-                        <p>Apresentador(a): A definir<br>Local: A definir</p>
+                        <h4>Apresentação do DAComp</h4>
+                        <p>Apresentadores: DAComp<br>Local: A definir</p>
+                    </div>
+                </div>
+
+                <div class="infos">
+                    <time>15:00-16:00</time>
+                    <img src="img/speakers/lorde.png" alt="">
+                    <div class="sub-infos">
+                        <h4>Apresentação da Atlética</h4>
+                        <p>Apresentador(a): Mylady<br>Local: A definir</p>
                     </div>
                 </div>
 
@@ -76,29 +85,20 @@ require_once('header.php');
                 <h3 class="schedule-day-title">MANHÃ</h3>
 
                 <div class="infos">
-                    <time>09:00-09:30</time>
-                    <img src="img/labs/dexters.png" alt="">
-                    <div class="sub-infos">
-                        <h4>Dexters</h4>
-                        <p>Apresentador(a): Prof. Luis Rivero<br>Local: A definir</p>
-                    </div>
-                </div>
-
-                <div class="infos">
-                    <time>09:30-10:00</time>
-                    <img src="img/speakers/lucho.jpg" alt="">
-                    <div class="sub-infos">
-                        <h4>Palestra SBC</h4>
-                        <p>Apresentador(a): Prof. Luis Rivero<br>Local: A definir</p>
-                    </div>
-                </div>
-
-                <div class="infos">
-                    <time>10:00-12:00</time>
+                    <time>09:00-10:30</time>
                     <img src="img/speakers/pet.jpg" alt="">
                     <div class="sub-infos">
-                        <h4>Minicurso de Programação em Blocos</h4>
-                        <p>Apresentador(a): Heloísa<br>Local: A definir</p>
+                        <h4>Minicurso Lógica de Programação</h4>
+                        <p>Apresentador(a): José Guilherme e Pedro Artur<br>Local: A definir</p>
+                    </div>
+                </div>
+
+                <div class="infos">
+                    <time>10:30-12:00</time>
+                    <img src="img/speakers/DEINF.png" alt="">
+                    <div class="sub-infos">
+                        <h4>Apresentação do Curso</h4>
+                        <p>Apresentador(a): Coordenação<br>Local: A definir</p>
                     </div>
                 </div>
 
@@ -107,10 +107,10 @@ require_once('header.php');
                 
                 <div class="infos">
                     <time>14:00-16:00</time>
-                    <img src="img/speakers/pet.jpg" alt="">
+                    <img src="img/favicon-v1/logo-acalourada.svg" alt="">
                     <div class="sub-infos">
-                        <h4>Mesa Redonda com Egressos</h4>
-                        <p>Apresentador(a): Francisco<br>Local: A definir</p>
+                        <h4>Apresentação NCA e Palestra</h4>
+                        <p>Apresentador(a): A definir<br>Local: A definir</p>
                     </div>
                 </div>
 
@@ -130,10 +130,10 @@ require_once('header.php');
                
                 <div class="infos">
                     <time>08:30-09:00</time>
-                    <img src="img/labs/telemidia.png" alt="">
+                    <img src="img/labs/inovtec.png" alt="">
                     <div class="sub-infos">
-                        <h4>TeleMídia</h4>
-                        <p>Apresentador(a): A definir<br>Local: TeleMídia</p>
+                        <h4>Inovtec</h4>
+                        <p>Apresentador(a): A definir<br>Local: Inovtec</p>
                     </div>
                 </div>
 
@@ -166,24 +166,42 @@ require_once('header.php');
 
                 <div class="infos">
                     <time>10:30-11:00</time>
-                    <img src="img/labs/inovtec.png" alt="">
-                    <div class="sub-infos">
-                        <h4>Inovtec</h4>
-                        <p>Apresentador(a): A definir<br>Local: Inovtec</p>
-                    </div>
-                </div>
-
-                <div class="infos">
-                    <time>11:00-12:00</time>
                     <img src="img/labs/viplab.png" alt="">
                     <div class="sub-infos">
-                        <h4>VipLab</h4>
+                        <h4>VipLab (Pós)</h4>
                         <p>Apresentador(a): A definir<br>Local: VipLab</p>
                     </div>
                 </div>
 
                 <div class="infos">
+                    <time>11:00-11:30</time>
+                    <img src="img/labs/telemidia.png" alt="">
+                    <div class="sub-infos">
+                        <h4>TeleMídia</h4>
+                        <p>Apresentador(a): A definir<br>Local: TeleMídia</p>
+                    </div>
+                </div>
+
+                <div class="infos">
+                    <time>11:30-12:00</time>
+                    <img src="img/labs/modal.png" alt="">
+                    <div class="sub-infos">
+                        <h4>Modal</h4>
+                        <p>Apresentador(a): A definir<br>Local: Modal</p>
+                    </div>
+                </div>
+
+                <div class="infos">
                     <time>12:00-12:30</time>
+                    <img src="img/labs/viplab.png" alt="">
+                    <div class="sub-infos">
+                        <h4>VipLab (DEINF)</h4>
+                        <p>Apresentador(a): A definir<br>Local: Modal</p>
+                    </div>
+                </div>
+
+                <div class="infos">
+                    <time>12:30-13:00</time>
                     <img src="img/labs/lint.png" alt="">
                     <div class="sub-infos">
                         <h4>Lint</h4>
@@ -194,32 +212,23 @@ require_once('header.php');
                 <h3 class="schedule-day-title">TARDE</h3>
 
                 <div class="infos">
-                    <time>14:00-15:00</time>
-                    <img src="img/speakers/daComp.jpeg" alt="">
+                    <time>14:00-16:00</time>
+                    <img src="img/speakers/pet.jpg" alt="">
                     <div class="sub-infos">
-                        <h4>Apresentação do DAComp</h4>
-                        <p>Apresentadores: DAComp<br>Local: A definir</p>
+                        <h4>Mesa Redonda com Egressos</h4>
+                        <p>Apresentadores: A definir<br>Local: A definir</p>
                     </div>
                 </div>
 
                 <div class="infos">
-                    <time>15:00-15:30</time>
-                    <img src="img/speakers/lorde.png" alt="">
-                    <div class="sub-infos">
-                        <h4>Apresentação da Atlética</h4>
-                        <p>Apresentador(a): Mylady<br>Local: A definir</p>
-                    </div>
-                </div>
-
-                <div class="infos">
-                    <time>15:30-17:30</time>
+                    <time>16:00-17:30</time>
                     <img src="img/speakers/pet.jpg" alt="">
                     <div class="sub-infos">
                         <h4>Dinâmica de Jogos</h4>
                         <p>Apresentador(a): PETComp<br>Local: A definir</p>
                     </div>
                 </div>
-                <!-- -->
+
             </div>
         </div>
     </div>
