@@ -1977,17 +1977,22 @@ th {
 }
 
 .swiper {
-  width: 60vw;
+  width: 48rem;
+  height: 24rem;
+  object-fit: cover;
 }
 
 .swiper-slide {
   background-color: #000;
+  width: 48rem;
+  height: 24rem;
+  object-fit: cover;
 }
 
 .swiper-slide img {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 48rem;
+  height: 24rem;
   object-fit: cover;
 }
 
