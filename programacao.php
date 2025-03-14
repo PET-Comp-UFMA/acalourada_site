@@ -107,7 +107,7 @@ require_once('header.php');
                 
                 <div class="infos">
                     <time>14:00-16:00</time>
-                    <img src="img/favicon-v1/logo-acalourada.svg" alt="">
+                    <img src="img/speakers/nca.jpeg" alt="">
                     <div class="sub-infos">
                         <h4>Apresentação NCA e Palestra</h4>
                         <p>Apresentador(a): A definir<br>Local: A definir</p>
