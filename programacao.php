@@ -24,58 +24,59 @@ require_once('header.php');
                 <h3 class="schedule-day-title">MANHÃ</h3>
                 
                 <div class="infos">
-                    <time>09:00-09:30</time>
-                    <img src="img/speakers/pet.jpg" alt="">
+                    <time>08:30-10:30</time>
+                    <img src="img/speakers/lucho.jpg" alt="">
                     <div class="sub-infos">
-                        <h4>Boas Vindas + Apresentação do PETComp</h4>
-                        <p>Apresentador(a): Anderson<br>Local: A definir</p>
+                        <h4>Boas Vindas + PETComp + SBC + Dexters</h4>
+                        <p>Apresentador(a): Prof. Luis Rivero<br>Local: Núcleo de Computação Aplicada (NCA)</p>
                     </div>
                 </div>
 
-                <div class="infos">
+                <!-- <div class="infos">
                     <time>09:30-10:30</time>
                     <img src="img/speakers/pet.jpg" alt="">
                     <div class="sub-infos">
                         <h4>Dinâmica de Apresentação</h4>
                         <p>Apresentador(a): Anderson<br>Local: A definir</p>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="infos">
                     <time>10:30-12:00</time>
-                    <img src="img/speakers/lucho.jpg" alt="">
+                    <img src="img/speakers/lisle.jpg" alt="">
                     <div class="sub-infos">
-                        <h4>Palestra SBC e Dexters</h4>
-                        <p>Apresentador(a): Prof. Luis Rivero<br>Local: A definir</p>
+                        <h4>Entre Pixels e Pacientes: </h4>
+                        <h4>Uma Jornada Acadêmica pela Visão Computacional Médica</h4>
+                        <p>Apresentador(a): Lisle<br>Local: Núcleo de Computação Aplicada (NCA)</p>
                     </div>
                 </div>
 
                 <h3 class="schedule-day-title">TARDE</h3>
 
                 <div class="infos">
-                    <time>14:00-15:00</time>
-                    <img src="img/speakers/daComp.jpeg" alt="">
-                    <div class="sub-infos">
-                        <h4>Apresentação do DAComp</h4>
-                        <p>Apresentadores: DAComp<br>Local: A definir</p>
-                    </div>
-                </div>
-
-                <div class="infos">
-                    <time>15:00-16:00</time>
-                    <img src="img/speakers/lorde.png" alt="">
-                    <div class="sub-infos">
-                        <h4>Apresentação da Atlética</h4>
-                        <p>Apresentador(a): Mylady<br>Local: A definir</p>
-                    </div>
-                </div>
-
-                <div class="infos">
-                    <time>16:00-16:30</time>
+                    <time>14:00-14:30</time>
                     <img src="img/speakers/labi.jpeg" alt="">
                     <div class="sub-infos">
                         <h4>Apresentação da Liga de Bioinformática</h4>
-                        <p>Apresentador(a): LABI<br>Local: A definir</p>
+                        <p>Apresentador(a): LABI<br>Local: Auditório 1 do CCET</p>
+                    </div>
+                </div>
+
+                <div class="infos">
+                    <time>14:30-15:30</time>
+                    <img src="img/speakers/daComp.jpeg" alt="">
+                    <div class="sub-infos">
+                        <h4>Apresentação do DAComp</h4>
+                        <p>Apresentadores: DAComp<br>Local: Auditório 1 do CCET</p>
+                    </div>
+                </div>
+
+                <div class="infos">
+                    <time>15:30-16:30</time>
+                    <img src="img/speakers/lorde.png" alt="">
+                    <div class="sub-infos">
+                        <h4>Apresentação da Atlética</h4>
+                        <p>Apresentador(a): Mylady<br>Local: Auditório 1 do CCET</p>
                     </div>
                 </div>
 
@@ -89,7 +90,7 @@ require_once('header.php');
                     <img src="img/speakers/pet.jpg" alt="">
                     <div class="sub-infos">
                         <h4>Minicurso Lógica de Programação</h4>
-                        <p>Apresentador(a): José Guilherme e Pedro Artur<br>Local: A definir</p>
+                        <p>Apresentador(a): José Guilherme e Pedro Artur<br>Local: Auditório 1 do CCET</p>
                     </div>
                 </div>
 
@@ -98,7 +99,7 @@ require_once('header.php');
                     <img src="img/speakers/DEINF.png" alt="">
                     <div class="sub-infos">
                         <h4>Apresentação do Curso</h4>
-                        <p>Apresentador(a): Coordenação<br>Local: A definir</p>
+                        <p>Apresentador(a): Coordenação<br>Local: Auditório 1 do CCET</p>
                     </div>
                 </div>
 
@@ -110,7 +111,7 @@ require_once('header.php');
                     <img src="img/speakers/nca.jpeg" alt="">
                     <div class="sub-infos">
                         <h4>Apresentação NCA e Palestra</h4>
-                        <p>Apresentador(a): A definir<br>Local: A definir</p>
+                        <p>Apresentador(a): Prof. Geraldo Braz<br>Local: Núcleo de Computação Aplicada (NCA)</p>
                     </div>
                 </div>
 
@@ -119,7 +120,7 @@ require_once('header.php');
                     <img src="img/speakers/simara.png" alt="">
                     <div class="sub-infos">
                         <h4>Palestra Mulheres na Computação</h4>
-                        <p>Apresentador(a): Profa. Simara Vieira<br>Local: A definir</p>
+                        <p>Apresentador(a): Profa. Simara Vieira<br>Local: Núcleo de Computação Aplicada (NCA)</p>
                     </div>
                 </div>
 
@@ -196,7 +197,7 @@ require_once('header.php');
                     <img src="img/labs/viplab.png" alt="">
                     <div class="sub-infos">
                         <h4>VipLab (DEINF)</h4>
-                        <p>Apresentador(a): A definir<br>Local: Modal</p>
+                        <p>Apresentador(a): A definir<br>Local: VipLab</p>
                     </div>
                 </div>
 
@@ -216,7 +217,7 @@ require_once('header.php');
                     <img src="img/speakers/pet.jpg" alt="">
                     <div class="sub-infos">
                         <h4>Mesa Redonda com Egressos</h4>
-                        <p>Apresentadores: A definir<br>Local: A definir</p>
+                        <p>Apresentadores: Wenderson e Ariel<br>Local: Auditório 1 do CCET</p>
                     </div>
                 </div>
 
@@ -225,7 +226,7 @@ require_once('header.php');
                     <img src="img/speakers/pet.jpg" alt="">
                     <div class="sub-infos">
                         <h4>Dinâmica de Jogos</h4>
-                        <p>Apresentador(a): PETComp<br>Local: A definir</p>
+                        <p>Apresentador(a): PETComp<br>Local: Auditório 1 do CCET</p>
                     </div>
                 </div>
 
