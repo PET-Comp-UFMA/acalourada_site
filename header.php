@@ -28,7 +28,9 @@
                         <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown"
                             role="button" aria-haspopup="true" aria-expanded="false">Versões</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="index.php">2025.1</a>
+                                <a class="dropdown-item" href="index.php">2025.2</a>
+                                <div class="dropdown-divider" ></div>
+                                <a class="dropdown-item" href="2025.1/index.php">2025.1</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="2024.2/index.php">2024.2</a>
                                 <div class="dropdown-divider"></div>
