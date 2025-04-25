@@ -35,22 +35,6 @@
         <div class="swiper-pagination"></div>
     </div>
     <div class="section-header">
-        <h2>DIA 2</h2>
-    </div>
-    <div class="swiper carousel">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <img src="../img/registros/2024.1/dia2/1.JPEG" alt="">
-            </div>
-            <div class="swiper-slide"> 
-                    <img  src="../img/registros/2024.1/dia1/2.jpg" alt="">
-            </div>
-        </div>
-        <button type="button" class="swiper-button-next"></button>
-        <button type="button" class="swiper-button-prev"></button>
-        <div class="swiper-pagination"></div>
-    </div>
-    <div class="section-header">
         <h2>DIA 3</h2>
     </div>
     <div class="swiper carousel">
