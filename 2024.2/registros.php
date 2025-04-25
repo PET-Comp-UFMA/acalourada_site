@@ -8,13 +8,13 @@
 <div class="swiper carousel">
     <div class="swiper-wrapper">
         <div class="swiper-slide">
-            <img src="./img/registros/2024.2/dia1/1.jpg" alt="">
+            <img src="../img/registros/2024.2/dia1/1.jpg" alt="">
         </div>
         <div class="swiper-slide"> 
-                <img  src="./img/registros/2024.2/dia1/2.jpg" alt="">
+                <img  src="../img/registros/2024.2/dia1/2.jpg" alt="">
         </div>
         <div class="swiper-slide"> 
-                <img  src="./img/registros/2024.2/dia1/3.jpg" alt="">
+                <img  src="../img/registros/2024.2/dia1/3.jpg" alt="">
         </div>
     </div>
     <button type="button" class="swiper-button-next"></button>
@@ -27,13 +27,13 @@
 <div class="swiper carousel">
     <div class="swiper-wrapper">
         <div class="swiper-slide">
-            <img src="./img/registros/2024.2/dia2/1.jpg" alt="">
+            <img src="../img/registros/2024.2/dia2/1.jpg" alt="">
         </div>
         <div class="swiper-slide"> 
-                <img  src="./img/registros/2024.2/dia2/2.jpg" alt="">
+                <img  src="../img/registros/2024.2/dia2/2.jpg" alt="">
         </div>
         <div class="swiper-slide"> 
-                <img  src="./img/registros/2024.2/dia2/3.jpg" alt="">
+                <img  src="../img/registros/2024.2/dia2/3.jpg" alt="">
         </div>
     </div>
     <button type="button" class="swiper-button-next"></button>
@@ -46,13 +46,13 @@
 <div class="swiper carousel">
     <div class="swiper-wrapper">
         <div class="swiper-slide">
-            <img src="./img/registros/2024.2/dia3/1.jpg" alt="">
+            <img src="../img/registros/2024.2/dia3/1.jpg" alt="">
         </div>
         <div class="swiper-slide"> 
-                <img  src="./img/registros/2024.2/dia3/2.jpg" alt="">
+                <img  src="../img/registros/2024.2/dia3/2.jpg" alt="">
         </div>
         <div class="swiper-slide"> 
-                <img  src="./img/registros/2024.2/dia3/3.jpg" alt="">
+                <img  src="../img/registros/2024.2/dia3/3.jpg" alt="">
         </div>
     </div>
     <button type="button" class="swiper-button-next"></button>
