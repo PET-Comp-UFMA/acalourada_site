@@ -104,7 +104,7 @@
             </div>
             <div class="swiper-slide">
                 <div class="container-registros">
-                    <img class="container-registros" src="./img/registros/2024.1/dia2/1.jpeg" alt="">
+                    <img class="container-registros" src="./img/registros/2024.1/dia2/1.JPEG" alt="">
                 </div>
             </div>
             <div class="swiper-slide">
