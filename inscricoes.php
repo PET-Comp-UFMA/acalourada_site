@@ -16,7 +16,7 @@ require_once('header.php');
                 <div class="col-lg-9">
                     <ol>
                         <strong>
-                            Inscreva-se no <a href="https://docs.google.com/forms/d/e/1FAIpQLScsAeOyLlcRJvPaGBMROrB8jtxmH3GevGOU5WSUZUpaltvWdw/viewform?usp=header" target="blank">Formulário de
+                            Inscreva-se no <a href="https://forms.gle/RSmA5jorLQf4Mb6a9" target="blank">Formulário de
                             Inscrição</a> a para participar do evento.
                             Acesse o grupo do <a href="https://chat.whatsapp.com/Kq5M5Jqcl908sImjfgh0T1">Whatsapp</a>
                             para ficar por dentro de tudo ou fale conosco pelo email.
@@ -24,7 +24,7 @@ require_once('header.php');
                     </ol>
                 </div>
             </div>
-            <button class="btn-inscricao btn"><a href="https://docs.google.com/forms/d/1Wz-wkYwc-hBCUDbZzVcc9gIiEq2DLg2BXUcCHt4qdbU/edit" target="blank">Inscreva-se</a></button>
+            <button class="btn-inscricao btn"><a href="https://forms.gle/RSmA5jorLQf4Mb6a9" target="blank">Inscreva-se</a></button>
         </div>
     </section>
 </main>

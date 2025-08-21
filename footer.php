@@ -13,6 +13,6 @@
         </div>
     </div>
     <div class="copyright">
-        <strong>Acalourada 2025.1 - PETCOMP</strong>
+        <strong>Acalourada 2025.2 - PETCOMP</strong>
     </div>
 </footer>

@@ -9,9 +9,6 @@
 # General
 --------------------------------------------------------------*/
 
-.eduarda {
-  border: #000;
-}
 .disabled {
   pointer-events: none;
   opacity: 0.5;
