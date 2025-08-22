@@ -34,8 +34,7 @@
     <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Main Stylesheet File -->
-    <link href="../css/style(anosAnteriores).css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/style2025.1.css" rel="stylesheet">
     <link href="../css/custom-style.css" rel="stylesheet">
     <link href="../css/programacao.css" rel="stylesheet">
     <link href="../css/inscricoes.css" rel="stylesheet">

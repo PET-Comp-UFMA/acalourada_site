@@ -224,10 +224,10 @@ require_once('header.php');
 
                 <div class="infos">
                     <time>18:00 - 18:30</time>
-                    <img src="img/labs/modal.png" alt="">
+                    <img src="img/speakers/pet.jpg" alt="">
                     <div class="sub-infos">
                         <h4>Encerramento e Premiação</h4>
-                        <p>Apresentador: Glaubos<br>Local: CCET</p>
+                        <p>Apresentador: Equipe PETComp<br>Local: CCET</p>
                     </div>
                 </div>
 
