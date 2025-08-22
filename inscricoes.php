@@ -24,7 +24,8 @@ require_once('header.php');
                     </ol>
                 </div>
             </div>
-            <button class="btn-inscricao btn"><a href="https://forms.gle/RSmA5jorLQf4Mb6a9" target="blank">Inscreva-se</a></button>
+            <button class="btn-inscricao btn" onclick="window.open('https://forms.gle/RSmA5jorLQf4Mb6a9', '_blank')">Inscreva-se</button>
+
         </div>
     </section>
 </main>
