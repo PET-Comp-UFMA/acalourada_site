@@ -50,8 +50,8 @@
 }
 
 #img-esq {
-  padding-top: 15px;
-  width: 30%;
+  padding-top: 20px;
+  width: 35%;
 }
 
 #img-esq-1 {
@@ -59,7 +59,7 @@
 }
 
 #img-centro {
-  width: 90%;
+  width: 80%;
 }
 
 #img-dir {
@@ -558,7 +558,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro-2 {
   width: 100%;
   height: 90vh;
-  background: url(../img/carrosel/foto-carrosel3.jpg) top center;
+  background: url(../img/carrosel/foto-carrossel.1.1.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -714,7 +714,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 90vh;
-  background: url(../img/carrosel/foto-carrosel2.jpg) top center;
+  background: url(../img/carrosel/foto-carrossel.2.1.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -915,9 +915,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
-
 #about {
-  background: url("../img/imagem_fundo_sobre2.jpg");
+  background: url("../img/imagem_fundo_sobre3.png");
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -1793,7 +1792,7 @@ th {
   }
 
   #intro {
-    background-image: url(../img/carrosel/foto-carrosel1.JPEG);
+    background-image: url("../img/carrosel/foto-carrossel.2.1.jpg");
   }
 
   #intro h1 {
@@ -1976,6 +1975,7 @@ th {
   display: flex;
   justify-content: center;
   margin: auto;
+  padding-bottom: 30px;
 }
 
 .swiper {

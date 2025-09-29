@@ -1,4 +1,5 @@
 .btn-inscricao {
+  background-color: #ffffff;
   text-decoration: none;
   width: 150px;
   font-weight: 510;
@@ -6,9 +7,6 @@
   border-width: 2px;
   border-style: solid;
   margin-bottom: 20px;
-  & a{
-    color: rgb(3, 10, 62);
-  }
 }
 
 .btn-inscricao:hover {
@@ -16,9 +14,6 @@
   font-weight: 510;
   background: rgb(3, 10, 62);
   border-color: rgb(3, 10, 62);
-
-  & a{
-    color: #ffffff;
-  }
+  color: #ffffff;
 
 }

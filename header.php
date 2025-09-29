@@ -1,7 +1,7 @@
 <div class="wrapper">
     <div class="banner">
         <div>
-            <a href="index.php"><img src="img/favicon-v1/logo-acalourada.svg" alt="" class="img-fluid" id="img-esq"></a>
+            <a href="index.php"><img src="img/favicon-v1/icone-acalourada.svg" alt="" class="img-fluid" id="img-esq"></a>
         </div>
         <div>
             <a href="index.php"><img src="img/bannerAcalourada2025_1.svg" class="img-fluid" id="img-centro"></a>
