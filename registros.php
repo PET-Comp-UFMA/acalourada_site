@@ -9,17 +9,17 @@
     <div class="swiper carousel">
         <div class="swiper-wrapper">
             <div class="swiper-slide"> 
-                <img  src="./img/registros/dia1/foto-2025.1.jpg" alt="">
+                <img  src="img/registros/2025.2/dia 1/Foto dia 1 (1).jpg" alt="">
             </div>
             <div class="swiper-slide">
-                <img src="./img/registros/dia1/foto-2024.2.jpg" alt="">
+                <img src="img/registros/2025.2/dia 1/Foto dia 1 (2).jpg" alt="">
             </div>
             <div class="swiper-slide">
-                <img src="./img/registros/dia1/foto-2024.1.jpg" alt="">
+                <img src="img/registros/2025.2/dia 1/Foto dia 1 (3).jpg" alt="">
             </div>
             <div class="swiper-slide">
                 <div class="container-registros">
-                    <img src="./img/registros/dia1/foto-2023.2.jpeg" alt="">
+                    <img src="img/registros/2025.2/dia 1/Foto dia 1 (4).jpg" alt="">
                 </div>
             </div>
 
@@ -94,22 +94,17 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide"> 
                 <div class="container-registros">
-                    <img class="container-registros" src="./img/registros/2025.1/dia2/foto9.jpg" alt="">
+                    <img class="container-registros" src="img/registros/2025.2/dia 2/foto dia 2 (1).jpg" alt="">
                 </div>
             </div>
             <div class="swiper-slide"> 
                 <div class="container-registros">
-                    <img class="container-registros" src="./img/registros/2024.2/dia2/2.jpg" alt="">
+                    <img class="container-registros" src="img/registros/2025.2/dia 2/foto dia 2 (2).jpg" alt="">
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="container-registros">
-                    <img class="container-registros" src="./img/registros/2024.1/dia2/1.JPEG" alt="">
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="container-registros">
-                    <img class="container-registros" src="./img/registros/2023.2/dia2/Foto19.jpeg" alt="">
+                    <img class="container-registros" src="img/registros/2025.2/dia 2/foto dia 2 (3).jpg" alt="">
                 </div>
             </div>
 
@@ -146,32 +141,32 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide"> 
                 <div class="container-registros">
-                    <img class="container-registros" src="./img/registros/2025.1/dia3/foto1.jpg" alt="">
+                    <img class="container-registros" src="img/registros/2025.2/dia 3/fotos dia 3 (1).jpg" alt="">
                 </div>
             </div>
             <div class="swiper-slide"> 
                 <div class="container-registros">
-                    <img class="container-registros" src="./img/registros/2025.1/dia3/foto6.jpg" alt="">
+                    <img class="container-registros" src="img/registros/2025.2/dia 3/fotos dia 3 (2).jpg" alt="">
                 </div>
             </div>
             <div class="swiper-slide"> 
                 <div class="container-registros">
-                    <img class="container-registros" src="./img/registros/2024.2/dia3/3.jpg" alt="">
+                    <img class="container-registros" src="img/registros/2025.2/dia 3/fotos dia 3 (3).jpg" alt="">
                 </div>
             </div>
             <div class="swiper-slide"> 
                 <div class="container-registros">
-                    <img class="container-registros" src="./img/registros/2024.1/dia3/2.jpeg" alt="">
+                    <img class="container-registros" src="img/registros/2025.2/dia 3/fotos dia 3 (4).jpg" alt="">
                 </div>
             </div>
             <div class="swiper-slide"> 
                 <div class="container-registros">
-                    <img class="container-registros" src="./img/registros/2023.2/dia3/Foto15.jpeg" alt="">
+                    <img class="container-registros" src="img/registros/2025.2/dia 3/fotos dia 3 (5).jpg" alt="">
                 </div>
             </div>
             <div class="swiper-slide"> 
                 <div class="container-registros">
-                    <img class="container-registros" src="./img/registros/2023.2/dia3/Foto5.jpeg" alt="">
+                    <img class="container-registros" src="img/registros/2025.2/dia 3/fotos dia 3 (6).jpg" alt="">
                 </div>
             </div>
             <!--
