@@ -1820,6 +1820,14 @@ th {
 }
 
 @media (max-width: 768px) {
+  .swiper {
+    height: 18rem;  /* altura menor para celulares */
+  }
+
+  .swiper-slide img {
+    height: 100%;   /* preenche o slide */
+  }
+
   #subscribe input {
     min-width: 400px;
   }
@@ -1881,6 +1889,11 @@ th {
 }
 
 @media (max-width: 480px) {
+  .swiper {
+    height: 14rem;
+  }
+
+
   #schedule .nav-tabs a {
     padding: 8px 30px;
   }
@@ -1978,24 +1991,27 @@ th {
   padding-bottom: 30px;
 }
 
+
 .swiper {
-  width: 48rem;
-  height: 24rem;
-  object-fit: cover;
+  width: 100%;
+  max-width: 48rem;
 }
 
 .swiper-slide {
-  background-color: #000;
-  width: 48rem;
-  height: 24rem;
-  object-fit: cover;
+  position: relative;
+  width: 100%;
+  padding-top: 50%; /* altura = 50% da largura → proporção 2:1 */
+  background-color: #000; /* opcional */
 }
 
 .swiper-slide img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* mantém a proporção e preenche o slide */
   display: block;
-  width: 48rem;
-  height: 24rem;
-  object-fit: cover;
 }
 
 .swiper button {

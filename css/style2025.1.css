@@ -2005,7 +2005,7 @@ th {
   transition: opacity 0.25s;
 }
 
-.swiper button:hoover {
+.swiper button:hover {
   opacity: 0.8;
 }
 
