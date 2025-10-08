@@ -190,6 +190,11 @@ h6 {
   margin-bottom: 10px;
 }
 
+.section-header h2 {
+  font-size: clamp(18px, 5vw, 36px);
+  line-height: 1.1;
+}
+
 .section-header p {
   text-align: center;
   padding: 0;
@@ -1734,6 +1739,7 @@ th {
   #subscribe input {
     min-width: 400px;
   }
+  
 }
 
 @media (min-width: 1024px) {
@@ -1820,6 +1826,10 @@ th {
 }
 
 @media (max-width: 768px) {
+  .section-header h2 {
+    font-size: 28px;
+  }
+
   .swiper {
     height: 18rem;  /* altura menor para celulares */
   }
@@ -1889,6 +1899,10 @@ th {
 }
 
 @media (max-width: 480px) {
+  .section-header h2 {
+    font-size: 22px;
+  }
+
   .swiper {
     height: 14rem;
   }
@@ -1990,7 +2004,6 @@ th {
   margin: auto;
   padding-bottom: 30px;
 }
-
 
 .swiper {
   width: 100%;
