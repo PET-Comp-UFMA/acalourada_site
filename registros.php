@@ -255,6 +255,7 @@
         <button type="button" class="swiper-button-prev"></button>
         <div class="swiper-pagination"></div>
     </div>
+    <br>
 
 
 <?php 
