@@ -18,7 +18,7 @@ require_once('header.php');
         <div class="carousel-inner">
             <div id="intro" class="carousel-item active">
                 <div class="intro-container wow fadeIn">
-                    <h1 class="mb-4 pb-0">Acalourada de<br> Ciência da Computação<br>PETCOMP - UUUUUFMA<br> </h1>
+                    <h1 class="mb-4 pb-0">Acalourada de<br> Ciência da Computação<br>PETCOMP - UFMA<br> </h1>
                     <p class="mb-4 pb-0">Deseja participar?</p>
 
                     <!--<a href="https://youtu.be/hPt2zWgXKiQ" class="venobox play-btn mb-4 vbox-item" data-vbtype="video" data-autoplay="true"></a>-->
@@ -88,7 +88,7 @@ require_once('header.php');
                 <div class="col-lg-2 col-md-4 col-xs-6">
                     <div class="supporter-logo">
                         <a href="https://portais.ufma.br/PortalUfma/index.jsf" target="_blank">
-                            <img src="img/supporters/logo-ufma.png" class="img-fluid" alt="">
+                            <img src="../img/supporters/logo-ufma.png" class="img-fluid" alt="">
                         </a>
                     </div>
                 </div>
@@ -96,7 +96,7 @@ require_once('header.php');
                 <div class="col-lg-2 col-md-4 col-xs-6">
                     <div class="supporter-logo">
                         <a href="http://www.deinf.ufma.br/" target="_blank">
-                            <img src="img/supporters/3.png" class="img-fluid" alt="">
+                            <img src="../img/supporters/3.png" class="img-fluid" alt="">
                         </a>
                     </div>
                 </div>
@@ -104,7 +104,7 @@ require_once('header.php');
                 <div class="col-lg-2 col-md-4 col-xs-6">
                     <div class="supporter-logo">
                         <a href="https://petcompufma.org/" target="_blank">
-                            <img src="img/supporters/5.png" class="img-fluid" alt="">
+                            <img src="../img/supporters/5.png" class="img-fluid" alt="">
                         </a>
                     </div>
                 </div>

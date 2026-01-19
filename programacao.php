@@ -11,15 +11,15 @@ require_once('header.php');
 <section id="schedule" class="section-with-bg">
     <div class="container wow fadeInUp">
         <div class="section-header">
-            <h2>PROGRAMAÇÃO DO EVENTO</h2>
+            <h2>Em breve, nossa programação estará disponível. Fique de olho nas nossas redes sociais.</h2>
         </div>
 
-        <!--  <h3 class="sub-heading">Organização - PETComp</h3>-->
+        <!--  <h3 class="sub-heading">Organização - PETComp</h3> (Não Retirar)-->
 
         <div class="tab-content row justify-content-center">
 
             <!-- Schdule Day 1 -->
-            <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+            <!--<div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
                 <h2 class="schedule-day-title">Dia 24/09</h2>
                 <h3 class="schedule-day-title">MANHÃ</h3>
                 
@@ -77,11 +77,11 @@ require_once('header.php');
                         <h4>Apresentação da Atlética</h4>
                         <p>Apresentador(a): Equipe da Atlética <br>Local: Auditório 1 (CCET)</p>
                     </div>
-                </div>
+                </div>-->
 
                  <!-- Schdule Day 2 -->
 
-                <h2 class="schedule-day-title">Dia 25/09</h2>
+                <!--<h2 class="schedule-day-title">Dia 25/09</h2>
                 <h3 class="schedule-day-title">MANHÃ</h3>
 
                 <div class="infos">
@@ -121,12 +121,12 @@ require_once('header.php');
                         <h4>apresentação NCA e Palestra</h4>
                         <p>Apresentador(a): Prof. Anselmo Paiva<br>Local: Auditório do NCA</p>
                     </div>
-                </div>
+                </div>-->
 
 
                  <!-- Schdule Day 3  -->
-                 <h2 class="schedule-day-title">Dia 26/09</h2>
-                <h3 class="schedule-day-title">MANHÃ</h3>
+                <!-- <h2 class="schedule-day-title">Dia 26/09</h2>
+                <h3 class="schedule-day-title">MANHÃ</h3>-->
                
                 <!--
                 <div class="infos">
@@ -138,7 +138,7 @@ require_once('header.php');
                     </div>
                 </div>-->
 
-                <div class="infos">
+                <!--<div class="infos">
                     <time>09:20-09:50</time>
                     <img src="img/labs/viplab.png" alt="">
                     <div class="sub-infos">
@@ -184,7 +184,7 @@ require_once('header.php');
                         <h4>LINT</h4>
                         <p>Apresentador: Tiago Bonini<br>Local: CCET</p>
                     </div>
-                </div>
+                </div>-->
                 <!--
                 <div class="infos">
                     <time>14:40-15:10</time>
@@ -195,7 +195,7 @@ require_once('header.php');
                     </div>
                 </div>-->
 
-                <div class="infos">
+                <!--<div class="infos">
                     <time>16:00-18:00</time>
                     <img src="img/speakers/pet.jpg" alt="">
                     <div class="sub-infos">
@@ -211,7 +211,7 @@ require_once('header.php');
                         <h4>Encerramento e Premiação</h4>
                         <p>Apresentador: Equipe PETComp<br>Local: Auditório 1 (CCET)</p>
                     </div>
-                </div>
+                </div>-->
 
                
 

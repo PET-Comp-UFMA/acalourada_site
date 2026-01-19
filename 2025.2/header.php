@@ -1,13 +1,13 @@
 <div class="wrapper">
     <div class="banner">
         <div>
-            <a href="index.php"><img src="img/favicon-v1/icone-acalourada.svg" alt="" class="img-fluid" id="img-esq"></a>
+            <a href="index.php"><img src="../img/favicon-v1/icone-acalourada.svg" alt="" class="img-fluid" id="img-esq"></a>
         </div>
         <div>
-            <a href="index.php"><img src="img/bannerAcalourada2025_1.svg" class="img-fluid" id="img-centro"></a>
+            <a href="index.php"><img src="../img/bannerAcalourada2025_1.svg" class="img-fluid" id="img-centro"></a>
         </div>
         <div>
-            <a href="https://portalpadrao.ufma.br/site" target="_blank"><img src="img/supporters/logo-ufma.png" alt=""
+            <a href="https://portalpadrao.ufma.br/site" target="_blank"><img src="../img/supporters/logo-ufma.png" alt=""
                     class="img-fluid" id="img-dir"></a>
         </div>
     </div>
@@ -24,33 +24,9 @@
                     <li><a href="faq.php">FAQ</a></li>
                     <li><a href="registros.php">Registros</a></li>
 
-                    <li class="dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown"
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown"
                             role="button" aria-haspopup="true" aria-expanded="false">Versões</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="index.php">2025.2</a>
-                                <div class="dropdown-divider" ></div>
-                                <a class="dropdown-item" href="2025.1/index.php">2025.1</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="2024.2/index.php">2024.2</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="2024.1/index.php">2024.1</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="2023.2/index.php">2023.2</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="2023.1/index.php">2023.1</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="2022.2/index.php">2022.2</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="2022.1/index.php">2022.1</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="2021.2/index.php">2021.2</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="2021.1/index.php">2021.1</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="2020.2/index.php">2020.2</a>
-                            </div>
-                    </li>
+                    <?php include '../dropdown_versoes.php'; ?>
                 </ul>
             </nav>
             <!-- #nav-menu-container -->

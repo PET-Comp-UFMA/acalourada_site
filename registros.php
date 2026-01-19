@@ -4,7 +4,7 @@
 ?>
 
     <div class="section-header">
-        <h2>DIA 1</h2>
+        <!--<h2>DIA 1</h2>
     </div>
     <div class="swiper carousel">
         <div class="swiper-wrapper">
@@ -21,7 +21,7 @@
                 <div class="container-registros">
                     <img src="img/registros/2025.2/dia 1/Foto dia 1 (4).jpg" alt="">
                 </div>
-            </div>
+            </div>-->
 
             <!-- <div class="swiper-slide">
                 <img src="./img/registros/2023.1/Dia 1/Conspeq (4).jpg" alt="">
@@ -81,7 +81,7 @@
             <div class="swiper-slide">
                 <img src="./img/registros/2023.1/Dia 1/Jogos (11).jpg" alt="">
             </div> -->
-        </div>
+       <!-- </div>
         <button type="button" class="swiper-button-next"></button>
         <button type="button" class="swiper-button-prev"></button>
         <div class="swiper-pagination"></div>
@@ -106,7 +106,7 @@
                 <div class="container-registros">
                     <img class="container-registros" src="img/registros/2025.2/dia 2/foto dia 2 (3).jpg" alt="">
                 </div>
-            </div>
+            </div>-->
 
             <!-- <div class="swiper-slide">
                 <div class="container-registros">
@@ -128,7 +128,7 @@
                     <img class="container-registros" src="./img/registros/2023.1/Dia 2/SBC (2).jpg" alt="">
                 </div>
             </div> -->
-        </div>
+        <!--</div>
         <button type="button" class="swiper-button-next"></button>
         <button type="button" class="swiper-button-prev"></button>
         <div class="swiper-pagination"></div>
@@ -168,7 +168,7 @@
                 <div class="container-registros">
                     <img class="container-registros" src="img/registros/2025.2/dia 3/fotos dia 3 (6).jpg" alt="">
                 </div>
-            </div>
+            </div>-->
             <!--
             <div class="swiper-slide"> 
                 <div class="container-registros">
@@ -250,13 +250,21 @@
                     <img class="container-registros" src="./img/registros/2023.1/Dia 3/Encerramento.jpg" alt="">
                 </div>
             </div> -->
-        </div>
+       <!-- </div>
         <button type="button" class="swiper-button-next"></button>
         <button type="button" class="swiper-button-prev"></button>
         <div class="swiper-pagination"></div>
     </div>
-    <br>
-
+    <br>-->
+            <div class="row justify-content-center">
+                <div class="col-lg-9">
+                    <ol>
+                        <strong>
+                            Em breve,fotos incriveis estarão disponíveis aqui!
+                        </strong>
+                    </ol>
+                </div>
+            </div>
 
 <?php 
     require_once('footer.php');
