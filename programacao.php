@@ -94,7 +94,7 @@ require_once('header.php');
                 </div>
                 <div class="infos">
                     <time>10:00-11:00</time>
-                    <img src="img/logoCocom2.png" alt="">
+                    <img src="img/logo ccia circle.svg" alt="">
                     <div class="sub-infos">
                         <h4>Apresentação da Coordenação do Curso IA</h4>
                         <p>Apresentador(a): Coordenação<br>Local: Auditório da Pós (CCET)</p>
