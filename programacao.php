@@ -86,7 +86,7 @@ require_once('header.php');
 
                 <div class="infos">
                     <time>09:00-10:00</time>
-                    <img src="img/logoCocom2.png" alt="">
+                    <img src="img/cocomSVG.svg" alt="">
                     <div class="sub-infos">
                         <h4>Apresentação da Coordenação do Curso CP</h4>
                         <p>Apresentador(a): Coordenação<br>Local: Auditório da Pós (CCET)</p>
