@@ -54,7 +54,7 @@ require_once('header.php');
 
                 <div class="infos">
                     <time>14:40-15:00</time>
-                    <img src="img/speakers/pet.jpg" alt="">
+                    <img src="img/LAJD.jpeg" alt="">
                     <div class="sub-infos">
                         <h4>Apresentação da LAJD (Liga de Jogos Digitais)</h4>
                         <p>Apresentador(a): A definir<br>Local: Auditório da Pós (CCET)</p>
