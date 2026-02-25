@@ -24,7 +24,7 @@ require_once('header.php');
                     </ol>-->
                     <ol>
                         <strong>
-                            Informações para incrições estarão disponíveis em breve.
+                            Informações para inscrições estarão disponíveis em breve.
                         </strong>
                     </ol>
                 </div>
