@@ -11,7 +11,7 @@ require_once('header.php');
         <div class="section-header">
             <h2>INSCRIÇÕES</h2>
         </div>
-        <div class="text-center">
+         <div class="d-flex justify-content-center align-items-center text-center" style="height:60vh;">
             <div class="row justify-content-center">
                 <div class="col-lg-9">
                     <!--<ol>
@@ -28,6 +28,7 @@ require_once('header.php');
                         </strong>
                     </ol>
                 </div>
+              
             </div>
            <!--<button class="btn-inscricao btn" onclick="window.open('https://forms.gle/RSmA5jorLQf4Mb6a9', '_blank')">Inscreva-se</button>-->
 
