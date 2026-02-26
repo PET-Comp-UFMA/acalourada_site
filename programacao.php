@@ -71,7 +71,7 @@ require_once('header.php');
                 </div>
 
                 <div class="infos">
-                    <time>16:00-16:30</time>
+                    <time>16:00-17:00</time>
                     <img src="img/speakers/lorde.png" alt="">
                     <div class="sub-infos">
                         <h4>Apresentação da Atlética</h4>
@@ -85,28 +85,36 @@ require_once('header.php');
                 <h3 class="schedule-day-title">MANHÃ</h3>
 
                 <div class="infos">
-                    <time>09:00-10:00</time>
-                    <img src="img/cocomSVG.svg" alt="">
+                    <time>09:00-09:30</time>
+                    <img src="img/speakers/Glaubos-Climaco.webp" alt="">
                     <div class="sub-infos">
-                        <h4>Apresentação da Coordenação do Curso CP</h4>
-                        <p>Apresentador(a): Coordenação<br>Local: Auditório da Pós (CCET)</p>
+                        <h4>Apresentação da Coordenação do Núcleo Comum</h4>
+                        <p>Apresentador(a): Prof.Dr. Francisco Glaubos<br>Local: Auditório da Pós (CCET)</p>
                     </div>
                 </div>
                 <div class="infos">
-                    <time>10:00-11:00</time>
+                    <time>09:30-10:00</time>
+                    <img src="img/cocomSVG.svg" alt="">
+                    <div class="sub-infos">
+                        <h4>Apresentação da Coordenação do Curso CP</h4>
+                        <p>Apresentador(a): Prof.Dr. Darlan Quintanilha<br>Local: Auditório da Pós (CCET)</p>
+                    </div>
+                </div>
+                <div class="infos">
+                    <time>10:00-10:30</time>
                     <img src="img/logo ccia circle.svg" alt="">
                     <div class="sub-infos">
                         <h4>Apresentação da Coordenação do Curso IA</h4>
-                        <p>Apresentador(a): Coordenação<br>Local: Auditório da Pós (CCET)</p>
+                        <p>Apresentador(a): Prof.Dr. Tiago Bonini<br>Local: Auditório da Pós (CCET)</p>
                     </div>
                 </div>
 
                 <div class="infos">
-                    <time>11:00-12:00</time>
+                    <time>10:30-11:30</time>
                     <img src="img/speakers/simara.png" alt="">
                     <div class="sub-infos">
                         <h4>Palestra</h4>
-                        <p>Apresentadora:Profa. Simara Vieira <br>Local:Auditório da Pós (CCET)</p>
+                        <p>Apresentadora:Profa.Dra. Simara Vieira <br>Local:Auditório da Pós (CCET)</p>
                     </div>
                 </div>
 
@@ -114,16 +122,16 @@ require_once('header.php');
                 <h3 class="schedule-day-title">TARDE</h3>
                 
                 <div class="infos">
-                    <time>14:00-16:00</time>
+                    <time>14:00-15:00</time>
                     <img src="img/speakers/nca.jpeg" alt="">
                     <div class="sub-infos">
                         <h4>apresentação NCA e Palestra</h4>
-                        <p>Apresentador(a): Prof. Anselmo Paiva<br>Local: Auditório da Pós (CCET)</p>
+                        <p>Apresentador(a): Prof.Dr. Anselmo Paiva<br>Local: Auditório da Pós (CCET)</p>
                     </div>
                 </div>
 
                 <div class="infos">
-                    <time>16:00-18:00</time>
+                    <time>15:00-17:00</time>
                     <img src="img/speakers/pet.jpg" alt="">
                     <div class="sub-infos">
                         <h4>Mesa Redonda com Egressos</h4>
@@ -138,7 +146,7 @@ require_once('header.php');
                
 
                 <div class="infos">
-                    <time>08:30-13:00</time>
+                    <time>08:30-12:00</time>
                     <img src="img/speakers/pet.jpg" alt="">
                     <div class="sub-infos">
                         <h4>Apresentação dos Laboratórios</h4>
@@ -151,7 +159,7 @@ require_once('header.php');
                 <h3 class="schedule-day-title">TARDE</h3>
                 
                 <div class="infos">
-                    <time>14:00-16:00</time>
+                    <time>14:00-15:00</time>
                     <img src="img/speakers/pet.jpg" alt="">
                     <div class="sub-infos">
                         <h4>Apresentação dos Laboratórios</h4>
@@ -159,7 +167,7 @@ require_once('header.php');
                     </div>
                 </div>
                 <div class="infos">
-                    <time>16:00-17:30</time>
+                    <time>15:00-17:30</time>
                     <img src="img/speakers/pet.jpg" alt="">
                     <div class="sub-infos">
                         <h4>Dinâmica de Jogos + Encerramento</h4>
