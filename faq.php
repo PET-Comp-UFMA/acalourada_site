@@ -19,30 +19,8 @@
                     </p>
                 </div>
            
-           <!-- Accordion card -->
-           <div class="card">
-
-            <!-- Card header -->
-            <div class="card-header" role="tab" id="heading13">
-              <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapse13" aria-expanded="true" aria-controls="collapse13">
-                <h5 class="mb-0">
-                  O curso de Ciência da Computação está associado a qual departamento?
-
-
-                </h5>
-                <i class="fa fa-angle-down fa-border fa-pull-right"></i>
-              </a>
-            </div>
-
-            <!-- Card body -->
-            <div id="collapse13" class="collapse show" role="tabpanel" aria-labelledby="heading13" data-parent="#accordionEx">
-              <div class="card-body">
-                <h6>O curso de Ciência da Computação está associado ao Departamento de Informática - DEINF.</h6>
-              </div>
-            </div>
-
-          </div>
-          <!-- Accordion card -->      
+          
+      
 
           <!-- Accordion card -->
           <div class="card">
