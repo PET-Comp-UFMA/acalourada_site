@@ -85,32 +85,16 @@ require_once('header.php');
                 <h3 class="schedule-day-title">MANHÃ</h3>
 
                 <div class="infos">
-                    <time>09:00-09:30</time>
-                    <img src="img/speakers/Glaubos-Climaco.webp" alt="">
+                    <time>08:30-10:30</time>
+                    <img src="img/speakers/pet.jpg" alt="">
                     <div class="sub-infos">
-                        <h4>Apresentação da Coordenação do Núcleo Comum</h4>
-                        <p>Apresentador(a): Prof.Dr. Francisco Glaubos<br>Local: Auditório da Pós (CCET)</p>
-                    </div>
-                </div>
-                <div class="infos">
-                    <time>09:30-10:00</time>
-                    <img src="img/cocomSVG.svg" alt="">
-                    <div class="sub-infos">
-                        <h4>Apresentação da Coordenação do Curso CP</h4>
-                        <p>Apresentador(a): Prof.Dr. Darlan Quintanilha<br>Local: Auditório da Pós (CCET)</p>
-                    </div>
-                </div>
-                <div class="infos">
-                    <time>10:00-10:30</time>
-                    <img src="img/logo ccia circle.svg" alt="">
-                    <div class="sub-infos">
-                        <h4>Apresentação da Coordenação do Curso IA</h4>
-                        <p>Apresentador(a): Prof.Dr. Tiago Bonini<br>Local: Auditório da Pós (CCET)</p>
+                        <h4>Apresentação das Coordenações</h4>
+                        <p>Apresentador(a): Coordenação<br>Local: Auditório da Pós (CCET)</p>
                     </div>
                 </div>
 
                 <div class="infos">
-                    <time>10:30-11:30</time>
+                    <time>10:30-12:00</time>
                     <img src="img/speakers/simara.png" alt="">
                     <div class="sub-infos">
                         <h4>Palestra</h4>
@@ -122,7 +106,7 @@ require_once('header.php');
                 <h3 class="schedule-day-title">TARDE</h3>
                 
                 <div class="infos">
-                    <time>14:00-15:00</time>
+                    <time>14:00-15:30</time>
                     <img src="img/speakers/nca.jpeg" alt="">
                     <div class="sub-infos">
                         <h4>apresentação NCA e Palestra</h4>
@@ -131,7 +115,7 @@ require_once('header.php');
                 </div>
 
                 <div class="infos">
-                    <time>15:00-17:00</time>
+                    <time>15:30-17:30</time>
                     <img src="img/speakers/pet.jpg" alt="">
                     <div class="sub-infos">
                         <h4>Mesa Redonda com Egressos</h4>
@@ -159,7 +143,7 @@ require_once('header.php');
                 <h3 class="schedule-day-title">TARDE</h3>
                 
                 <div class="infos">
-                    <time>14:00-15:00</time>
+                    <time>14:00-15:30</time>
                     <img src="img/speakers/pet.jpg" alt="">
                     <div class="sub-infos">
                         <h4>Apresentação dos Laboratórios</h4>
@@ -167,10 +151,10 @@ require_once('header.php');
                     </div>
                 </div>
                 <div class="infos">
-                    <time>15:00-17:30</time>
+                    <time>15:30-18:00</time>
                     <img src="img/speakers/pet.jpg" alt="">
                     <div class="sub-infos">
-                        <h4>Dinâmica de Jogos + Encerramento</h4>
+                        <h4>Dinâmica PETComp + Premiação</h4>
                         <p>Apresentador: Equipe PETComp<br>Local: Auditório da Pós (CCET)</p>
                     </div>
                 </div>
