@@ -13,7 +13,14 @@
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/venobox/venobox.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
+    <script src="https://unpkg.com/image-map-resizer/dist/imageMapResizer.min.js"></script>
+    <script src="js/imageMapResizer.min.js"></script>
+    <script>
+        window.addEventListener('load', function() {
+        imageMapResize();
+        });
+    </script>
+<script src="js/modal.js"></script>
 
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>

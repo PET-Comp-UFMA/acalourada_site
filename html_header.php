@@ -40,6 +40,7 @@
     <link href="css/programacao.css" rel="stylesheet">
     <link href="css/inscricoes.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    
     />
 </head>
 
