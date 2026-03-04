@@ -11,7 +11,7 @@ require_once('header.php');
         <div class="section-header">
             <h2>INSCRIÇÕES</h2>
         </div>
-         <div class="d-flex justify-content-center align-items-center text-center" style="height:60vh;">
+         <div class="d-flex justify-content-center align-items-center text-center">
             <div class="row justify-content-center">
                 <div class="col-lg-9">
                     <ol>
