@@ -4,13 +4,30 @@
 ?>
 
     <div class="section-header">
-        <!--<h2>DIA 1</h2>
+        <h2>DIA 1</h2>
     </div>
     <div class="swiper carousel">
         <div class="swiper-wrapper">
+            
             <div class="swiper-slide"> 
-                <img  src="img/registros/2025.2/dia 1/Foto dia 1 (1).jpg" alt="">
+                <img  src="img/registros/2026.1/dia 1/Dia_1 (1).jpg" alt="">
             </div>
+            <div class="swiper-slide"> 
+                <img  src="img/registros/2026.1/dia 1/Dia_1 (2).jpg" alt="">
+            </div>
+            <div class="swiper-slide"> 
+                <img  src="img/registros/2026.1/dia 1/Dia_1 (3).jpg" alt="">
+            </div>
+            <div class="swiper-slide"> 
+                <img  src="img/registros/2026.1/dia 1/Dia_1 (4).jpg" alt="">
+            </div>
+            <div class="swiper-slide"> 
+                <img  src="img/registros/2026.1/dia 1/Dia_1 (5).jpg" alt="">
+            </div>
+            <div class="swiper-slide"> 
+                <img  src="img/registros/2026.1/dia 1/Dia_1 (6).jpg" alt="">
+            </div>
+            <!--
             <div class="swiper-slide">
                 <img src="img/registros/2025.2/dia 1/Foto dia 1 (2).jpg" alt="">
             </div>
@@ -21,9 +38,8 @@
                 <div class="container-registros">
                     <img src="img/registros/2025.2/dia 1/Foto dia 1 (4).jpg" alt="">
                 </div>
-            </div>-->
-
-            <!-- <div class="swiper-slide">
+            </div>
+            <div class="swiper-slide">
                 <img src="./img/registros/2023.1/Dia 1/Conspeq (4).jpg" alt="">
             </div>
             <div class="swiper-slide">
@@ -80,8 +96,9 @@
             </div>
             <div class="swiper-slide">
                 <img src="./img/registros/2023.1/Dia 1/Jogos (11).jpg" alt="">
-            </div> -->
-       <!-- </div>
+            </div>
+            -->
+        </div>
         <button type="button" class="swiper-button-next"></button>
         <button type="button" class="swiper-button-prev"></button>
         <div class="swiper-pagination"></div>
@@ -92,12 +109,28 @@
     </div>
     <div class="swiper carousel">
         <div class="swiper-wrapper">
+
             <div class="swiper-slide"> 
                 <div class="container-registros">
-                    <img class="container-registros" src="img/registros/2025.2/dia 2/foto dia 2 (1).jpg" alt="">
+                    <img class="container-registros" src="img/registros/2026.1/dia 2/Dia 2 (1).jpg" alt="">
                 </div>
             </div>
             <div class="swiper-slide"> 
+                <div class="container-registros">
+                    <img class="container-registros" src="img/registros/2026.1/dia 2/Dia 2 (2).jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide"> 
+                <div class="container-registros">
+                    <img class="container-registros" src="img/registros/2026.1/dia 2/Dia 2 (3).jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide"> 
+                <div class="container-registros">
+                    <img class="container-registros" src="img/registros/2026.1/dia 2/Dia 2 (4).jpg" alt="">
+                </div>
+            </div>
+            <!-- <div class="swiper-slide"> 
                 <div class="container-registros">
                     <img class="container-registros" src="img/registros/2025.2/dia 2/foto dia 2 (2).jpg" alt="">
                 </div>
@@ -106,9 +139,8 @@
                 <div class="container-registros">
                     <img class="container-registros" src="img/registros/2025.2/dia 2/foto dia 2 (3).jpg" alt="">
                 </div>
-            </div>-->
-
-            <!-- <div class="swiper-slide">
+            </div>
+            <div class="swiper-slide">
                 <div class="container-registros">
                     <img class="container-registros" src="./img/registros/2023.1/Dia 2/Palestra (1).jpg" alt="">
                 </div>
@@ -128,7 +160,7 @@
                     <img class="container-registros" src="./img/registros/2023.1/Dia 2/SBC (2).jpg" alt="">
                 </div>
             </div> -->
-        <!--</div>
+        </div>
         <button type="button" class="swiper-button-next"></button>
         <button type="button" class="swiper-button-prev"></button>
         <div class="swiper-pagination"></div>
@@ -139,12 +171,33 @@
     </div>
     <div class="swiper carousel">
         <div class="swiper-wrapper">
+
             <div class="swiper-slide"> 
                 <div class="container-registros">
-                    <img class="container-registros" src="img/registros/2025.2/dia 3/fotos dia 3 (1).jpg" alt="">
+                    <img class="container-registros" src="img/registros/2026.1/dia 3/Dia 3 (1).jpg" alt="">
                 </div>
             </div>
             <div class="swiper-slide"> 
+                <div class="container-registros">
+                    <img class="container-registros" src="img/registros/2026.1/dia 3/Dia 3 (2).jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide"> 
+                <div class="container-registros">
+                    <img class="container-registros" src="img/registros/2026.1/dia 3/Dia 3 (3).jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide"> 
+                <div class="container-registros">
+                    <img class="container-registros" src="img/registros/2026.1/dia 3/Dia 3 (4).jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide"> 
+                <div class="container-registros">
+                    <img class="container-registros" src="img/registros/2026.1/dia 3/Dia 3 (5).jpg" alt="">
+                </div>
+            </div>
+            <!-- <div class="swiper-slide"> 
                 <div class="container-registros">
                     <img class="container-registros" src="img/registros/2025.2/dia 3/fotos dia 3 (2).jpg" alt="">
                 </div>
@@ -168,8 +221,7 @@
                 <div class="container-registros">
                     <img class="container-registros" src="img/registros/2025.2/dia 3/fotos dia 3 (6).jpg" alt="">
                 </div>
-            </div>-->
-            <!--
+            </div>
             <div class="swiper-slide"> 
                 <div class="container-registros">
                     <img class="container-registros" src="./img/registros/2023.1/Dia 3/Labtour (2).jpg" alt="">
@@ -250,13 +302,14 @@
                     <img class="container-registros" src="./img/registros/2023.1/Dia 3/Encerramento.jpg" alt="">
                 </div>
             </div> -->
-       <!-- </div>
+       </div>
         <button type="button" class="swiper-button-next"></button>
         <button type="button" class="swiper-button-prev"></button>
         <div class="swiper-pagination"></div>
     </div>
-    <br>-->
-            <div class="row justify-content-center">
+    
+    <br>
+            <!-- <div class="row justify-content-center">
                 <div class="col-lg-9">
                     <ol>
                         <strong>
@@ -264,7 +317,7 @@
                         </strong>
                     </ol>
                 </div>
-            </div>
+            </div> -->
 
 <?php 
     require_once('footer.php');
