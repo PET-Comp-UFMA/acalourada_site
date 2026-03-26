@@ -4,7 +4,7 @@
 ?>
 
     <div class="section-header">
-        <h2>DIA 1</h2>
+        <h2>Dia 1</h2>
     </div>
     <div class="swiper carousel">
         <div class="swiper-wrapper">
@@ -88,7 +88,7 @@
     </div>
 
     <div class="section-header">
-        <h2>DIA 2</h2>
+        <h2>Dia 2</h2>
     </div>
     <div class="swiper carousel">
         <div class="swiper-wrapper">
@@ -135,7 +135,7 @@
     </div>
 
     <div class="section-header">
-        <h2>DIA 3</h2>
+        <h2>Dia 3</h2>
     </div>
     <div class="swiper carousel">
         <div class="swiper-wrapper">
