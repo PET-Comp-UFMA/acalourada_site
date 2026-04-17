@@ -32,10 +32,6 @@
             ?>
             <!-- VERSÃO ANTIGA (manual)
 
-            <div class="swiper-slide"> 
-                <img  src="img/registros/2026.1/dia 1/Dia_1 (1).jpg" alt="">
-            </div>
-
             <div class="swiper-slide">
                 <div class="container-registros">
                     <img src="img/registros/2025.2/dia 1/Foto dia 1 (4).jpg" alt="">
@@ -75,10 +71,6 @@
             }
             ?>
             <!-- VERSÃO ANTIGA (manual)
-
-            <div class="swiper-slide"> 
-                <img  src="img/registros/2026.1/dia 1/Dia_1 (1).jpg" alt="">
-            </div>
 
             <div class="swiper-slide">
                 <div class="container-registros">
