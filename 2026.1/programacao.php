@@ -25,7 +25,7 @@ require_once('header.php');
                 
                 <div class="infos">
                     <time>08:30-10:30</time>
-                    <img src="img/speakers/pet.jpg" alt="">
+                    <img src="../img/speakers/pet.jpg" alt="">
                     <div class="sub-infos">
                         <h4>Boas Vindas + Apresentação PETComp</h4>
                         <p>Apresentador(a): Equipe PETComp<br>Local: Auditório da Pós (CCET)</p>
@@ -34,7 +34,7 @@ require_once('header.php');
 
                 <div class="infos">
                     <time>10:30-12:00</time>
-                    <img src="img/speakers/prof.luis.png" alt="">
+                    <img src="../img/speakers/prof.luis.png" alt="">
                     <div class="sub-infos">
                         <h4>Palestra sobre SBC e grupo Dexters</h4>
                         <p>Apresentador(a): Prof. Luis Rivero<br>Local: Auditório da Pós (CCET)</p>
@@ -45,7 +45,7 @@ require_once('header.php');
 
                 <div class="infos">
                     <time>14:00-14:30</time>
-                    <img src="img/speakers/labi.jpeg" alt="">
+                    <img src="../img/speakers/labi.jpeg" alt="">
                     <div class="sub-infos">
                         <h4>Apresentação da Liga de Bioinformática</h4>
                         <p>Apresentador(a): LABI<br>Local: Auditório da Pós (CCET)</p>
@@ -54,7 +54,7 @@ require_once('header.php');
 
                 <div class="infos">
                     <time>14:40-15:00</time>
-                    <img src="img/LAJD.jpeg" alt="">
+                    <img src="../img/LAJD.jpeg" alt="">
                     <div class="sub-infos">
                         <h4>Apresentação da LAJD (Liga de Jogos Digitais)</h4>
                         <p>Apresentador(a): A definir<br>Local: Auditório da Pós (CCET)</p>
@@ -63,7 +63,7 @@ require_once('header.php');
 
                 <div class="infos">
                     <time>15:00-16:00</time>
-                    <img src="img/speakers/daComp.jpeg" alt="">
+                    <img src="../img/speakers/daComp.jpeg" alt="">
                     <div class="sub-infos">
                         <h4>Apresentação DAComp</h4>
                         <p>Apresentadores: Equipe DAComp<br>Local: Auditório da Pós (CCET)</p>
@@ -72,7 +72,7 @@ require_once('header.php');
 
                 <div class="infos">
                     <time>16:00-17:00</time>
-                    <img src="img/speakers/lorde.png" alt="">
+                    <img src="../img/speakers/lorde.png" alt="">
                     <div class="sub-infos">
                         <h4>Apresentação da Atlética</h4>
                         <p>Apresentador(a): Equipe da Atlética <br>Local: Auditório da Pós (CCET)</p>
@@ -86,7 +86,7 @@ require_once('header.php');
 
                 <div class="infos">
                     <time>08:30-10:30</time>
-                    <img src="img/speakers/pet.jpg" alt="">
+                    <img src="../img/speakers/pet.jpg" alt="">
                     <div class="sub-infos">
                         <h4>Apresentação das Coordenações</h4>
                         <p>Apresentador(a): Coordenação<br>Local: Auditório da Pós (CCET)</p>
@@ -95,7 +95,7 @@ require_once('header.php');
 
                 <div class="infos">
                     <time>10:30-12:00</time>
-                    <img src="img/speakers/simara.png" alt="">
+                    <img src="../img/speakers/simara.png" alt="">
                     <div class="sub-infos">
                         <h4>Palestra</h4>
                         <p>Apresentadora:Profa.Dra. Simara Vieira <br>Local:Auditório da Pós (CCET)</p>
@@ -107,7 +107,7 @@ require_once('header.php');
                 
                 <div class="infos">
                     <time>14:00-15:30</time>
-                    <img src="img/speakers/nca.jpeg" alt="">
+                    <img src="../img/speakers/nca.jpeg" alt="">
                     <div class="sub-infos">
                         <h4>apresentação NCA e Palestra</h4>
                         <p>Apresentador(a): Prof.Dr. Anselmo Paiva<br>Local: Auditório da Pós (CCET)</p>
@@ -116,7 +116,7 @@ require_once('header.php');
 
                 <div class="infos">
                     <time>15:30-17:30</time>
-                    <img src="img/speakers/pet.jpg" alt="">
+                    <img src="../img/speakers/pet.jpg" alt="">
                     <div class="sub-infos">
                         <h4>Mesa Redonda com Egressos</h4>
                         <p>Apresentador(a): Equipe PETComp<br>Local: Auditório da Pós (CCET)</p>
@@ -131,7 +131,7 @@ require_once('header.php');
 
                 <div class="infos">
                     <time>08:30-12:00</time>
-                    <img src="img/speakers/pet.jpg" alt="">
+                    <img src="../img/speakers/pet.jpg" alt="">
                     <div class="sub-infos">
                         <h4>Apresentação dos Laboratórios</h4>
                         <p>Apresentador: Equipe PETComp<br>Local: Auditório da Pós (CCET)</p>
@@ -144,7 +144,7 @@ require_once('header.php');
                 
                 <div class="infos">
                     <time>14:00-15:30</time>
-                    <img src="img/speakers/pet.jpg" alt="">
+                    <img src="../img/speakers/pet.jpg" alt="">
                     <div class="sub-infos">
                         <h4>Apresentação dos Laboratórios</h4>
                         <p>Apresentador: Equipe PETComp<br>Local: Auditório da Pós (CCET)</p>
@@ -152,7 +152,7 @@ require_once('header.php');
                 </div>
                 <div class="infos">
                     <time>15:30-18:00</time>
-                    <img src="img/speakers/pet.jpg" alt="">
+                    <img src="../img/speakers/pet.jpg" alt="">
                     <div class="sub-infos">
                         <h4>Dinâmica PETComp + Premiação</h4>
                         <p>Apresentador: Equipe PETComp<br>Local: Auditório da Pós (CCET)</p>
