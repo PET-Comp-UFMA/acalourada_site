@@ -1,0 +1,24 @@
+p{
+    font-family: "Montserrat", sans-serif;
+}
+
+.footer-top{
+    color: white;
+    background-color: #02185E;
+    
+    padding: 0 10px 0 10px;
+}
+
+.footer-top h4{
+    color: white;
+    font-weight: 800;
+
+}
+
+.copyright{
+    color: white;
+    background-color: #027BDF;
+
+    display: flex;
+    justify-content: center;
+}
