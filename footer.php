@@ -4,7 +4,7 @@
             <h4>Contatos</h4>
             <div id="email">
 
-                <strong>Teste</strong> petcomputacao.ufma@gmail.com
+                <strong>E-mail:</strong> petcomputacao.ufma@gmail.com
             </div>
             <div class="social-links">
 
