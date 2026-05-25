@@ -1,0 +1,11 @@
+.hero {
+    background-color: #E4F3FF;
+}
+
+.hero-inner {
+    display: flex;
+    width: 788px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 17px;
+}
