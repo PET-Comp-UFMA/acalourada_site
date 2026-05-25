@@ -11,22 +11,40 @@
 </head>
 
 <body>
-    <footer id="footer" class="fixar-rodape">
+    <footer class="fixar-rodape">
         <div class="footer-top">
-            <div class="footer-info" id="contatos">
-                <img src="" alt="">
-                <h4>Contatos</h4>
-                <div id="email">
-                    <strong>E-mail:</strong> petcomputacao.ufma@gmail.com
-                </div>
-                <div class="social-links">
+            <div class="footer-info">
 
-                    <a href="https://www.instagram.com/petcompufma/" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
+                <div class="contatos-title">
+                    <img src="img\footer\contatos.svg" alt="Icone de contatos">
+                    <div class="contatos-h4">
+                        <h4>Contatos</h4>
+                        <div class="underline"></div>
+                    </div>
                 </div>
+
+                <div class="contatos">
+                    <img src="img\footer\Vector.svg" alt="PETComp Icone">
+                    <div class="social-links">
+                        <div class="email">
+                            <img href="mailto:petcomputacao@ufma.br" src="img\footer\email.svg" alt="Icone de email">
+                            <p>Email: <a href="mailto:petcomputacao@ufma.br">petcomputacao@ufma.br</a></p>
+                        </div>
+                        <div class="instagram">
+                            <img href="https://www.instagram.com/petcompufma/" src="img\footer\insta.svg" alt="Icone do instagram">
+                            <a href="https://www.instagram.com/petcompufma/">@petcompufma</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
             </div>
         </div>
         <div class="copyright">
-            <strong>Acalourada 2026.2   •   Ciência da Computação e Inteligência Artificial   •   PETComp</strong>
+            Acalourada 2026.2   •   Ciência da Computação e Inteligência Artificial   •   PETComp
         </div>
     </footer>
 </body>
