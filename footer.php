@@ -12,6 +12,12 @@
 
 <body>
     <footer class="fixar-rodape">
+        <div class="footer-wave">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,32L60,42.7C120,53,240,75,360,85.3C480,96,600,96,720,85.3C840,75,960,53,1080,48C1200,43,1320,53,1380,58.7L1440,64L1440,160L0,160Z"></path>
+            </svg>
+        </div>
+
         <div class="footer-top">
             <div class="footer-info">
 
@@ -28,7 +34,7 @@
                     <div class="social-links">
                         <div class="email">
                             <img href="mailto:petcomputacao@ufma.br" src="img\footer\email.svg" alt="Icone de email">
-                            <p>Email: <a href="mailto:petcomputacao@ufma.br">petcomputacao@ufma.br</a></p>
+                            <a href="mailto:petcomputacao@ufma.br">petcomputacao@ufma.br</a>
                         </div>
                         <div class="instagram">
                             <img href="https://www.instagram.com/petcompufma/" src="img\footer\insta.svg" alt="Icone do instagram">
@@ -36,10 +42,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
 
             </div>
         </div>

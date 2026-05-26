@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
 p{
     font-family: "Montserrat", sans-serif;
 }
@@ -10,24 +15,46 @@ a:hover{
     color: inherit;
 }
 
+/* ONDA */
+.footer-wave{
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+
+    margin-bottom: -5px;
+}
+
+.footer-wave svg{
+    display: block;
+    width: 100%;
+    height: 90px;
+}
+
+.footer-wave path{
+    fill: #02185E;
+}
+/* ONDA */
+
 .footer-top{
     color: white;
     background-color: #02185E;
     
-    padding: 50px 20px 50px 20px;
+    padding: 0 3vw 2rem;
 }
 
 .footer-info{
+    margin: 0 auto;
+
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 1rem;
 }
 
 .contatos-title h4{
     color: white;
-    font-size: 1.3rem;
+    font-size: clamp(1.1rem, 2vw, 1.3rem);
     font-weight: 800;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 .contatos-h4{
@@ -50,8 +77,8 @@ a:hover{
 }
 
 .contatos-title img{
-    width: 50px;
-    height: 50px;
+    width: 3.1rem;
+    height: 3.1rem;
 
     object-fit: contain;
     display: block;
@@ -64,8 +91,8 @@ a:hover{
 }
 
 .contatos img{
-    width: 50px;
-    height: 50px;
+    width: 3.1rem;
+    height: 3.1rem;
 
     object-fit: contain;
     display: block;
@@ -78,8 +105,8 @@ a:hover{
 }
 
 .social-links img{
-    width: 15px;
-    height: 15px;
+    width: 0.95rem;
+    height: 0.95rem;
 
     object-fit: contain;
     display: block;
@@ -109,4 +136,64 @@ a:hover{
 
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+    text-align: center;
+    font-size: 0.85rem;
+    line-height: 1.5; 
+}
+
+
+@media (max-width: 768px){
+
+    .footer-top{
+        padding: 0 7vw 2.5rem;
+    }
+
+    .footer-info{
+        gap: 1.5rem;
+    }
+
+    .underline{
+        width: 130px;
+    }
+
+    
+    .contatos img{
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .social-links{
+        width: 100%;
+    }
+
+    .social-links img{
+        width: 1rem;
+        height: auto;
+    }
+
+    .email,
+    .instagram{
+        align-items: center;
+    }
+
+    .email p,
+    .instagram a{
+        font-size: 0.95rem;
+        line-height: 1.4;
+
+        word-break: break-word;
+    }
+
+    .footer-wave svg{
+        height: 60px;
+    }
+
+    .underline{
+        width: 70px;
+        height: 4px;
+    }
+
 }
