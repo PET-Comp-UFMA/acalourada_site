@@ -88,7 +88,7 @@ require_once('header.php');
                 <div class="col-lg-2 col-md-4 col-xs-6">
                     <div class="supporter-logo">
                         <a href="https://portais.ufma.br/PortalUfma/index.jsf" target="_blank">
-                            <img src="img/supporters/logo-ufma.png" class="img-fluid" alt="">
+                            <img src="../img/supporters/logo-ufma.png" class="img-fluid" alt="">
                         </a>
                     </div>
                 </div>
@@ -96,7 +96,7 @@ require_once('header.php');
                 <div class="col-lg-2 col-md-4 col-xs-6">
                     <div class="supporter-logo">
                 
-                            <img src="img/LOGOCocom2.png" class="img-fluid" alt="">
+                            <img src="../img/LOGOCocom2.png" class="img-fluid" alt="">
                         </a>
                     </div>
                 </div>
@@ -104,7 +104,7 @@ require_once('header.php');
                 <div class="col-lg-2 col-md-4 col-xs-6">
                     <div class="supporter-logo">
                         <a href="https://petcompufma.org/" target="_blank">
-                            <img src="img/supporters/5.png" class="img-fluid" alt="">
+                            <img src="../img/supporters/5.png" class="img-fluid" alt="">
                         </a>
                     </div>
                 </div>
