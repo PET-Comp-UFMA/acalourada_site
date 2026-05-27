@@ -1,7 +1,7 @@
 :root {
     --header-bg: #02185E;
     --header-bg-dark: #02185E;
-    --header-text: #ffffff;
+    --header-text: #027BFD;
     --header-text-soft: rgba(255, 255, 255, 0.92);
     --header-accent: #4aa3ff;
     --header-accent-hover: #2d8ef0;
@@ -294,20 +294,51 @@
 /* REMOVER HAMBÚRGUER */
 
 .site-toggler {
-    display: none !important;
+    display: none;
 }
 
 /* RESPONSIVO */
+/* =========================================
+   RESPONSIVO + HAMBÚRGUER
+========================================= */
 
-@media (max-width: 991.98px) {
+.site-toggler {
+    display: none;
+
+    background: none;
+    border: none;
+
+    color: #fff;
+
+    font-size: 2rem;
+
+    cursor: pointer;
+
+    padding: 0;
+
+    line-height: 1;
+}
+
+/* =========================================
+   TABLET / MOBILE
+========================================= */
+
+@media (max-width: 770px) {
 
     .site-header__inner {
+
         flex-wrap: wrap;
+
+        align-items: center;
+
+        justify-content: space-between;
 
         gap: 14px;
 
         padding: 12px 16px;
     }
+
+    /* LOGO */
 
     .site-brand {
         flex: 1 1 auto;
@@ -315,23 +346,65 @@
 
     .site-brand__text {
         width: 150px;
+
         max-width: 60vw;
     }
 
-    .site-navbar {
-        width: 100%;
-        justify-content: center;
+    /* MOSTRAR BOTÃO */
+
+    .site-toggler {
+        display: block;
     }
 
-    .site-nav {
-        flex-wrap: wrap;
+    /* NAVBAR */
+
+    .site-navbar {
+
+        display: none;
+
+        width: 100%;
+    }
+
+    /* NAVBAR ABERTA */
+
+    .site-navbar.active {
+
+        display: flex;
 
         justify-content: center;
 
-        gap: 14px;
+        margin-top: 10px;
+    }
+
+    /* MENU */
+
+    .site-nav {
+
+        width: 100%;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 16px;
+
+        margin-left: 0;
+    }
+
+    /* BOTÃO */
+
+    .btn-inscreva {
+
+        margin-left: 0;
+
+        margin-top: 10px;
     }
 
 }
+
+/* =========================================
+   MOBILE PEQUENO
+========================================= */
 
 @media (max-width: 575.98px) {
 

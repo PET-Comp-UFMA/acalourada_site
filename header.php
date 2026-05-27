@@ -1,3 +1,5 @@
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/main.js"></script>
 <link rel="stylesheet" href="css/Novo_CSS/header.css">
 
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -22,38 +24,40 @@
             >
 
         </a>
-
+        <button class="site-toggler">
+            ☰
+        </button>
         <!-- NAVBAR -->
         <nav class="site-navbar">
 
             <ul class="site-nav">
 
                 <li class="nav-item">
-                    <a class="nav-link active" href="index.php">
+                    <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : '' ?>" href="index.php">
                         HOME
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="programacao.php">
+                    <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'programacao.php' ? 'active' : '' ?>" href="programacao.php">
                         PROGRAMAÇÃO
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="localizacao.php">
+                    <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'localizacao.php' ? 'active' : '' ?>" href="localizacao.php">
                         LOCALIZAÇÃO
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="labs.php">
+                    <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'labs.php' ? 'active' : '' ?>" href="labs.php">
                         LABS
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="registros.php">
+                    <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'registros.php' ? 'active' : '' ?>" href="registros.php">
                         REGISTROS
                     </a>
                 </li>
