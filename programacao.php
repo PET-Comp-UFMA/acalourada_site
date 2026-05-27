@@ -1,156 +1,244 @@
 <?php
 require_once('html_header.php');
 require_once('header.php');
+
+echo '<link rel="stylesheet" href="css/Novo_CSS/programacao.css">';
+
+$programacao = [
+
+    'dia1' => [
+        'label' => '25/08',
+        'semana' => 'Segunda-feira',
+
+        'atividades' => [
+
+            [
+                'horario' => '08:00',
+                'titulo' => 'Credenciamento',
+                'descricao' => 'Entrega de kits e recepção dos calouros.'
+            ],
+
+            [
+                'horario' => '09:30',
+                'titulo' => 'Abertura Oficial',
+                'descricao' => 'Boas-vindas da coordenação e apresentação do evento.'
+            ],
+
+            [
+                'horario' => '14:00',
+                'titulo' => 'Tour pelos Laboratórios',
+                'descricao' => 'Visita guiada aos laboratórios da universidade.'
+            ]
+
+        ]
+    ],
+
+    'dia2' => [
+        'label' => '26/08',
+        'semana' => 'Terça-feira',
+
+        'atividades' => [
+
+            [
+                'horario' => '08:30',
+                'titulo' => 'Palestra: Mercado de TI',
+                'descricao' => 'Conversa sobre oportunidades e tendências na área.'
+            ],
+
+            [
+                'horario' => '10:30',
+                'titulo' => 'Minicurso de Git e GitHub',
+                'descricao' => 'Introdução prática ao versionamento de código.'
+            ],
+
+            [
+                'horario' => '15:00',
+                'titulo' => 'Dinâmica entre Cursos',
+                'descricao' => 'Atividades em grupo para integração dos alunos.'
+            ]
+
+        ]
+    ],
+
+    'dia3' => [
+        'label' => '27/08',
+        'semana' => 'Quarta-feira',
+
+        'atividades' => [
+
+            [
+                'horario' => '09:00',
+                'titulo' => 'Mesa Redonda com Veteranos',
+                'descricao' => 'Dicas acadêmicas e experiências dos alunos.'
+            ],
+
+            [
+                'horario' => '13:30',
+                'titulo' => 'Oficina de Desenvolvimento Web',
+                'descricao' => 'Construindo uma página moderna com HTML e CSS.'
+            ],
+
+            [
+                'horario' => '17:00',
+                'titulo' => 'Encerramento',
+                'descricao' => 'Sorteios, agradecimentos e foto oficial.'
+            ]
+
+        ]
+    ]
+
+];
+
+$programacao_esta_vazia = empty($programacao);
+
+/* ─────────────────────────────
+   SE NÃO TIVER PROGRAMAÇÃO
+   ───────────────────────────── */
+if ($programacao_esta_vazia) {
+
+    $programacao = [
+        'dia1' => [
+            'label' => 'A definir',
+            'semana' => 'A definir'
+        ],
+
+        'dia2' => [
+            'label' => 'A definir',
+            'semana' => 'A definir'
+        ],
+
+        'dia3' => [
+            'label' => 'A definir',
+            'semana' => 'A definir'
+        ]
+    ];
+}
+
+$dias = array_keys($programacao);
+
+$dia_ativo = isset($_GET['dia']) && in_array($_GET['dia'], $dias)
+    ? $_GET['dia']
+    : $dias[0];
+
 ?>
 
-<link rel="stylesheet" href="css/Novo_CSS/programacao.css">
-
-<?php
-// ============================================================
-// CONFIGURAÇÃO — edite aqui para controlar o estado da página
-// ============================================================
- 
-// Deixe o array vazio para mostrar "Em breve"
-// Preencha para mostrar a programação completa
-$programacao = [];
- 
-// Lógica de controle — não precisa alterar
-$tem_programacao = !empty($programacao);
-$dias            = array_keys($programacao);
-$dia_ativo       = isset($_GET['dia']) && in_array($_GET['dia'], $dias)
-                    ? $_GET['dia']
-                    : ($dias[0] ?? null);
-?>
-
-
-<!-- ── HERO ── -->
+<!-- ───────────────── HERO ───────────────── -->
 <section class="hero">
+
     <div class="hero-inner">
+
         <div>
-            <p class="hero-eyebrow">Programação</p>
+
+            <p class="hero-eyebrow">
+                Programação
+            </p>
+
             <h1 class="hero-title">
                 Explore nossa<br>
                 programação para <span>2026.2</span>
             </h1>
+
             <p class="hero-desc">
                 Confira os horários, atividades e palestras que fazem parte
                 da Acalourada 2026.2 — uma experiência única.
             </p>
-        </div>
-        <img src="img/Novos_Templates/Ilustracao_Principal_Acalourada.png" alt="Ilustração da Acalourada">
-    </div>
-</section>
- 
 
-<!--==========================
-            Programação Geral
-        ============================-->
-<main>
- 
-<?php if (!$tem_programacao): ?>
- 
-    <!-- ══════════════════════════════════
-         ESTADO: SEM PROGRAMAÇÃO (Em breve)
-         ══════════════════════════════════ -->
-    <div class="empty-state">
-        <div class="empty-icon">
-            <img src="img/calendario_relogio.svg" alt="Ilustração de calendário e relógio">
         </div>
-        <h2 class="empty-title">Em breve!</h2>
-        <p class="empty-desc">
-            Estamos preparando uma experiência incrível para você.<br>
-            A programação de 2026.2 estará disponível em breve.
-        </p>
+
+        <img src="img/boneca_pet.png" alt="Ilustração da Acalourada">
+
     </div>
- 
-<?php else: ?>
- 
-    <!-- ══════════════════════════════════════
-         ESTADO: COM PROGRAMAÇÃO (Timeline)
-         ══════════════════════════════════════ -->
- 
-    <!-- Tabs de dias -->
+
+    <!-- Tabs -->
     <div class="day-tabs" role="tablist" aria-label="Dias do evento">
+
         <?php foreach ($programacao as $chave => $dia): ?>
+
             <?php $ativo = ($chave === $dia_ativo); ?>
-            <a href="?dia=<?= urlencode($chave) ?>"
-               class="day-tab <?= $ativo ? 'active' : '' ?>"
-               role="tab"
-               aria-selected="<?= $ativo ? 'true' : 'false' ?>">
-                <span class="dt"><?= htmlspecialchars($dia['label']) ?></span>
-                <span class="dw"><?= htmlspecialchars($dia['semana']) ?></span>
+
+            <a href="?dia=<?= urlencode($chave) ?>" class="day-tab <?= $ativo ? 'active' : '' ?>" role="tab"
+                aria-selected="<?= $ativo ? 'true' : 'false' ?>">
+
+                <span class="dt">
+                    <?= htmlspecialchars($dia['label']) ?>
+                </span>
+
+                <span class="dw">
+                    <?= htmlspecialchars($dia['semana']) ?>
+                </span>
+
             </a>
+
         <?php endforeach; ?>
+
     </div>
- 
-    <!-- Conteúdo do dia ativo -->
-    <?php $dia_dados = $programacao[$dia_ativo]; ?>
-    <div class="schedule-card" role="tabpanel">
- 
-        <!-- Manhã -->
-        <?php if (!empty($dia_dados['manha'])): ?>
-        <div class="period-block">
-            <p class="period-label">
-                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="2" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-                Manhã
-            </p>
-            <div class="timeline">
-                <?php foreach ($dia_dados['manha'] as $item): ?>
-                <div class="tl-item">
-                    <div class="tl-dot"></div>
-                    <div class="tl-body">
-                        <div>
-                            <p class="tl-time"><?= htmlspecialchars($item['horario']) ?></p>
-                            <p class="tl-title"><?= htmlspecialchars($item['titulo']) ?></p>
-                            <p class="tl-org"><?= htmlspecialchars($item['org']) ?></p>
-                        </div>
-                        <p class="tl-local">
-                            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                            <?= htmlspecialchars($item['local']) ?>
-                        </p>
-                    </div>
-                </div>
-                <?php endforeach; ?>
+
+</section>
+
+<main>
+    <?php if ($programacao_esta_vazia): ?>
+        <div class="empty-state">
+            <div class="empty-icon">
+                <img src="img/calendario_relogio.svg" alt="Sem programação">
             </div>
+            <h2 class="empty-title">Sem programação</h2>
+            <p class="empty-desc">Sem programação no momento</p>
         </div>
-        <?php endif; ?>
- 
-        <!-- Tarde -->
-        <?php if (!empty($dia_dados['tarde'])): ?>
-        <div class="period-block">
-            <p class="period-label">
-                <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"/></svg>
-                Tarde
-            </p>
-            <div class="timeline">
-                <?php foreach ($dia_dados['tarde'] as $item): ?>
-                <div class="tl-item">
-                    <div class="tl-dot"></div>
-                    <div class="tl-body">
-                        <div>
-                            <p class="tl-time"><?= htmlspecialchars($item['horario']) ?></p>
-                            <p class="tl-title"><?= htmlspecialchars($item['titulo']) ?></p>
-                            <p class="tl-org"><?= htmlspecialchars($item['org']) ?></p>
+    <?php else: ?>
+        <div class="content">   
+
+            <div class="schedule-grid">
+
+                <?php foreach ($programacao[$dia_ativo]['atividades'] as $item): ?>
+
+                    <?php
+                    $tem_atividades = !empty($item['atividades']);
+                    $tem_local = !empty($item['local']);
+                    ?>
+
+                    <article class="schedule-item <?= $tem_atividades ? 'has-activities' : '' ?>">
+
+                        <!-- Coluna da esquerda -->
+                        <div class="schedule-left">
+
+                            <?php if ($tem_atividades): ?>
+
+                                <?php foreach ($item['atividades'] as $alt): ?>
+                                    <div class="alt-line">
+                                        <span class="time"><?= $alt['horario'] ?></span>
+                                        <span class="title"><?= $alt['titulo'] ?></span>
+                                    </div>
+                                <?php endforeach; ?>
+
+                            <?php else: ?>
+
+                                <div class="single-line">
+                                    <span class="time"><?= $item['horario'] ?></span>
+                                    <span class="title"><?= $item['titulo'] ?></span>
+                                </div>
+
+                            <?php endif; ?>
+
                         </div>
-                        <p class="tl-local">
-                            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                            <?= htmlspecialchars($item['local']) ?>
-                        </p>
-                    </div>
-                </div>
+
+                        <!-- Coluna da direita -->
+                        <?php if ($tem_local): ?>
+                            <div class="schedule-right">
+                                <div class="location-tag">
+                                    <?= $item['local'] ?>
+                                </div>
+                            </div>
+                        <?php endif; ?>
+
+                    </article>
+
                 <?php endforeach; ?>
+
             </div>
+
         </div>
-        <?php endif; ?>
- 
-    </div><!-- /.schedule-card -->
- 
-<?php endif; ?>
- 
+    <?php endif; ?>
 </main>
-
-
-
 
 <?php
 require_once('footer.php');

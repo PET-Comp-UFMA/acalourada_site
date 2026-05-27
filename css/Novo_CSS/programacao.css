@@ -1,11 +1,180 @@
+/* ============================================================
+   programacao.css — Acalourada 2026.2
+   ============================================================ */
+
+/* ── Reset básico ── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ============================================================
+   HERO
+   ============================================================ */
 .hero {
-    background-color: #E4F3FF;
+  background: #e8f0fb;
+  padding: 4rem 2rem;
 }
 
 .hero-inner {
-    display: flex;
-    width: 788px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 17px;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
 }
+
+.hero-eyebrow {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: #2563eb;
+  margin-bottom: .6rem;
+}
+
+.hero-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #0f172a;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.hero-title span {
+  color: #2563eb;
+}
+
+.hero-desc {
+  font-size: .95rem;
+  color: #475569;
+  line-height: 1.65;
+  max-width: 420px;
+}
+
+.hero-inner img {
+  width: 220px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 640px) {
+  .hero-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-inner img {
+    width: 160px;
+    order: -1;
+  }
+  .hero-desc {
+    max-width: 100%;
+  }
+}
+
+/* ============================================================
+   MAIN — container geral
+   ============================================================ */
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 3rem 2rem 5rem;
+}
+
+/* ============================================================
+   ESTADO "EM BREVE" — empty-state
+   ============================================================ */
+.empty-state {
+  max-width: 540px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 4rem 2.5rem 3.5rem;
+  text-align: center;
+}
+
+.empty-icon {
+  width: 84px;
+  height: 84px;
+  border-radius: 18px;
+  background: #eff6ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.75rem;
+}
+
+.empty-icon img {
+  width: 44px;
+  height: 44px;
+  /* ajuste se o SVG tiver cor própria */
+  filter: none;
+}
+
+.empty-title {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: .75rem;
+}
+
+.empty-desc {
+  font-size: .95rem;
+  color: #64748b;
+  line-height: 1.75;
+}
+
+/* ============================================================
+   TABS DE DIAS
+   ============================================================ */
+.day-tabs {
+    display: flex;
+    justify-content: center;
+    gap: .75rem;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+    padding-bottom: .5rem;
+}
+
+.day-tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .65rem 1.5rem;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    color: #1e3a5f;
+    cursor: pointer;
+    transition: background .15s, color .15s;
+    min-width: 100px;
+}
+
+.day-tab:hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.day-tab.active {
+    background: #2563eb;
+    color: #ffffff;
+}
+
+.day-tab .dt {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.day-tab .dw {
+    font-size: .65rem;
+    font-weight: 600;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    margin-top: 3px;
+    opacity: .75;
+}
+
