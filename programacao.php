@@ -13,21 +13,49 @@ $programacao = [
         'atividades' => [
 
             [
-                'horario' => '08:00',
-                'titulo' => 'Credenciamento',
-                'descricao' => 'Entrega de kits e recepção dos calouros.'
+                'horario_inicio' => '08:30',
+                'horario_fim' => '10:30',
+                'titulo' => 'Boas Vindas + Apresentação PETComp',
+                'periodo' => 'MANHÃ',
+                'palestrantes' => [
+                    [
+                        'nome' => 'PetComp',
+                        'foto' => 'img/speakers/pet.jpg'
+                    ]
+                ],
+                'local' => 'Auditório da Pós (CCET)'
             ],
 
             [
-                'horario' => '09:30',
-                'titulo' => 'Abertura Oficial',
-                'descricao' => 'Boas-vindas da coordenação e apresentação do evento.'
+                'horario_inicio' => '10:30',
+                'horario_fim' => '12:00',
+                'titulo' => 'Palestra SBC e grupo Dexters',
+                'periodo' => 'MANHÃ',
+                'palestrantes' => [
+                    [
+                        'nome' => 'Luis Rivero',
+                        'foto' => 'img/speakers/prof.luis.png'
+                    ],
+                    [
+                        'nome' => 'SBC Palestrante',
+                        'foto' => 'img/logosbc3.png'
+                    ]
+                ],
+                'local' => 'Auditório da Pós (CCET)'
             ],
 
             [
-                'horario' => '14:00',
+                'horario_inicio' => '14:00',
+                'horario_fim' => '17:00',
                 'titulo' => 'Tour pelos Laboratórios',
-                'descricao' => 'Visita guiada aos laboratórios da universidade.'
+                'periodo' => 'TARDE',
+                'palestrantes' => [
+                    [
+                        'nome' => 'Equipe PETComp',
+                        'foto' => 'img/speakers/pet.jpg'
+                    ]
+                ],
+                'local' => 'CCET'
             ]
 
         ]
@@ -40,21 +68,45 @@ $programacao = [
         'atividades' => [
 
             [
-                'horario' => '08:30',
+                'horario_inicio' => '08:30',
+                'horario_fim' => '10:30',
                 'titulo' => 'Palestra: Mercado de TI',
-                'descricao' => 'Conversa sobre oportunidades e tendências na área.'
+                'periodo' => 'MANHÃ',
+                'palestrantes' => [
+                    [
+                        'nome' => 'Glaubos Climaco',
+                        'foto' => 'img/speakers/Glaubos-Climaco.webp'
+                    ]
+                ],
+                'local' => 'Auditório da Pós (CCET)'
             ],
 
             [
-                'horario' => '10:30',
+                'horario_inicio' => '10:30',
+                'horario_fim' => '12:00',
                 'titulo' => 'Minicurso de Git e GitHub',
-                'descricao' => 'Introdução prática ao versionamento de código.'
+                'periodo' => 'MANHÃ',
+                'palestrantes' => [
+                    [
+                        'nome' => 'Lucas Farias',
+                        'foto' => 'img/speakers/Lucas Farias.jpg'
+                    ]
+                ],
+                'local' => 'Laboratório de Informática'
             ],
 
             [
-                'horario' => '15:00',
+                'horario_inicio' => '15:00',
+                'horario_fim' => '17:00',
                 'titulo' => 'Dinâmica entre Cursos',
-                'descricao' => 'Atividades em grupo para integração dos alunos.'
+                'periodo' => 'TARDE',
+                'palestrantes' => [
+                    [
+                        'nome' => 'DAComp',
+                        'foto' => 'img/speakers/dacomp.jpeg'
+                    ]
+                ],
+                'local' => 'Quadra do CCET'
             ]
 
         ]
@@ -67,21 +119,49 @@ $programacao = [
         'atividades' => [
 
             [
-                'horario' => '09:00',
+                'horario_inicio' => '09:00',
+                'horario_fim' => '12:00',
                 'titulo' => 'Mesa Redonda com Veteranos',
-                'descricao' => 'Dicas acadêmicas e experiências dos alunos.'
+                'periodo' => 'MANHÃ',
+                'palestrantes' => [
+                    [
+                        'nome' => 'Luiza',
+                        'foto' => 'img/speakers/Luiza.png'
+                    ],
+                    [
+                        'nome' => 'Valter',
+                        'foto' => 'img/speakers/Valter.png'
+                    ]
+                ],
+                'local' => 'Auditório da Pós (CCET)'
             ],
 
             [
-                'horario' => '13:30',
+                'horario_inicio' => '13:30',
+                'horario_fim' => '16:30',
                 'titulo' => 'Oficina de Desenvolvimento Web',
-                'descricao' => 'Construindo uma página moderna com HTML e CSS.'
+                'periodo' => 'TARDE',
+                'palestrantes' => [
+                    [
+                        'nome' => 'Mikael Cauã',
+                        'foto' => 'img/speakers/Mikael Caua.jpeg'
+                    ]
+                ],
+                'local' => 'Laboratório 2'
             ],
 
             [
-                'horario' => '17:00',
+                'horario_inicio' => '17:00',
+                'horario_fim' => '18:00',
                 'titulo' => 'Encerramento',
-                'descricao' => 'Sorteios, agradecimentos e foto oficial.'
+                'periodo' => 'TARDE',
+                'palestrantes' => [
+                    [
+                        'nome' => 'Equipe PETComp',
+                        'foto' => 'img/speakers/pet.jpg'
+                    ]
+                ],
+                'local' => 'Auditório da Pós (CCET)'
             ]
 
         ]
@@ -119,6 +199,15 @@ $dias = array_keys($programacao);
 $dia_ativo = isset($_GET['dia']) && in_array($_GET['dia'], $dias)
     ? $_GET['dia']
     : $dias[0];
+
+// Group activities by period
+$atividades_por_periodo = [];
+if (!$programacao_esta_vazia && isset($programacao[$dia_ativo]['atividades'])) {
+    foreach ($programacao[$dia_ativo]['atividades'] as $item) {
+        $periodo = isset($item['periodo']) ? $item['periodo'] : 'Dia';
+        $atividades_por_periodo[$periodo][] = $item;
+    }
+}
 
 ?>
 
@@ -187,54 +276,50 @@ $dia_ativo = isset($_GET['dia']) && in_array($_GET['dia'], $dias)
     <?php else: ?>
         <div class="content">   
 
-            <div class="schedule-grid">
+            <?php foreach ($atividades_por_periodo as $periodo => $atividades): ?>
+                <div class="schedule-period-group">
+                    <h3 class="schedule-period-title"><?= htmlspecialchars($periodo) ?></h3>
+                    
+                    <div class="schedule-grid">
+                        <?php foreach ($atividades as $item): ?>
+                            <article class="schedule-item">
+                                <!-- Coluna da esquerda: Horários verticalizados -->
+                                <div class="schedule-time-col">
+                                    <span class="time-start"><?= htmlspecialchars($item['horario_inicio']) ?></span>
+                                    <span class="time-end"><?= htmlspecialchars($item['horario_fim']) ?></span>
+                                </div>
 
-                <?php foreach ($programacao[$dia_ativo]['atividades'] as $item): ?>
+                                <!-- Coluna do meio: Título e Palestrantes -->
+                                <div class="schedule-info-col">
+                                    <h4 class="activity-title"><?= htmlspecialchars($item['titulo']) ?></h4>
+                                    
+                                    <?php if (!empty($item['palestrantes'])): ?>
+                                        <div class="speakers-list">
+                                            <?php foreach ($item['palestrantes'] as $p): ?>
+                                                <div class="speaker-tag">
+                                                    <img src="<?= htmlspecialchars($p['foto']) ?>" alt="<?= htmlspecialchars($p['nome']) ?>" class="speaker-avatar">
+                                                    <span class="speaker-name"><?= htmlspecialchars($p['nome']) ?></span>
+                                                </div>
+                                            <?php endforeach; ?>
+                                        </div>
+                                    <?php endif; ?>
+                                </div>
 
-                    <?php
-                    $tem_atividades = !empty($item['atividades']);
-                    $tem_local = !empty($item['local']);
-                    ?>
-
-                    <article class="schedule-item <?= $tem_atividades ? 'has-activities' : '' ?>">
-
-                        <!-- Coluna da esquerda -->
-                        <div class="schedule-left">
-
-                            <?php if ($tem_atividades): ?>
-
-                                <?php foreach ($item['atividades'] as $alt): ?>
-                                    <div class="alt-line">
-                                        <span class="time"><?= $alt['horario'] ?></span>
-                                        <span class="title"><?= $alt['titulo'] ?></span>
+                                <!-- Coluna da direita: Localização -->
+                                <?php if (!empty($item['local'])): ?>
+                                    <div class="schedule-location-col">
+                                        <svg class="location-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                            <circle cx="12" cy="10" r="3"></circle>
+                                        </svg>
+                                        <span class="location-text"><?= htmlspecialchars($item['local']) ?></span>
                                     </div>
-                                <?php endforeach; ?>
-
-                            <?php else: ?>
-
-                                <div class="single-line">
-                                    <span class="time"><?= $item['horario'] ?></span>
-                                    <span class="title"><?= $item['titulo'] ?></span>
-                                </div>
-
-                            <?php endif; ?>
-
-                        </div>
-
-                        <!-- Coluna da direita -->
-                        <?php if ($tem_local): ?>
-                            <div class="schedule-right">
-                                <div class="location-tag">
-                                    <?= $item['local'] ?>
-                                </div>
-                            </div>
-                        <?php endif; ?>
-
-                    </article>
-
-                <?php endforeach; ?>
-
-            </div>
+                                <?php endif; ?>
+                            </article>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+            <?php endforeach; ?>
 
         </div>
     <?php endif; ?>

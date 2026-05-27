@@ -178,3 +178,139 @@ main {
     opacity: .75;
 }
 
+/* ============================================================
+   SCHEDULE CONTENT (GRID & ITEMS)
+   ============================================================ */
+.schedule-period-group {
+  margin-bottom: 3.5rem;
+}
+
+.schedule-period-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #0066cc;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1.5rem;
+}
+
+.schedule-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.schedule-item {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 1.75rem 2.25rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  gap: 3rem;
+}
+
+.schedule-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+}
+
+.schedule-time-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  width: 90px;
+  flex-shrink: 0;
+}
+
+.time-start,
+.time-end {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #0066cc;
+  line-height: 1.1;
+  font-family: sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+
+.schedule-info-col {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.activity-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #000000;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.speakers-list {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.speaker-tag {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.speaker-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #e2e8f0;
+}
+
+.speaker-name {
+  font-size: 1rem;
+  color: #4a5568;
+  font-weight: 500;
+}
+
+.schedule-location-col {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #718096;
+  font-size: 0.95rem;
+  font-weight: 400;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  min-width: 220px;
+}
+
+.location-icon {
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .schedule-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    padding: 1.25rem 1.5rem;
+  }
+  .schedule-time-col {
+    flex-direction: row;
+    gap: 1rem;
+    width: auto;
+  }
+  .schedule-location-col {
+    justify-content: flex-start;
+    min-width: auto;
+    width: 100%;
+    border-top: 1px solid #f1f5f9;
+    padding-top: 0.75rem;
+  }
+}
+
