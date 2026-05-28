@@ -1,0 +1,68 @@
+/*
+oi robertinho encheu de comentario pq ele eh
+piao de css e nao consegue decorar as coisas
+*/
+
+.fake-browser-bar {
+    height: 55px;
+    background-color: #d9d9d9;
+}
+
+.hero-registros {
+    background-color: #0d8fe3;
+    min-height: 320px;
+    display: flex;
+    align-items: center; /* centraliza verticalmente */
+}
+
+.hero-registros-content {
+    width: 80%;
+    /* max-width: 1200px; */
+    margin: 0 auto; /* centraliza horizontalmente */
+    display: flex;
+    flex-direction: column; /* formato de coluna (um embaixo do outro) */
+    align-items: flex-end; /* joga o conteudo pra direita */
+}
+
+.hero-registros-content h1 {
+    color: white;
+    font-size: 65px; /* tamanho */
+    font-weight: 800; /* grossura */
+    margin-bottom: 18px; /* espaçamento inferior */
+    text-align: left;
+    width: 900px; /* tamanho horizontal da caixa */
+}
+
+/*
+variações de margin-
+1. margin-top
+2. margin-right
+3. margin-bottom
+4. margin-left
+*/
+
+.hero-registros-content h1 span {
+    color: #061b66;
+}
+
+.hero-registros-content p {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2; /* espaçamento */
+    width: 900px;
+}
+
+.registros-banner {
+    position: relative;
+    z-index: 1;
+    /* background: white; */
+    overflow: visible;
+}
+
+.banner-registros-img {
+    width: 100%;
+    margin-top: -320px;
+    margin-bottom: -70px;
+    display: block;
+}
