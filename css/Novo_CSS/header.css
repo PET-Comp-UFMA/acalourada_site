@@ -7,11 +7,15 @@
     --header-accent-hover: #2d8ef0;
     --dropdown-text: #02185E;
 }
-
+body {
+    margin: 0;
+    padding: 0;
+}
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-
 /* FONT */
 
 .site-header,
