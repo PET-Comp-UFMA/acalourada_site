@@ -28,7 +28,7 @@
 
 <section class="registros-banner">
     <img 
-        src="img/BannerRegistros.png" 
+        src="img/RegistrosFundo.png" 
         alt="Banner registros"
         class="banner-registros-img"
     >
