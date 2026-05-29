@@ -287,7 +287,7 @@ if (!$programacao_esta_vazia && isset($programacao[$dia_ativo]['atividades'])) {
                     
                     <div class="period-header">
                         <div class="period-icon">
-                            <?php if (strtoupper(trim($periodo)) === 'MANHÃ' || strtoupper(trim($periodo)) === 'MANHA'): ?>
+                            <?php if (in_array(mb_strtolower(trim($periodo), 'UTF-8'), ['manhã', 'manha'])): ?>
                                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="12.5" cy="12.5" r="5" stroke="#0071CF" stroke-width="2.07083" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M12.5 2V4M12.5 21V23M4.5 12.5H2M23 12.5H20.5M5.07 5.07L6.48 6.48M18.52 18.52L19.93 19.93M5.07 19.93L6.48 18.52M18.52 6.48L19.93 5.07" stroke="#0071CF" stroke-width="2.07083" stroke-linecap="round" stroke-linejoin="round"/>
