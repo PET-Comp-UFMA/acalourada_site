@@ -5,9 +5,11 @@
 /* ── DESIGN SYSTEM & TOKENS ── */
 :root {
   --primary-blue: #0071CF;
+  --second-blue: #027BDF;
   --dark-blue: #02185E;
   --text-dark: #0F172A;
   --text-muted: #64748B;
+  --text-white: #fff;
   --bg-light-blue: #EAF3FD;
   --border-color: #E2E8F0;
   --transition-smooth: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
@@ -15,8 +17,7 @@
 
 /* ── HERO SECTION ── */
 .hero {
-  background-color: var(--bg-light-blue);
-  background-image: radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.4) 0%, transparent 50%);
+  background-color: var(--second-blue);
   padding: 2rem 1.25rem 0;
   position: relative;
   overflow: hidden;
@@ -43,7 +44,7 @@
 
 .hero-eyebrow {
   font-family: 'Montserrat', sans-serif;
-  color: var(--primary-blue);
+  color: var(--text-white);
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -56,19 +57,19 @@
   font-size: 1.45rem;
   line-height: 1.25;
   font-weight: 800;
-  color: var(--dark-blue);
+  color: var(--text-white);
   margin: 0.25rem 0 0;
 }
 
 .hero-title span {
-  color: var(--primary-blue);
+  color: var(--dark-blue);
 }
 
 .hero-desc {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.72rem;
   line-height: 1.45;
-  color: var(--text-muted);
+  color: var(--text-white);
   margin: 0.5rem 0 0;
   font-weight: 500;
 }
