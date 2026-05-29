@@ -170,8 +170,9 @@ main {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  margin-bottom: 1.25rem;
   padding-left: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .period-icon {
@@ -262,6 +263,8 @@ main {
   transform: translateY(-2px);
   border-color: #cbd5e1;
   box-shadow: 0 6px 20px rgba(0, 113, 207, 0.05);
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* Left: Time Column */
@@ -489,7 +492,7 @@ main {
 
   /* Main timeline desktop row conversion */
   main {
-    padding: 3rem 2rem 5rem;
+    padding: 2rem 2rem 5rem;
   }
 
   .period-timeline {

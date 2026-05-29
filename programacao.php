@@ -6,7 +6,7 @@ echo '<link rel="stylesheet" href="css/Novo_CSS/programacao.css">';
 
 $programacao = [
     'dia1' => [
-        'label' => 'Dia 17/06',
+        'label' => '17/06',
         'semana' => 'Quarta-feira',
         'atividades' => [
             [
@@ -90,7 +90,7 @@ $programacao = [
         ]
     ],
     'dia2' => [
-        'label' => 'Dia 18/06',
+        'label' => '18/06',
         'semana' => 'Quinta-feira',
         'atividades' => [
             [
@@ -148,7 +148,7 @@ $programacao = [
         ]
     ],
     'dia3' => [
-        'label' => 'Dia 19/06',
+        'label' => '19/06',
         'semana' => 'Sexta-feira',
         'atividades' => [
             [
