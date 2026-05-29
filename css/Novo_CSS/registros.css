@@ -13,6 +13,8 @@ piao de css e nao consegue decorar as coisas
     min-height: 320px;
     display: flex;
     align-items: center; /* centraliza verticalmente */
+    position: relative;
+    z-index: 2;
 }
 
 .hero-registros-content {
@@ -56,17 +58,26 @@ variações de margin-
 }
 
 .registros-banner {
-    position: relative;
-    z-index: 1;
     /* background: white; */
     overflow: visible;
+    margin-bottom: -95px;
+    /* width: 100%; */
 }
 
 .banner-registros-img {
     width: 100%;
-    margin-top: -380px; /* -275 antes */
-    margin-bottom: -70px;
+    margin-top: -380px;
     display: block;
+    position: relative;
+    z-index: 3;
+}
+
+.fundo-main-img {
+    width: 100%;
+    margin-top: -610px;
+    display: block;
+    position: relative;
+    z-index: 1;
 }
 
 .dias-container{
@@ -77,7 +88,7 @@ variações de margin-
     margin-top: 60px; /* distancia pro elemento do topo (caixa azul clara) */
 
     position: relative;
-    z-index: 10;
+    z-index: 1000;
 }
 
 .btn-dia{

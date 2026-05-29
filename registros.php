@@ -27,11 +27,15 @@
 <script src="js/registrosBotoes.js"></script>
 
 <section class="registros-banner">
-    <img 
-        src="img/RegistrosFundo.png" 
+
+    <img src="img/BannerRegistros.png"
         alt="Banner registros"
-        class="banner-registros-img"
-    >
+        class="banner-registros-img">
+
+    <img src="img/fundoMain.svg"
+        alt="Fundo Decorativo"
+        class="fundo-main-img">
+
 </section>
 
 <?php 
