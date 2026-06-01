@@ -110,13 +110,13 @@ body {
 
     font-weight: 700;
 
-    font-size: 0.88rem;
+    font-size: 20px;
 
     letter-spacing: 0.02em;
 
     text-transform: uppercase;
 
-    padding: 0.35rem 0;
+    padding: 0.35rem 29px;
 
     position: relative;
 
@@ -150,7 +150,7 @@ body {
 
     background: var(--header-text);
 
-    transition: width 0.2s ease;
+    transition: width 0.5s ease;
 }
 
 .site-nav .nav-link:hover::before,

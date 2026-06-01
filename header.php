@@ -12,7 +12,7 @@
     <meta name=”creator” content=”PETCOMP-UFMA”>
     <meta name="google-site-verification" content="Vq1j2NBJRrVdJnbfpVGku9UCJFm-OD1rTIO7XZ7i7Rs" />
 
-     <!-- Favicons -->
+    <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon-v1/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-v1/favicon-dark.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-v1/favicon.png">
@@ -20,9 +20,12 @@
 
     <script src="main.js"></script>
     <link rel="stylesheet" href="css/Novo_CSS/header.css">
-
+    <?php if (isset($cssExtra)): ?>
+        <link rel="stylesheet" href="<?= $cssExtra ?>">
+    <?php endif; ?>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
+
 
     <header class="site-header">
 
