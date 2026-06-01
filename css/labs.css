@@ -361,116 +361,77 @@ h5 {
     }
 }
 
-/* Estilo para telas grandes (Desktop) */
-@media screen and (min-width: 1025px) {
-    .container-header {
-        padding: 50px 60px;
+/* Estilo para telas médias (Tablets) */
+@media screen and (max-width: 1024px) {
+    .banner-laboratorios {
+        padding: 40px 50px;
+        background-size: cover;
     }
-
-    .container-header h2 {
-        font-size: 50px;
-        margin-bottom: 20px;
-        font-weight: bold;
+    .banner-title {
+        font-size: 3.2rem;
     }
-
-    .container-header h3 {
-        font-size: 30px;
-        margin-bottom: 20px;
-        font-weight: normal;
+    .banner-text {
+        font-size: 22px;
     }
-
-    .container-header p {
-        font-size: 16px;
-        font-weight: normal;
+    .banner-image img {
+        max-width: 400px;
+        margin-bottom: -100px;
     }
-
-    .container-body {
-        padding: 50px 60px;
-    }
-
-    .container-body p {
-        font-size: 20px;
-        font-weight: medium;
+    .container-sobre {
+        margin-top: 60px;
     }
 }
 
-/* Estilo para dispositivos com largura entre 601px e 1024px */
-@media screen and (min-width: 601px) and (max-width: 1024px) {
-    .container-header {
-        padding: 20px 70px;
-    }
-
-    .container-header h2 {
-        font-size: 24px;
-        margin-bottom: 15px;
-    }
-
-    .container-header h3 {
-        font-size: 16px;
-        margin-bottom: 15px;
-    }
-
-    .container-header p {
-        font-size: 9px;
-        font-weight: normal;
-    }
-
-    .container-body {
-        padding: 20px 50px;
-    }
-
-    .container-body p {
-        font-size: 14px;
-        text-indent: 2em;
-    }
-
-    .grid-container { 
-        padding: 0 50px 50px 50px; 
-    }
-}
-
-/* Estilo para dispositivos com largura até 768px (telas médias) */
+/* Estilo para Smartphones */
 @media screen and (max-width: 768px) {
-    h4 {
-        font-size: 0.9rem;
-    }
-}
-
-/* Estilo para dispositivos com largura até 600px (smartphones) */
-@media screen and (max-width: 600px) {
-    .container-header {
-        padding: 20px 40px;
+    .banner-laboratorios {
+        padding: 20px 20px 40px 20px; 
+        margin-bottom: 20px;
     }
 
-    .container-header h2 {
-        font-size: 20px;
+    .banner-content {
+        max-width: 55%;
+        padding-bottom: 0;
+    }
+
+    .banner-title {
+        font-size: 1.6rem;
         margin-bottom: 10px;
     }
 
-    .container-header h3 {
-        font-size: 10px;
-        margin-bottom: 10px;
+    .banner-text {
+        font-size: 11px; 
+        line-height: 1.4;
     }
 
-    .container-header p {
-        font-size: 5px;
-        font-weight: normal;
+    .banner-image img {
+        max-width: 160px; 
+        margin-bottom: -70px; 
     }
 
-    .container-body {
-        padding: 20px 40px;
+    .container-sobre {
+        padding: 0 15px;
+        margin-top: 50px; 
+        margin-bottom: 40px;
     }
 
-    .container-body p {
-        font-size: 10px;
-        text-indent: 2em;
+    .card-sobre {
+        padding: 25px 20px;
+        border-radius: 15px;
     }
 
-    .grid-container { 
-        padding: 0 40px 40px 40px;
+    .titulo-sobre {
+        font-size: 1.1rem;
+        margin-bottom: 20px;
     }
 
-    .popup-footer {
-        flex-direction: column;
+    .titulo-sobre::after {
+        height: 4px;
+        bottom: -8px;
+    }
+
+    .texto-sobre {
+        font-size: 10px; 
+        line-height: 1.5;
     }
 }
