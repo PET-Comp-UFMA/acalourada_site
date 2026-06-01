@@ -41,7 +41,7 @@ function componentePopUp($idPopUp, $cor, $caminhoLogo, $titulo, $subtitulo, $des
                 <h2><?= $titulo ?></h2>
                 <h3><?= $subtitulo ?></h3>
                 <?php if (!empty($site)): ?>
-                    <a href="<?= $site ?>" style="color: <?= $cor ?>;">Acessar Site</a>
+                    <a href="<?= $site ?>" target="_blank" style="color: <?= $cor ?>;">Acessar Site</a>
                 <?php endif; ?>
             </div>
             <div class="popup-body">
@@ -53,8 +53,8 @@ function componentePopUp($idPopUp, $cor, $caminhoLogo, $titulo, $subtitulo, $des
                             <h4><?= $coord['nome'] ?></h4>
                             <span><?= $coord['cargo'] ?></span>
                             <div class="links">
-                                <h5><a href="<?= $coord['email'] ?>" style="color: <?= $cor ?>;">E-mail</a></h5>
-                                <h5><a href="<?= $coord['lattes'] ?>" style="color: <?= $cor ?>;">Lattes</a></h5>
+                                <h5><a href="<?= $coord['email'] ?>" target="_blank" style="color: <?= $cor ?>;">E-mail</a></h5>
+                                <h5><a href="<?= $coord['lattes'] ?>" target="_blank" style="color: <?= $cor ?>;">Lattes</a></h5>
                             </div>
                         </div>
                     <?php endforeach; ?>
@@ -206,6 +206,13 @@ function componentePopUp($idPopUp, $cor, $caminhoLogo, $titulo, $subtitulo, $des
                 'cargo' => 'Coordenador do NCA',
                 'email' => 'mailto:anselmo.paiva@ufma.br',
                 'lattes' => 'http://lattes.cnpq.br/6446831084215512'
+            ],
+            [
+                'foto' => 'img/labs/coord-nca2.jpeg',
+                'nome' => 'Prof. Dr. Aristófanes Corrêa Silva',
+                'cargo' => 'Coordenador do NCA',
+                'email' => 'mailto:ac.silva@ufma.br',
+                'lattes' => 'http://lattes.cnpq.br/2446301582459104'
             ]
         ],
         "https://ncaufma.github.io/"
