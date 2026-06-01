@@ -1,11 +1,11 @@
-<div class="fake-browser-bar"></div>
+[<div class="fake-browser-bar"></div>]
 
 <?php
+    $cssExtra = "css/Novo_CSS/registros.css";
+
     require_once('header.php');
 ?>
 
-<link rel="stylesheet" href="css/Novo_CSS/registros.css">
-<link href="https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
 <section class="hero-registros">
     <div class="hero-registros-content">
