@@ -295,6 +295,51 @@ h5 {
     gap: 20px;
 }
 
+.container-sobre {
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.card-sobre {
+    background-color: #02185E;
+    border-radius: 25px;
+    padding: 40px 60px;
+    max-width: 1300px;
+    color: white;
+}
+
+.titulo-sobre {
+    font-family: 'Montserrat', system-ui, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    position: relative;
+    display: inline-block;
+}
+
+.titulo-sobre::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 6px;
+    background-color: #027BDF;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    border-radius: 2px;
+}
+
+.texto-sobre {
+    font-family: 'Montserrat', system-ui, sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.6;
+    font-weight: 500;
+    text-align: justify;
+}
+
 /* Animação de carregamento mais lenta */
 @keyframes fadeIn {
     from {
