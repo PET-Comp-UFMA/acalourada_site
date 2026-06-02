@@ -22,38 +22,48 @@
         <div class="inscricoes-info">
 
             <div class="info-text">
-                <h1>FAÇA PARTE DA</h1>
-                <h1 class="acalourada">ACALOURADA 2026.2 </h1>
+                <div class="titulo">
+                    <h1>FAÇA PARTE DA</h1>
+                    <h1 class="acalourada">
+                    <span class="azul-claro">ACALOURADA</span> 2026.2
+                    </h1>
+                </div>
 
-                <p>Preencha o formulário ao lado para garantir sua <br>participação na recepção dos calouros de <br>Ciência da Computação e Inteligência Artificial da UFMA</p>
+                <p>Preencha o formulário para garantir sua <br>participação na recepção dos calouros de <br>Ciência da Computação e Inteligência Artificial da UFMA</p>
             </div>
 
             <div class="info-cards">
                 <div class= "card-vertical">
 
                     <div class="card">
-                        <img src="img\inscricoes\calendario_icon.svg" alt="icon calendário">
-                        <h3>6 anos</h3>
-                        <p>de tradição</p>
+                        <img src="img\inscricoes\iconCalendario.svg" alt="icon calendário">
+                        <div class="card-text">
+                            <h3>6 anos</h3>
+                            <p>de tradição</p>
+                        </div>
                     </div>
 
                     <div class="card">
-                        <img src="img\inscricoes\icon_pessoas.svg" alt="icon pessoas">
-                        <h3>+400</h3>
-                        <p>calouros já participaram</p>
+                        <img src="img\inscricoes\iconPessoas.svg" alt="icon pessoas">
+                        <div class="card-text">
+                            <h3>+400</h3>
+                            <p>calouros já participaram</p>
+                        </div>
                     </div>
 
                     <div class="card">
-                        <img src="img\inscricoes\joia_icon.svg" alt="icon joia">
-                        <h3>XX%</h3>
-                        <p>de aprovação entre calouros</p>
+                        <img src="img\inscricoes\iconJoia.svg" alt="icon joia">
+                        <div class="card-text">
+                            <h3>XX%</h3>
+                            <p>de aprovação entre calouros</p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="card-horizontal">
 
                     <div class="card" id="horizontal">
-                        <img src="img\inscricoes\icon_pessoas.svg" alt="icon pessoas">
+                        <img src="img\inscricoes\iconSeta.svg" alt="icon pessoas">
 
                         <div class="info">
                             <h3>Aprimoramento</h3>
