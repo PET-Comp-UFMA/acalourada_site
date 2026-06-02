@@ -68,6 +68,8 @@ variações de margin-
     width: 100%;
     margin-top: -380px;
     display: block;
+    user-select: none;
+    -webkit-user-drag: none;
     position: relative;
     z-index: 3;
 }
@@ -76,6 +78,8 @@ variações de margin-
     width: 100%;
     margin-top: -610px;
     display: block;
+    user-select: none;
+    -webkit-user-drag: none;
     position: relative;
     z-index: 1;
 }
@@ -88,7 +92,7 @@ variações de margin-
     margin-top: 60px; /* distancia pro elemento do topo (caixa azul clara) */
 
     position: relative;
-    z-index: 1000;
+    z-index: 4;
 }
 
 .btn-dia{
