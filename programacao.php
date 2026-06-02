@@ -4,6 +4,93 @@ require_once('header.php');
 
 echo '<link rel="stylesheet" href="css/Novo_CSS/programacao.css">';
 
+/*Adicione aqui a programaçao do evento, seguindo o formato 
+'dia1' => [                                   // O dia ira definir o numero de botoes
+                                            //A resposividade foi pensada para 3 dias, o resto fica com deus kk
+        'label' => '17/06',                   // O label e semana aparecem nos botoes
+        'semana' => 'Quarta-feira',
+        'atividades' => [
+            [
+                'periodo' => 'Manhã',                                  // aqui voce coloca a atividade dos cards
+                'horario_inicio' => '08:30',
+                'horario_fim' => '10:30',
+                'titulo' => 'Boas Vindas + Apresentação PETComp',
+                'local' => 'Auditório da Pós (CCET)',
+                'palestrantes' => [
+                    [
+                        'nome' => 'Equipe PETComp',
+                        'foto' => 'img/speakers/pet.jpg'
+                    ]
+                ]
+            ],
+            [
+                'periodo' => 'Manhã',
+                'horario_inicio' => '10:30',
+                'horario_fim' => '12:00',
+                'titulo' => 'Palestra sobre SBC e grupo Dexters',
+                'local' => 'Auditório da Pós (CCET)',
+                'palestrantes' => [
+                    [
+                        'nome' => 'Prof. Luis Rivero',
+                        'foto' => 'img/speakers/prof.luis.png'
+                    ]
+                ]
+            ]
+        ]
+    ],
+    'dia2' => [
+        'label' => '18/06',
+        'semana' => 'Quinta-feira',
+        'atividades' => [
+            [
+                'periodo' => 'Manhã',
+                'horario_inicio' => '08:30',
+                'horario_fim' => '10:30',
+                'titulo' => 'Apresentação das Coordenações',
+                'local' => 'Auditório da Pós (CCET)',
+                'palestrantes' => [
+                    [
+                        'nome' => 'Coordenação de Curso',
+                        'foto' => 'img/speakers/DEINF.png'
+                    ]
+                ]
+            ],
+            [
+                'periodo' => 'Manhã',
+                'horario_inicio' => '10:30',
+                'horario_fim' => '12:00',
+                'titulo' => 'Palestra: Carreira e Oportunidades',
+                'local' => 'Auditório da Pós (CCET)',
+                'palestrantes' => [
+                    [
+                        'nome' => 'Profa. Dra. Simara Vieira',
+                        'foto' => 'img/speakers/simara.png'
+                    ]
+                ]
+            ]
+        ]
+    ],
+    'dia3' => [
+        'label' => '19/06',
+        'semana' => 'Sexta-feira',
+        'atividades' => [
+            [
+                'periodo' => 'Manhã',
+                'horario_inicio' => '08:30',
+                'horario_fim' => '12:00',
+                'titulo' => 'Apresentação dos Laboratórios (Parte 1)',
+                'local' => 'Auditório da Pós (CCET)',
+                'palestrantes' => [
+                    [
+                        'nome' => 'Equipe PETComp',
+                        'foto' => 'img/speakers/pet.jpg'
+                    ]
+                ]
+            ]
+        ]
+    ]
+];
+*/
 $programacao = [
     'dia1' => [
         'label' => '17/06',
@@ -198,10 +285,16 @@ $programacao_esta_vazia = empty($programacao);
 
 $dias = array_keys($programacao);
 
-$dia_ativo = isset($_GET['dia']) && in_array($_GET['dia'], $dias)
+$dia_ativo = (!$programacao_esta_vazia && isset($_GET['dia']) && in_array($_GET['dia'], $dias))
     ? $_GET['dia']
-    : $dias[0];
+    : ($dias[0] ?? null);
 
+//Quando programaçao tiver vazia
+$dias_fixos = [
+    '15' => ['label' => 'A DEFINIR', 'semana' => 'a definir'],
+    '16' => ['label' => 'A DEFINIR', 'semana' => 'a definir'],
+    '17' => ['label' => 'A DEFINIR', 'semana' => 'a definir'],
+];
 // Group activities by period
 $atividades_por_periodo = [];
 if (!$programacao_esta_vazia && isset($programacao[$dia_ativo]['atividades'])) {
@@ -281,23 +374,16 @@ if (!$programacao_esta_vazia && isset($programacao[$dia_ativo]['atividades'])) {
     <!-- Tabs -->
     <div class="day-tabs" role="tablist" aria-label="Dias do evento">
 
-        <?php foreach ($programacao as $chave => $dia): ?>
-
-            <?php $ativo = ($chave === $dia_ativo); ?>
-
+        <?php
+        $dias_para_exibir = $programacao_esta_vazia ? $dias_fixos : $programacao;
+        foreach ($dias_para_exibir as $chave => $dia):
+            $ativo = ($chave === ($dia_ativo ?? array_key_first($dias_para_exibir)));
+            ?>
             <a href="?dia=<?= urlencode($chave) ?>" class="day-tab <?= $ativo ? 'active' : '' ?>" role="tab"
                 aria-selected="<?= $ativo ? 'true' : 'false' ?>">
-
-                <span class="dt">
-                    <?= htmlspecialchars($dia['label']) ?>
-                </span>
-
-                <span class="dw">
-                    <?= htmlspecialchars($dia['semana']) ?>
-                </span>
-
+                <span class="dt"><?= htmlspecialchars($dia['label']) ?></span>
+                <span class="dw"><?= htmlspecialchars($dia['semana']) ?></span>
             </a>
-
         <?php endforeach; ?>
 
     </div>
@@ -311,8 +397,9 @@ if (!$programacao_esta_vazia && isset($programacao[$dia_ativo]['atividades'])) {
                         fill="#01204C" />
                 </svg>
             </div>
-            <h2 class="empty-title">Sem programação</h2>
-            <p class="empty-desc">Sem programação no momento</p>
+            <h2 class="empty-title">Em breve!</h2>
+            <p class="empty-desc">Estamos preparando uma experiência incrível para você.
+                A progamação de 2026.2 estará disponível em breve. </p>
         </div>
     <?php else: ?>
         <div class="content">
@@ -395,7 +482,6 @@ if (!$programacao_esta_vazia && isset($programacao[$dia_ativo]['atividades'])) {
                         </div>
                     </div>
                 <?php endforeach; ?>
-
             </div>
         <?php endif; ?>
 </main>
