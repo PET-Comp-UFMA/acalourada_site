@@ -4,36 +4,36 @@ piao de css e nao consegue decorar as coisas
 */
 
 .fake-browser-bar {
-height: 55px;
-background-color: #d9d9d9;
+    height: 55px;
+    background-color: #d9d9d9;
 }
 
 .hero-registros {
-background-color: #027BDF;
-min-height: 320px;
-display: flex;
-align-items: center; /* centraliza verticalmente */
+    background-color: #027BDF;
+    min-height: 320px;
+    display: flex;
+    align-items: center; /* centraliza verticalmente */
     position: relative;
     z-index: 2;
 }
 
 .hero-registros-content {
-width: 80%;
-/* max-width: 1200px; */
-margin: 0 auto; /* centraliza horizontalmente */
-display: flex;
-flex-direction: column; /* formato de coluna (um embaixo do outro) */
-align-items: flex-end; /* joga o conteudo pra direita */
+    width: 80%;
+    /* max-width: 1200px; */
+    margin: 0 auto; /* centraliza horizontalmente */
+    display: flex;
+    flex-direction: column; /* formato de coluna (um embaixo do outro) */
+    align-items: flex-end; /* joga o conteudo pra direita */
 }
 
 .hero-registros-content h1 {
-font-family: "Karantina", sans-serif;
-color: white;
-font-size: 90px; /* tamanho */
-font-weight: 900; /* grossura */
-margin-bottom: 18px; /* espaçamento inferior */
-text-align: left;
-width: 925px; /* tamanho horizontal da caixa */
+    font-family: "Karantina", sans-serif;
+    color: white;
+    font-size: 90px; /* tamanho */
+    font-weight: 900; /* grossura */
+    margin-bottom: 18px; /* espaçamento inferior */
+    text-align: left;
+    width: 925px; /* tamanho horizontal da caixa */
 }
 
 /*
@@ -45,31 +45,27 @@ variações de margin-
 */
 
 .hero-registros-content h1 span {
-color: #001249;
+    color: #001249;
 }
 
 .hero-registros-content p {
-font-family: "Montserrat", sans-serif;
-color: white;
-font-size: 27px;
-font-weight: 700;
-line-height: 1.2; /* espaçamento */
-width: 925px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 1.2; /* espaçamento */
+    width: 925px;
 }
 
 .registros-banner {
-    position: relative;
-    z-index: 1;
-/* background: white; */
-overflow: visible;
+    /* background: white; */
+    overflow: visible;
     margin-bottom: -95px;
     /* width: 100%; */
 }
 
 .banner-registros-img {
-width: 100%;
-    margin-top: -380px; /* -275 antes */
-    margin-bottom: -70px;
+    width: 100%;
     margin-top: -380px;
     display: block;
     position: relative;
@@ -79,52 +75,51 @@ width: 100%;
 .fundo-main-img {
     width: 100%;
     margin-top: -610px;
-display: block;
+    display: block;
     position: relative;
     z-index: 1;
 }
 
 .dias-container{
-display: flex;
-/* justify-content: center; centralizado horizontalmente */
-margin-left: 595px;
-gap: 20px; /* distancia entre elementos do container */
-margin-top: 60px; /* distancia pro elemento do topo (caixa azul clara) */
+    display: flex;
+    /* justify-content: center; centralizado horizontalmente */
+    margin-left: 595px;
+    gap: 20px; /* distancia entre elementos do container */
+    margin-top: 60px; /* distancia pro elemento do topo (caixa azul clara) */
 
-position: relative;
-    z-index: 10;
+    position: relative;
     z-index: 1000;
 }
 
 .btn-dia{
-background-color: #001d6e;
-color: white;
-border: 3px solid #0d8fe3; /* borda ciano no botao azul escuro */
-border-radius: 30px; /* arredonda a borda */
+    background-color: #001d6e;
+    color: white;
+    border: 3px solid #0d8fe3; /* borda ciano no botao azul escuro */
+    border-radius: 30px; /* arredonda a borda */
 
-width: 112px; /* largura */
-height: 36px; /* altura */
+    width: 112px; /* largura */
+    height: 36px; /* altura */
 
-font-family: "Montserrat", sans-serif;
-font-size: 18px;
-font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
 
-/* animacao de cursor */
-cursor: pointer;
-transition: 0.2s;
+    /* animacao de cursor */
+    cursor: pointer;
+    transition: 0.2s;
 
-box-shadow: 4px 4px 0 rgba(0,0,0,0.2); /* sombra */
+    box-shadow: 4px 4px 0 rgba(0,0,0,0.2); /* sombra */
 }
 
 .btn-dia:hover{
-transform: translateY(-2px);
-/* botao sobe 2px quando o cursor esta em cima */
+    transform: translateY(-2px);
+    /* botao sobe 2px quando o cursor esta em cima */
 }
 
 .btn-dia.ativo{
-background-color: #0d8fe3;
-color: white;
-border: 3px solid #001d6e; /* borda ciano no botao azul escuro */
-/* background-color: #00ff44; */
-/* botao ativo mais escuro */
+    background-color: #0d8fe3;
+    color: white;
+    border: 3px solid #001d6e; /* borda ciano no botao azul escuro */
+    /* background-color: #00ff44; */
+    /* botao ativo mais escuro */
 }

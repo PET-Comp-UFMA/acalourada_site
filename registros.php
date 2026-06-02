@@ -24,7 +24,7 @@
     <button class="btn-dia">Dia 3</button>
 </div>
 
-<script src="js/registrosBotoes.js"></script>
+<script src="js/Registros/registrosBotoes.js"></script>
 
 <section class="registros-banner">
 
