@@ -1,4 +1,4 @@
-<div class="fake-browser-bar"></div>
+<!-- <div class="fake-browser-bar"></div> -->
 
 <?php
     require_once('header.php');
@@ -36,7 +36,22 @@
         alt="Fundo Decorativo"
         class="fundo-main-img">
 
+    <button id="abrir-modal" class="area-tablet" aria-label="Abrir fotos do dia"></button>
+
 </section>
+
+<div id="modal-dia" class="modal">
+
+    <button id="fechar-modal" class="btn-fechar">
+        X
+    </button>
+
+    <img
+        id="boxFotos"
+        src="img/registros/2026.2/BoxFotos.png"
+        alt="Foto">
+
+</div>
 
 <script src="js/Registros/preview.js"></script>
 
