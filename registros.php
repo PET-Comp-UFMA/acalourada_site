@@ -1,4 +1,4 @@
-<div class="fake-browser-bar"></div>
+<!-- <div class="fake-browser-bar"></div> -->
 
 <?php
     require_once('header.php');
@@ -19,24 +19,41 @@
 </section>
 
 <div class="dias-container">
-    <button class="btn-dia ativo">Dia 1</button>
-    <button class="btn-dia">Dia 2</button>
-    <button class="btn-dia">Dia 3</button>
+    <button id="dia1" class="btn-dia ativo">Dia 1</button>
+    <button id="dia2" class="btn-dia">Dia 2</button>
+    <button id="dia3" class="btn-dia">Dia 3</button>
 </div>
-
-<script src="js/registrosBotoes.js"></script>
 
 <section class="registros-banner">
 
-    <img src="img/BannerRegistros.png"
+    <img
+        id="banner-registros"
+        src="img/registros/2026.2/BannerRegistrosEmBreve.png"
         alt="Banner registros"
         class="banner-registros-img">
 
-    <img src="img/fundoMain.svg"
+    <img src="img/registros/2026.2/fundoMain.svg"
         alt="Fundo Decorativo"
         class="fundo-main-img">
 
+    <button id="abrir-modal" class="area-tablet" aria-label="Abrir fotos do dia"></button>
+
 </section>
+
+<div id="modal-dia" class="modal">
+
+    <button id="fechar-modal" class="btn-fechar">
+        X
+    </button>
+
+    <img
+        id="boxFotos"
+        src="img/registros/2026.2/BoxFotos.png"
+        alt="Foto">
+
+</div>
+
+<script src="js/Registros/preview.js"></script>
 
 <?php 
     require_once('footer.php');
