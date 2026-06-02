@@ -20,7 +20,7 @@ require_once('header.php');
 
             <div>
                
-                <img src="img/MAPA CCET - UFMA.png" usemap="#image-map" class="mapa">
+                <img src="../img/MAPA CCET - UFMA.png" usemap="#image-map" class="mapa">
 
                 <map name="image-map">
                     <area target="" alt="Auditorio1" title="Auditorio 1" href="#" coords="1571,2760,1673,2866,1791,2760,1676,2655" shape="poly" onclick="mostrarImagem('img/Locais/Auditorio_1.jpeg'); return false;" >
