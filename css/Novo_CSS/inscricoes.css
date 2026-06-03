@@ -6,12 +6,20 @@
 h1 {
     color: #02185E;
     font-weight: 700;
-    font-size: ;
 }
 
 p {
     font-size: 1.4rem;
 }
+
+.inscricoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 3rem 3rem 3rem 3rem;
+}
+
+/*----INFORMAÇÕES----*/
 
 .acalourada {
     font-family: "Karantina", cursive;
@@ -24,18 +32,13 @@ p {
     font-size: 75px;
 }
 
-.inscricoes {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 3rem 3rem 3rem 3rem;
-}
 
 .inscricoes-info{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    gap: 2rem;
 }
 
 .info-text{
@@ -87,7 +90,7 @@ p {
 
 .card h3{
     color: white;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 8px;
 }
@@ -112,20 +115,115 @@ p {
 }
 
 
+/*----FORMULÁRIO----*/
+
 
 .inscricoes-form{
-    width: 600px;
-    height: 700px;
+    padding-top: 2.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.card-form{
+    width: 700px;
+    min-height: 700px;
+
     background-color: #021B73;
     border-radius: 15px;
 
-    margin-top: 50px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
 }
 
-/* .form {
-    width: 500px;
-    padding: 20PX;
-    max-width: 500px;
-    min-height: 450px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
-} */
+.card-form h2{
+    font-family: "Karantina", cursive;
+    color: #3AA3FC;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+.nome-celular{
+    display: flex;
+    gap: 5rem;
+}
+
+.nome-celular {
+    display: flex;
+    gap: 20px;
+}
+
+.nome-celular .campo:first-child {
+    flex: 1.3;
+}
+
+.nome-celular .campo:last-child {
+    flex: 1;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.campo label {
+    color: white;
+    font-weight: 600;
+}
+
+.campo input,
+.campo textarea {
+    width: 100%;
+    padding: 12px;
+
+    background-color: transparent;
+    border: 3px solid #047CE0;
+    border-radius: 6px;
+    color: white;
+    caret-color: white;
+
+    transition: all 0.25s ease;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+    outline: none;
+}
+
+input::focus,
+textarea::placeholder {
+    color: #fffffffb;
+    font-size: 12px;
+}
+
+.campo input:valid,
+.campo textarea:valid,
+.campo input:not(:placeholder-shown),
+.campo textarea:not(:placeholder-shown) {
+    background-color: #047CE0;
+}
+
+/*Sobrescrevendo o estilo do auto complit do chrome*/
+.campo input:-webkit-autofill,
+.campo input:-webkit-autofill:hover,
+.campo input:-webkit-autofill:focus {
+    -webkit-text-fill-color: white;
+    -webkit-box-shadow: 0 0 0px 1000px #047CE0 inset;
+}
+
+.campo textarea {
+    min-height: 100px;
+    resize: none;
+}
