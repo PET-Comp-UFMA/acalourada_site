@@ -300,14 +300,67 @@ main {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.015);
   transition: var(--transition-smooth);
   box-sizing: border-box;
+  cursor: pointer;
+}
+
+.schedule-item.open {
+  border-radius: 12px 12px 0 0;
+  border-bottom-color: transparent;
+  transform: none; /* disable the translateY on open */
+}
+
+.schedule-details {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.25s ease, padding 0.3s ease;
+  background: var(--bg-light-blue);
+  border: 1px solid var(--border-color);
+  border-top: none;
+  border-radius: 0 0 12px 12px;
+  margin-left: 20px; /* match .schedule-item margin-left */
+  padding: 0 1.25rem;
+  box-sizing: border-box;
+}
+
+.schedule-item.open + .schedule-details {
+  max-height: 200px;
+  opacity: 1;
+  padding: 0.85rem 1.25rem 1rem;
+}
+
+.details-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.details-duration {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--primary-blue);
+}
+
+.details-desc {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+  margin: 0;
+  border-top: 1px solid var(--border-color);
+  padding-top: 0.6rem;
 }
 
 .schedule-item:hover {
   transform: translateY(-2px);
   border-color: #cbd5e1;
-    box-shadow: -10px 13px 0px #02185E;
+  box-shadow: 0px 0px 10px #02185E;
   margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 /* Left: Coluna Time */
@@ -573,6 +626,15 @@ main {
     margin-left: 32px;
   }
 
+  .schedule-details {
+    margin-left: 32px; /* match desktop .schedule-item margin-left */
+    padding: 0 2rem;
+  }
+  .schedule-item.open + .schedule-details {
+    padding: 1rem 2rem 1.25rem;
+  }
+
+
   .schedule-time-col {
     flex-direction: column;
     align-items: flex-start;
@@ -618,23 +680,23 @@ main {
   }
 
   .hero::after {
-  content: '';
-  position: absolute;
-  left: 822px;
-  bottom: -1px;
-  width: 729px;
-  height: 502px;
-  background-color: var(--dark-blue);
-  border-radius: 48px;
-  z-index: 0;
-  pointer-events: none;
-}
+    content: '';
+    position: absolute;
+    left: 822px;
+    bottom: -1px;
+    width: 729px;
+    height: 502px;
+    background-color: var(--dark-blue);
+    border-radius: 48px;
+    z-index: 0;
+    pointer-events: none;
+  } /* <-- this was missing */
 
-.hero-date {
-  display: flex;
-  flex-direction:row;
-  align-items: flex-start;
-}
+  .hero-date {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
 
   .hero-inner>div {
     max-width: 600px;

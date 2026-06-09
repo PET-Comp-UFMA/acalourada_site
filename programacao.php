@@ -3,6 +3,7 @@
 require_once('header.php');
 
 echo '<link rel="stylesheet" href="css/Novo_CSS/programacao.css">';
+echo '<script src="js/programacao.js" defer></script>';
 
 /*Adicione aqui a programaçao do evento, seguindo o formato 
 'dia1' => [                                   // O dia ira definir o numero de botoes
@@ -91,195 +92,7 @@ echo '<link rel="stylesheet" href="css/Novo_CSS/programacao.css">';
     ]
 ];
 */
-$programacao = [
-    'dia1' => [
-        'label' => '17/06',
-        'semana' => 'Quarta-feira',
-        'atividades' => [
-            [
-                'periodo' => 'Manhã',
-                'horario_inicio' => '08:30',
-                'horario_fim' => '10:30',
-                'titulo' => 'Boas Vindas + Apresentação PETComp',
-                'local' => 'Auditório da Pós (CCET)',
-                'palestrantes' => [
-                    [
-                        'nome' => 'Equipe PETComp',
-                        'foto' => 'img/speakers/pet.jpg'
-                    ]
-                ]
-            ],
-            [
-                'periodo' => 'Manhã',
-                'horario_inicio' => '10:30',
-                'horario_fim' => '12:00',
-                'titulo' => 'Palestra sobre SBC e grupo Dexters',
-                'local' => 'Auditório da Pós (CCET)',
-                'palestrantes' => [
-                    [
-                        'nome' => 'Prof. Luis Rivero',
-                        'foto' => 'img/speakers/prof.luis.png'
-                    ]
-                ]
-            ],
-            [
-                'periodo' => 'Tarde',
-                'horario_inicio' => '14:00',
-                'horario_fim' => '14:30',
-                'titulo' => 'Apresentação da Liga de Bioinformática',
-                'local' => 'Auditório da Pós (CCET)',
-                'palestrantes' => [
-                    [
-                        'nome' => 'LABI',
-                        'foto' => 'img/speakers/labi.jpeg'
-                    ]
-                ]
-            ],
-            [
-                'periodo' => 'Tarde',
-                'horario_inicio' => '14:30',
-                'horario_fim' => '15:00',
-                'titulo' => 'Apresentação da LAJD (Liga de Jogos Digitais)',
-                'local' => 'Auditório da Pós (CCET)',
-                'palestrantes' => [
-                    [
-                        'nome' => 'Equipe LAJD',
-                        'foto' => 'img/LAJD.jpeg'
-                    ]
-                ]
-            ],
-            [
-                'periodo' => 'Tarde',
-                'horario_inicio' => '15:00',
-                'horario_fim' => '16:00',
-                'titulo' => 'Apresentação DAComp',
-                'local' => 'Auditório da Pós (CCET)',
-                'palestrantes' => [
-                    [
-                        'nome' => 'Equipe DAComp',
-                        'foto' => 'img/speakers/dacomp.jpeg'
-                    ]
-                ]
-            ],
-            [
-                'periodo' => 'Tarde',
-                'horario_inicio' => '16:00',
-                'horario_fim' => '17:00',
-                'titulo' => 'Apresentação da Atlética',
-                'local' => 'Auditório da Pós (CCET)',
-                'palestrantes' => [
-                    [
-                        'nome' => 'Equipe da Atlética',
-                        'foto' => 'img/speakers/lorde.png'
-                    ]
-                ]
-            ]
-        ]
-    ],
-    'dia2' => [
-        'label' => '18/06',
-        'semana' => 'Quinta-feira',
-        'atividades' => [
-            [
-                'periodo' => 'Manhã',
-                'horario_inicio' => '08:30',
-                'horario_fim' => '10:30',
-                'titulo' => 'Apresentação das Coordenações',
-                'local' => 'Auditório da Pós (CCET)',
-                'palestrantes' => [
-                    [
-                        'nome' => 'Coordenação de Curso',
-                        'foto' => 'img/speakers/DEINF.png'
-                    ]
-                ]
-            ],
-            [
-                'periodo' => 'Manhã',
-                'horario_inicio' => '10:30',
-                'horario_fim' => '12:00',
-                'titulo' => 'Palestra: Carreira e Oportunidades',
-                'local' => 'Auditório da Pós (CCET)',
-                'palestrantes' => [
-                    [
-                        'nome' => 'Profa. Dra. Simara Vieira',
-                        'foto' => 'img/speakers/simara.png'
-                    ]
-                ]
-            ],
-            [
-                'periodo' => 'Tarde',
-                'horario_inicio' => '14:00',
-                'horario_fim' => '15:30',
-                'titulo' => 'Apresentação NCA e Palestra',
-                'local' => 'Auditório da Pós (CCET)',
-                'palestrantes' => [
-                    [
-                        'nome' => 'Prof. Dr. Anselmo Paiva',
-                        'foto' => 'img/speakers/nca.jpeg'
-                    ]
-                ]
-            ],
-            [
-                'periodo' => 'Tarde',
-                'horario_inicio' => '15:30',
-                'horario_fim' => '17:30',
-                'titulo' => 'Mesa Redonda com Egressos',
-                'local' => 'Auditório da Pós (CCET)',
-                'palestrantes' => [
-                    [
-                        'nome' => 'Equipe PETComp',
-                        'foto' => 'img/speakers/pet.jpg'
-                    ]
-                ]
-            ]
-        ]
-    ],
-    'dia3' => [
-        'label' => '19/06',
-        'semana' => 'Sexta-feira',
-        'atividades' => [
-            [
-                'periodo' => 'Manhã',
-                'horario_inicio' => '08:30',
-                'horario_fim' => '12:00',
-                'titulo' => 'Apresentação dos Laboratórios (Parte 1)',
-                'local' => 'Auditório da Pós (CCET)',
-                'palestrantes' => [
-                    [
-                        'nome' => 'Equipe PETComp',
-                        'foto' => 'img/speakers/pet.jpg'
-                    ]
-                ]
-            ],
-            [
-                'periodo' => 'Tarde',
-                'horario_inicio' => '14:00',
-                'horario_fim' => '15:30',
-                'titulo' => 'Apresentação dos Laboratórios (Parte 2)',
-                'local' => 'Auditório da Pós (CCET)',
-                'palestrantes' => [
-                    [
-                        'nome' => 'Equipe PETComp',
-                        'foto' => 'img/speakers/pet.jpg'
-                    ]
-                ]
-            ],
-            [
-                'periodo' => 'Tarde',
-                'horario_inicio' => '15:30',
-                'horario_fim' => '18:00',
-                'titulo' => 'Dinâmica PETComp + Premiação',
-                'local' => 'Auditório da Pós (CCET)',
-                'palestrantes' => [
-                    [
-                        'nome' => 'Equipe PETComp',
-                        'foto' => 'img/speakers/pet.jpg'
-                    ]
-                ]
-            ]
-        ]
-    ]
-];
+$programacao = [];
 
 $programacao_esta_vazia = empty($programacao);
 
@@ -441,7 +254,7 @@ if (!$programacao_esta_vazia && isset($programacao[$dia_ativo]['atividades'])) {
                             <?php foreach ($atividades as $item): ?>
                                 <div class="timeline-item">
                                     <div class="timeline-marker"></div>
-                                    <article class="schedule-item">
+                                    <article class="schedule-item" onclick="toggleCard(this)" role="button" tabindex="0">
                                         <!-- Coluna da esquerda: Horários verticalizados -->
                                         <div class="schedule-time-col">
                                             <span class="time-start"><?= htmlspecialchars($item['horario_inicio']) ?></span>
@@ -477,6 +290,31 @@ if (!$programacao_esta_vazia && isset($programacao[$dia_ativo]['atividades'])) {
                                             </div>
                                         <?php endif; ?>
                                     </article>
+                                    <div class="schedule-details">
+                                        <div class="details-meta">
+                                            <?php
+                                            $inicio = strtotime($item['horario_inicio']);
+                                            $fim = strtotime($item['horario_fim']);
+                                            $duracao = ($fim - $inicio) / 60;
+                                            $h = floor($duracao / 60);
+                                            $m = $duracao % 60;
+                                            $durStr = $h > 0 ? "{$h}h" . ($m > 0 ? " {$m}min" : "") : "{$m}min";
+                                            ?>
+                                            <span class="details-duration">
+                                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2.5">
+                                                    <circle cx="12" cy="12" r="10" />
+                                                    <polyline points="12 6 12 12 16 14" />
+                                                </svg>
+                                                <?= $durStr ?>
+                                            </span>
+                                        </div>
+                                        <?php if (!empty($item['descricao'])): ?>
+                                            <p class="details-desc">
+                                                <?= htmlspecialchars($item['descricao']) ?>
+                                            </p>
+                                        <?php endif; ?>
+                                    </div>
                                 </div>
                             <?php endforeach; ?>
                         </div>
