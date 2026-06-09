@@ -1,5 +1,5 @@
 :root{
-    --azul-escuro:#021B73;
+    --azul-escuro:#02165B;
     --azul:#0094FE;
     --azul-claro:#4DAFFF;
     --branco:#FFF;
@@ -15,25 +15,32 @@
 /* HERO */
 
 .hero{
-    background:
-        url("../../img/imagens_novo_site/imagembanner.png");
-    
-    background-size: 105%;
+    background: url("../../img/imagens_novo_site/banner-index.png");
+
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
     color: white;
-    padding: 85px 0;
+
+    padding: 150px 0; /* só cima e baixo */
+
+    min-height: 100vh;
+
     font-family: 'Montserrat', sans-serif;
 }
-.hero .container{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    gap:0px;
-}
 
+
+.hero .container{
+    width: 95%;
+    max-width: 1400px;
+
+    display: flex;
+    align-items: center;
+}
 .hero-text{
-    max-width:600px;
+    margin-left: -100px;
+    max-width:1000px;
 }
 
 .hero-tag{
@@ -87,19 +94,18 @@
     font-weight:bold;
 }
 
-.hero-image img{
-    width:550px;
-    max-width:100%;
-}
+
 
 /* SOBRE */
 
 .sobre{
+    font-family: 'Montserrat', sans-serif;
     margin-top:-50px;
     padding-bottom:80px;
 }
 
 .sobre .container{
+    max-width: 90%;
 
     background:var(--azul-escuro);
 
@@ -121,15 +127,23 @@
     align-items:center;
 }
 
-.sobre-icon img{
-    width:100%;
-}
 
 .sobre-text h2{
-    margin-bottom:20px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom:0px;
 }
-
+.sobre-barra{
+    width: 110px;
+    height: 9px;
+    background: #027BDF;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
 .sobre-text p{
+    font-size: 20px;
+    text-align: justify;
+    font-weight: bold;
     line-height:1.7;
 }
 
@@ -146,7 +160,7 @@
 
     border-radius:18px;
 
-    padding:25px;
+    padding:10px;
 
     text-align:center;
 
@@ -168,12 +182,24 @@
 /* ORGANIZAÇÃO */
 
 .organizacao{
+    font-family: 'Montserrat', sans-serif;
     padding:40px 0 80px;
 }
 
+
+
 .organizacao h2{
+    font-size: 35px;
+    font-weight: bold;
     text-align:center;
-    margin-bottom:50px;
+}
+.organizacao-barra{
+    width: 110px;
+    height: 9px;
+    background: #027BDF;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 70px;
 }
 
 .organizacao-grid{
@@ -212,12 +238,22 @@
 /* FAQ */
 
 .faq{
+    font-family: 'Montserrat', sans-serif;
     padding-bottom:80px;
 }
 
 .faq h2{
+    font-size: 35px;
+    font-weight: bold;
     text-align:center;
-    margin-bottom:20px;
+}
+.faq-barra{
+    width: 110px;
+    height: 9px;
+    background: #027BDF;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 70px;
 }
 
 .faq-desc{
@@ -237,31 +273,34 @@
 }
 
 .faq-question{
-
     width:100%;
-
     background:white;
-
     border:none;
-
     padding:20px;
 
-    text-align:left;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 
     cursor:pointer;
-
     font-size:1rem;
-
     font-weight:600;
+    text-align:left;
+}
+
+.seta{
+    transition: transform 0.5s ease;
+}
+
+.faq-item.active .seta{
+    transform: rotate(180deg);
 }
 
 .faq-answer{
-
+    text-align: justify;
     display:none;
-
     padding:20px;
-
-    background:#fafafa;
+    background:white;
 }
 
 .faq-item.active .faq-answer{
