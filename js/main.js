@@ -1,13 +1,12 @@
 //Menu mobile
-const toggler = document.querySelector('.site-toggler');
-const navbar = document.querySelector('.site-navbar');
+const btn = document.querySelector(".site-toggler");
+const menu = document.querySelector(".site-navbar");
 
-if (toggler && navbar) {
+btn.addEventListener("click", () => {
+    menu.classList.toggle("active");
 
-    toggler.addEventListener('click', () => {
-
-        navbar.classList.toggle('active');
-
-    });
-
-}
+    btn.innerHTML =
+        menu.classList.contains("active")
+            ? "✕"
+            : "☰";
+});

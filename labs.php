@@ -325,7 +325,9 @@ function componentePopUp($idPopUp, $cor, $caminhoLogo, $titulo, $subtitulo, $des
     );
     ?>
 
-    <?php include 'footer.php'; ?>
+    <?php
+        require_once('footer.php');
+    ?> 
 
     <script>
         function abrirPopUp(idPopUp) {
