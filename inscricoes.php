@@ -81,13 +81,13 @@
             <div class="card-form">
                 <h2>Formulário de Inscrição</h2>
                 
-                <form action="">
+                <form action="https://script.google.com/macros/s/AKfycbwjpGmwruS3OYcfhKIZTuiM_TZTld_gLO19flzD08FHyHvXTHxCTLHcl4OWic_VYkI3/exec" method = "POST">
                     
                     <div class="nome-celular">
                         <!--NOME-->
                         <div class="campo">
                             <label for="nome">Nome Completo:</label>
-                            <input type="text" id="nome" placeholder="Digite seu nome completo" required>
+                            <input type="text" id="nome" name="nome"  placeholder="Digite seu nome completo" required>
                         </div>
                         <!--NUMERO-->
                         <div class="campo">
@@ -98,12 +98,12 @@
                     <!--EMAIL-->
                     <div class="campo">
                         <label for="email">Email Discente (Se não houver, use o pessoal):</label>
-                        <input type="email" id="email" placeholder="Digite seu email" required>
+                        <input type="email" id="email" name="email" placeholder="Digite seu email" required>
                     </div>
                     <!--INTERESSES-->
                     <div class="campo">
                         <label for="interesses">Quais assuntos você gostaria que fossem abordados na Acalourada?</label>
-                        <textarea id="interesses" placeholder="Digite assuntos de seu interesse" required></textarea>
+                        <textarea id="interesses" name ="interesses" placeholder="Digite assuntos de seu interesse" required></textarea>
                     </div>
                     <!--EXPECTATIVA-->
                     <div class="campo">
@@ -144,7 +144,7 @@
                         </div>
                     </div>
                     <div class="container-botao">
-                        <button id="btnRegistrar">REGISTRAR</button>
+                        <button type = "submit" id="btnRegistrar">REGISTRAR</button>
                         <span class="tooltip">
                             Preencha todos os campos para realizar a inscrição.
                         </span>
