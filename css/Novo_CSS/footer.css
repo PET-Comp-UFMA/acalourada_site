@@ -3,7 +3,8 @@ body{
     overflow-x: hidden;
 }
 
-p{
+.fixar-rodape,
+.fixar-rodape *{
     font-family: "Montserrat", sans-serif;
 }
 
