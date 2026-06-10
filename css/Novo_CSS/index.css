@@ -1,0 +1,337 @@
+:root{
+    --azul-escuro:#02165B;
+    --azul:#0094FE;
+    --azul-claro:#4DAFFF;
+    --branco:#FFF;
+    --cinza:#F3F3F3;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+/* HERO */
+
+.hero{
+    background: url("../../img/imagens_novo_site/banner-index.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+
+    padding: 150px 0; /* só cima e baixo */
+
+    min-height: 100vh;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.hero .container{
+    width: 95%;
+    max-width: 1400px;
+
+    display: flex;
+    align-items: center;
+}
+.hero-text{
+    margin-left: -100px;
+    max-width:1000px;
+}
+
+.hero-tag{
+    display:inline-block;
+
+    background:#102F70;
+
+    padding:10px 18px;
+
+    border-radius:8px;
+
+    font-size:1rem;
+
+    font-weight:bold;
+
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:3rem;
+    line-height:1.1;
+    margin-bottom:20px;
+    font-weight:bold;
+}
+
+.hero h1 span{
+    display:block;
+    color:var(--azul-claro);
+}
+
+.hero p{
+    font-size:1.5rem;
+    margin-bottom:30px;
+    font-weight:bold;
+}
+
+.btn-participar{
+    display:inline-block;
+
+    background:var(--azul);
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:16px 32px;
+
+    border-radius:999px;
+    
+
+    font-weight:bold;
+}
+
+
+
+/* SOBRE */
+
+.sobre{
+    font-family: 'Montserrat', sans-serif;
+    margin-top:-50px;
+    padding-bottom:80px;
+}
+
+.sobre .container{
+    max-width: 90%;
+
+    background:var(--azul-escuro);
+
+    color:white;
+
+    border-radius:30px;
+
+    padding:50px;
+
+    display:grid;
+
+    grid-template-columns:
+        150px
+        1fr
+        350px;
+
+    gap:40px;
+
+    align-items:center;
+}
+
+
+.sobre-text h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom:0px;
+}
+.sobre-barra{
+    width: 110px;
+    height: 9px;
+    background: #027BDF;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.sobre-text p{
+    font-size: 20px;
+    text-align: justify;
+    font-weight: bold;
+    line-height:1.7;
+}
+
+.sobre-cards{
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:20px;
+}
+
+.sobre-card{
+    background:var(--azul);
+
+    border-radius:18px;
+
+    padding:10px;
+
+    text-align:center;
+
+    min-height:120px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+}
+
+.sobre-card span{
+    margin-top:10px;
+}
+
+/* ORGANIZAÇÃO */
+
+.organizacao{
+    font-family: 'Montserrat', sans-serif;
+    padding:40px 0 80px;
+}
+
+
+
+.organizacao h2{
+    font-size: 35px;
+    font-weight: bold;
+    text-align:center;
+}
+.organizacao-barra{
+    width: 110px;
+    height: 9px;
+    background: #027BDF;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.organizacao-grid{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(3,1fr);
+
+    gap:30px;
+}
+
+.organizacao-card{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:30px;
+
+    text-align:center;
+
+    box-shadow:
+        0 5px 20px rgba(0,0,0,.1);
+}
+
+.organizacao-card img{
+    width:120px;
+    margin-bottom:20px;
+}
+
+.organizacao-card h3{
+    margin-bottom:10px;
+}
+
+/* FAQ */
+
+.faq{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom:80px;
+}
+
+.faq h2{
+    font-size: 35px;
+    font-weight: bold;
+    text-align:center;
+}
+.faq-barra{
+    width: 110px;
+    height: 9px;
+    background: #027BDF;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.faq-desc{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.faq-item{
+
+    border:2px solid var(--azul);
+
+    border-radius:10px;
+
+    margin-bottom:15px;
+
+    overflow:hidden;
+}
+
+.faq-question{
+    width:100%;
+    background:white;
+    border:none;
+    padding:20px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    cursor:pointer;
+    font-size:1rem;
+    font-weight:600;
+    text-align:left;
+}
+
+.seta{
+    transition: transform 0.5s ease;
+}
+
+.faq-item.active .seta{
+    transform: rotate(180deg);
+}
+
+.faq-answer{
+    text-align: justify;
+    display:none;
+    padding:20px;
+    background:white;
+}
+
+.faq-item.active .faq-answer{
+    display:block;
+}
+
+/* RESPONSIVO */
+
+@media(max-width:992px){
+
+    .hero .container{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .sobre .container{
+        grid-template-columns:1fr;
+    }
+
+    .organizacao-grid{
+        grid-template-columns:1fr;
+    }
+}
+
+@media(max-width:768px){
+
+    .hero h1{
+        font-size:2.5rem;
+    }
+
+    .sobre-cards{
+        grid-template-columns:1fr;
+    }
+}

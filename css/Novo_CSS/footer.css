@@ -16,6 +16,12 @@ a:hover{
     color: inherit;
 }
 
+/* pro footer ficar na frente de tudo sempre */
+.fixar-rodape{
+    position: relative;
+    z-index: 1000;
+}
+
 /* ONDA */
 .footer-wave{
     width: 100%;
@@ -26,11 +32,9 @@ a:hover{
 }
 
 .footer-wave svg{
-    position: relative;
     display: block;
     width: 100%;
     height: 90px;
-    z-index: 2;
 }
 
 .footer-wave path{

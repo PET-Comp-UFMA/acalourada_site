@@ -1,5 +1,4 @@
 <?php
-  require_once('html_header.php');
   require_once('header.php');
 ?>
 
