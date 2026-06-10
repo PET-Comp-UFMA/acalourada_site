@@ -1,0 +1,556 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+h1 {
+    color: #02185E;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+.inscricoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 3rem 3rem 3rem 3rem;
+}
+
+/*----INFORMAÇÕES----*/
+
+.acalourada {
+    font-family: "Karantina", cursive;
+    font-size: 90px;
+}
+
+.azul-claro {
+    font-family: "Karantina", cursive;;
+    color: #047CE0;
+    font-size: 75px;
+}
+
+
+.inscricoes-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.info-text{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.info-cards{
+    width: 470px;
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-vertical{
+    display: flex;
+    justify-content: space-between; 
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.card{
+    width: 150px;
+    min-height: 200px;
+
+    background-color: #021b72;
+    border: 3px solid #3AA3FC;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 3px;
+
+    padding: 16px 12px;
+
+}
+
+.card img{
+    width: 54px;
+    height: auto;
+    margin: 8px;
+}
+
+.card h3{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.card p{
+    color: white;
+    font-size: 0.95rem;
+    line-height: 1.3;
+}
+
+.card-horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+
+#horizontal{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100px;
+}
+
+
+/*----FORMULÁRIO----*/
+
+
+.inscricoes-form{
+    padding-top: 2.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.card-form{
+    width: 700px;
+    min-height: 700px;
+
+    background-color: #021B73;
+    border-radius: 15px;
+
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.card-form h2{
+    font-family: "Karantina", cursive;
+    color: #3AA3FC;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+.nome-celular{
+    display: flex;
+    gap: 5rem;
+}
+
+.nome-celular {
+    display: flex;
+    gap: 20px;
+}
+
+.nome-celular .campo:first-child {
+    flex: 1.3;
+}
+
+.nome-celular .campo:last-child {
+    flex: 1;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.campo label {
+    color: white;
+    font-weight: 600;
+}
+
+.campo input,
+.campo textarea {
+    width: 100%;
+    padding: 12px;
+
+    background-color: transparent;
+    border: 3px solid #047CE0;
+    border-radius: 6px;
+    color: white;
+    caret-color: white;
+
+    transition: all 0.25s ease;
+}
+
+
+.campo input:focus,
+.campo textarea:focus {
+    outline: none;
+}
+
+input::focus,
+textarea::placeholder {
+    color: #047CE0;
+    font-size: 12px;
+}
+
+.campo input:valid,
+.campo textarea:valid,
+.campo input:not(:placeholder-shown),
+.campo textarea:not(:placeholder-shown) {
+    background-color: #047CE0;
+}
+
+/*Sobrescrevendo o estilo do auto complit do chrome*/
+.campo input:-webkit-autofill,
+.campo input:-webkit-autofill:hover,
+.campo input:-webkit-autofill:focus {
+    -webkit-text-fill-color: white;
+    -webkit-box-shadow: 0 0 0px 1000px #047CE0 inset;
+}
+
+.campo textarea {
+    min-height: 100px;
+    resize: none;
+}
+
+.escala input[type="radio"]{
+    display: none;
+}
+
+.escala{
+    display: flex;
+    gap: 12px;
+    margin-top: 12px;
+    margin: 0 auto;
+}
+
+/* Card da opção */
+.opcao{
+    width: 95px;
+    height: 80px;
+
+    border: 3px solid white;
+    border-radius: 6px;
+
+    color: white;
+    background-color: transparent;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+.opcao .numero{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+}
+.opcao .descricao{
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-top: 4px;
+    text-align: center;
+}
+.opcao:hover{
+    border-color: #3AA3FC;
+}
+
+
+/* Selecionado */
+.escala input[type="radio"]:checked + .opcao{
+    background-color: white;
+    color: #021B73;
+    border-color: white;
+}
+
+#btnRegistrar {
+    margin: 0 auto;
+    width: 180px;
+    height: 55px;
+    border: none;
+    border-radius: 6px;
+    background-color: #047CE0;
+    color: white;
+
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#btnRegistrar:disabled {
+    background-color: #5f7da1;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.container-botao{
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.tooltip{
+    position: absolute;
+
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background-color: #ff6b6b;
+    color: white;
+
+    padding: 8px 12px;
+    border-radius: 6px;
+
+    font-size: 0.85rem;
+    white-space: nowrap;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: 0.2s;
+}
+
+.tooltip::after{
+    content: "";
+
+    position: absolute;
+    top: 100%;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    border-width: 6px;
+    border-style: solid;
+    border-color: #ff6b6b transparent transparent transparent;
+}
+
+.container-botao.incompleto:hover .tooltip{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* =======================================
+   RESPONSIVIDADE MOBILE
+======================================= */
+
+@media screen and (max-width: 768px){
+
+    .inscricoes{
+        flex-direction: column;
+        margin: 0;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    /* FORMULÁRIO PRIMEIRO */
+    .inscricoes-form{
+        order: 2;
+        width: 100%;
+        height: 500%;
+        padding: 1rem 1rem;
+        background-color: #021B73;
+
+        border-radius: 30px 30px 0 0;
+        box-shadow: 0 -7px 10px rgba(0, 0, 0, 0.25);
+
+        position: relative;
+        z-index: 2;
+        margin-bottom: -48px;
+    }
+
+    .card-form{
+        width: 100%;
+        min-height: auto;
+        padding: 24px 16px;
+        border-radius: 18px;
+    }
+
+    .card-form h2{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    form{
+        width: 100%;
+    }
+
+    /* CAMPOS EMPILHADOS */
+    .nome-celular{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nome-celular .campo:first-child,
+    .nome-celular .campo:last-child{
+        flex: unset;
+    }
+
+    .campo{
+        gap: .5rem;
+    }
+
+    .campo label{
+        font-size: .95rem;
+    }
+
+    .campo input,
+    .campo textarea{
+        font-size: .9rem;
+        padding: 10px;
+    }
+
+    .campo textarea{
+        min-height: 90px;
+    }
+
+    /* ESCALA */
+    .escala{
+        width: 100%;
+        justify-content: space-between;
+        gap: 4px;
+    }
+
+    .opcao{
+        width: calc(20% - 4px);
+        height: 70px;
+    }
+
+    .opcao .numero{
+        font-size: 1.2rem;
+    }
+
+    .opcao .descricao{
+        font-size: .55rem;
+    }
+
+    #btnRegistrar{
+        width: 130px;
+        height: 45px;
+        font-size: .9rem;
+    }
+
+    /* INFORMAÇÕES */
+    .inscricoes-info{
+        order: 1;
+        width: 100%;
+        padding-top: 12px;
+        align-items: center;
+        text-align: center;
+
+        max-width: 390px;
+        margin: 0 auto;
+    }
+
+    .info-text{
+        align-items: center;
+        gap: 12px;
+    }
+
+    .titulo h1:first-child{
+        font-size: 1.8rem;
+    }
+
+    .acalourada{
+        font-size: 3.3rem;
+        line-height: .8;
+    }
+
+    .azul-claro{
+        font-size: 3.3rem;
+    }
+
+    .info-text p{
+        font-size: .9rem;
+        max-width: 340px;
+        margin: 0 auto;
+        line-height: 1.2;
+    }
+
+    .info-text br{
+        display: none;
+    }
+
+    /* CARDS */
+    .info-cards{
+        width: 100%;
+        padding: 0 1.5rem;
+        gap: 10px;
+    }
+
+    .card-vertical{
+        width: 100%;
+        margin-top: 0;
+        gap: 6px;
+    }
+
+    .card{
+        flex: 1;
+        width: auto;
+        min-height: 100px;
+        padding: 8px 4px;
+    }
+
+    .card img{
+        width: 28px;
+        margin: 2px;
+    }
+
+    .card h3{
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+    .card p{
+        font-size: .65rem;
+        line-height: 1.1;
+    }
+
+    /* CARD HORIZONTAL */
+    #horizontal{
+        min-height: 90px;
+        padding: 12px;
+        gap: 10px;
+        align-items: center;
+    }
+
+    #horizontal img{
+        width: 40px;
+    }
+
+    #horizontal .info h3{
+        font-size: 1.1rem;
+    }
+
+    #horizontal .info p{
+        font-size: .75rem;
+    }
+
+    .tooltip{
+        white-space: normal;
+        width: 220px;
+        text-align: center;
+    }
+}
