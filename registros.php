@@ -18,7 +18,7 @@
     </div>
 </section>
 
-<div class="dias-container">
+<div class="botoes-dias">
     <button id="dia1" class="btn-dia ativo">Dia 1</button>
     <button id="dia2" class="btn-dia">Dia 2</button>
     <button id="dia3" class="btn-dia">Dia 3</button>
@@ -36,7 +36,7 @@
         alt="Fundo Decorativo"
         class="fundo-main-img">
 
-    <button id="abrir-modal" class="area-tablet" aria-label="Abrir fotos do dia"></button>
+    <button id="abrir-modal" class="botao-invisivel-tablet" aria-label="Abrir fotos do dia"></button>
 
 </section>
 
@@ -53,7 +53,7 @@
 
 </div>
 
-<script src="js/Registros/preview.js"></script>
+<script src="js/registros.js"></script>
 
 <?php 
     require_once('footer.php');

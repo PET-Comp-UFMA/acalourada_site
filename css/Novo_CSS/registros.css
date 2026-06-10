@@ -3,10 +3,13 @@ oi robertinho encheu de comentario pq ele eh
 piao de css e nao consegue decorar as coisas
 */
 
-.fake-browser-bar {
-    height: 55px;
-    background-color: #d9d9d9;
-}
+/* ------------------------------------------------------------------------------
+HERO DA PAGINA REGISTROS (1a SESSÃO APOS O HEADER)
+------------------------------------------------------------------------------ */
+
+/* * {
+    outline: 1px solid red;
+} */
 
 .hero-registros {
     background-color: #027BDF;
@@ -36,14 +39,6 @@ piao de css e nao consegue decorar as coisas
     width: 925px; /* tamanho horizontal da caixa */
 }
 
-/*
-variações de margin-
-1. margin-top
-2. margin-right
-3. margin-bottom
-4. margin-left
-*/
-
 .hero-registros-content h1 span {
     color: #001249;
 }
@@ -57,51 +52,11 @@ variações de margin-
     width: 925px;
 }
 
-.registros-banner {
-    /* background: white; */
-    overflow: visible;
-    margin-bottom: -110px;
-    /* width: 100%; */
-}
+/* ------------------------------------------------------------------------------
+BOTÕES DOS 3 DIAS
+------------------------------------------------------------------------------ */
 
-.banner-registros-img {
-    width: 100%;
-    margin-top: -380px;
-    display: block;
-    user-select: none;
-    -webkit-user-drag: none;
-    position: relative;
-    z-index: 3;
-}
-
-.fundo-main-img {
-    width: 100%;
-    margin-top: -610px;
-    display: block;
-    user-select: none;
-    -webkit-user-drag: none;
-    position: relative;
-    z-index: 1;
-}
-
-.area-tablet {
-    /* pra achar o botao */
-    /* background: rgba(255, 0, 0, 0.3); */
-    background: transparent;
-
-    position: relative;
-    z-index: 5;
-    left: 600px;
-    bottom: 260px;
-    margin-top: -999px;
-    
-    width: 370px;
-    height: 260px;
-    border: none;
-    cursor: pointer;
-}
-
-.dias-container{
+.botoes-dias{
     display: flex;
     /* justify-content: center; centralizado horizontalmente */
     margin-left: 595px;
@@ -143,6 +98,54 @@ variações de margin-
     border: 3px solid #001d6e; /* borda ciano no botao azul escuro */
     /* background-color: #00ff44; */
     /* botao ativo mais escuro */
+}
+
+/* ------------------------------------------------------------------------------
+ARTEFATOS APÓS O HERO (GAROTO COM TABLET, FUNDO DECORATIVO)
+------------------------------------------------------------------------------ */
+
+.registros-banner {
+    /* background: white; */
+    overflow: visible;
+    margin-bottom: -110px;
+    /* width: 100%; */
+}
+
+.banner-registros-img {
+    width: 100%;
+    margin-top: -380px;
+    display: block;
+    user-select: none;
+    -webkit-user-drag: none;
+    position: relative;
+    z-index: 3;
+}
+
+.fundo-main-img {
+    width: 100%;
+    margin-top: -610px;
+    display: block;
+    user-select: none;
+    -webkit-user-drag: none;
+    position: relative;
+    z-index: 1;
+}
+
+.botao-invisivel-tablet {
+    /* pra achar o botao */
+    background: rgba(255, 0, 0, 0.3);
+    /* background: transparent; */
+
+    position: relative;
+    z-index: 5;
+    left: 600px;
+    bottom: 260px;
+    margin-top: -999px;
+    
+    width: 370px;
+    height: 260px;
+    border: none;
+    cursor: pointer;
 }
 
 /* ------------------------------------------------------------------------------
@@ -190,4 +193,89 @@ POP-UP (MODAL) AO CLICAR NO TABLET
     border: 3px solid #0d8fe3; /* borda ciano no botao azul escuro */
     font-size: 24px;
     cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------------
+RESPONSIVIDADE
+------------------------------------------------------------------------------ */
+
+@media (max-width: 768px) {
+
+    .hero-registros {
+        min-height: 180px;
+    }
+
+    .hero-registros-content {
+        width: 90%;
+    }
+
+    .hero-registros-content h1 {
+        width: 100%;
+        font-size: 36px;
+        margin-bottom: 8px;
+        line-height: 0.95;
+    }
+
+    .hero-registros-content p {
+        width: 100%;
+        font-size: 13px;
+        line-height: 1.2;
+        text-align: justify;
+    }
+
+    .botoes-dias {
+        margin-left: 145px;
+        margin-top: px;
+        margin-bottom: -90px;
+        gap: 10px;
+    }
+
+    .btn-dia {
+        width: 58px;
+        height: 18px;
+        font-size: 8px;
+        border-width: 1px;
+        box-shadow: 2px 2px 0 rgba(0,0,0,0.2);
+    }
+
+    .registros-banner {
+        margin-bottom: -175px;
+        overflow: hidden;
+    }
+
+    .banner-registros-img {
+        margin-top: 0px;
+        margin-left: -20px;
+        margin-bottom: 100px;
+        width: 150%;
+    }
+
+    .fundo-main-img {
+        margin-top: -345px;
+        margin-left: -170px;
+        margin-bottom: 100px;
+        width: 210%;
+    }
+
+    .botao-invisivel-tablet {
+        left: 145px;
+        bottom: 180px;
+        margin-top: -999px;
+        width: 115px;
+        height: 85px;
+    }
+
+    .modal-content {
+        width: 88%;
+        padding: 15px;
+        border-radius: 14px;
+    }
+
+    .btn-fechar {
+        width: 38px;
+        height: 38px;
+        top: 12px;
+        right: 12px;
+        font-size: 20px;
+    }
 }
