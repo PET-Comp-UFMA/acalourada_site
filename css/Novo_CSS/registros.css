@@ -11,13 +11,23 @@ HERO DA PAGINA REGISTROS (1a SESSÃO APOS O HEADER)
     outline: 1px solid red;
 } */
 
-.hero-registros {
+.hero-fundo-azul {
     background-color: #027BDF;
-    min-height: 320px;
+    /* background-color: transparent; */
+    min-height: 400px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-registros {
+    background-color: transparent;
+    margin-top: -400px;
+    min-height: 400px;
     display: flex;
     align-items: center; /* centraliza verticalmente */
     position: relative;
-    z-index: 2;
+    z-index: 4;
 }
 
 .hero-registros-content {
@@ -48,8 +58,10 @@ HERO DA PAGINA REGISTROS (1a SESSÃO APOS O HEADER)
     color: white;
     font-size: 27px;
     font-weight: 700;
+    margin-bottom: 18px; /* espaçamento inferior */
     line-height: 1.2; /* espaçamento */
     width: 925px;
+    
 }
 
 /* ------------------------------------------------------------------------------
@@ -58,13 +70,8 @@ BOTÕES DOS 3 DIAS
 
 .botoes-dias{
     display: flex;
-    /* justify-content: center; centralizado horizontalmente */
-    margin-left: 595px;
-    gap: 20px; /* distancia entre elementos do container */
-    margin-top: 60px; /* distancia pro elemento do topo (caixa azul clara) */
-
-    position: relative;
-    z-index: 4;
+    gap: 20px;
+        width: 925px;
 }
 
 .btn-dia{
@@ -107,13 +114,14 @@ ARTEFATOS APÓS O HERO (GAROTO COM TABLET, FUNDO DECORATIVO)
 .registros-banner {
     /* background: white; */
     overflow: visible;
-    margin-bottom: -110px;
+    position: relative;
+    margin-bottom: -4%;
     /* width: 100%; */
 }
 
 .banner-registros-img {
     width: 100%;
-    margin-top: -380px;
+    margin-top: -14%;
     display: block;
     user-select: none;
     -webkit-user-drag: none;
@@ -123,29 +131,12 @@ ARTEFATOS APÓS O HERO (GAROTO COM TABLET, FUNDO DECORATIVO)
 
 .fundo-main-img {
     width: 100%;
-    margin-top: -610px;
+    margin-top: -33%;
     display: block;
     user-select: none;
     -webkit-user-drag: none;
     position: relative;
     z-index: 1;
-}
-
-.botao-invisivel-tablet {
-    /* pra achar o botao */
-    background: rgba(255, 0, 0, 0.3);
-    /* background: transparent; */
-
-    position: relative;
-    z-index: 5;
-    left: 600px;
-    bottom: 260px;
-    margin-top: -999px;
-    
-    width: 370px;
-    height: 260px;
-    border: none;
-    cursor: pointer;
 }
 
 /* ------------------------------------------------------------------------------
