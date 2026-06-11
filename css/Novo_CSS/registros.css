@@ -14,7 +14,7 @@ HERO DA PAGINA REGISTROS (1a SESSÃO APOS O HEADER)
 .hero-fundo-azul {
     background-color: #027BDF;
     /* background-color: transparent; */
-    min-height: 400px;
+    min-height: 350px;
     display: flex;
     position: relative;
     z-index: 2;
@@ -22,8 +22,8 @@ HERO DA PAGINA REGISTROS (1a SESSÃO APOS O HEADER)
 
 .hero-registros {
     background-color: transparent;
-    margin-top: -400px;
-    min-height: 400px;
+    margin-top: -350px;
+    min-height: 350px;
     display: flex;
     align-items: center; /* centraliza verticalmente */
     position: relative;
@@ -44,7 +44,7 @@ HERO DA PAGINA REGISTROS (1a SESSÃO APOS O HEADER)
     color: white;
     font-size: 90px; /* tamanho */
     font-weight: 900; /* grossura */
-    margin-bottom: 18px; /* espaçamento inferior */
+    margin-bottom: 20px; /* espaçamento inferior */
     text-align: left;
     width: 925px; /* tamanho horizontal da caixa */
 }
@@ -58,7 +58,7 @@ HERO DA PAGINA REGISTROS (1a SESSÃO APOS O HEADER)
     color: white;
     font-size: 27px;
     font-weight: 700;
-    margin-bottom: 18px; /* espaçamento inferior */
+    margin-bottom: 20px; /* espaçamento inferior */
     line-height: 1.2; /* espaçamento */
     width: 925px;
     
@@ -71,7 +71,7 @@ BOTÕES DOS 3 DIAS
 .botoes-dias{
     display: flex;
     gap: 20px;
-        width: 925px;
+    width: 925px;
 }
 
 .btn-dia{
@@ -192,35 +192,40 @@ RESPONSIVIDADE
 
 @media (max-width: 768px) {
 
+    .hero-fundo-azul {
+        min-height: 250px;
+    }
     .hero-registros {
-        min-height: 180px;
+        margin-top: -250px;
+        min-height: 250px;
     }
 
     .hero-registros-content {
-        width: 90%;
+        width: 80%;
     }
 
     .hero-registros-content h1 {
         width: 100%;
-        font-size: 36px;
+        font-size: 33px;
         margin-bottom: 8px;
         line-height: 0.95;
+        text-align: center;
     }
 
     .hero-registros-content p {
         width: 100%;
         font-size: 13px;
         line-height: 1.2;
-        text-align: justify;
+        text-align: center;
     }
 
     .botoes-dias {
-        margin-left: 145px;
-        margin-top: px;
-        margin-bottom: -90px;
-        gap: 10px;
+        display: flex;
+        gap: 20px;
+        width: 100%;
+        justify-content: center;
     }
-
+    
     .btn-dia {
         width: 58px;
         height: 18px;
@@ -230,30 +235,22 @@ RESPONSIVIDADE
     }
 
     .registros-banner {
-        margin-bottom: -175px;
+        margin-bottom: -570px;
         overflow: hidden;
     }
 
     .banner-registros-img {
-        margin-top: 0px;
-        margin-left: -20px;
+        margin-top: 20px;
+        margin-left: -40px;
         margin-bottom: 100px;
-        width: 150%;
+        width: 200%;
     }
 
     .fundo-main-img {
-        margin-top: -345px;
-        margin-left: -170px;
-        margin-bottom: 100px;
-        width: 210%;
-    }
-
-    .botao-invisivel-tablet {
-        left: 145px;
-        bottom: 180px;
-        margin-top: -999px;
-        width: 115px;
-        height: 85px;
+        margin-top: -520px;
+        margin-left: -370px;
+        margin-bottom: 500px;
+        width: 285%;
     }
 
     .modal-content {
