@@ -13,16 +13,11 @@ echo '<script src="js/programacao.js" defer></script>';
         'atividades' => [
             [
                 'periodo' => 'Manhã',                                  // aqui voce coloca a atividade dos cards
-                'horario_inicio' => '08:30',
                 'horario_fim' => '10:30',
                 'titulo' => 'Boas Vindas + Apresentação PETComp',
                 'local' => 'Auditório da Pós (CCET)',
-                'palestrantes' => [
-                    [
-                        'nome' => 'Equipe PETComp',
-                        'foto' => 'img/speakers/pet.jpg'
-                    ]
-                ]
+                'descricao' => 'Cerimônia de abertura da Acalourada 2026.2 com boas-vindas aos calouros, apresentação do grupo PETComp e uma visão geral da programação dos três dias de evento.',
+                'palestrantes' => [['nome' => 'Equipe PETComp', 'foto' => 'img/speakers/pet.jpg']]
             ],
             [
                 'periodo' => 'Manhã',
@@ -30,13 +25,45 @@ echo '<script src="js/programacao.js" defer></script>';
                 'horario_fim' => '12:00',
                 'titulo' => 'Palestra sobre SBC e grupo Dexters',
                 'local' => 'Auditório da Pós (CCET)',
-                'palestrantes' => [
-                    [
-                        'nome' => 'Prof. Luis Rivero',
-                        'foto' => 'img/speakers/prof.luis.png'
-                    ]
-                ]
-            ]
+                'descricao' => 'O Prof. Luis Rivero apresenta a Sociedade Brasileira de Computação (SBC) e o grupo de pesquisa Dexters, mostrando oportunidades de participação em eventos, publicações e redes acadêmicas.',
+                'palestrantes' => [['nome' => 'Prof. Luis Rivero', 'foto' => 'img/speakers/prof.luis.png']]
+            ],
+            [
+                'periodo' => 'Tarde',
+                'horario_inicio' => '14:00',
+                'horario_fim' => '14:30',
+                'titulo' => 'Apresentação da Liga de Bioinformática',
+                'local' => 'Auditório da Pós (CCET)',
+                'descricao' => 'A LABI apresenta suas linhas de pesquisa na interseção entre Computação e Biologia, projetos em andamento e como os alunos podem ingressar no grupo.',
+                'palestrantes' => [['nome' => 'LABI', 'foto' => 'img/speakers/labi.jpeg']]
+            ],
+            [
+                'periodo' => 'Tarde',
+                'horario_inicio' => '14:30',
+                'horario_fim' => '15:00',
+                'titulo' => 'Apresentação da LAJD (Liga de Jogos Digitais)',
+                'local' => 'Auditório da Pós (CCET)',
+                'descricao' => 'A LAJD mostra seus projetos de desenvolvimento de jogos, game jams e como a liga une criatividade e tecnologia para quem quer atuar na indústria de games.',
+                'palestrantes' => [['nome' => 'Equipe LAJD', 'foto' => 'img/LAJD.jpeg']]
+            ],
+            [
+                'periodo' => 'Tarde',
+                'horario_inicio' => '15:00',
+                'horario_fim' => '16:00',
+                'titulo' => 'Apresentação DAComp',
+                'local' => 'Auditório da Pós (CCET)',
+                'descricao' => 'O Diretório Acadêmico de Computação apresenta sua estrutura, projetos estudantis e como os calouros podem participar ativamente da vida acadêmica do curso.',
+                'palestrantes' => [['nome' => 'Equipe DAComp', 'foto' => 'img/speakers/dacomp.jpeg']]
+            ],
+            [
+                'periodo' => 'Tarde',
+                'horario_inicio' => '16:00',
+                'horario_fim' => '17:00',
+                'titulo' => 'Apresentação da Atlética',
+                'local' => 'Auditório da Pós (CCET)',
+                'descricao' => 'A Atlética do curso apresenta suas modalidades esportivas, eventos ao longo do semestre e como a integração esportiva faz parte da experiência universitária.',
+                'palestrantes' => [['nome' => 'Equipe da Atlética', 'foto' => 'img/speakers/lorde.png']]
+            ],
         ]
     ],
     'dia2' => [
@@ -49,12 +76,17 @@ echo '<script src="js/programacao.js" defer></script>';
                 'horario_fim' => '10:30',
                 'titulo' => 'Apresentação das Coordenações',
                 'local' => 'Auditório da Pós (CCET)',
-                'palestrantes' => [
-                    [
-                        'nome' => 'Coordenação de Curso',
-                        'foto' => 'img/speakers/DEINF.png'
-                    ]
-                ]
+                'descricao' => 'A coordenação do curso apresenta a grade curricular, fluxos de matrícula, estágio, TCC e tudo que os calouros precisam saber para se organizar durante a graduação.',
+                'palestrantes' => [['nome' => 'Coordenação de Curso', 'foto' => 'img/speakers/DEINF.png']]
+            ],
+            [
+                'periodo' => 'Manhã',
+                'horario_inicio' => '10:30',
+                'horario_fim' => '12:00',
+                'titulo' => 'Palestra: Carreira e Oportunidades',
+                'local' => 'Auditório da Pós (CCET)',
+                'descricao' => 'A Profa. Simara Vieira compartilha um panorama do mercado de tecnologia, caminhos de carreira possíveis para o profissional de Computação e dicas para aproveitar melhor os anos de graduação.',
+                'palestrantes' => [['nome' => 'Profa. Dra. Simara Vieira', 'foto' => 'img/speakers/simara.png']]
             ],
             [
                 'periodo' => 'Manhã',
@@ -92,8 +124,143 @@ echo '<script src="js/programacao.js" defer></script>';
     ]
 ];
 */
-$programacao = [];
-
+$programacao = [
+    'dia1' => [
+        'label' => '17/06',
+        'semana' => 'Quarta-feira',
+        'atividades' => [
+            [
+                'periodo' => 'Manhã',
+                'horario_inicio' => '08:30',
+                'horario_fim' => '10:30',
+                'titulo' => 'Boas Vindas + Apresentação PETComp',
+                'local' => 'Auditório da Pós (CCET)',
+                'descricao' => 'Cerimônia de abertura da Acalourada 2026.2 com boas-vindas aos calouros, apresentação do grupo PETComp e uma visão geral da programação dos três dias de evento.',
+                'palestrantes' => [['nome' => 'Equipe PETComp', 'foto' => 'img/speakers/pet.jpg']]
+            ],
+            [
+                'periodo' => 'Manhã',
+                'horario_inicio' => '10:30',
+                'horario_fim' => '12:00',
+                'titulo' => 'Palestra sobre SBC e grupo Dexters',
+                'local' => 'Auditório da Pós (CCET)',
+                'descricao' => 'O Prof. Luis Rivero apresenta a Sociedade Brasileira de Computação (SBC) e o grupo de pesquisa Dexters, mostrando oportunidades de participação em eventos, publicações e redes acadêmicas.',
+                'palestrantes' => [['nome' => 'Prof. Luis Rivero', 'foto' => 'img/speakers/prof.luis.png']]
+            ],
+            [
+                'periodo' => 'Tarde',
+                'horario_inicio' => '14:00',
+                'horario_fim' => '14:30',
+                'titulo' => 'Apresentação da Liga de Bioinformática',
+                'local' => 'Auditório da Pós (CCET)',
+                'descricao' => 'A LABI apresenta suas linhas de pesquisa na interseção entre Computação e Biologia, projetos em andamento e como os alunos podem ingressar no grupo.',
+                'palestrantes' => [['nome' => 'LABI', 'foto' => 'img/speakers/labi.jpeg']]
+            ],
+            [
+                'periodo' => 'Tarde',
+                'horario_inicio' => '14:30',
+                'horario_fim' => '15:00',
+                'titulo' => 'Apresentação da LAJD (Liga de Jogos Digitais)',
+                'local' => 'Auditório da Pós (CCET)',
+                'descricao' => 'A LAJD mostra seus projetos de desenvolvimento de jogos, game jams e como a liga une criatividade e tecnologia para quem quer atuar na indústria de games.',
+                'palestrantes' => [['nome' => 'Equipe LAJD', 'foto' => 'img/LAJD.jpeg']]
+            ],
+            [
+                'periodo' => 'Tarde',
+                'horario_inicio' => '15:00',
+                'horario_fim' => '16:00',
+                'titulo' => 'Apresentação DAComp',
+                'local' => 'Auditório da Pós (CCET)',
+                'descricao' => 'O Diretório Acadêmico de Computação apresenta sua estrutura, projetos estudantis e como os calouros podem participar ativamente da vida acadêmica do curso.',
+                'palestrantes' => [['nome' => 'Equipe DAComp', 'foto' => 'img/speakers/dacomp.jpeg']]
+            ],
+            [
+                'periodo' => 'Tarde',
+                'horario_inicio' => '16:00',
+                'horario_fim' => '17:00',
+                'titulo' => 'Apresentação da Atlética',
+                'local' => 'Auditório da Pós (CCET)',
+                'descricao' => 'A Atlética do curso apresenta suas modalidades esportivas, eventos ao longo do semestre e como a integração esportiva faz parte da experiência universitária.',
+                'palestrantes' => [['nome' => 'Equipe da Atlética', 'foto' => 'img/speakers/lorde.png']]
+            ],
+        ]
+    ],
+    'dia2' => [
+        'label' => '18/06',
+        'semana' => 'Quinta-feira',
+        'atividades' => [
+            [
+                'periodo' => 'Manhã',
+                'horario_inicio' => '08:30',
+                'horario_fim' => '10:30',
+                'titulo' => 'Apresentação das Coordenações',
+                'local' => 'Auditório da Pós (CCET)',
+                'descricao' => 'A coordenação do curso apresenta a grade curricular, fluxos de matrícula, estágio, TCC e tudo que os calouros precisam saber para se organizar durante a graduação.',
+                'palestrantes' => [['nome' => 'Coordenação de Curso', 'foto' => 'img/speakers/DEINF.png']]
+            ],
+            [
+                'periodo' => 'Manhã',
+                'horario_inicio' => '10:30',
+                'horario_fim' => '12:00',
+                'titulo' => 'Palestra: Carreira e Oportunidades',
+                'local' => 'Auditório da Pós (CCET)',
+                'descricao' => 'A Profa. Simara Vieira compartilha um panorama do mercado de tecnologia, caminhos de carreira possíveis para o profissional de Computação e dicas para aproveitar melhor os anos de graduação.',
+                'palestrantes' => [['nome' => 'Profa. Dra. Simara Vieira', 'foto' => 'img/speakers/simara.png']]
+            ],
+            [
+                'periodo' => 'Tarde',
+                'horario_inicio' => '14:00',
+                'horario_fim' => '15:30',
+                'titulo' => 'Apresentação NCA e Palestra',
+                'local' => 'Auditório da Pós (CCET)',
+                'descricao' => 'O Núcleo de Computação Aplicada (NCA) apresenta suas pesquisas em visão computacional, inteligência artificial e processamento de imagens, com uma palestra do Prof. Anselmo Paiva.',
+                'palestrantes' => [['nome' => 'Prof. Dr. Anselmo Paiva', 'foto' => 'img/speakers/nca.jpeg']]
+            ],
+            [
+                'periodo' => 'Tarde',
+                'horario_inicio' => '15:30',
+                'horario_fim' => '17:30',
+                'titulo' => 'Mesa Redonda com Egressos',
+                'local' => 'Auditório da Pós (CCET)',
+                'descricao' => 'Ex-alunos do curso compartilham suas trajetórias profissionais, desafios enfrentados após a graduação e respondem perguntas dos calouros em um bate-papo aberto e descontraído.',
+                'palestrantes' => [['nome' => 'Equipe PETComp', 'foto' => 'img/speakers/pet.jpg']]
+            ],
+        ]
+    ],
+    'dia3' => [
+        'label' => '19/06',
+        'semana' => 'Sexta-feira',
+        'atividades' => [
+            [
+                'periodo' => 'Manhã',
+                'horario_inicio' => '08:30',
+                'horario_fim' => '12:00',
+                'titulo' => 'Apresentação dos Laboratórios (Parte 1)',
+                'local' => 'Auditório da Pós (CCET)',
+                'descricao' => 'Visita guiada e apresentação dos laboratórios de pesquisa do DEINF — primeira parte. Os calouros conhecem os espaços, equipamentos e projetos desenvolvidos pelos grupos de pesquisa do departamento.',
+                'palestrantes' => [['nome' => 'Equipe PETComp', 'foto' => 'img/speakers/pet.jpg']]
+            ],
+            [
+                'periodo' => 'Tarde',
+                'horario_inicio' => '14:00',
+                'horario_fim' => '15:30',
+                'titulo' => 'Apresentação dos Laboratórios (Parte 2)',
+                'local' => 'Auditório da Pós (CCET)',
+                'descricao' => 'Continuação das visitas aos laboratórios, com foco nos grupos de computação de alto desempenho, redes e sistemas distribuídos. Os alunos podem conversar diretamente com pesquisadores e bolsistas.',
+                'palestrantes' => [['nome' => 'Equipe PETComp', 'foto' => 'img/speakers/pet.jpg']]
+            ],
+            [
+                'periodo' => 'Tarde',
+                'horario_inicio' => '15:30',
+                'horario_fim' => '18:00',
+                'titulo' => 'Dinâmica PETComp + Premiação',
+                'local' => 'Auditório da Pós (CCET)',
+                'descricao' => 'Encerramento da Acalourada com uma dinâmica interativa organizada pelo PETComp, seguida de premiação dos participantes mais engajados ao longo dos três dias de evento.',
+                'palestrantes' => [['nome' => 'Equipe PETComp', 'foto' => 'img/speakers/pet.jpg']]
+            ],
+        ]
+    ]
+];
 $programacao_esta_vazia = empty($programacao);
 
 $dias = array_keys($programacao);
@@ -108,7 +275,7 @@ $dias_fixos = [
     '16' => ['label' => 'A DEFINIR', 'semana' => 'a definir'],
     '17' => ['label' => 'A DEFINIR', 'semana' => 'a definir'],
 ];
-// Group activities by period
+
 $atividades_por_periodo = [];
 if (!$programacao_esta_vazia && isset($programacao[$dia_ativo]['atividades'])) {
     foreach ($programacao[$dia_ativo]['atividades'] as $item) {
