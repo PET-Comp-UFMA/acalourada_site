@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inscrições</title>
     <link rel="stylesheet" href="css\Novo_CSS\inscricoes.css">
+    <script src="js/Novo_JS/inscricoes.js"></script>
     <!-- Font Montserat -->
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +14,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- lib QRcode -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 
 </head>
 <body>
@@ -78,10 +81,10 @@
         </div>
 
         <div class="inscricoes-form">
-            <div class="card-form">
+            <div class="card-form" id="card-form">
                 <h2>Formulário de Inscrição</h2>
                 
-                <form action="https://script.google.com/macros/s/AKfycbwjpGmwruS3OYcfhKIZTuiM_TZTld_gLO19flzD08FHyHvXTHxCTLHcl4OWic_VYkI3/exec" method = "POST">
+                <form id="form-inscricao" action="https://script.google.com/macros/s/AKfycbwjpGmwruS3OYcfhKIZTuiM_TZTld_gLO19flzD08FHyHvXTHxCTLHcl4OWic_VYkI3/exec" method = "POST">
                     
                     <div class="nome-celular">
                         <!--NOME-->
@@ -151,12 +154,47 @@
                     </div>
                 </form>
             </div>
+            
+            <div class="card-qrcode">
+                <h1 class="titulo">ACALOURADA</h1>
+
+                <div class="nome-participante" id="nome-participante">
+                    <!-- INSIRA O NOME AQUI -->
+                    Fulano de Tal
+                </div>
+
+                <div class="ano-badge">
+                    202X
+                </div>
+
+                <div class="qrcode-container" id="qrcode-container">
+                    <!-- INSIRA O QR CODE AQUI -->
+                    
+                </div>
+
+                <div class="acoes">
+                    <button class="btn-acao">
+                        ⬇
+                    </button>
+
+                    <button class="btn-acao">
+                        ↗
+                    </button>
+                </div>
+
+                <div class="logos">
+                    <img src="logo-acalourada.png" alt="Acalourada">
+                    <img src="logo-ufma.png" alt="UFMA">
+                    <img src="logo-petcomp.png" alt="PETComp">
+                </div>
+
+            </div>
         </div>
 
     </div>
     <?php
     require_once('footer.php');
     ?>  
-<script src="js/Novo_JS/inscricoes.js"></script>
+
 </body>
 </html>
