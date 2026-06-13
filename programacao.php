@@ -1,5 +1,4 @@
 <?php
-
 require_once('header.php');
 
 echo '<link rel="stylesheet" href="css/Novo_CSS/programacao.css">';
@@ -361,8 +360,12 @@ if (!$programacao_esta_vazia && isset($programacao[$dia_ativo]['atividades'])) {
             ?>
             <a href="?dia=<?= urlencode($chave) ?>" class="day-tab <?= $ativo ? 'active' : '' ?>" role="tab"
                 aria-selected="<?= $ativo ? 'true' : 'false' ?>">
-                <span class="dt"><?= htmlspecialchars($dia['label']) ?></span>
-                <span class="dw"><?= htmlspecialchars($dia['semana']) ?></span>
+                <span class="dt">
+                    <?= htmlspecialchars($dia['label']) ?>
+                </span>
+                <span class="dw">
+                    <?= htmlspecialchars($dia['semana']) ?>
+                </span>
             </a>
         <?php endforeach; ?>
 
@@ -413,7 +416,9 @@ if (!$programacao_esta_vazia && isset($programacao[$dia_ativo]['atividades'])) {
                                 </svg>
                             <?php endif; ?>
                         </div>
-                        <h3 class="schedule-period-title"><?= htmlspecialchars($periodo) ?></h3>
+                        <h3 class="schedule-period-title">
+                            <?= htmlspecialchars($periodo) ?>
+                        </h3>
                     </div>
 
                     <div class="period-timeline">
@@ -424,13 +429,19 @@ if (!$programacao_esta_vazia && isset($programacao[$dia_ativo]['atividades'])) {
                                     <article class="schedule-item" onclick="toggleCard(this)" role="button" tabindex="0">
                                         <!-- Coluna da esquerda: Horários verticalizados -->
                                         <div class="schedule-time-col">
-                                            <span class="time-start"><?= htmlspecialchars($item['horario_inicio']) ?></span>
-                                            <span class="time-end"><?= htmlspecialchars($item['horario_fim']) ?></span>
+                                            <span class="time-start">
+                                                <?= htmlspecialchars($item['horario_inicio']) ?>
+                                            </span>
+                                            <span class="time-end">
+                                                <?= htmlspecialchars($item['horario_fim']) ?>
+                                            </span>
                                         </div>
 
                                         <!-- Coluna do meio: Título e Palestrantes -->
                                         <div class="schedule-info-col">
-                                            <h4 class="activity-title"><?= htmlspecialchars($item['titulo']) ?></h4>
+                                            <h4 class="activity-title">
+                                                <?= htmlspecialchars($item['titulo']) ?>
+                                            </h4>
 
                                             <?php if (!empty($item['palestrantes'])): ?>
                                                 <div class="speakers-list">
@@ -438,7 +449,9 @@ if (!$programacao_esta_vazia && isset($programacao[$dia_ativo]['atividades'])) {
                                                         <div class="speaker-tag">
                                                             <img src="<?= htmlspecialchars($p['foto']) ?>"
                                                                 alt="<?= htmlspecialchars($p['nome']) ?>" class="speaker-avatar">
-                                                            <span class="speaker-name"><?= htmlspecialchars($p['nome']) ?></span>
+                                                            <span class="speaker-name">
+                                                                <?= htmlspecialchars($p['nome']) ?>
+                                                            </span>
                                                         </div>
                                                     <?php endforeach; ?>
                                                 </div>
@@ -453,7 +466,9 @@ if (!$programacao_esta_vazia && isset($programacao[$dia_ativo]['atividades'])) {
                                                     <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                                                     <circle cx="12" cy="10" r="3"></circle>
                                                 </svg>
-                                                <span class="location-text"><?= htmlspecialchars($item['local']) ?></span>
+                                                <span class="location-text">
+                                                    <?= htmlspecialchars($item['local']) ?>
+                                                </span>
                                             </div>
                                         <?php endif; ?>
                                     </article>

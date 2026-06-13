@@ -7,18 +7,15 @@
     --header-accent-hover: #2d8ef0;
     --dropdown-text: #02185E;
 }
-
 body {
     margin: 0;
     padding: 0;
 }
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 /* FONT */
 
 .site-header,
@@ -60,8 +57,8 @@ body {
 }
 
 .site-brand__icon {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 
     object-fit: contain;
     flex: 0 0 auto;
@@ -113,13 +110,13 @@ body {
 
     font-weight: 700;
 
-    font-size: 0.88rem;
+    font-size: 1.1rem;
 
     letter-spacing: 0.02em;
 
     text-transform: uppercase;
 
-    padding: 0.35rem 0;
+    padding: 0.35rem 1.2rem;
 
     position: relative;
 
@@ -153,7 +150,7 @@ body {
 
     background: var(--header-text);
 
-    transition: width 0.2s ease;
+    transition: width 0.5s ease;
 }
 
 .site-nav .nav-link:hover::before,
@@ -330,7 +327,7 @@ body {
    TABLET / MOBILE
 ========================================= */
 
-@media (max-width: 770px) {
+@media (max-width: 768px) {
 
     .site-header__inner {
 

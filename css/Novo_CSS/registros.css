@@ -1,0 +1,272 @@
+/*
+oi robertinho encheu de comentario pq ele eh
+piao de css e nao consegue decorar as coisas
+*/
+
+/* ------------------------------------------------------------------------------
+HERO DA PAGINA REGISTROS (1a SESSÃO APOS O HEADER)
+------------------------------------------------------------------------------ */
+
+/* * {
+    outline: 1px solid red;
+} */
+
+.hero-fundo-azul {
+    background-color: #027BDF;
+    /* background-color: transparent; */
+    min-height: 400px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-registros {
+    background-color: transparent;
+    margin-top: -400px;
+    min-height: 400px;
+    display: flex;
+    align-items: center; /* centraliza verticalmente */
+    position: relative;
+    z-index: 4;
+}
+
+.hero-registros-content {
+    width: 80%;
+    /* max-width: 1200px; */
+    margin: 0 auto; /* centraliza horizontalmente */
+    display: flex;
+    flex-direction: column; /* formato de coluna (um embaixo do outro) */
+    align-items: flex-end; /* joga o conteudo pra direita */
+}
+
+.hero-registros-content h1 {
+    font-family: "Karantina", sans-serif;
+    color: white;
+    font-size: 90px; /* tamanho */
+    font-weight: 900; /* grossura */
+    margin-bottom: 18px; /* espaçamento inferior */
+    text-align: left;
+    width: 925px; /* tamanho horizontal da caixa */
+}
+
+.hero-registros-content h1 span {
+    color: #001249;
+}
+
+.hero-registros-content p {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 18px; /* espaçamento inferior */
+    line-height: 1.2; /* espaçamento */
+    width: 925px;
+    
+}
+
+/* ------------------------------------------------------------------------------
+BOTÕES DOS 3 DIAS
+------------------------------------------------------------------------------ */
+
+.botoes-dias{
+    display: flex;
+    gap: 20px;
+        width: 925px;
+}
+
+.btn-dia{
+    background-color: #001d6e;
+    color: white;
+    border: 3px solid #0d8fe3; /* borda ciano no botao azul escuro */
+    border-radius: 30px; /* arredonda a borda */
+
+    width: 112px; /* largura */
+    height: 36px; /* altura */
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+
+    /* animacao de cursor */
+    cursor: pointer;
+    transition: 0.2s;
+
+    box-shadow: 4px 4px 0 rgba(0,0,0,0.2); /* sombra */
+}
+
+.btn-dia:hover{
+    transform: translateY(-2px);
+    /* botao sobe 2px quando o cursor esta em cima */
+}
+
+.btn-dia.ativo{
+    background-color: #0d8fe3;
+    color: white;
+    border: 3px solid #001d6e; /* borda ciano no botao azul escuro */
+    /* background-color: #00ff44; */
+    /* botao ativo mais escuro */
+}
+
+/* ------------------------------------------------------------------------------
+ARTEFATOS APÓS O HERO (GAROTO COM TABLET, FUNDO DECORATIVO)
+------------------------------------------------------------------------------ */
+
+.registros-banner {
+    /* background: white; */
+    overflow: visible;
+    position: relative;
+    margin-bottom: -4%;
+    /* width: 100%; */
+}
+
+.banner-registros-img {
+    width: 100%;
+    margin-top: -14%;
+    display: block;
+    user-select: none;
+    -webkit-user-drag: none;
+    position: relative;
+    z-index: 3;
+}
+
+.fundo-main-img {
+    width: 100%;
+    margin-top: -33%;
+    display: block;
+    user-select: none;
+    -webkit-user-drag: none;
+    position: relative;
+    z-index: 1;
+}
+
+/* ------------------------------------------------------------------------------
+POP-UP (MODAL) AO CLICAR NO TABLET
+------------------------------------------------------------------------------ */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1001;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    width: 70%;
+    max-width: 900px;
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
+}
+
+.modal-content img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+}
+
+.btn-fechar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: #001249;
+    color: white;
+    border: 3px solid #0d8fe3; /* borda ciano no botao azul escuro */
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------------
+RESPONSIVIDADE
+------------------------------------------------------------------------------ */
+
+@media (max-width: 768px) {
+
+    .hero-registros {
+        min-height: 180px;
+    }
+
+    .hero-registros-content {
+        width: 90%;
+    }
+
+    .hero-registros-content h1 {
+        width: 100%;
+        font-size: 36px;
+        margin-bottom: 8px;
+        line-height: 0.95;
+    }
+
+    .hero-registros-content p {
+        width: 100%;
+        font-size: 13px;
+        line-height: 1.2;
+        text-align: justify;
+    }
+
+    .botoes-dias {
+        margin-left: 145px;
+        margin-top: px;
+        margin-bottom: -90px;
+        gap: 10px;
+    }
+
+    .btn-dia {
+        width: 58px;
+        height: 18px;
+        font-size: 8px;
+        border-width: 1px;
+        box-shadow: 2px 2px 0 rgba(0,0,0,0.2);
+    }
+
+    .registros-banner {
+        margin-bottom: -175px;
+        overflow: hidden;
+    }
+
+    .banner-registros-img {
+        margin-top: 0px;
+        margin-left: -20px;
+        margin-bottom: 100px;
+        width: 150%;
+    }
+
+    .fundo-main-img {
+        margin-top: -345px;
+        margin-left: -170px;
+        margin-bottom: 100px;
+        width: 210%;
+    }
+
+    .botao-invisivel-tablet {
+        left: 145px;
+        bottom: 180px;
+        margin-top: -999px;
+        width: 115px;
+        height: 85px;
+    }
+
+    .modal-content {
+        width: 88%;
+        padding: 15px;
+        border-radius: 14px;
+    }
+
+    .btn-fechar {
+        width: 38px;
+        height: 38px;
+        top: 12px;
+        right: 12px;
+        font-size: 20px;
+    }
+}
