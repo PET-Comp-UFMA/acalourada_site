@@ -95,7 +95,10 @@ require_once('header.php');
         <div class="organizacao-grid">
 
             <div class="organizacao-card">
-                <img src="img/supporters/logo-ufma.png" alt="UFMA">
+                 <a href="https://portais.ufma.br/PortalUfma/index.jsf">
+                     <img src="img/supporters/logo-ufma.png" alt="UFMA">
+                 </a>
+               
 
                 <h3>UFMA</h3>
 
@@ -105,6 +108,7 @@ require_once('header.php');
             </div>
 
             <div class="organizacao-card">
+                
                 <img src="img/cocomSVG.svg" alt="COCOM">
 
                 <h3>COCOM</h3>
@@ -115,7 +119,10 @@ require_once('header.php');
             </div>
 
             <div class="organizacao-card">
-                <img src="img/supporters/5.png" alt="PETComp">
+                <a href="https://petcompufma.org/">
+                    <img src="img/supporters/5.png" alt="PETComp">
+                </a>
+                
 
                 <h3>PETComp</h3>
 
