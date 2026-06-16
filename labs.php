@@ -5,6 +5,7 @@
 </head>
 
 <?php
+$tituloPagina = "Labs - Acalourada";
 $cssExtra = "css/labs.css";
 require_once('header.php');
 
@@ -325,7 +326,9 @@ function componentePopUp($idPopUp, $cor, $caminhoLogo, $titulo, $subtitulo, $des
     );
     ?>
 
-    <?php include 'footer.php'; ?>
+    <?php
+        require_once('footer.php');
+    ?> 
 
     <script>
         function abrirPopUp(idPopUp) {

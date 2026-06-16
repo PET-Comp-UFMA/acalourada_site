@@ -1,29 +1,10 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inscrições</title>
-    <link rel="stylesheet" href="css\Novo_CSS\inscricoes.css">
-    <script src="js/Novo_JS/inscricoes.js"></script>
-    <!-- Font Montserat -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
-    <!-- Font Karantina -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap" rel="stylesheet">
-    <!-- lib QRcode -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-
-</head>
-
-<body>
-    <?php
+<?php
+    $tituloPagina = "Inscreva-se - Acalourada";
+    $cssExtra = "css\Novo_CSS\inscricoes.css";
     require_once('header.php');
     ?>
+<body>
+    
     <div class="inscricoes">
         <div class="inscricoes-info">
 
@@ -195,9 +176,9 @@
 
     </div>
     <?php
-    require_once('footer.php');
-    ?>
-
+        require_once('footer.php');
+    ?> 
+<script src="js/Novo_JS/inscricoes.js"></script>
 </body>
 
 </html>

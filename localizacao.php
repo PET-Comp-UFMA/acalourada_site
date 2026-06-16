@@ -1,16 +1,20 @@
+<?php
+$tituloPagina = "Localização - Acalourada";
+$cssExtra = "css/Novo_CSS/localizacao.css";
+require_once('header.php');
+?>
+
+
+
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
-<?php
-$cssExtra = "css/Novo_CSS/localizacao.css";
-
-?>
 
 <body>
-    <?php include 'header.php'; ?>
+    
 
     <div class="banner-laboratorios">
         <div class="banner-content">
@@ -46,5 +50,7 @@ $cssExtra = "css/Novo_CSS/localizacao.css";
 
 
 
-    <?php include 'footer.php'; ?>
+    <?php
+        require_once('footer.php');
+    ?> 
 </body>
