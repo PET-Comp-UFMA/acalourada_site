@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,17 +8,18 @@
     <link rel="stylesheet" href="css\Novo_CSS\inscricoes.css">
     <script src="js/Novo_JS/inscricoes.js"></script>
     <!-- Font Montserat -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
     <!-- Font Karantina -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- lib QRcode -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 
 </head>
+
 <body>
     <?php
     require_once('header.php');
@@ -29,7 +31,7 @@
                 <div class="titulo">
                     <h1>FAÇA PARTE DA</h1>
                     <h1 class="acalourada">
-                    <span class="azul-claro">ACALOURADA</span> 2026.2
+                        <span class="azul-claro">ACALOURADA</span> 2026.2
                     </h1>
                 </div>
 
@@ -37,7 +39,7 @@
             </div>
 
             <div class="info-cards">
-                <div class= "card-vertical">
+                <div class="card-vertical">
 
                     <div class="card">
                         <img src="img\inscricoes\iconCalendario.svg" alt="icon calendário">
@@ -76,26 +78,26 @@
 
                     </div>
 
-                </div>  
+                </div>
             </div>
         </div>
 
         <div class="inscricoes-form">
             <div class="card-form" id="card-form">
                 <h2>Formulário de Inscrição</h2>
-                
-                <form id="form-inscricao" action="https://script.google.com/macros/s/AKfycbwjpGmwruS3OYcfhKIZTuiM_TZTld_gLO19flzD08FHyHvXTHxCTLHcl4OWic_VYkI3/exec" method = "POST">
-                    
+
+                <form id="form-inscricao" action="https://script.google.com/macros/s/AKfycbwjpGmwruS3OYcfhKIZTuiM_TZTld_gLO19flzD08FHyHvXTHxCTLHcl4OWic_VYkI3/exec" method="POST">
+
                     <div class="nome-celular">
                         <!--NOME-->
                         <div class="campo">
                             <label for="nome">Nome Completo:</label>
-                            <input type="text" id="nome" name="nome"  placeholder="Digite seu nome completo" required>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
                         </div>
                         <!--NUMERO-->
                         <div class="campo">
                             <label for="celular">Celular (WhatsApp):</label>
-                            <input id= "celular" type="text" name="celular" placeholder="(00) 00000-0000" maxlength="15" required>
+                            <input id="celular" type="text" name="celular" placeholder="(00) 00000-0000" maxlength="15" required>
                         </div>
                     </div>
                     <!--EMAIL-->
@@ -106,7 +108,7 @@
                     <!--INTERESSES-->
                     <div class="campo">
                         <label for="interesses">Quais assuntos você gostaria que fossem abordados na Acalourada?</label>
-                        <textarea id="interesses" name ="interesses" placeholder="Digite assuntos de seu interesse" required></textarea>
+                        <textarea id="interesses" name="interesses" placeholder="Digite assuntos de seu interesse" required></textarea>
                     </div>
                     <!--EXPECTATIVA-->
                     <div class="campo">
@@ -119,7 +121,7 @@
                                 <span class="numero">1</span>
                                 <span class="descricao">Muito Baixa</span>
                             </label>
-                            
+
                             <!-- Opção 2 -->
                             <input type="radio" id="Baixa" name="expectativa" value="2">
                             <label for="Baixa" class="opcao">
@@ -147,15 +149,15 @@
                         </div>
                     </div>
                     <div class="container-botao">
-                        <button type = "submit" id="btnRegistrar">REGISTRAR</button>
+                        <button type="submit" id="btnRegistrar">REGISTRAR</button>
                         <span class="tooltip">
                             Preencha todos os campos para realizar a inscrição.
                         </span>
                     </div>
                 </form>
             </div>
-            
-            <div class="card-qrcode">
+
+            <div class="card-qrcode" id="card-qrcode">
                 <h1 class="titulo">ACALOURADA</h1>
 
                 <div class="nome-participante" id="nome-participante">
@@ -169,7 +171,7 @@
 
                 <div class="qrcode-container" id="qrcode-container">
                     <!-- INSIRA O QR CODE AQUI -->
-                    
+
                 </div>
 
                 <div class="acoes">
@@ -194,7 +196,8 @@
     </div>
     <?php
     require_once('footer.php');
-    ?>  
+    ?>
 
 </body>
+
 </html>
