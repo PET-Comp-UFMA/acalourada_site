@@ -4,6 +4,18 @@ piao de css e nao consegue decorar as coisas
 */
 
 /* ------------------------------------------------------------------------------
+CONFIGURAÇÃO GLOBAL PARA ESSA PÁGINA (Evita a rolagem horizontal)
+------------------------------------------------------------------------------ */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden; /* Trava a rolagem horizontal na raiz do navegador */
+}
+
+/* ------------------------------------------------------------------------------
 HERO DA PAGINA REGISTROS (1a SESSÃO APOS O HEADER)
 ------------------------------------------------------------------------------ */
 
@@ -46,7 +58,8 @@ HERO DA PAGINA REGISTROS (1a SESSÃO APOS O HEADER)
     font-weight: 900; /* grossura */
     margin-bottom: 20px; /* espaçamento inferior */
     text-align: left;
-    width: 925px; /* tamanho horizontal da caixa */
+    width: 100%; 
+    max-width: 925px; /* tamanho horizontal máximo da caixa */
 }
 
 .hero-registros-content h1 span {
@@ -60,8 +73,8 @@ HERO DA PAGINA REGISTROS (1a SESSÃO APOS O HEADER)
     font-weight: 700;
     margin-bottom: 20px; /* espaçamento inferior */
     line-height: 1.2; /* espaçamento */
-    width: 925px;
-    
+    width: 100%;
+    max-width: 925px;
 }
 
 /* ------------------------------------------------------------------------------
@@ -70,8 +83,10 @@ BOTÕES DOS 3 DIAS
 
 .botoes-dias{
     display: flex;
+    flex-wrap: wrap; /* Permite que os botões quebrem linha se a tela apertar */
     gap: 20px;
-    width: 925px;
+    width: 100%;
+    max-width: 925px;
 }
 
 .btn-dia{
@@ -126,7 +141,7 @@ ARTEFATOS APÓS O HERO (GAROTO COM TABLET, FUNDO DECORATIVO)
     user-select: none;
     -webkit-user-drag: none;
     position: relative;
-    z-index: 3;
+    z-index: 5; /* Aumentado para o garoto ficar por cima do footer antigo (z-index: 2) */
 }
 
 .fundo-main-img {
@@ -202,6 +217,7 @@ RESPONSIVIDADE
 
     .hero-registros-content {
         width: 80%;
+        align-items: center;
     }
 
     .hero-registros-content h1 {
@@ -235,22 +251,26 @@ RESPONSIVIDADE
     }
 
     .registros-banner {
-        margin-bottom: -570px;
-        overflow: hidden;
+        margin-bottom: 0; /* Zerado para o footer colar embaixo */
+        overflow: visible; /* Mudado para visible: permite que o garoto invada a onda */
+        position: relative;
     }
 
     .banner-registros-img {
-        margin-top: 20px;
-        margin-left: -40px;
-        margin-bottom: 100px;
+        margin-top: 5%;
+        margin-left: -8%;
+        margin-bottom: -25%;
         width: 200%;
+        max-width: none;
     }
 
     .fundo-main-img {
-        margin-top: -520px;
-        margin-left: -370px;
-        margin-bottom: 500px;
+        position: relative; /* Torna o fundo absoluto para não empurrar o rodapé para baixo */
+        left: -80%;
+        margin-top: -100%;
+        margin-bottom: -10%;
         width: 285%;
+        max-width: none;
     }
 
     .modal-content {
