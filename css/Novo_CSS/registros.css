@@ -4,6 +4,18 @@ piao de css e nao consegue decorar as coisas
 */
 
 /* ------------------------------------------------------------------------------
+CONFIGURAÇÃO GLOBAL PARA ESSA PÁGINA (Evita a rolagem horizontal)
+------------------------------------------------------------------------------ */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden; /* Trava a rolagem horizontal na raiz do navegador */
+}
+
+/* ------------------------------------------------------------------------------
 HERO DA PAGINA REGISTROS (1a SESSÃO APOS O HEADER)
 ------------------------------------------------------------------------------ */
 
@@ -14,7 +26,7 @@ HERO DA PAGINA REGISTROS (1a SESSÃO APOS O HEADER)
 .hero-fundo-azul {
     background-color: #027BDF;
     /* background-color: transparent; */
-    min-height: 400px;
+    min-height: 350px;
     display: flex;
     position: relative;
     z-index: 2;
@@ -22,8 +34,8 @@ HERO DA PAGINA REGISTROS (1a SESSÃO APOS O HEADER)
 
 .hero-registros {
     background-color: transparent;
-    margin-top: -400px;
-    min-height: 400px;
+    margin-top: -350px;
+    min-height: 350px;
     display: flex;
     align-items: center; /* centraliza verticalmente */
     position: relative;
@@ -44,9 +56,10 @@ HERO DA PAGINA REGISTROS (1a SESSÃO APOS O HEADER)
     color: white;
     font-size: 90px; /* tamanho */
     font-weight: 900; /* grossura */
-    margin-bottom: 18px; /* espaçamento inferior */
+    margin-bottom: 20px; /* espaçamento inferior */
     text-align: left;
-    width: 925px; /* tamanho horizontal da caixa */
+    width: 100%; 
+    max-width: 925px; /* tamanho horizontal máximo da caixa */
 }
 
 .hero-registros-content h1 span {
@@ -58,10 +71,10 @@ HERO DA PAGINA REGISTROS (1a SESSÃO APOS O HEADER)
     color: white;
     font-size: 27px;
     font-weight: 700;
-    margin-bottom: 18px; /* espaçamento inferior */
+    margin-bottom: 20px; /* espaçamento inferior */
     line-height: 1.2; /* espaçamento */
-    width: 925px;
-    
+    width: 100%;
+    max-width: 925px;
 }
 
 /* ------------------------------------------------------------------------------
@@ -70,8 +83,10 @@ BOTÕES DOS 3 DIAS
 
 .botoes-dias{
     display: flex;
+    flex-wrap: wrap; /* Permite que os botões quebrem linha se a tela apertar */
     gap: 20px;
-        width: 925px;
+    width: 100%;
+    max-width: 925px;
 }
 
 .btn-dia{
@@ -126,7 +141,7 @@ ARTEFATOS APÓS O HERO (GAROTO COM TABLET, FUNDO DECORATIVO)
     user-select: none;
     -webkit-user-drag: none;
     position: relative;
-    z-index: 3;
+    z-index: 5; /* Aumentado para o garoto ficar por cima do footer antigo (z-index: 2) */
 }
 
 .fundo-main-img {
@@ -192,35 +207,41 @@ RESPONSIVIDADE
 
 @media (max-width: 768px) {
 
+    .hero-fundo-azul {
+        min-height: 250px;
+    }
     .hero-registros {
-        min-height: 180px;
+        margin-top: -250px;
+        min-height: 250px;
     }
 
     .hero-registros-content {
-        width: 90%;
+        width: 80%;
+        align-items: center;
     }
 
     .hero-registros-content h1 {
         width: 100%;
-        font-size: 36px;
+        font-size: 33px;
         margin-bottom: 8px;
         line-height: 0.95;
+        text-align: center;
     }
 
     .hero-registros-content p {
         width: 100%;
         font-size: 13px;
         line-height: 1.2;
-        text-align: justify;
+        text-align: center;
     }
 
     .botoes-dias {
-        margin-left: 145px;
-        margin-top: px;
-        margin-bottom: -90px;
-        gap: 10px;
+        display: flex;
+        gap: 20px;
+        width: 100%;
+        justify-content: center;
     }
-
+    
     .btn-dia {
         width: 58px;
         height: 18px;
@@ -230,30 +251,26 @@ RESPONSIVIDADE
     }
 
     .registros-banner {
-        margin-bottom: -175px;
-        overflow: hidden;
+        margin-bottom: 0; /* Zerado para o footer colar embaixo */
+        overflow: visible; /* Mudado para visible: permite que o garoto invada a onda */
+        position: relative;
     }
 
     .banner-registros-img {
-        margin-top: 0px;
-        margin-left: -20px;
-        margin-bottom: 100px;
-        width: 150%;
+        margin-top: 5%;
+        margin-left: -8%;
+        margin-bottom: -25%;
+        width: 200%;
+        max-width: none;
     }
 
     .fundo-main-img {
-        margin-top: -345px;
-        margin-left: -170px;
-        margin-bottom: 100px;
-        width: 210%;
-    }
-
-    .botao-invisivel-tablet {
-        left: 145px;
-        bottom: 180px;
-        margin-top: -999px;
-        width: 115px;
-        height: 85px;
+        position: relative; /* Torna o fundo absoluto para não empurrar o rodapé para baixo */
+        left: -80%;
+        margin-top: -100%;
+        margin-bottom: -10%;
+        width: 285%;
+        max-width: none;
     }
 
     .modal-content {
