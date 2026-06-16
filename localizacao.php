@@ -46,5 +46,7 @@ $cssExtra = "css/Novo_CSS/localizacao.css";
 
 
 
-    <?php include 'footer.php'; ?>
+    <?php
+        require_once('footer.php');
+    ?> 
 </body>
