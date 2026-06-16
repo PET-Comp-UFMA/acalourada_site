@@ -68,31 +68,43 @@ document.addEventListener("DOMContentLoaded", () => {
             method: 'POST',
             body: formData
         })
-        .then (response => response.json())
-        .then (data => {
-            if (data.status === "sucesso"){
-                document.getElementById('card-form').style.display = 'none';
-                document.getElementById('nome-participante').innerText = data.nome_calouro;
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === "sucesso" || data.status === "duplicado") {
                 
+                if (data.status === "duplicado") {
+                    alert(data.mensagem);
+                }
+
+                document.getElementById('card-form').style.display = 'none';
+                
+                document.getElementById('nome-participante').innerText = data.nome_calouro;
+
                 var containerQR = document.getElementById('qrcode-container');
-                containerQR.innerHTML = "";
-    
+                containerQR.innerHTML = ""; 
+
                 new QRCode(containerQR, {
                     text: data.ticket_id,
                     width: 220,
                     height: 220,
                     colorDark: "#000000",
-                    colorLight: "#ffffff",
+                    colorLight: "#FFFFFF",
                     correctLevel: QRCode.CorrectLevel.H
                 });
+                
                 document.getElementById('card-qrcode').style.display = 'block';
+
+            } else if (data.status === "erro") {
+                alert(data.mensagem);
+                btnSubmit.innerText = "REGISTRAR";
+                btnSubmit.disabled = false;
             }
-            
         })
         .catch(error => {
-            alert('Erro ou Usuário já cadastrado');
+            alert('Ocorreu um erro de conexão. Tente novamente.');
             btnSubmit.innerText = "REGISTRAR";
             btnSubmit.disabled = false;
+            console.error(error);
         });
     }); 
 });
