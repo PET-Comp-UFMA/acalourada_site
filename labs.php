@@ -5,6 +5,7 @@
 </head>
 
 <?php
+$tituloPagina = "Labs - Acalourada";
 $cssExtra = "css/labs.css";
 require_once('header.php');
 

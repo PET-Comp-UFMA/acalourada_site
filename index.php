@@ -1,4 +1,5 @@
 <?php
+$tituloPagina = "Home - Acalourada";
 $cssExtra = "css/Novo_CSS/index.css";
 require_once('header.php');
 ?>

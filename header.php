@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Acalourada</title>
 
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Acalourada, Evento, petcomp" name="keywords">
@@ -14,25 +13,33 @@
     <meta name="google-site-verification" content="Vq1j2NBJRrVdJnbfpVGku9UCJFm-OD1rTIO7XZ7i7Rs">
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon-v1/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-v1/favicon-dark.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-v1/favicon.png">
-    <link rel="manifest" href="/favicon-v1/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon-v1/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-v1/favicon-dark.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-v1/favicon.png">
+    <link rel="manifest" href="./img/favicon-v1/site.webmanifest">
 
     <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
 
     <link rel="stylesheet" href="css/Novo_CSS/header.css">
+
+    <title>
+        <?php
+        if (isset($tituloPagina)) {
+            echo $tituloPagina;
+        } else {
+            echo "Acalourada";
+        }
+        ?>
+    </title>
 
     <?php if (isset($cssExtra)): ?>
         <link rel="stylesheet" href="<?= $cssExtra ?>">
@@ -49,13 +56,9 @@
             <!-- LOGO -->
             <a href="index.php" class="site-brand">
 
-                <img src="img/favicon-v1/IconV2.svg"
-                    alt="Logo Acalourada"
-                    class="site-brand__icon">
+                <img src="img/favicon-v1/IconV2.svg" alt="Logo Acalourada" class="site-brand__icon">
 
-                <img src="img/favicon-v1/BannerV2.svg"
-                    alt="Acalourada"
-                    class="site-brand__text">
+                <img src="img/favicon-v1/BannerV2.svg" alt="Acalourada" class="site-brand__text">
 
             </a>
 
@@ -146,4 +149,5 @@
     <script src="js/Novo_JS/menumobile.js"></script>
 
 </body>
+
 </html>

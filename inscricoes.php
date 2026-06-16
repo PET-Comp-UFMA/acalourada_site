@@ -1,9 +1,10 @@
-
-<body>
-    <?php
+<?php
+    $tituloPagina = "Inscreva-se - Acalourada";
     $cssExtra = "css\Novo_CSS\inscricoes.css";
     require_once('header.php');
     ?>
+<body>
+    
     <div class="inscricoes">
         <div class="inscricoes-info">
 

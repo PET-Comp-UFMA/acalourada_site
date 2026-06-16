@@ -1,4 +1,5 @@
 <?php
+$tituloPagina = "Programação - Acalourada";
 require_once('header.php');
 
 echo '<link rel="stylesheet" href="css/Novo_CSS/programacao.css">';
