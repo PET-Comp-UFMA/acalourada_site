@@ -11,7 +11,7 @@
                 <div class="titulo">
                     <h1>FAÇA PARTE DA</h1>
                     <h1 class="acalourada">
-                    <span class="azul-claro">ACALOURADA</span> 2026.2
+                        <span class="azul-claro">ACALOURADA</span> 2026.2
                     </h1>
                 </div>
 
@@ -19,7 +19,7 @@
             </div>
 
             <div class="info-cards">
-                <div class= "card-vertical">
+                <div class="card-vertical">
 
                     <div class="card">
                         <img src="img\inscricoes\iconCalendario.svg" alt="icon calendário">
@@ -58,37 +58,37 @@
 
                     </div>
 
-                </div>  
+                </div>
             </div>
         </div>
 
         <div class="inscricoes-form">
-            <div class="card-form">
+            <div class="card-form" id="card-form">
                 <h2>Formulário de Inscrição</h2>
-                
-                <form action="">
-                    
+
+                <form id="form-inscricao" action="https://script.google.com/macros/s/AKfycbwjpGmwruS3OYcfhKIZTuiM_TZTld_gLO19flzD08FHyHvXTHxCTLHcl4OWic_VYkI3/exec" method="POST">
+
                     <div class="nome-celular">
                         <!--NOME-->
                         <div class="campo">
                             <label for="nome">Nome Completo:</label>
-                            <input type="text" id="nome" placeholder="Digite seu nome completo" required>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
                         </div>
                         <!--NUMERO-->
                         <div class="campo">
                             <label for="celular">Celular (WhatsApp):</label>
-                            <input id= "celular" type="text" name="celular" placeholder="(00) 00000-0000" maxlength="15" required>
+                            <input id="celular" type="text" name="celular" placeholder="(00) 00000-0000" maxlength="15" required>
                         </div>
                     </div>
                     <!--EMAIL-->
                     <div class="campo">
                         <label for="email">Email Discente (Se não houver, use o pessoal):</label>
-                        <input type="email" id="email" placeholder="Digite seu email" required>
+                        <input type="email" id="email" name="email" placeholder="Digite seu email" required>
                     </div>
                     <!--INTERESSES-->
                     <div class="campo">
                         <label for="interesses">Quais assuntos você gostaria que fossem abordados na Acalourada?</label>
-                        <textarea id="interesses" placeholder="Digite assuntos de seu interesse" required></textarea>
+                        <textarea id="interesses" name="interesses" placeholder="Digite assuntos de seu interesse" required></textarea>
                     </div>
                     <!--EXPECTATIVA-->
                     <div class="campo">
@@ -101,7 +101,7 @@
                                 <span class="numero">1</span>
                                 <span class="descricao">Muito Baixa</span>
                             </label>
-                            
+
                             <!-- Opção 2 -->
                             <input type="radio" id="Baixa" name="expectativa" value="2">
                             <label for="Baixa" class="opcao">
@@ -129,12 +129,47 @@
                         </div>
                     </div>
                     <div class="container-botao">
-                        <button id="btnRegistrar">REGISTRAR</button>
+                        <button type="submit" id="btnRegistrar">REGISTRAR</button>
                         <span class="tooltip">
                             Preencha todos os campos para realizar a inscrição.
                         </span>
                     </div>
                 </form>
+            </div>
+
+            <div class="card-qrcode" id="card-qrcode">
+                <h1 class="titulo">ACALOURADA</h1>
+
+                <div class="nome-participante" id="nome-participante">
+                    <!-- INSIRA O NOME AQUI -->
+                    Fulano de Tal
+                </div>
+
+                <div class="ano-badge">
+                    202X
+                </div>
+
+                <div class="qrcode-container" id="qrcode-container">
+                    <!-- INSIRA O QR CODE AQUI -->
+
+                </div>
+
+                <div class="acoes">
+                    <button class="btn-acao">
+                        ⬇
+                    </button>
+
+                    <button class="btn-acao">
+                        ↗
+                    </button>
+                </div>
+
+                <div class="logos">
+                    <img src="logo-acalourada.png" alt="Acalourada">
+                    <img src="logo-ufma.png" alt="UFMA">
+                    <img src="logo-petcomp.png" alt="PETComp">
+                </div>
+
             </div>
         </div>
 
@@ -144,4 +179,5 @@
     ?> 
 <script src="js/Novo_JS/inscricoes.js"></script>
 </body>
+
 </html>
