@@ -8,25 +8,21 @@
     --dropdown-text: #02185E;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* FONT */
+body {
+    margin: 0;
+    padding: 0;
+}
 
 .site-header,
 .site-header * {
     font-family: 'Montserrat', sans-serif;
 }
-
-/* HEADER */
 
 .site-header {
     width: 100%;
@@ -36,123 +32,83 @@ body {
     z-index: 1000;
 }
 
-/* CONTAINER */
-
 .site-header__inner {
     min-height: 70px;
     padding: 10px 28px;
-
     display: flex;
     align-items: center;
     gap: 24px;
 }
 
 /* LOGO */
-
 .site-brand {
     display: flex;
     align-items: center;
     gap: 14px;
-
     text-decoration: none;
-
     flex: 0 0 auto;
 }
 
 .site-brand__icon {
     width: 80px;
     height: 80px;
-
     object-fit: contain;
     flex: 0 0 auto;
 }
 
 .site-brand__text {
     width: 170px;
-
     max-width: 42vw;
-
     height: auto;
-
     object-fit: contain;
-
     display: block;
 }
 
-/* NAVBAR */
-
+/* NAVBAR & NAV */
 .site-navbar {
     flex: 1 1 auto;
     padding: 0;
-
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-/* NAV */
-
 .site-nav {
     display: flex;
     align-items: center;
-
     gap: 18px;
-
     margin-left: auto;
-
     list-style: none;
-
     padding: 0;
     margin-bottom: 0;
 }
 
-/* LINKS */
-
 .site-nav .nav-link {
     color: var(--header-text-soft);
-
     font-weight: 700;
-
     font-size: 1.1rem;
-
     letter-spacing: 0.02em;
-
     text-transform: uppercase;
-
     padding: 0.35rem 1.2rem;
-
     position: relative;
-
     transition: color 0.2s ease;
-
     text-decoration: none;
 }
-
-/* HOVER */
 
 .site-nav .nav-link:hover,
 .site-nav .nav-link:focus {
     color: var(--header-text);
 }
 
-/* LINHA ABAIXO */
-
 .site-nav .nav-link::before {
     content: "";
-
     position: absolute;
-
     left: 0;
     bottom: -8px;
-
     width: 0;
-
     height: 3px;
-
     border-radius: 999px;
-
     background: var(--header-text);
-
     transition: width 0.5s ease;
 }
 
@@ -161,30 +117,20 @@ body {
     width: 100%;
 }
 
-/* DROPDOWN */
-
+/* DROPDOWN DESKTOP */
 .dropdown {
     position: relative;
 }
 
-/* SETA */
-
 .site-nav .dropdown-toggle::after {
     content: "▼";
-
     border: none;
-
     width: auto;
     height: auto;
-
     font-size: 0.55rem;
-
     margin-left: 7px;
-
     transform: translateY(-1px);
-
     display: inline-block;
-
     transition: 0.2s ease;
 }
 
@@ -192,60 +138,36 @@ body {
     transform: rotate(180deg) translateY(1px);
 }
 
-/* MENU DROPDOWN */
-
 .site-dropdown {
     position: absolute;
-
     top: 42px;
     left: 0;
-
     min-width: 180px;
-
     background: #fff;
-
     border-radius: 12px;
-
     overflow: hidden;
-
     opacity: 0;
     visibility: hidden;
-
     transform: translateY(8px);
-
     transition: 0.2s ease;
-
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
-
     z-index: 999;
 }
-
-/* MOSTRAR DROPDOWN */
 
 .dropdown:hover .site-dropdown {
     opacity: 1;
     visibility: visible;
-
     transform: translateY(0);
 }
 
-/* ITENS */
-
 .site-dropdown a {
     display: block;
-
     padding: 12px 16px;
-
     color: var(--dropdown-text);
-
     font-size: 0.92rem;
-
     font-weight: 600;
-
     text-decoration: none;
-
     border-bottom: 1px solid #edf0f5;
-
     transition: background 0.2s ease;
 }
 
@@ -257,167 +179,36 @@ body {
     background: #f4f8ff;
 }
 
-/* BOTÃO */
-
+/* BOTÃO INSCREVA-SE */
 .btn-inscreva {
     margin-left: 20px;
-
     background: var(--header-accent);
-
     color: #fff;
-
     text-decoration: none;
-
     font-weight: 800;
-
     font-size: 0.88rem;
-
     letter-spacing: 0.01em;
-
     padding: 0.65rem 0.9rem;
-
     border-radius: 12px;
-
     line-height: 1;
-
-    transition:
-        background 0.2s ease,
-        transform 0.2s ease;
-
+    transition: background 0.2s ease, transform 0.2s ease;
     white-space: nowrap;
 }
 
 .btn-inscreva:hover,
 .btn-inscreva:focus {
     background: var(--header-accent-hover);
-
     color: #fff;
-
     transform: translateY(-1px);
-
     text-decoration: none;
 }
 
-/* REMOVER HAMBÚRGUER */
-
 .site-toggler {
     display: none;
 }
 
-/* RESPONSIVO */
-/* =========================================
-   RESPONSIVO + HAMBÚRGUER
-========================================= */
-
-.site-toggler {
-    display: none;
-
-    background: none;
-    border: none;
-
-    color: #fff;
-
-    font-size: 2rem;
-
-    cursor: pointer;
-
-    padding: 0;
-
-    line-height: 1;
-}
-
-/* =========================================
-   TABLET / MOBILE
-========================================= */
-
+/* VERSÃO RESPONSIVA (TABLET / MOBILE) */
 @media (max-width: 770px) {
-
-    .site-header__inner {
-
-        flex-wrap: wrap;
-
-        align-items: center;
-
-        justify-content: space-between;
-
-        gap: 14px;
-
-        padding: 12px 16px;
-    }
-
-    /* LOGO */
-
-    .site-brand {
-        flex: 1 1 auto;
-    }
-
-    .site-brand__text {
-        width: 150px;
-
-        max-width: 60vw;
-    }
-
-    /* MOSTRAR BOTÃO */
-
-    .site-toggler {
-        display: block;
-    }
-
-    /* NAVBAR */
-
-    .site-navbar {
-        position: fixed;
-        top: 20px;
-        right: -100%;
-        width: 260px;
-
-        /* importante */
-        position: fixed;
-    }
-
-    /* NAVBAR ABERTA */
-
-    .site-navbar.active {
-
-        display: flex;
-
-        justify-content: center;
-
-        margin-top: 10px;
-    }
-
-    /* MENU */
-
-    .site-nav {
-
-        width: 100%;
-
-        flex-direction: column;
-
-        align-items: center;
-
-        gap: 16px;
-
-        margin-left: 0;
-    }
-
-    /* BOTÃO */
-
-    .btn-inscreva {
-
-        margin-left: 0;
-
-        margin-top: 10px;
-    }
-
-
-}
-
-/* =========================================
-   MOBILE PEQUENO
-========================================= */
-@media (max-width: 770px) {
-
     .site-header__inner {
         justify-content: space-between;
         padding: 12px 16px;
@@ -432,86 +223,53 @@ body {
         width: 120px;
     }
 
-    /* Botão hamburguer */
-
     .site-toggler {
         display: block;
-
         background: none;
         border: none;
-
         color: white;
-
         font-size: 2rem;
-
         cursor: pointer;
-
         z-index: 3000;
     }
 
-    /* Menu fechado */
-
     .site-navbar {
-
         position: fixed;
-
         top: 75px;
         right: -260px;
-
         width: 240px;
-
         background: #02185E;
-
         border-radius: 20px;
-
         padding: 20px;
-
         display: flex;
         flex-direction: column;
-
+        justify-content: flex-start;
         box-shadow: 0 10px 30px rgba(0,0,0,.3);
-
         transition: right .3s ease;
-
         z-index: 2500;
+        max-height: calc(100vh - 100px);
+        overflow-y: auto;
     }
-
-    /* Menu aberto */
 
     .site-navbar.active {
         right: 10px;
     }
 
-    /* Lista */
-
     .site-nav {
-
         width: 100%;
-
         display: flex;
         flex-direction: column;
-
         align-items: flex-start;
-
         gap: 15px;
-
         margin: 0;
-
         list-style: none;
     }
 
-    /* Links */
-
     .site-nav .nav-link {
-
         color: white;
-
         font-size: 1rem;
-
         font-weight: 700;
-
         padding: 0;
-
         text-decoration: none;
     }
 
@@ -519,26 +277,41 @@ body {
         display: none;
     }
 
-    /* Dropdown */
-
+    /* DROPDOWN NO MOBILE */
     .site-dropdown {
         display: none;
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        box-shadow: none;
+        width: 100%;
+        margin-top: 8px;
+        max-height: 200px;
+        overflow-y: auto;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 8px;
     }
 
-    /* Botão inscrição */
+    .site-dropdown.active {
+        display: block;
+    }
+
+    .site-dropdown a {
+        color: #fff;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .site-dropdown a:hover {
+        background: rgba(255, 255, 255, 0.1);
+    }
 
     .btn-inscreva {
-
         width: 100%;
-
         margin: 20px 0 0 0;
-
         text-align: center;
-
         font-size: .9rem;
-
         padding: 12px;
-
         border-radius: 12px;
     }
 }

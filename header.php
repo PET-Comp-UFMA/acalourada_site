@@ -142,8 +142,8 @@
 
     </header>
 
-    <!-- Scripts no final do body -->
-    <script src="js/main.js"></script>
+
+    <script src="js/Novo_JS/menumobile.js"></script>
 
 </body>
 </html>
