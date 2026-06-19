@@ -167,7 +167,7 @@ require_once('header.php');
 
                 <div class="logos">
                     <img src="img\inscricoes\Acalourada_logo.svg" alt="Acalourada">
-                    <img src="img\inscricoes\UFMA_logo.svg" alt="UFMA">
+                    <img src="img\inscricoes\UFMA_logo.png" alt="UFMA">
                     <img src="img\inscricoes\PET_logo.svg" alt="PETComp">
                 </div>
 
