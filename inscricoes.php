@@ -65,7 +65,7 @@ require_once('header.php');
         </div>
 
         <div class="inscricoes-form">
-            <div class="card-form" id="card-form" style="display: none;">
+            <div class="card-form" id="card-form" style="display: block;">
                 <h2>Formulário de Inscrição</h2>
 
                 <form id="form-inscricao" action="https://script.google.com/macros/s/AKfycbwjpGmwruS3OYcfhKIZTuiM_TZTld_gLO19flzD08FHyHvXTHxCTLHcl4OWic_VYkI3/exec" method="POST">
@@ -139,7 +139,7 @@ require_once('header.php');
                 </form>
             </div>
 
-            <div class="card-qrcode" id="card-qrcode" style="display: block;">
+            <div class="card-qrcode" id="card-qrcode" style="display: none;">
                 <h1 class="titulo">ACALOURADA</h1>
 
                 <div class="nome-participante" id="nome-participante">

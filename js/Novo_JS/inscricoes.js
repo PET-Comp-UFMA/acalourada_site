@@ -107,7 +107,53 @@ document.addEventListener("DOMContentLoaded", () => {
             console.error(error);
         });
     }); 
-});
+    document.getElementById('btn-download').addEventListener('click', function() {
+        const img = document.querySelector('#qrcode-container img');
 
+        if (img && img.src) {
+            const link = document.createElement('a');
+            link.href = img.src;
+            link.download = 'qrcode-acalourada.png';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+        else{
+            alert("Erro: O QR Code ainda não foi gerado.");
+        }
+    });
+
+    document.getElementById('btn-compartilhar').addEventListener('click', async function() {
+        const img = document.querySelector('#qrcode-container img');
+
+        if(!img || !img.src) {
+            alert("Erro: O QR Code ainda não foi gerado.");
+            return;
+        }
+
+        try {
+            const response = await fetch(img.src);
+            const blob = await response.blob();
+            const file = new File([blob], 'qrcode-acalourada.png', { type: blob.type });
+
+            const shareData = {
+                title: 'QR Code - Acalourada',
+                text: 'Aqui está meu QR Code para a Acalourada do PETComp!',
+                files: [file]
+            };
+
+            if (navigator.canShare && navigator.canShare({ files: [file] })) {
+                await navigator.share(shareData);
+            } else {
+                await navigator.share({
+                    title: 'Meu QR Code - Acalourada',
+                    text: 'Já realizei minha inscrição para a Acalourada do PETComp!'
+                });
+            }
+        } catch(err){
+            console.log('Compartilhamento cancelado ou falhou:', err);
+        }
+    });
+});
 
 
