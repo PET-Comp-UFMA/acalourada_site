@@ -42,7 +42,7 @@ require_once('header.php');
                     <div class="card">
                         <img src="img\inscricoes\iconJoia.svg" alt="icon joia">
                         <div class="card-text">
-                            <h3>XX%</h3>
+                            <h3>90%</h3>
                             <p>de aprovação entre calouros</p>
                         </div>
                     </div>
@@ -153,23 +153,22 @@ require_once('header.php');
 
                 <div class="qrcode-container" id="qrcode-container">
                     <!-- INSIRA O QR CODE AQUI -->
-
                 </div>
 
                 <div class="acoes">
                     <button class="btn-acao" id="btn-download" title="Baixar QR Code">
-                        ⬇
+                        <img src="img\inscricoes\baixar_icon.svg" alt="Baixar Icone">
                     </button>
 
                     <button class="btn-acao" id="btn-compartilhar" title="Compartilhar QR Code">
-                        ↗
+                        <img src="img\inscricoes\compartilhar_icon.svg" alt="Compartilhar Icone">
                     </button>
                 </div>
 
                 <div class="logos">
-                    <img src="logo-acalourada.png" alt="Acalourada">
-                    <img src="logo-ufma.png" alt="UFMA">
-                    <img src="logo-petcomp.png" alt="PETComp">
+                    <img src="img\inscricoes\Acalourada_logo.svg" alt="Acalourada">
+                    <img src="img\inscricoes\UFMA_logo.svg" alt="UFMA">
+                    <img src="img\inscricoes\PET_logo.svg" alt="PETComp">
                 </div>
 
             </div>
