@@ -44,8 +44,11 @@ HERO DA PAGINA REGISTROS (1a SESSÃO APOS O HEADER)
 
 .hero-registros-content {
     width: 80%;
+    margin-left: 40%;
+    margin-right: 10%;
     /* max-width: 1200px; */
     margin: 0 auto; /* centraliza horizontalmente */
+    /* margin: 0 auto; /* centraliza horizontalmente */
     display: flex;
     flex-direction: column; /* formato de coluna (um embaixo do outro) */
     align-items: flex-end; /* joga o conteudo pra direita */
@@ -141,7 +144,7 @@ ARTEFATOS APÓS O HERO (GAROTO COM TABLET, FUNDO DECORATIVO)
     user-select: none;
     -webkit-user-drag: none;
     position: relative;
-    z-index: 5; /* Aumentado para o garoto ficar por cima do footer antigo (z-index: 2) */
+    z-index: 3; /* Aumentado para o garoto ficar por cima do footer antigo (z-index: 2) */
 }
 
 .fundo-main-img {
