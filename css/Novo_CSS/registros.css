@@ -4,7 +4,7 @@ piao de css e nao consegue decorar as coisas
 */
 
 /* ------------------------------------------------------------------------------
-CONFIGURAÃ‡ÃƒO GLOBAL PARA ESSA PÃGINA (Evita a rolagem horizontal)
+CONFIGURAÇÃO GLOBAL PARA ESSA PÁGINA (Evita a rolagem horizontal)
 ------------------------------------------------------------------------------ */
 
 html, body {
@@ -16,7 +16,7 @@ html, body {
 }
 
 /* ------------------------------------------------------------------------------
-HERO DA PAGINA REGISTROS (1a SESSÃƒO APOS O HEADER)
+HERO DA PAGINA REGISTROS (1a SESSÃO APOS O HEADER)
 ------------------------------------------------------------------------------ */
 
 /* * {
@@ -25,8 +25,8 @@ HERO DA PAGINA REGISTROS (1a SESSÃƒO APOS O HEADER)
 
 .hero-fundo-azul {
     background-color: #027BDF;
-    /* Cresce com 40vw, mas nunca será menor que 300px nem maior que 500px */
-    min-height: clamp(300px, 40vw, 500px); 
+    /* background-color: transparent; */
+    min-height: 350px;
     display: flex;
     position: relative;
     z-index: 2;
@@ -34,19 +34,20 @@ HERO DA PAGINA REGISTROS (1a SESSÃƒO APOS O HEADER)
 
 .hero-registros {
     background-color: transparent;
-    /* O valor negativo deve ser o mesmo do min-height acima */
-    margin-top: calc(clamp(300px, 40vw, 500px) * -1);
-    min-height: clamp(300px, 40vw, 500px);
+    margin-top: -350px;
+    min-height: 350px;
     display: flex;
-    align-items: center;
+    align-items: center; /* centraliza verticalmente */
     position: relative;
     z-index: 4;
 }
 
 .hero-registros-content {
+    width: 80%;
     margin-left: 40%;
     margin-right: 10%;
     /* max-width: 1200px; */
+    margin: 0 auto; /* centraliza horizontalmente */
     /* margin: 0 auto; /* centraliza horizontalmente */
     display: flex;
     flex-direction: column; /* formato de coluna (um embaixo do outro) */
@@ -56,12 +57,12 @@ HERO DA PAGINA REGISTROS (1a SESSÃƒO APOS O HEADER)
 .hero-registros-content h1 {
     font-family: "Karantina", sans-serif;
     color: white;
-    font-size: clamp(2.7rem, 5.4vw, none);
+    font-size: 90px; /* tamanho */
     font-weight: 900; /* grossura */
-    margin-bottom: 20px; /* espaÃ§amento inferior */
+    margin-bottom: 20px; /* espaçamento inferior */
     text-align: left;
     width: 100%; 
-    max-width: 925px; /* tamanho horizontal mÃ¡ximo da caixa */
+    max-width: 925px; /* tamanho horizontal máximo da caixa */
 }
 
 .hero-registros-content h1 span {
@@ -71,21 +72,21 @@ HERO DA PAGINA REGISTROS (1a SESSÃƒO APOS O HEADER)
 .hero-registros-content p {
     font-family: "Montserrat", sans-serif;
     color: white;
-    font-size: clamp(1.2rem, 1.4vw, none);
+    font-size: 27px;
     font-weight: 700;
-    margin-bottom: 20px; /* espaÃ§amento inferior */
-    line-height: 1.2; /* espaÃ§amento */
+    margin-bottom: 20px; /* espaçamento inferior */
+    line-height: 1.2; /* espaçamento */
     width: 100%;
     max-width: 925px;
 }
 
 /* ------------------------------------------------------------------------------
-BOTÃ•ES DOS 3 DIAS
+BOTÕES DOS 3 DIAS
 ------------------------------------------------------------------------------ */
 
 .botoes-dias{
     display: flex;
-    flex-wrap: wrap; /* Permite que os botÃµes quebrem linha se a tela apertar */
+    flex-wrap: wrap; /* Permite que os botões quebrem linha se a tela apertar */
     gap: 20px;
     width: 100%;
     max-width: 925px;
@@ -112,7 +113,8 @@ BOTÃ•ES DOS 3 DIAS
 }
 
 .btn-dia:hover{
-    transform: translateY(-2px); /* botao sobe 2px quando o cursor esta em cima */
+    transform: translateY(-2px);
+    /* botao sobe 2px quando o cursor esta em cima */
 }
 
 .btn-dia.ativo{
@@ -124,7 +126,7 @@ BOTÃ•ES DOS 3 DIAS
 }
 
 /* ------------------------------------------------------------------------------
-ARTEFATOS APÃ“S O HERO (GAROTO COM TABLET, FUNDO DECORATIVO)
+ARTEFATOS APÓS O HERO (GAROTO COM TABLET, FUNDO DECORATIVO)
 ------------------------------------------------------------------------------ */
 
 .registros-banner {
@@ -136,11 +138,8 @@ ARTEFATOS APÃ“S O HERO (GAROTO COM TABLET, FUNDO DECORATIVO)
 }
 
 .banner-registros-img {
-    /* width: 100%; */
-    width: 170vw;
-    height: auto;  
-    margin-top: -25%;
-    margin-left: -8%;
+    width: 100%;
+    margin-top: -14%;
     display: block;
     user-select: none;
     -webkit-user-drag: none;
@@ -149,10 +148,8 @@ ARTEFATOS APÃ“S O HERO (GAROTO COM TABLET, FUNDO DECORATIVO)
 }
 
 .fundo-main-img {
-    /* width: 100%; */
-    width: 150vw;
-    height: auto;  
-    margin-top: -57%;
+    width: 100%;
+    margin-top: -33%;
     display: block;
     user-select: none;
     -webkit-user-drag: none;
@@ -208,91 +205,17 @@ POP-UP (MODAL) AO CLICAR NO TABLET
 }
 
 /* ------------------------------------------------------------------------------
-RESPONSIVIDADE 1440px
+RESPONSIVIDADE
 ------------------------------------------------------------------------------ */
 
-@media (max-width: 1920px) {
-/* 
-    .hero-fundo-azul {
-        min-height: 382px;
-    }
-    
-    .hero-registros {
-        margin-top: -382px;
-        min-height: 382px;
-    }
-
-    .hero-registros-content {
-        width: 80%;
-        align-items: center;
-    }
-    .hero-registros-content h1 {
-        font-size: 5vw;
-        margin-bottom: 8px;
-        line-height: 0.95;
-        text-align: center;
-    }
-
-    .hero-registros-content p {
-        width: 80%;
-        font-size: 26px;
-        line-height: 1.2;
-        text-align: center;
-    }
-
-    .botoes-dias {
-        display: flex;
-        gap: 20px;
-        width: 100%;
-        justify-content: center;
-    }
-    
-    .btn-dia {
-        width: 90px;
-        height: 35px;
-        font-size: 8px;
-        border-width: 1px;
-        box-shadow: 2px 2px 0 rgba(0,0,0,0.2);
-    }
-
-    .registros-banner {
-        margin-bottom: 0;
-        overflow: visible;
-        position: relative;
-    }
-
-    .banner-registros-img {
-        margin-top: 5%;
-        margin-left: -8%;
-        margin-bottom: -25%;
-        width: 200%;
-        max-width: none;
-    }
-
-    .fundo-main-img {
-        position: relative;
-        left: -80%;
-        margin-top: -100%;
-        margin-bottom: -10%;
-        width: 285%;
-        max-width: none;
-    } */
-
-}
-
-/* ------------------------------------------------------------------------------
-RESPONSIVIDADE 768px
------------------------------------------------------------------------------- */
-/*
 @media (max-width: 768px) {
 
     .hero-fundo-azul {
-        min-height: 258px;
+        min-height: 250px;
     }
-    
     .hero-registros {
-        margin-top: -258px;
-        min-height: 258px;
+        margin-top: -250px;
+        min-height: 250px;
     }
 
     .hero-registros-content {
@@ -302,15 +225,15 @@ RESPONSIVIDADE 768px
 
     .hero-registros-content h1 {
         width: 100%;
-        font-size: 39px;
+        font-size: 33px;
         margin-bottom: 8px;
         line-height: 0.95;
         text-align: center;
     }
 
     .hero-registros-content p {
-        width: 80%;
-        font-size: 14px;
+        width: 100%;
+        font-size: 13px;
         line-height: 1.2;
         text-align: center;
     }
@@ -323,16 +246,16 @@ RESPONSIVIDADE 768px
     }
     
     .btn-dia {
-        width: 70px;
-        height: 35px;
+        width: 58px;
+        height: 18px;
         font-size: 8px;
         border-width: 1px;
         box-shadow: 2px 2px 0 rgba(0,0,0,0.2);
     }
 
     .registros-banner {
-        margin-bottom: 0;
-        overflow: visible;
+        margin-bottom: 0; /* Zerado para o footer colar embaixo */
+        overflow: visible; /* Mudado para visible: permite que o garoto invada a onda */
         position: relative;
     }
 
@@ -345,42 +268,25 @@ RESPONSIVIDADE 768px
     }
 
     .fundo-main-img {
-        position: relative;
+        position: relative; /* Torna o fundo absoluto para não empurrar o rodapé para baixo */
         left: -80%;
         margin-top: -100%;
         margin-bottom: -10%;
         width: 285%;
         max-width: none;
     }
-}
 
-/* ------------------------------------------------------------------------------
-RESPONSIVIDADE 320px
------------------------------------------------------------------------------- */
-/*
-@media (max-width: 425px) {
-
-    .hero-fundo-azul {
-        min-height: 215px;
-    }
-    
-    .hero-registros {
-        margin-top: -215px;
-        min-height: 215px;
-    }
-    
-    .hero-registros-content h1 {
-        width: 100%;
-        font-size: 29px;
-        margin-bottom: 8px;
-        line-height: 0.95;
-        text-align: center;
+    .modal-content {
+        width: 88%;
+        padding: 15px;
+        border-radius: 14px;
     }
 
-    .hero-registros-content p {
-        width: 80%;
-        font-size: 11px;
-        line-height: 1.2;
-        text-align: center;
+    .btn-fechar {
+        width: 38px;
+        height: 38px;
+        top: 12px;
+        right: 12px;
+        font-size: 20px;
     }
 }
