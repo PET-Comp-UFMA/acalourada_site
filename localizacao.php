@@ -1,44 +1,56 @@
 <?php
+$tituloPagina = "Localização - Acalourada";
+$cssExtra = "css/Novo_CSS/localizacao.css";
 require_once('header.php');
 ?>
-<main id="main">
 
-    <section id=localizacao>
-        <div class="container">
-            <div class="section-header">
-                <h2>LOCALIZAÇÃO</h2>
-            </div>
 
-            <div class="map-responsive">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.1150532731281!2d-44.30820928297688!3d-2.558588842035779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7f68f5cedc548dd%3A0x780f0a32464f4178!2sCCET%20-%20Centro%20de%20Ci%C3%AAncias%20Exatas%20e%20Tecnol%C3%B3gicas!5e0!3m2!1spt-BR!2sbr!4v1678999628693!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
 
-            <div class="section-header">
-                <h2>CCET POR DENTRO</h2>
-            </div>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
 
-            <div>
-               
-                <img src="img/MAPA CCET - UFMA.png" usemap="#image-map" class="mapa">
 
-                <map name="image-map">
-                    <area target="" alt="Auditorio1" title="Auditorio 1" href="#" coords="1571,2760,1673,2866,1791,2760,1676,2655" shape="poly" onclick="mostrarImagem('img/Locais/Auditorio_1.jpeg'); return false;" >
-                    <area target="" alt="Auditorio2" title="Auditorio 2" href="#" coords="1952,2287,2058,2393,1955,2481,1861,2387" shape="poly" onclick="mostrarImagem('img/Locais/Auditorio_2.jpeg'); return false;">
-                    <area target="" alt="SalaPETComp" title="Sala PETComp" href="#" coords="1755,2187,1814,2246,1767,2293,1706,2249" shape="poly"  onclick="mostrarImagem('img/Locais/sala_PETComp.jpeg'); return false;">
-                    <area target="" alt="AuditorioPos" title="Auditorio da SalaAuditoPos" href="#" coords="1303,1013,1359,1062,1309,1121,1253,1071" shape="poly" onclick="mostrarImagem('img/Locais/Auditorio_Pos.jpeg'); return false;">>
-                    <area target="" alt="DAComp" title="DAComp" href="#" coords="1336,2813,1394,2863,1344,2924,1280,2871" shape="poly" onclick="mostrarImagem('img/Locais/Sala_DAComp.jpeg'); return false;">
-                </map>
-            </div>
-           <!-- Modal -->
-            <div id="modal">
-                    <img id="modalImg" src="">
-            </div>
+<body>
+    
+
+    <div class="banner-laboratorios">
+        <div class="banner-content">
+            <h1 class="banner-title">
+                Confira a <br>
+                <span class="destaque">localização</span> do evento
+            </h1>
+            <p class="banner-text">
+                Confira onde será realizada a Acalourada e conheça o Centro de Ciências Exatas e Tecnológicas da UFMA (CCET).
+            </p>
         </div>
-    </section>
+        <div class="banner-image">
+            <img src="svg/character-map.svg" alt="Ilustração estudante">
+        </div>
+    </div>
 
-</main>
 
-<?php
-require_once('footer.php');
-require_once('html_footer.php');
-?>
+    <div class="google-maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.1150532731281!2d-44.30820928297688!3d-2.558588842035779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7f68f5cedc548dd%3A0x780f0a32464f4178!2sCCET%20-%20Centro%20de%20Ci%C3%AAncias%20Exatas%20e%20Tecnol%C3%B3gicas!5e0!3m2!1spt-BR!2sbr!4v1678999628693!5m2!1spt-BR!2sbr" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="mapa">
+        <iframe
+            src="https://petcompufma.org/mapa-ccet?embed=true"
+            width="100%"
+            height="600px"
+            frameborder="0"
+            scrolling="no"
+            style="border: 0; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"
+            title="Mapa Interativo do CCET">
+        </iframe>
+    </div>
+
+
+
+    <?php
+        require_once('footer.php');
+    ?> 
+</body>

@@ -1,5 +1,6 @@
 html, body {
     overflow: auto;
+    font-family: 'Montserrat', system-ui, sans-serif;
 }
 
 .banner-laboratorios {

@@ -1,0 +1,743 @@
+/* CSS feito Mobile First */
+/* ── DESIGN SYSTEM & TOKENS ── */
+:root {
+  --primary-blue: #0071CF;
+  --second-blue: #027BDF;
+  --dark-blue: #02185E;
+  --text-dark: #0F172A;
+  --text-muted: #64748B;
+  --text-white: #fff;
+  --bg-light-blue: #EAF3FD;
+  --border-color: #E2E8F0;
+  --transition-smooth: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ── HERO SECTION ── */
+.hero {
+  background-color: var(--second-blue);
+  padding: 2rem 1.25rem 1.5rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.hero-inner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-inner>div {
+  width: 65%;
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.hero-eyebrow {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--text-white);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.hero-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.45rem;
+  line-height: 1.25;
+  font-weight: 800;
+  color: var(--text-white);
+  margin: 0.25rem 0 0;
+}
+
+.hero-title span {
+  color: var(--dark-blue);
+}
+
+.hero-desc {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.72rem;
+  line-height: 1.45;
+  color: var(--text-white);
+  margin: 0.5rem 0 0;
+  font-weight: 600;
+}
+
+.hero-day {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.hero-day p {
+  margin: 0;
+  line-height: 1.3;
+}
+
+.hero-date {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--text-white);
+  font-size: 0.72rem;
+  font-weight: 600;
+  gap: 0.85rem;
+  margin-top: 0.85rem;
+}
+
+.hero-local {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.hero-local svg {
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.hero-local__sub {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.hero-local__sub p {
+  margin: 0;
+  line-height: 1.3;
+}
+
+
+.hero-boneca {
+  position: absolute;
+  right: -50px;
+  bottom: -10px;
+  width: 252px;
+  height: auto;
+  object-fit: contain;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* ── DAY TABS ── */
+.day-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 1.75rem;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 10;
+}
+
+.day-tab {
+  flex: 1;
+  max-width: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 4px;
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid rgba(0, 113, 207, 0.08);
+  border-bottom: none;
+  border-radius: 8px 8px 0 0;
+  text-decoration: none;
+  color: var(--text-dark);
+  transition: var(--transition-smooth);
+  cursor: pointer;
+}
+
+.day-tab .dt {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 0.9rem;
+  line-height: 1.1;
+}
+
+.day-tab .dw {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.55rem;
+  font-weight: 700;
+  margin-top: 3px;
+  opacity: 0.75;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+/* States */
+.day-tab:hover {
+  background: rgba(255, 255, 255, 0.85);
+  color: var(--primary-blue);
+  text-decoration: none;
+}
+
+.day-tab.active {
+  background: var(--primary-blue);
+  color: #ffffff;
+  border-color: var(--primary-blue);
+  box-shadow: 0 -3px 12px rgba(0, 113, 207, 0.15);
+}
+
+.day-tab.active .dw {
+  opacity: 0.9;
+}
+
+/* ── MAIN CONTENT ── */
+main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+  box-sizing: border-box;
+}
+
+/* ── SCHEDULE PERIOD GROUP ── */
+.schedule-period-group {
+  margin-bottom: 2.5rem;
+}
+
+.period-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding-left: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.period-icon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  flex-shrink: 0;
+}
+
+.period-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.schedule-period-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--primary-blue);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+
+/* ── TIMELINE STRUCTURE ── */
+.period-timeline {
+  position: relative;
+  padding-left: 20px;
+}
+
+/* Vertical Timeline Line */
+.period-timeline::before {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  bottom: 10px;
+  width: 2px;
+  background-color: var(--primary-blue);
+  z-index: 1;
+}
+
+.schedule-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  width: 100%;
+}
+
+.timeline-item {
+  position: relative;
+  width: 100%;
+}
+
+/* Timeline Dot */
+.timeline-marker {
+  position: absolute;
+  left: 0;
+  top: 24px;
+  transform: translate(-50%, 200%);
+  width: 12px;
+  height: 12px;
+  background-color: #ffffff;
+  border: 2px solid var(--primary-blue);
+  border-radius: 50%;
+  z-index: 2;
+}
+
+/* ── SCHEDULE ITEM CARD ── */
+.schedule-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  background: #ffffff;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-left: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.015);
+  transition: var(--transition-smooth);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.schedule-item.open {
+  border-radius: 12px 12px 0 0;
+  border-bottom-color: transparent;
+  transform: none; /* disable the translateY on open */
+}
+
+.schedule-details {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.25s ease, padding 0.3s ease;
+  background: var(--bg-light-blue);
+  border: 1px solid var(--border-color);
+  border-top: none;
+  border-radius: 0 0 12px 12px;
+  margin-left: 20px; /* match .schedule-item margin-left */
+  padding: 0 1.25rem;
+  box-sizing: border-box;
+}
+
+.schedule-item.open + .schedule-details {
+  max-height: 200px;
+  opacity: 1;
+  padding: 0.85rem 1.25rem 1rem;
+}
+
+.details-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.details-duration {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--primary-blue);
+}
+
+.details-desc {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+  margin: 0;
+  border-top: 1px solid var(--border-color);
+  padding-top: 0.6rem;
+}
+
+.schedule-item:hover {
+  transform: translateY(-2px);
+  border-color: #cbd5e1;
+  box-shadow: 0px 0px 10px #02185E;
+  margin-top: 10px;
+}
+
+/* Left: Coluna Time */
+.schedule-time-col {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.25rem;
+  flex-shrink: 0;
+}
+
+.time-start,
+.time-end {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--primary-blue);
+  line-height: 1;
+}
+
+.time-start::after {
+  content: ' -';
+  margin-right: 0.25rem;
+}
+
+/* Middle: Info Coluna */
+.schedule-info-col {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.activity-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin: 0;
+  line-height: 1.35;
+}
+
+/* Palestrantes List */
+.speakers-list {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.speaker-tag {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.speaker-avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border-color);
+}
+
+.speaker-name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.78rem;
+  color: #475569;
+  font-weight: 600;
+}
+
+/* Right: Location Colu */
+.schedule-location-col {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-weight: 500;
+  border-top: 1px solid #f1f5f9;
+  padding-top: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.location-icon {
+  flex-shrink: 0;
+}
+
+.location-text {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* ── EMPTY STATE ── */
+.empty-state {
+  max-width: 480px;
+  margin: 3rem auto;
+  background: #ffffff;
+  border: 3.5px solid #a6abb1;
+  border-radius: 24px;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.empty-icon {
+  width: 72px;
+  height: 72px;
+  background: none;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.25rem;
+}
+
+.empty-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--dark-blue);
+  margin-bottom: 0.5rem;
+}
+
+.empty-desc {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+
+/*Tablets and Landscape */
+@media (min-width: 480px) {
+  .hero {
+    padding: 2.5rem 2rem 1.5rem;
+  }
+
+  .hero-inner>div {
+    max-width: 320px;
+    width: 70%;
+  }
+
+  .hero-title {
+    font-size: 1.75rem;
+  }
+
+  .hero-desc {
+    font-size: 0.8rem;
+  }
+
+  .hero-boneca {
+    width: 255px;
+    right: -31px;
+  }
+
+
+  .hero-date {
+    font-size: 0.78rem;
+    gap: 1rem;
+  }
+
+  .day-tabs {
+    gap: 8px;
+  }
+
+  .day-tab {
+    max-width: 130px;
+    padding: 10px 8px;
+  }
+
+  .day-tab .dt {
+    font-size: 1rem;
+  }
+
+  .day-tab .dw {
+    font-size: 0.6rem;
+  }
+}
+
+/* Tablets grandes */
+@media (min-width: 768px) {
+  .hero {
+    padding: 3.5rem 3rem 1.5rem;
+  }
+
+  .hero-inner>div {
+    max-width: 460px;
+  }
+
+  .hero-eyebrow {
+    font-size: 0.85rem;
+  }
+
+  .hero-title {
+    font-size: 2.4rem;
+    margin-top: 0.5rem;
+  }
+
+  .hero-desc {
+    font-size: 0.9rem;
+    line-height: 1.55;
+    margin-top: 0.75rem;
+  }
+
+.hero-boneca {
+    width: 385px;
+    right: -67px;
+    bottom: -10px;
+  }
+
+
+  .hero-date {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.75rem;
+    font-size: 0.82rem;
+  }
+
+  .day-tabs {
+    gap: 12px;
+    margin-top: 2.5rem;
+  }
+
+  .day-tab {
+    max-width: 160px;
+    padding: 14px 10px;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .day-tab .dt {
+    font-size: 1.15rem;
+  }
+
+  .day-tab .dw {
+    font-size: 0.68rem;
+  }
+
+  /* Main timeline desktop row conversion */
+  main {
+    padding: 2rem 2rem 5rem;
+  }
+
+  .period-timeline {
+    padding-left: 24px;
+  }
+
+  .period-timeline::before {
+    left: 24px;
+    top: 15px;
+    bottom: 15px;
+  }
+
+  .timeline-marker {
+    left: 0;
+    top: 24px;
+  }
+
+  .schedule-item {
+    display: grid;
+    grid-template-columns: 100px 1fr auto;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem 2rem;
+    margin-left: 32px;
+  }
+
+  .schedule-details {
+    margin-left: 32px; /* match desktop .schedule-item margin-left */
+    padding: 0 2rem;
+  }
+  .schedule-item.open + .schedule-details {
+    padding: 1rem 2rem 1.25rem;
+  }
+
+
+  .schedule-time-col {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+
+  .time-start::after {
+    display: none;
+  }
+
+  .time-start,
+  .time-end {
+    font-size: 1.25rem;
+  }
+
+  .activity-title {
+    font-size: 1.1rem;
+  }
+
+  .speaker-avatar {
+    width: 28px;
+    height: 28px;
+  }
+
+  .speaker-name {
+    font-size: 0.85rem;
+  }
+
+  .schedule-location-col {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 0;
+    min-width: 180px;
+    justify-content: flex-end;
+    font-size: 0.85rem;
+  }
+}
+
+/* Desktop Screens */
+@media (min-width: 1024px) {
+  .hero {
+    padding: 4.5rem 4rem 1.5rem;
+  }
+
+  .hero::after {
+    content: '';
+    position: absolute;
+    left: 822px;
+    bottom: -1px;
+    width: 729px;
+    height: 502px;
+    background-color: var(--dark-blue);
+    border-radius: 48px;
+    z-index: 0;
+    pointer-events: none;
+  } /* <-- this was missing */
+
+  .hero-date {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .hero-inner>div {
+    max-width: 600px;
+  }
+
+  .hero-title {
+    font-size: 3.2rem;
+  }
+
+  .hero-desc {
+    font-size: 1rem;
+    max-width: 480px;
+  }
+
+  .hero-boneca {
+    width: 449px;
+    right: 118px;
+    bottom: -10px;
+  }
+
+  .hero-date {
+    gap: 2.5rem;
+    font-size: 0.88rem;
+  }
+
+  .day-tabs {
+    gap: 16px;
+    margin-top: 3.5rem;
+  }
+
+  .day-tab {
+    max-width: 190px;
+    padding: 16px 12px;
+    border-radius: 12px 12px 0 0;
+  }
+
+  .day-tab .dt {
+    font-size: 1.3rem;
+  }
+
+  .day-tab .dw {
+    font-size: 0.75rem;
+  }
+}

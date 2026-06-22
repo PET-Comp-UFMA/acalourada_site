@@ -1,6 +1,7 @@
 <!-- <div class="fake-browser-bar"></div> -->
 
 <?php
+    $tituloPagina = "Registros - Acalourada";
     require_once('header.php');
 ?>
 
@@ -57,5 +58,4 @@
 
 <?php 
     require_once('footer.php');
-    require_once('html_footer.php');
 ?>

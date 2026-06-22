@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -8,9 +5,9 @@
 </head>
 
 <?php
-$title = "Laboratórios";
-$cssFiles = ['css/labs.css'];
-include 'head.php';
+$tituloPagina = "Labs - Acalourada";
+$cssExtra = "css/labs.css";
+require_once('header.php');
 
 function componenteCard($titulo, $subtitulo, $Cor, $Logo, $idPopUp)
 {
@@ -69,8 +66,6 @@ function componentePopUp($idPopUp, $cor, $caminhoLogo, $titulo, $subtitulo, $des
 ?>
 
 <body>
-    <?php include 'header.php'; ?>
-
     <div class="banner-laboratorios">
         <div class="banner-content">
             <h1 class="banner-title">
@@ -331,7 +326,9 @@ function componentePopUp($idPopUp, $cor, $caminhoLogo, $titulo, $subtitulo, $des
     );
     ?>
 
-    <?php include 'footer.php'; ?>
+    <?php
+        require_once('footer.php');
+    ?> 
 
     <script>
         function abrirPopUp(idPopUp) {
@@ -352,5 +349,3 @@ function componentePopUp($idPopUp, $cor, $caminhoLogo, $titulo, $subtitulo, $des
     </script>
 
 </body>
-
-</html>
