@@ -138,7 +138,7 @@ if (!$programacao_esta_vazia && isset($programacao[$dia_ativo]['atividades'])) {
 
     <div class="hero-inner">
 
-        <div>
+        <div class="hero-content">
 
             <p class="hero-eyebrow">
                 Programação
@@ -189,7 +189,9 @@ if (!$programacao_esta_vazia && isset($programacao[$dia_ativo]['atividades'])) {
 
         </div>
 
-        <img src="img/boneca_pet.png" alt="Ilustração da Acalourada" class="hero-boneca">
+        <div class="hero-boneca-wrap">
+            <img src="img/boneca_pet.png" alt="Ilustração da Acalourada" class="hero-boneca">
+        </div>
 
     </div>
 

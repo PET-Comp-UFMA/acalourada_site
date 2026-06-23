@@ -1,5 +1,4 @@
 /* CSS feito Mobile First */
-/* ── DESIGN SYSTEM & TOKENS ── */
 :root {
   --primary-blue: #0071CF;
   --second-blue: #027BDF;
@@ -29,10 +28,9 @@
   margin: 0 auto;
   position: relative;
   z-index: 2;
-  /* Necessário para ancorar a boneca em desktop */
 }
 
-.hero-inner>div {
+.hero-content {
   width: 65%;
   max-width: 260px;
   display: flex;
@@ -126,6 +124,14 @@
   height: auto;
   object-fit: contain;
   z-index: 1;
+  pointer-events: none;
+}
+
+
+.hero-boneca-wrap {
+  position: absolute;
+  right: 0;
+  bottom: 0;
   pointer-events: none;
 }
 
@@ -307,7 +313,8 @@ main {
 .schedule-item.open {
   border-radius: 12px 12px 0 0;
   border-bottom-color: transparent;
-  transform: none; /* disable the translateY on open */
+  transform: none;
+  /* disable the translateY on open */
 }
 
 .schedule-details {
@@ -319,12 +326,13 @@ main {
   border: 1px solid var(--border-color);
   border-top: none;
   border-radius: 0 0 12px 12px;
-  margin-left: 20px; /* match .schedule-item margin-left */
+  margin-left: 20px;
+  /* match .schedule-item margin-left */
   padding: 0 1.25rem;
   box-sizing: border-box;
 }
 
-.schedule-item.open + .schedule-details {
+.schedule-item.open+.schedule-details {
   max-height: 200px;
   opacity: 1;
   padding: 0.85rem 1.25rem 1rem;
@@ -498,7 +506,7 @@ main {
     padding: 2.5rem 2rem 1.5rem;
   }
 
-  .hero-inner>div {
+  .hero-content {
     max-width: 320px;
     width: 70%;
   }
@@ -546,7 +554,7 @@ main {
     padding: 3.5rem 3rem 1.5rem;
   }
 
-  .hero-inner>div {
+  .hero-content {
     max-width: 460px;
   }
 
@@ -559,13 +567,25 @@ main {
     margin-top: 0.5rem;
   }
 
+  .hero-boneca-wrap {
+    position: relative;
+    flex: 1;
+    background-color: var(--dark-blue);
+    border-radius: 48px 0 0 48px;
+    margin-right: -4rem;
+    margin-top: -4.5rem;
+    margin-bottom: -1.5rem;
+    pointer-events: none;
+    overflow: visible;
+  }
+
   .hero-desc {
     font-size: 0.9rem;
     line-height: 1.55;
     margin-top: 0.75rem;
   }
 
-.hero-boneca {
+  .hero-boneca {
     width: 385px;
     right: -67px;
     bottom: -10px;
@@ -598,7 +618,6 @@ main {
     font-size: 0.68rem;
   }
 
-  /* Main timeline desktop row conversion */
   main {
     padding: 2rem 2rem 5rem;
   }
@@ -628,10 +647,11 @@ main {
   }
 
   .schedule-details {
-    margin-left: 32px; /* match desktop .schedule-item margin-left */
+    margin-left: 32px;
     padding: 0 2rem;
   }
-  .schedule-item.open + .schedule-details {
+
+  .schedule-item.open+.schedule-details {
     padding: 1rem 2rem 1.25rem;
   }
 
@@ -680,20 +700,42 @@ main {
     padding: 4.5rem 4rem 1.5rem;
   }
 
-  /* Quadrado azul escuro: oculto em desktop para não vazar lateralmente */
-  .hero::after {
-    display: none;
-  }
-
-  .hero-date {
+  .hero-inner {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: stretch;
+    gap: 3rem;
   }
 
-  .hero-inner>div {
-    max-width: 600px;
+  .hero-content {
+    flex: 0 0 auto;
+    max-width: 500px;
   }
+
+  .hero-boneca-wrap {
+    position: relative;
+    flex: 1;
+    background-color: var(--dark-blue);
+    border-radius: 48px 0 0 48px;
+    margin-right: -4rem;
+    margin-top: -4.5rem;
+    margin-bottom: -1.5rem;
+    pointer-events: none;
+    overflow: visible;
+  }
+
+
+  .hero-boneca {
+    position: absolute;
+    width: 449px;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    right: auto;
+    z-index: 1;
+  }
+
+
 
   .hero-title {
     font-size: 3.2rem;
@@ -704,19 +746,10 @@ main {
     max-width: 480px;
   }
 
-  /*
-   * Em desktop, a boneca é posicionada em relação ao hero-inner
-   * (que tem max-width: 1200px e é centralizado), assim ela
-   * acompanha o título quando a tela cresce.
-   */
-  .hero-boneca {
-    position: absolute;
-    width: 449px;
-    right: 0;
-    bottom: -10px;
-  }
-
   .hero-date {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     gap: 2.5rem;
     font-size: 0.88rem;
   }
@@ -738,5 +771,16 @@ main {
 
   .day-tab .dw {
     font-size: 0.75rem;
+  }
+}
+
+/* Telas muito grandes (acima de 1440px): fundo do wrap some, boneca permanece */
+@media (min-width: 3840px) {
+  .hero-boneca-wrap {
+    background: transparent;
+    border-radius: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
