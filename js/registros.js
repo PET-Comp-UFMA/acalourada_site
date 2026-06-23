@@ -13,6 +13,25 @@ const boxFotos = document.getElementById("boxFotos");
 // SELECIONAR DIA MUDANDO CSS E PREVIEW
 // ------------------------------------------------------------------------------
 
+banner.addEventListener("click", (e) => {
+
+    const x = (e.offsetX / banner.clientWidth) * 100;
+    const y = (e.offsetY / banner.clientHeight) * 100;
+
+    // console.log("X%:", x.toFixed(2), "Y%:", y.toFixed(2));
+
+    if (
+        x >= 31 &&
+        x <= 51 &&
+        y >= 45 &&
+        y <= 75
+    ) {
+        boxFotos.src = `img/registros/2026.2/BannerRegistrosDia${diaAtual}.png`;
+        modal.style.display = "flex";
+    }
+
+});
+
 let diaAtual = 1;
 
 btnDia1.addEventListener("click", () => {
@@ -55,11 +74,23 @@ btnDia3.addEventListener("click", () => {
 // AREA CLICLAVEL DO TABLET
 // ------------------------------------------------------------------------------
 
-tablet.addEventListener("click", () => {
+banner.addEventListener("click", (e) => {
 
-    boxFotos.src =`img/registros/2026.2/BannerRegistrosDia${diaAtual}.png`;
-    modal.style.display = "flex";
-    
+    const x = (e.offsetX / banner.clientWidth) * 100;
+    const y = (e.offsetY / banner.clientHeight) * 100;
+
+    // console.log("X%:", x.toFixed(2), "Y%:", y.toFixed(2));
+
+    if (
+        x >= 31 &&
+        x <= 51 &&
+        y >= 45 &&
+        y <= 75
+    ) {
+        boxFotos.src = `img/registros/2026.2/BannerRegistrosDia${diaAtual}.png`;
+        modal.style.display = "flex";
+    }
+
 });
 
 btnFechar.addEventListener("click", () => {

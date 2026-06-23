@@ -22,12 +22,12 @@ p {
 /*----INFORMAÇÕES----*/
 
 .acalourada {
-    font-family: "Karantina", cursive;
+    font-family: "Karantina", "Montserrat", sans-serif;
     font-size: 90px;
 }
 
 .azul-claro {
-    font-family: "Karantina", cursive;;
+    font-family: "Karantina",  "Montserrat", sans-serif;
     color: #047CE0;
     font-size: 75px;
 }
@@ -37,7 +37,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     gap: 2rem;
 }
 
@@ -119,12 +119,13 @@ p {
 
 
 .inscricoes-form{
-    padding-top: 2.5rem;
+    /* padding-top: 2.5rem; */
 
     display: flex;
     justify-content: center;
     align-items: flex-start;
     width: 50%;
+    margin: auto 0;
 }
 
 .card-form{
@@ -142,7 +143,7 @@ p {
 }
 
 .card-form h2{
-    font-family: "Karantina", cursive;
+    font-family: "Karantina",  "Montserrat", sans-serif;
     color: #3AA3FC;
     font-weight: 700;
     font-size: 40px;
@@ -349,6 +350,174 @@ textarea::placeholder {
 .container-botao.incompleto:hover .tooltip{
     opacity: 1;
     visibility: visible;
+}
+
+/* =======================================
+   QR CODE
+======================================= */
+.card-qrcode{
+    width:650px;
+    background:#001b73;
+    border-radius:18px;
+    padding:20px;
+    position:relative;
+    text-align:center;
+}
+
+.card-qrcode .titulo{
+    color:white;
+    font-size:4rem;
+    font-weight:700;
+    letter-spacing:2px;
+    margin-bottom:10px;
+    font-family: "Karantina",  "Montserrat", sans-serif;
+}
+
+.card-qrcode .nome-participante{
+    width:90%;
+    margin:0 auto 35px;
+    background:#f1f1f1;
+    border-radius:30px;
+    padding:12px;
+    font-size:1.5rem;
+    font-weight:bold;
+    color:#111;
+
+    position: relative;
+    z-index: 2;
+}
+.card-qrcode .ano-badge{
+    position:absolute;
+    right:75px;
+    top:145px;
+
+    background:#1492ff;
+    color:white;
+
+    padding:6px 18px;
+    border-radius:0 0 18px 18px;
+
+    font-size:0.9rem;
+    font-weight:bold;
+    
+    z-index: 1;
+}
+
+.card-qrcode .qrcode-container{
+    width:280px;
+    height:280px;
+    margin:0 auto;
+
+    background:#ffffff;
+    border-radius:8px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.card-qrcode .qrcode-container img{
+    max-width:90%;
+    max-height:90%;
+    object-fit:contain;
+}
+
+.card-qrcode .acoes{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:18px;
+}
+
+.card-qrcode .btn-acao{
+    width:70px;
+    height:50px;
+    padding:0;
+
+    border:none;
+    border-radius:10px;
+
+    background:white;
+    cursor:pointer;
+
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+
+    box-shadow:0 3px 8px rgba(0,0,0,.3);
+    transition:transform .2s ease, box-shadow .2s ease, background-color .2s ease;
+}
+
+.card-qrcode .btn-acao img{
+    width:24px;
+    height:24px;
+    display:block;
+    object-fit:contain;
+    transition:transform .2s ease;
+}
+
+.card-qrcode .btn-acao:hover{
+    background:#f0f8ff;
+    transform:translateY(-3px) scale(1.05);
+    box-shadow:0 8px 16px rgba(0,0,0,.25);
+}
+
+.card-qrcode .btn-acao:hover img{
+    transform:scale(1.08);
+}
+
+.card-qrcode .btn-acao:active{
+    transform:translateY(0) scale(.94);
+    box-shadow:0 2px 5px rgba(0,0,0,.25);
+}
+
+.card-qrcode .btn-acao:focus-visible{
+    outline:3px solid rgba(20,146,255,.35);
+    outline-offset:3px;
+}
+
+.card-qrcode .logos{
+    margin-top:18px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+
+.card-qrcode .logos img{
+    height:40px;
+    width:auto;
+    object-fit:contain;
+}
+
+/* =======================================
+   Card Fechado
+======================================= */
+.card-fechado{
+    width:650px;
+    background:#001b73;
+    border-radius:18px;
+    padding:20px;
+    position:relative;
+    text-align:center;
+    padding: 140px 110px;
+}
+
+.card-fechado h1{
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.card-fechado h3{
+    color: white;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.card-fechado svg{
+    margin-bottom: 30px;
 }
 
 

@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#444;
+    font-family: "Karantina", cursive;
+}
+
+.card-qrcode{
+    width:500px;
+    background:#001b73;
+    border-radius:18px;
+    padding:20px;
+    position:relative;
+    text-align:center;
+}
+
+.titulo{
+    color:white;
+    font-size:4rem;
+    font-weight:900;
+    letter-spacing:2px;
+    margin-bottom:18px;
+}
+
+.nome-participante{
+    width:90%;
+    margin:0 auto 25px;
+    background:#f1f1f1;
+    border-radius:30px;
+    padding:12px;
+    font-size:1.5rem;
+    font-weight:bold;
+    color:#111;
+
+    position: relative;
+    z-index: 2;
+}
+.ano-badge{
+    position:absolute;
+    right:58px;
+    top:150px;
+
+    background:#1492ff;
+    color:white;
+
+    padding:6px 18px;
+    border-radius:0 0 18px 18px;
+
+    font-size:0.9rem;
+    font-weight:bold;
+    
+    z-index: 1;
+}
+
+.qrcode-container{
+    width:260px;
+    height:260px;
+    margin:0 auto;
+
+    background:#ececec;
+    border-radius:8px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.qrcode-container img{
+    max-width:90%;
+    max-height:90%;
+    object-fit:contain;
+}
+
+.acoes{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:18px;
+}
+
+.btn-acao{
+    width:55px;
+    height:40px;
+    padding:0;
+
+    border:none;
+    border-radius:10px;
+
+    background:white;
+    cursor:pointer;
+
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+
+    box-shadow:0 3px 8px rgba(0,0,0,.3);
+    transition:transform .2s ease, box-shadow .2s ease, background-color .2s ease;
+}
+
+.btn-acao img{
+    width:24px;
+    height:24px;
+    display:block;
+    object-fit:contain;
+    transition:transform .2s ease;
+}
+
+.btn-acao:hover{
+    background:#f0f8ff;
+    transform:translateY(-3px) scale(1.05);
+    box-shadow:0 8px 16px rgba(0,0,0,.25);
+}
+
+.btn-acao:hover img{
+    transform:scale(1.08);
+}
+
+.btn-acao:active{
+    transform:translateY(0) scale(.94);
+    box-shadow:0 2px 5px rgba(0,0,0,.25);
+}
+
+.btn-acao:focus-visible{
+    outline:3px solid rgba(20,146,255,.35);
+    outline-offset:3px;
+}
+
+.logos{
+    margin-top:18px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+
+.logos img{
+    height:40px;
+    width:auto;
+    object-fit:contain;
+}
