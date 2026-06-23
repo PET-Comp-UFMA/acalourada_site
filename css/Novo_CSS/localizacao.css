@@ -3,6 +3,22 @@ html, body {
     font-family: "Montserrat", sans-serif;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 40px;
+    padding: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.container > div {
+    flex: 1; 
+    min-width: 320px; 
+    max-width: 650px; 
+}
 .banner-laboratorios {
     background-color: #027BDF; 
     display: flex;
@@ -53,7 +69,15 @@ html, body {
 .google-maps {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 80px;
+}
+
+.google-maps iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    border-radius: 8px;
 }
 
 .mapa-embed {
@@ -86,7 +110,7 @@ html, body {
 }
 
 .mapa {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
     margin-bottom: 10%;
   }
@@ -99,7 +123,8 @@ html, body {
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,0.8);
-    z-index: 1000;
+    z-index: 100000000;
+    cursor: zoom-out;
   }
   
   #modal img {
@@ -111,4 +136,60 @@ html, body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /* centraliza sem precisar de flex */
+    transition: transform 0.3s ease-in-out;
   }
+
+@media (max-width: 992px) {
+    .banner-laboratorios {
+        padding: 20px 40px 0 40px;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .banner-content {
+        max-width: 60%; 
+        padding-top: 0;
+    }
+
+    .banner-image img {
+        margin-bottom: -60px;
+        max-width: 300px;
+    }
+
+    .banner-title {
+        font-size: 3rem;
+    }
+
+    .banner-text {
+        font-size: 1.1rem;
+    }
+
+    .container {
+        padding-top: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner-laboratorios {
+        padding: 20px 20px 0 20px;
+        gap: 15px;
+    }
+
+    .banner-image img {
+        max-width: 150px; 
+        margin-bottom: 0px;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+    }
+
+    .google-maps iframe {
+        height: 350px;
+    }
+
+    .banner-text {
+        font-size: 0.8rem;
+        margin-bottom: 20px;
+    }
+}
