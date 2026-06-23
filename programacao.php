@@ -5,14 +5,16 @@ require_once('header.php');
 echo '<link rel="stylesheet" href="css/Novo_CSS/programacao.css">';
 echo '<script src="js/programacao.js" defer></script>';
 
-/*Adicione aqui a programaçao do evento, seguindo o formato 
-'dia1' => [                                   // O dia ira definir o numero de botoes
-                                            //A resposividade foi pensada para 3 dias, o resto fica com deus kk
-        'label' => '17/06',                   // O label e semana aparecem nos botoes
+$sem_programacao = true;
+
+$programacao = [               //Siga exatamente esse formato quando for criar a programaçao
+    'dia1' => [                // tem como colocar mais de 3 dias, mas não garanto a resosivi
+        'label' => '17/06',    // dade dos botoes kk
         'semana' => 'Quarta-feira',
         'atividades' => [
             [
-                'periodo' => 'Manhã',                                  // aqui voce coloca a atividade dos cards
+                'periodo' => 'Manhã',
+                'horario_inicio' => '08:30',
                 'horario_fim' => '10:30',
                 'titulo' => 'Boas Vindas + Apresentação PETComp',
                 'local' => 'Auditório da Pós (CCET)',
@@ -87,19 +89,6 @@ echo '<script src="js/programacao.js" defer></script>';
                 'local' => 'Auditório da Pós (CCET)',
                 'descricao' => 'A Profa. Simara Vieira compartilha um panorama do mercado de tecnologia, caminhos de carreira possíveis para o profissional de Computação e dicas para aproveitar melhor os anos de graduação.',
                 'palestrantes' => [['nome' => 'Profa. Dra. Simara Vieira', 'foto' => 'img/speakers/simara.png']]
-            ],
-            [
-                'periodo' => 'Manhã',
-                'horario_inicio' => '10:30',
-                'horario_fim' => '12:00',
-                'titulo' => 'Palestra: Carreira e Oportunidades',
-                'local' => 'Auditório da Pós (CCET)',
-                'palestrantes' => [
-                    [
-                        'nome' => 'Profa. Dra. Simara Vieira',
-                        'foto' => 'img/speakers/simara.png'
-                    ]
-                ]
             ]
         ]
     ],
@@ -113,19 +102,13 @@ echo '<script src="js/programacao.js" defer></script>';
                 'horario_fim' => '12:00',
                 'titulo' => 'Apresentação dos Laboratórios (Parte 1)',
                 'local' => 'Auditório da Pós (CCET)',
-                'palestrantes' => [
-                    [
-                        'nome' => 'Equipe PETComp',
-                        'foto' => 'img/speakers/pet.jpg'
-                    ]
-                ]
+                'descricao' => 'Visita guiada e apresentação das principais linhas de pesquisa e projetos dos laboratórios do DEINF.',
+                'palestrantes' => [['nome' => 'Equipe PETComp', 'foto' => 'img/speakers/pet.jpg']]
             ]
         ]
     ]
 ];
-*/
-$programacao = [];
-$programacao_esta_vazia = empty($programacao);
+$programacao_esta_vazia = empty($programacao) || $sem_programacao;
 
 $dias = array_keys($programacao);
 
@@ -206,9 +189,9 @@ if (!$programacao_esta_vazia && isset($programacao[$dia_ativo]['atividades'])) {
 
         </div>
 
-    </div>
+        <img src="img/boneca_pet.png" alt="Ilustração da Acalourada" class="hero-boneca">
 
-    <img src="img/boneca_pet.png" alt="Ilustração da Acalourada" class="hero-boneca">
+    </div>
 
 
 </section>

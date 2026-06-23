@@ -29,6 +29,7 @@
   margin: 0 auto;
   position: relative;
   z-index: 2;
+  /* Necessário para ancorar a boneca em desktop */
 }
 
 .hero-inner>div {
@@ -679,18 +680,10 @@ main {
     padding: 4.5rem 4rem 1.5rem;
   }
 
+  /* Quadrado azul escuro: oculto em desktop para não vazar lateralmente */
   .hero::after {
-    content: '';
-    position: absolute;
-    left: 822px;
-    bottom: -1px;
-    width: 729px;
-    height: 502px;
-    background-color: var(--dark-blue);
-    border-radius: 48px;
-    z-index: 0;
-    pointer-events: none;
-  } /* <-- this was missing */
+    display: none;
+  }
 
   .hero-date {
     display: flex;
@@ -711,9 +704,15 @@ main {
     max-width: 480px;
   }
 
+  /*
+   * Em desktop, a boneca é posicionada em relação ao hero-inner
+   * (que tem max-width: 1200px e é centralizado), assim ela
+   * acompanha o título quando a tela cresce.
+   */
   .hero-boneca {
+    position: absolute;
     width: 449px;
-    right: 118px;
+    right: 0;
     bottom: -10px;
   }
 
