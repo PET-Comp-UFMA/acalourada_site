@@ -335,11 +335,6 @@ h6 {
   justify-content: center;
 }
 
-@media (max-width: 990px) {
-  #nav-menu-container {
-    flex-wrap: wrap;
-  }
-}
 /* Nav Meu Styling */
 
 .nav-menu a {
@@ -1653,6 +1648,14 @@ th {
     height: 3px;
     transition: all 0.5s;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /*sombra do menu de navegação*/
+  }
+
+  #nav-menu-container {
+    display: none;
+  }
+
+  #mobile-nav-toggle {
+    display: inline;
   }
 
   #intro .intro-container {
