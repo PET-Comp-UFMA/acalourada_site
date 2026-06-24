@@ -3,7 +3,8 @@ body{
     overflow-x: hidden;
 }
 
-p{
+.fixar-rodape,
+.fixar-rodape *{
     font-family: "Montserrat", sans-serif;
 }
 
@@ -13,6 +14,12 @@ a{
 }
 a:hover{
     color: inherit;
+}
+
+/* pro footer ficar na frente de tudo sempre */
+.fixar-rodape{
+    position: relative;
+    z-index: 1000;
 }
 
 /* ONDA */

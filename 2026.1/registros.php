@@ -25,7 +25,7 @@
                 echo '
                 <div class="swiper-slide">
                     <div class="container-registros">
-                        <img src="img/registros/2026.1/dia1/'.$foto.'" alt="">
+                        <img src="../img/registros/2026.1/dia1/'.$foto.'" alt="">
                     </div>
                 </div>';
             }
@@ -65,7 +65,7 @@
                 echo '
                 <div class="swiper-slide">
                     <div class="container-registros">
-                        <img src="img/registros/2026.1/dia2/'.$foto.'" alt="">
+                        <img src="../img/registros/2026.1/dia2/'.$foto.'" alt="">
                     </div>
                 </div>';
             }
@@ -106,7 +106,7 @@
                 echo '
                 <div class="swiper-slide">
                     <div class="container-registros">
-                        <img src="img/registros/2026.1/dia3/'.$foto.'" alt="">
+                        <img src="../img/registros/2026.1/dia3/'.$foto.'" alt="">
                     </div>
                 </div>';
             }
