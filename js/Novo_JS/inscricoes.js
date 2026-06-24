@@ -55,14 +55,27 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.getElementById('form-inscricao').addEventListener('submit', function(event){
         event.preventDefault();
+
+        const nome = document.getElementById("nome");
+        const celularValor = document.getElementById("celular");
+        const email = document.getElementById("email");
+        const interesses = document.getElementById("interesses");
+
         const form = event.target;
         const btnSubmit = document.getElementById('btnRegistrar');
-        const nome = document.getElementById('nome').value;
     
-        btnSubmit.innerText = "Enviando...";
+        btnSubmit.innerText = "Aguarde...";
         btnSubmit.disabled = true;
     
         const formData = new FormData(form);
+
+        nome.disabled = true;
+        celularValor.disabled = true;
+        email.disabled = true;
+        interesses.disabled = true;
+        document.querySelectorAll("input[name='expectativa']").forEach(radio => {
+            radio.disabled = true;
+          });
     
         fetch(form.action, {
             method: 'POST',
