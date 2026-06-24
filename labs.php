@@ -343,7 +343,7 @@ function componentePopUp($idPopUp, $cor, $caminhoLogo, $titulo, $subtitulo, $des
 
         window.onclick = function(event) {
             if (event.target.classList.contains('popup-overlay')) {
-                popUp.style.display = 'none';
+                event.target.style.display = 'none';
             }
         }
     </script>
