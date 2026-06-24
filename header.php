@@ -47,7 +47,7 @@
         <div class="site-header__inner">
 
             <!-- LOGO -->
-            <a href="index.php" class="site-brand">
+            <a href="" class="site-brand">
 
                 <img src="img/favicon-v1/IconV2.svg"
                     alt="Logo Acalourada"
@@ -71,42 +71,42 @@
 
                     <li class="nav-item">
                         <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : '' ?>"
-                            href="index.php">
+                            href="">
                             HOME
                         </a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'programacao.php' ? 'active' : '' ?>"
-                            href="programacao.php">
+                            href="programacao">
                             PROGRAMAÇÃO
                         </a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'localizacao.php' ? 'active' : '' ?>"
-                            href="localizacao.php">
+                            href="localizacao">
                             LOCALIZAÇÃO
                         </a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'labs.php' ? 'active' : '' ?>"
-                            href="labs.php">
+                            href="labs">
                             LABS
                         </a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'registros.php' ? 'active' : '' ?>"
-                            href="registros.php">
+                            href="registros">
                             REGISTROS
                         </a>
                     </li>
 
                     <li class="nav-item dropdown">
 
-                        <a href="#" class="nav-link dropdown-toggle">
+                        <a class="nav-link dropdown-toggle">
                             VERSÕES
                         </a>
 
@@ -132,7 +132,7 @@
 
                 </ul>
 
-                <a href="inscricoes.php" class="btn-inscreva">
+                <a href="inscricoes" class="btn-inscreva">
                     INSCREVA-SE
                 </a>
 
@@ -146,4 +146,5 @@
     <script src="js/Novo_JS/menumobile.js"></script>
 
 </body>
+
 </html>
