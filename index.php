@@ -26,7 +26,7 @@ require_once('header.php');
                 da Computação e IA.
             </p>
 
-            <a href="inscricoes.php" class="btn-participar">
+            <a href="inscricoes" class="btn-participar">
                 Quero participar!
             </a>
 
@@ -96,10 +96,10 @@ require_once('header.php');
         <div class="organizacao-grid">
 
             <div class="organizacao-card">
-                 <a href="https://portais.ufma.br/PortalUfma/index.jsf">
-                     <img src="img/supporters/logo-ufma.png" alt="UFMA">
-                 </a>
-               
+                <a href="https://portais.ufma.br/PortalUfma/index.jsf" target="_blank">
+                    <img src="img/supporters/logo-ufma.png" alt="UFMA">
+                </a>
+
 
                 <h3>UFMA</h3>
 
@@ -109,7 +109,7 @@ require_once('header.php');
             </div>
 
             <div class="organizacao-card">
-                
+
                 <img src="img/cocomSVG.svg" alt="COCOM">
 
                 <h3>COCOM</h3>
@@ -120,10 +120,10 @@ require_once('header.php');
             </div>
 
             <div class="organizacao-card">
-                <a href="https://petcompufma.org/">
+                <a href="https://petcompufma.org/ " target="_blank">
                     <img src="img/supporters/5.png" alt="PETComp">
                 </a>
-                
+
 
                 <h3>PETComp</h3>
 
@@ -240,7 +240,6 @@ require_once('header.php');
 </section>
 
 <script>
-
     document.querySelectorAll('.faq-question').forEach(button => {
 
         button.addEventListener('click', () => {
@@ -250,7 +249,6 @@ require_once('header.php');
         });
 
     });
-
 </script>
 
 <?php
