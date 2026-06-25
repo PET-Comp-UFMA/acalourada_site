@@ -120,38 +120,68 @@ document.addEventListener("DOMContentLoaded", () => {
             console.error(error);
         });
     }); 
-    document.getElementById('btn-download').addEventListener('click', function() {
-        const img = document.querySelector('#qrcode-container img');
 
-        if (img && img.src) {
+    document.getElementById('btn-download').addEventListener('click', function() {
+        const qrcodeCartao = document.getElementById('card-qrcode');
+
+        html2canvas(qrcodeCartao, {
+            backgroundColor: null, 
+            scale: 2,
+
+            ignoreElements: function(element) {
+       
+                if (element.classList.contains('acoes')) {
+                    return true; 
+                }
+                return false;
+            }
+
+        }).then(canvas => {
+
+            const qrcodeData = canvas.toDataURL('image/png');
+            
             const link = document.createElement('a');
-            link.href = img.src;
-            link.download = 'qrcode-acalourada.png';
+            link.href = qrcodeData;
+            link.download = "qrcode-acalourada.png"; 
+            
             document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-        }
-        else{
-            alert("Erro: O QR Code ainda não foi gerado.");
-        }
+            link.click(); 
+            document.body.removeChild(link); 
+            
+        }).catch(erro => {
+            console.error("Erro ao gerar a imagem para download:", erro);
+            alert("Ocorreu um erro ao tentar baixar o ingresso.");
+        });
     });
 
     document.getElementById('btn-compartilhar').addEventListener('click', async function() {
-        const img = document.querySelector('#qrcode-container img');
-
-        if(!img || !img.src) {
-            alert("Erro: O QR Code ainda não foi gerado.");
-            return;
-        }
+        const qrcodeCartao = document.getElementById('card-qrcode');
 
         try {
-            const response = await fetch(img.src);
-            const blob = await response.blob();
-            const file = new File([blob], 'qrcode-acalourada.png', { type: blob.type });
+            const canvas = await html2canvas(qrcodeCartao, {
+                backgroundColor: null, 
+                scale: 2,              
+    
+                ignoreElements: function(element) {
+                    if (element.classList.contains('acoes')) {
+                        return true; 
+                    }
+                    return false;
+                }
+            });
+
+            const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
+            
+            if (!blob) {
+                alert("Erro ao processar a imagem.");
+                return;
+            }
+
+                const file = new File([blob], 'qrcode-acalourada.png', { type: 'image/png' });
 
             const shareData = {
-                title: 'QR Code - Acalourada',
-                text: 'Aqui está meu QR Code para a Acalourada do PETComp!',
+                title: 'Meu QR Code - Acalourada',
+                text: 'Aqui está o meu QR Code para a Acalourada 2026.2!',
                 files: [file]
             };
 
@@ -160,11 +190,11 @@ document.addEventListener("DOMContentLoaded", () => {
             } else {
                 await navigator.share({
                     title: 'Meu QR Code - Acalourada',
-                    text: 'Já realizei minha inscrição para a Acalourada do PETComp!'
+                    text: 'Já fiz minha inscrição para a Acalourada 2026.2! Nos vemos lá.'
                 });
             }
-        } catch(err){
-            console.log('Compartilhamento cancelado ou falhou:', err);
+        } catch(err) {
+            console.log('Partilha cancelada ou falhou:', err);
         }
     });
 });
