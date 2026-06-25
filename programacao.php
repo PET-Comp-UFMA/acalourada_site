@@ -167,7 +167,12 @@ if (!$programacao_esta_vazia && isset($programacao[$dia_ativo]['atividades'])) {
                             fill="white" />
                     </svg>
                     <p>
-                        15 a 17 de março
+                        <?php if ($programacao_esta_vazia): ?>
+                            Em breve
+                        <?php else: ?>
+                            <?= reset($programacao)['label'] ?> a
+                            <?= end($programacao)['label'] ?>
+                        <?php endif; ?>
                     </p>
                 </div>
                 <div class="hero-local">
@@ -201,23 +206,27 @@ if (!$programacao_esta_vazia && isset($programacao[$dia_ativo]['atividades'])) {
 <main>
 
     <!-- Tabs -->
-    <div class="day-tabs" role="tablist" aria-label="Dias do evento">
+    <?php if (!$programacao_esta_vazia): ?>
+        <div class="day-tabs" role="tablist" aria-label="Dias do evento">
 
-        <?php
-        $dias_para_exibir = $programacao_esta_vazia ? $dias_fixos : $programacao;
-        foreach ($dias_para_exibir as $chave => $dia):
-            $ativo = ($chave === ($dia_ativo ?? array_key_first($dias_para_exibir)));
-            ?>
-            <a href="?dia=<?= urlencode($chave) ?>" class="day-tab <?= $ativo ? 'active' : '' ?>" role="tab"
-                aria-selected="<?= $ativo ? 'true' : 'false' ?>">
-                <span class="dt">
-                    <?= htmlspecialchars($dia['label']) ?>
-                </span>
-                <span class="dw">
-                    <?= htmlspecialchars($dia['semana']) ?>
-                </span>
-            </a>
-        <?php endforeach; ?>
+            <?php foreach ($programacao as $chave => $dia):
+                $ativo = ($chave === $dia_ativo);
+                ?>
+                <a href="?dia=<?= urlencode($chave) ?>" class="day-tab <?= $ativo ? 'active' : '' ?>" role="tab"
+                    aria-selected="<?= $ativo ? 'true' : 'false' ?>">
+
+                    <span class="dt">
+                        <?= htmlspecialchars($dia['label']) ?>
+                    </span>
+                    <span class="dw">
+                        <?= htmlspecialchars($dia['semana']) ?>
+                    </span>
+
+                </a>
+            <?php endforeach; ?>
+
+        </div>
+    <?php endif; ?>
 
     </div>
 
