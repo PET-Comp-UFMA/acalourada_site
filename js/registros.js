@@ -13,32 +13,13 @@ const boxFotos = document.getElementById("boxFotos");
 // SELECIONAR DIA MUDANDO CSS E PREVIEW
 // ------------------------------------------------------------------------------
 
-banner.addEventListener("click", (e) => {
-
-    const x = (e.offsetX / banner.clientWidth) * 100;
-    const y = (e.offsetY / banner.clientHeight) * 100;
-
-    // console.log("X%:", x.toFixed(2), "Y%:", y.toFixed(2));
-
-    if (
-        x >= 31 &&
-        x <= 51 &&
-        y >= 45 &&
-        y <= 75
-    ) {
-        boxFotos.src = `img/registros/2026.2/BannerRegistrosDia${diaAtual}.png`;
-        modal.style.display = "flex";
-    }
-
-});
-
 let diaAtual = 1;
 
 btnDia1.addEventListener("click", () => {
 
     diaAtual = 1;
-    banner.src = "img/registros/2026.2/BannerRegistrosDia1.png";
-    // banner.src = "img/registros/2026.2/BannerRegistrosEmBreve.png";
+    // banner.src = "img/registros/2026.2/BannerRegistrosDia1.png";
+    banner.src = "img/registros/2026.2/BannerRegistrosEmBreve.svg";
 
     btnDia1.classList.add("ativo");
     btnDia2.classList.remove("ativo");
@@ -49,8 +30,8 @@ btnDia1.addEventListener("click", () => {
 btnDia2.addEventListener("click", () => {
 
     diaAtual = 2;
-    banner.src = "img/registros/2026.2/BannerRegistrosDia2.png";
-    // banner.src = "img/registros/2026.2/BannerRegistrosEmBreve.png";
+    // banner.src = "img/registros/2026.2/BannerRegistrosDia2.png";
+    banner.src = "img/registros/2026.2/BannerRegistrosEmBreve.svg";
 
     btnDia1.classList.remove("ativo");
     btnDia2.classList.add("ativo");
@@ -61,8 +42,8 @@ btnDia2.addEventListener("click", () => {
 btnDia3.addEventListener("click", () => {
 
     diaAtual = 3;
-    banner.src = "img/registros/2026.2/BannerRegistrosDia3.png";
-    // banner.src = "img/registros/2026.2/BannerRegistrosEmBreve.png";
+    // banner.src = "img/registros/2026.2/BannerRegistrosDia3.png";
+    banner.src = "img/registros/2026.2/BannerRegistrosEmBreve.svg";
 
     btnDia1.classList.remove("ativo");
     btnDia2.classList.remove("ativo");
@@ -82,12 +63,13 @@ banner.addEventListener("click", (e) => {
     // console.log("X%:", x.toFixed(2), "Y%:", y.toFixed(2));
 
     if (
-        x >= 31 &&
+        x >= 30 &&
         x <= 51 &&
-        y >= 45 &&
-        y <= 75
+        y >= 37 &&
+        y <= 62
     ) {
-        boxFotos.src = `img/registros/2026.2/BannerRegistrosDia${diaAtual}.png`;
+        // boxFotos.src = `img/registros/2026.2/BannerRegistrosDia${diaAtual}.png`;
+        boxFotos.src = "img/registros/2026.2/BoxFotos.png";
         modal.style.display = "flex";
     }
 

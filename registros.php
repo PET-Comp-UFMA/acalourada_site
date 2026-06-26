@@ -16,7 +16,8 @@
         <p>
             Os melhores cliques dos três dias do evento vivido
             pelos calouros do curso de Ciência da Computação
-            e Inteligência Artificial.
+            e Inteligência Artificial. Para mais informações,
+            clique no tablet abaixo!
         </p>
 
         <div class="botoes-dias">
@@ -31,7 +32,7 @@
 
     <img
         id="banner-registros"
-        src="img/registros/2026.2/BannerRegistrosEmBreve.png"
+        src="img/registros/2026.2/BannerRegistrosEmBreve.svg"
         alt="Banner registros"
         class="banner-registros-img">
 
@@ -41,7 +42,7 @@
 
 </section>
 
-<div id="modal-dia" class="modal">
+<!-- <div id="modal-dia" class="modal">
 
     <button id="fechar-modal" class="btn-fechar">
         X
@@ -49,10 +50,10 @@
 
     <img
         id="boxFotos"
-        src="img/registros/2026.2/BoxFotos.png"
+        src=""
         alt="Foto">
 
-</div>
+</div> -->
 
 <script src="js/registros.js"></script>
 
