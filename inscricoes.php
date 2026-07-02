@@ -1,3 +1,4 @@
+
 <?php
 $tituloPagina = "Inscreva-se - Acalourada";
 $cssExtra = "css\Novo_CSS\inscricoes.css";

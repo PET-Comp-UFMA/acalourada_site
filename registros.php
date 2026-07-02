@@ -1,4 +1,4 @@
-<!-- <div class="fake-browser-bar"></div> -->
+<!-- <div class="fake-browser-bar">
 
 <?php
     $tituloPagina = "Registros - Acalourada";
