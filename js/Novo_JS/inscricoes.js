@@ -1,0 +1,202 @@
+document.addEventListener("DOMContentLoaded", () => {
+    const celular = document.getElementById("celular");
+    const formulario = document.querySelector("form");
+    const botao = document.getElementById("btnRegistrar");
+    const containerBotao = document.querySelector(".container-botao");
+    
+
+    function verificarFormulario() {
+        const nome = document.getElementById("nome").value.trim();
+        const celularValor = document.getElementById("celular").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const interesses = document.getElementById("interesses").value.trim();
+        const expectativa = document.querySelector('input[name="expectativa"]:checked');
+
+        const formularioValido =
+            nome !== "" &&
+            celularValor !== "" &&
+            email !== "" &&
+            interesses !== "" &&
+            expectativa !== null;
+
+        botao.disabled = !formularioValido;
+
+        if(formularioValido){
+            containerBotao.classList.remove("incompleto");
+        }
+        else{
+            containerBotao.classList.add("incompleto");
+        }
+    }
+
+    celular.addEventListener("input", function () {
+        // Remove tudo que nao for numero.
+        let valor = this.value.replace(/\D/g, "");
+
+        // Limita a 11 digitos.
+        valor = valor.slice(0, 11);
+
+        // Aplica a mascara (XX) XXXXX-XXXX.
+        if (valor.length > 2) {
+            valor = valor.replace(/^(\d{2})(\d)/, "($1) $2");
+        }
+
+        if (valor.length > 10) {
+            valor = valor.replace(/(\d{5})(\d)/, "$1-$2");
+        }
+
+        this.value = valor;
+        verificarFormulario();
+    });
+
+    formulario.addEventListener("input", verificarFormulario);
+    formulario.addEventListener("change", verificarFormulario);
+    verificarFormulario();
+
+    document.getElementById('form-inscricao').addEventListener('submit', function(event){
+        event.preventDefault();
+
+        const nome = document.getElementById("nome");
+        const celularValor = document.getElementById("celular");
+        const email = document.getElementById("email");
+        const interesses = document.getElementById("interesses");
+
+        const form = event.target;
+        const btnSubmit = document.getElementById('btnRegistrar');
+    
+        btnSubmit.innerText = "Aguarde...";
+        btnSubmit.disabled = true;
+    
+        const formData = new FormData(form);
+
+        nome.disabled = true;
+        celularValor.disabled = true;
+        email.disabled = true;
+        interesses.disabled = true;
+        document.querySelectorAll("input[name='expectativa']").forEach(radio => {
+            radio.disabled = true;
+          });
+    
+        fetch(form.action, {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === "sucesso" || data.status === "duplicado") {
+                
+                if (data.status === "duplicado") {
+                    alert(data.mensagem);
+                }
+
+                document.getElementById('card-form').style.display = 'none';
+                
+                document.getElementById('nome-participante').innerText = data.nome_calouro;
+
+                var containerQR = document.getElementById('qrcode-container');
+                containerQR.innerHTML = ""; 
+
+                new QRCode(containerQR, {
+                    text: data.ticket_id,
+                    width: 220,
+                    height: 220,
+                    colorDark: "#000000",
+                    colorLight: "#FFFFFF",
+                    correctLevel: QRCode.CorrectLevel.H
+                });
+                
+                document.getElementById('card-qrcode').style.display = 'block';
+
+            } else if (data.status === "erro") {
+                alert(data.mensagem);
+                btnSubmit.innerText = "REGISTRAR";
+                btnSubmit.disabled = false;
+            }
+        })
+        .catch(error => {
+            alert('Ocorreu um erro de conexão. Tente novamente.');
+            btnSubmit.innerText = "REGISTRAR";
+            btnSubmit.disabled = false;
+            console.error(error);
+        });
+    }); 
+
+    document.getElementById('btn-download').addEventListener('click', function() {
+        const qrcodeCartao = document.getElementById('card-qrcode');
+
+        html2canvas(qrcodeCartao, {
+            backgroundColor: null, 
+            scale: 2,
+
+            ignoreElements: function(element) {
+       
+                if (element.classList.contains('acoes')) {
+                    return true; 
+                }
+                return false;
+            }
+
+        }).then(canvas => {
+
+            const qrcodeData = canvas.toDataURL('image/png');
+            
+            const link = document.createElement('a');
+            link.href = qrcodeData;
+            link.download = "qrcode-acalourada.png"; 
+            
+            document.body.appendChild(link);
+            link.click(); 
+            document.body.removeChild(link); 
+            
+        }).catch(erro => {
+            console.error("Erro ao gerar a imagem para download:", erro);
+            alert("Ocorreu um erro ao tentar baixar o ingresso.");
+        });
+    });
+
+    document.getElementById('btn-compartilhar').addEventListener('click', async function() {
+        const qrcodeCartao = document.getElementById('card-qrcode');
+
+        try {
+            const canvas = await html2canvas(qrcodeCartao, {
+                backgroundColor: null, 
+                scale: 2,              
+    
+                ignoreElements: function(element) {
+                    if (element.classList.contains('acoes')) {
+                        return true; 
+                    }
+                    return false;
+                }
+            });
+
+            const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
+            
+            if (!blob) {
+                alert("Erro ao processar a imagem.");
+                return;
+            }
+
+                const file = new File([blob], 'qrcode-acalourada.png', { type: 'image/png' });
+
+            const shareData = {
+                title: 'Meu QR Code - Acalourada',
+                text: 'Aqui está o meu QR Code para a Acalourada 2026.2!',
+                files: [file]
+            };
+
+            if (navigator.canShare && navigator.canShare({ files: [file] })) {
+                await navigator.share(shareData);
+            } else {
+                await navigator.share({
+                    title: 'Meu QR Code - Acalourada',
+                    text: 'Já fiz minha inscrição para a Acalourada 2026.2! Nos vemos lá.'
+                });
+            }
+        } catch(err) {
+            console.log('Partilha cancelada ou falhou:', err);
+        }
+    });
+});
+
+

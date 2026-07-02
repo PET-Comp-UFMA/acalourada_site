@@ -1,0 +1,438 @@
+html, body {
+    overflow: auto;
+    font-family: 'Montserrat', system-ui, sans-serif;
+}
+
+.banner-laboratorios {
+    background-color: #027BDF; 
+    background-image: url('../svg/bg-banner-lab.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px 50px 80px;
+    position: relative;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.banner-content {
+    max-width: 55%;
+    z-index: 2;
+    padding-bottom: 30px;
+}
+
+.banner-title {
+    font-family: 'Karantina', 'Impact', 'Arial Black', sans-serif; 
+    font-size: 3.8rem;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.banner-title .destaque {
+    color: #02185E; 
+}
+
+.banner-text {
+    font-size: 27px;
+    line-height: 1.3;
+    font-weight: 650;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+.banner-image {
+    position: relative;
+    z-index: 3;
+}
+
+.banner-image img {
+    max-width: 500px;
+    margin-bottom: -160px; 
+}
+
+.container-body p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+h4 {
+    display: inline;
+}
+
+h5 {
+    display: inline;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 60px 50px 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    flex: 1 1 280px;
+    max-width: 350px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid #eaeaea;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    position: relative;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 80%, 100% 30%, 100% 100%, 0 100%);
+    z-index: 1;
+}
+
+.card-logo-img {
+    position: relative;
+    z-index: 2; 
+    width: 140px; 
+    height: 80px; 
+    object-fit: contain; 
+    object-position: center;
+}
+
+.bg-dxt {background-color: #ABF3FF;}
+.bg-vip {background-color: #B8DB87;}
+.bg-modal {background-color: #D28B8B;}
+.bg-lint {background-color: #BDE2D0;}
+.bg-nca {background-color: #D2C0DA;}
+.bg-lsdi {background-color: #ABD6DE;}
+.bg-laws {background-color: #E98080;}
+.bg-inovtec {background-color: #808080;}
+.bg-lacmor {background-color: #8086AF;}
+.bg-telemidia {background-color: #F7CB90;}
+.bg-lidi {background-color: #ECF0A0;}
+
+
+.card-body {
+    padding: 25px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.card-title{
+    font-size: 16px;
+    font-weight: bold;
+    color: #1a1a1a;
+    margin-bottom: 5px;
+}
+
+.card-text{
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.btn-saiba-mais {
+    background-color: #02185E;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: auto;
+}
+
+.btn-saiba-mais:hover {
+    background-color: #233b77;
+}
+
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 10000;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.popup-container {
+    background: linear-gradient(180deg, #D2C0DA 0%, #ffffff 25%);
+    border-radius: 20px;
+    width: 100%;
+    max-width: 600px;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    padding: 40px 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 0.3s ease-out;
+}
+
+.popup-container a:hover {
+        text-decoration: underline;
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.close-btn:hover {
+    color: #ff0000
+}
+
+.popup-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.popup-header a {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.popup-logo {
+    max-width: 150px;
+    margin-bottom: 30px;
+}
+
+.popup-header h2 {
+    font-size: 28px;
+    color: #000;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.popup-header h3 {
+    font-size: 14px;
+    color: #555;
+    font-weight: bold;
+    margin: 5px 0 0 0;
+}
+
+.popup-body p {
+    font-size: 13px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.popup-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.coordenador {
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prof-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.coordenador h4 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+    text-align: center;
+}
+
+.coordenador h5 {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.coordenador span {
+    font-size: 11px;
+    color: #666;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.container-sobre {
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.card-sobre {
+    background-color: #02185E;
+    border-radius: 25px;
+    padding: 40px 60px;
+    max-width: 1300px;
+    color: white;
+}
+
+.titulo-sobre {
+    font-family: 'Montserrat', system-ui, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    position: relative;
+    display: inline-block;
+}
+
+.titulo-sobre::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 6px;
+    background-color: #027BDF;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    border-radius: 2px;
+}
+
+.texto-sobre {
+    font-family: 'Montserrat', system-ui, sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.6;
+    font-weight: 500;
+    text-align: justify;
+}
+
+/* Animação de carregamento mais lenta */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Pequeno movimento para dar um efeito mais suave */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Estilo para telas médias (Tablets) */
+@media screen and (max-width: 1024px) {
+    .banner-laboratorios {
+        padding: 40px 50px;
+        background-size: cover;
+    }
+    .banner-title {
+        font-size: 3.2rem;
+    }
+    .banner-text {
+        font-size: 22px;
+    }
+    .banner-image img {
+        max-width: 400px;
+        margin-bottom: -100px;
+    }
+    .container-sobre {
+        margin-top: 60px;
+    }
+}
+
+/* Estilo para Smartphones */
+@media screen and (max-width: 768px) {
+    .banner-laboratorios {
+        padding: 20px 20px 40px 20px; 
+        margin-bottom: 20px;
+    }
+
+    .banner-content {
+        max-width: 55%;
+        padding-bottom: 0;
+    }
+
+    .banner-title {
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+    }
+
+    .banner-text {
+        font-size: 11px; 
+        line-height: 1.4;
+    }
+
+    .banner-image img {
+        max-width: 160px; 
+        margin-bottom: -70px; 
+    }
+
+    .container-sobre {
+        padding: 0 15px;
+        margin-top: 50px; 
+        margin-bottom: 40px;
+    }
+
+    .card-sobre {
+        padding: 25px 20px;
+        border-radius: 15px;
+    }
+
+    .titulo-sobre {
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+
+    .titulo-sobre::after {
+        height: 4px;
+        bottom: -8px;
+    }
+
+    .texto-sobre {
+        font-size: 10px; 
+        line-height: 1.5;
+    }
+}

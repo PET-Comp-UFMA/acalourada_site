@@ -1,61 +1,153 @@
-<div class="wrapper">
-    <div class="banner">
-        <div>
-            <a href="index.php"><img src="img/favicon-v1/icone-acalourada.svg" alt="" class="img-fluid" id="img-esq"></a>
-        </div>
-        <div>
-            <a href="index.php"><img src="img/bannerAcalourada2025_1.svg" class="img-fluid" id="img-centro"></a>
-        </div>
-        <div>
-            <a href="https://portalpadrao.ufma.br/site" target="_blank"><img src="img/supporters/logo-ufma.png" alt=""
-                    class="img-fluid" id="img-dir"></a>
-        </div>
-    </div>
-    
-    <header id="header">
-        <div class="container">
-            <nav id="nav-menu-container">
-                <ul class="nav-menu">
-                    <li><a href="index.php">Home</a></li>
-                    <li class="menu"><a href="inscricoes.php">Inscrições</a></li>
-                    <li><a href="programacao.php">Programação</a></li>
-                    <li><a href="localizacao.php">Localização</a></li>
-                    <li><a href="materiais.php">Guias</a></li>
-                    <li><a href="faq.php">FAQ</a></li>
-                    <li><a href="registros.php">Registros</a></li>
+<!DOCTYPE html>
+<html lang="pt-br">
 
-                    <li class="dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown"
-                            role="button" aria-haspopup="true" aria-expanded="false">Versões</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="index.php">2026.1</a>
-                                <div class="dropdown-divider" ></div>
-                                <a class="dropdown-item" href="2025.2/index.php">2025.2</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="2025.1/index.php">2025.1</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="2024.2/index.php">2024.2</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="2024.1/index.php">2024.1</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="2023.2/index.php">2023.2</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="2023.1/index.php">2023.1</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="2022.2/index.php">2022.2</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="2022.1/index.php">2022.1</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="2021.2/index.php">2021.2</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="2021.1/index.php">2021.1</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="2020.2/index.php">2020.2</a>
-                            </div>
+<head>
+    <meta charset="utf-8">
+
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Acalourada, Evento, petcomp" name="keywords">
+    <meta content="PETCOMP-UFMA" name="author">
+    <meta content="index, follow" name="robots">
+    <meta name="creator" content="PETCOMP-UFMA">
+    <meta name="google-site-verification" content="Vq1j2NBJRrVdJnbfpVGku9UCJFm-OD1rTIO7XZ7i7Rs">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon-v1/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-v1/favicon-dark.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-v1/favicon.png">
+    <link rel="manifest" href="./img/favicon-v1/site.webmanifest">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/Novo_CSS/header.css">
+
+    <title>
+        <?php
+        if (isset($tituloPagina)) {
+            echo $tituloPagina;
+        } else {
+            echo "Acalourada";
+        }
+        ?>
+    </title>
+
+    <?php if (isset($cssExtra)): ?>
+        <link rel="stylesheet" href="<?= $cssExtra ?>">
+    <?php endif; ?>
+
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <div class="site-header__inner">
+
+            <!-- LOGO -->
+            <a href="" class="site-brand">
+
+                <img src="img/favicon-v1/IconV2.svg" alt="Logo Acalourada" class="site-brand__icon">
+
+                <img src="img/favicon-v1/BannerV2.svg" alt="Acalourada" class="site-brand__text">
+
+            </a>
+
+            <!-- BOTÃO MOBILE -->
+            <button class="site-toggler">
+                ☰
+            </button>
+
+            <!-- NAVBAR -->
+            <nav class="site-navbar">
+
+                <ul class="site-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : '' ?>"
+                            href="">
+                            HOME
+                        </a>
                     </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'programacao.php' ? 'active' : '' ?>"
+                            href="programacao">
+                            PROGRAMAÇÃO
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'localizacao.php' ? 'active' : '' ?>"
+                            href="localizacao">
+                            LOCALIZAÇÃO
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'labs.php' ? 'active' : '' ?>"
+                            href="labs">
+                            LABS
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'registros.php' ? 'active' : '' ?>"
+                            href="registros">
+                            REGISTROS
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle">
+                            VERSÕES
+                        </a>
+
+                        <div class="site-dropdown">
+
+                            <a href="index.php">2026.2</a>
+                            <a href="2026.1/index.php">2026.1</a>
+                            <a href="2025.2/index.php">2025.2</a>
+                            <a href="2025.1/index.php">2025.1</a>
+                            <a href="2024.2/index.php">2024.2</a>
+                            <a href="2024.1/index.php">2024.1</a>
+                            <a href="2023.2/index.php">2023.2</a>
+                            <a href="2023.1/index.php">2023.1</a>
+                            <a href="2022.2/index.php">2022.2</a>
+                            <a href="2022.1/index.php">2022.1</a>
+                            <a href="2021.2/index.php">2021.2</a>
+                            <a href="2021.1/index.php">2021.1</a>
+                            <a href="2020.2/index.php">2020.2</a>
+
+                        </div>
+
+                    </li>
+
                 </ul>
+
+                <a href="inscricoes" class="btn-inscreva">
+                    INSCREVA-SE
+                </a>
+
             </nav>
-            <!-- #nav-menu-container -->
+
         </div>
+
     </header>
-</div>
+
+
+    <script src="js/Novo_JS/menumobile.js"></script>
+
+</body>
+
+</html>
