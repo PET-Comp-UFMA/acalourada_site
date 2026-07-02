@@ -24,7 +24,7 @@ require_once('header.php');
                 <div class="card-vertical">
 
                     <div class="card">
-                        <img src="img\inscricoes\iconCalendario.svg" alt="icon calendário">
+                        <img src="img\inscricoes\iconCalendario.svg" alt="icon calendario">
                         <div class="card-text">
                             <h3>6 anos</h3>
                             <p>de tradição</p>
