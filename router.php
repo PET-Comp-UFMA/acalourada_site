@@ -11,7 +11,7 @@
 $param = "[/]?(\w*)";
 
 $routes = [
-    "" => function () {
+    "$root/" => function () {
         require("index.php");
     },
     ($root ? "$root/programacao" : "programacao") => function () {
