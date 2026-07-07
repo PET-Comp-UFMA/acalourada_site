@@ -59,7 +59,7 @@
 
 </div> -->
 
-<script src="js/registros.js"></script>
+<!-- <script src="js/registros.js"></script> -->
 
 <?php 
     require_once('footer.php');

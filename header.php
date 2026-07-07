@@ -73,48 +73,45 @@
                 <ul class="site-nav">
 
                     <li class="nav-item">
-                        <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : '' ?>"
-                            href="">
+                        <a class="nav-link <?= (basename($_SERVER['PHP_SELF']) == 'index.php' || $_SERVER['REQUEST_URI'] == '/' || $_SERVER['REQUEST_URI'] == '') ? 'active' : '' ?>"
+                            href="index.php">
                             HOME
                         </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'programacao.php' ? 'active' : '' ?>"
+                        <a class="nav-link <?= strpos($_SERVER['REQUEST_URI'], 'programacao') !== false ? 'active' : '' ?>"
                             href="programacao">
                             PROGRAMAÇÃO
                         </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'localizacao.php' ? 'active' : '' ?>"
+                        <a class="nav-link <?= strpos($_SERVER['REQUEST_URI'], 'localizacao') !== false ? 'active' : '' ?>"
                             href="localizacao">
                             LOCALIZAÇÃO
                         </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'labs.php' ? 'active' : '' ?>"
+                        <a class="nav-link <?= strpos($_SERVER['REQUEST_URI'], 'labs') !== false ? 'active' : '' ?>"
                             href="labs">
                             LABS
                         </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'registros.php' ? 'active' : '' ?>"
+                        <a class="nav-link <?= strpos($_SERVER['REQUEST_URI'], 'registros') !== false ? 'active' : '' ?>"
                             href="registros">
                             REGISTROS
                         </a>
                     </li>
 
                     <li class="nav-item dropdown">
-
                         <a class="nav-link dropdown-toggle">
                             VERSÕES
                         </a>
-
                         <div class="site-dropdown">
-
                             <a href="index.php">2026.2</a>
                             <a href="2026.1/index.php">2026.1</a>
                             <a href="2025.2/index.php">2025.2</a>
@@ -128,9 +125,7 @@
                             <a href="2021.2/index.php">2021.2</a>
                             <a href="2021.1/index.php">2021.1</a>
                             <a href="2020.2/index.php">2020.2</a>
-
                         </div>
-
                     </li>
 
                 </ul>
