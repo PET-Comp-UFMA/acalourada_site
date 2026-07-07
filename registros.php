@@ -1,4 +1,4 @@
-<!-- <div class="fake-browser-bar">
+<!-- <div class="fake-browser-bar"> -->
 
 <?php
     $tituloPagina = "Registros - Acalourada";
@@ -12,19 +12,23 @@
 
 <section class="hero-registros">
     <div class="hero-registros-content">
-        <h1>Registros Acalourada <span>2026.1</span></h1>
+        <h1>Registros Acalourada <span>2026.2</span></h1>
         <p>
-            Os melhores cliques dos três dias do evento vivido
+            Em breve, os melhores cliques dos três dias do evento vivido
             pelos calouros do curso de Ciência da Computação
-            e Inteligência Artificial. Para mais informações,
-            clique no tablet abaixo!
+            e Inteligência Artificial.
+            <!-- Para mais informações,
+            clique no tablet abaixo! -->
         </p>
 
-        <div class="botoes-dias">
+
+
+    <!-- descomentar os botoes quando as fotos estiverem disponiveis -->
+        <!-- <div class="botoes-dias">
             <button id="dia1" class="btn-dia ativo">Dia 1</button>
             <button id="dia2" class="btn-dia">Dia 2</button>
             <button id="dia3" class="btn-dia">Dia 3</button>
-        </div>
+        </div> -->
     </div>
 </section>
 
