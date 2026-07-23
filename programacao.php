@@ -6,108 +6,289 @@ echo '<link rel="stylesheet" href="css/Novo_CSS/programacao.css">';
 echo '<script src="js/programacao.js" defer></script>';
 
 $sem_programacao = true;
+//Siga exatamente esse formato quando for criar a programaçao
+// tem como colocar mais de 3 dias, mas não garanto a resosividade dos botoes kk
+$programacao = [
 
-$programacao = [               //Siga exatamente esse formato quando for criar a programaçao
-    'dia1' => [                // tem como colocar mais de 3 dias, mas não garanto a resosivi
-        'label' => '17/06',    // dade dos botoes kk
+    'dia1' => [
+        'label' => '19/08',
         'semana' => 'Quarta-feira',
         'atividades' => [
+
             [
                 'periodo' => 'Manhã',
                 'horario_inicio' => '08:30',
-                'horario_fim' => '10:30',
-                'titulo' => 'Boas Vindas + Apresentação PETComp',
-                'local' => 'Auditório da Pós (CCET)',
-                'descricao' => 'Cerimônia de abertura da Acalourada 2026.2 com boas-vindas aos calouros, apresentação do grupo PETComp e uma visão geral da programação dos três dias de evento.',
+                'horario_fim' => '10:00',
+                'titulo' => 'Boas-vindas + Apresentação do PETComp',
+                'local' => 'Auditório da Pós',
+                'descricao' => 'Abertura oficial da Acalourada com recepção aos calouros e apresentação do PETComp.',
                 'palestrantes' => [['nome' => 'Equipe PETComp', 'foto' => 'img/speakers/pet.jpg']]
             ],
+
             [
                 'periodo' => 'Manhã',
-                'horario_inicio' => '10:30',
-                'horario_fim' => '12:00',
-                'titulo' => 'Palestra sobre SBC e grupo Dexters',
-                'local' => 'Auditório da Pós (CCET)',
-                'descricao' => 'O Prof. Luis Rivero apresenta a Sociedade Brasileira de Computação (SBC) e o grupo de pesquisa Dexters, mostrando oportunidades de participação em eventos, publicações e redes acadêmicas.',
-                'palestrantes' => [['nome' => 'Prof. Luis Rivero', 'foto' => 'img/speakers/prof.luis.png']]
+                'horario_inicio' => '10:00',
+                'horario_fim' => '11:00',
+                'titulo' => 'Apresentação do Grupo Dexters',
+                'local' => 'Auditório da Pós',
+                'descricao' => 'Apresentação do grupo de pesquisa Dexters e suas áreas de atuação.',
+                'palestrantes' => [['nome' => 'Grupo Dexters', 'foto' => 'svg/logo_dexters.svg']]  //adicionar depois
             ],
+
+            [
+                'periodo' => 'Manhã',
+                'horario_inicio' => '11:00',
+                'horario_fim' => '12:00',
+                'titulo' => 'Palestra SBC',
+                'local' => 'Auditório da Pós',
+                'descricao' => 'Apresentação da Sociedade Brasileira de Computação e das oportunidades para estudantes.',
+                'palestrantes' => [['nome' => 'SBC', 'foto' => 'img/Logo_SBC.jpeg']] //adicionar depois
+            ],
+
             [
                 'periodo' => 'Tarde',
                 'horario_inicio' => '14:00',
                 'horario_fim' => '14:30',
-                'titulo' => 'Apresentação da Liga de Bioinformática',
-                'local' => 'Auditório da Pós (CCET)',
-                'descricao' => 'A LABI apresenta suas linhas de pesquisa na interseção entre Computação e Biologia, projetos em andamento e como os alunos podem ingressar no grupo.',
+                'titulo' => 'Apresentação da LABI',
+                'local' => 'Auditório da Pós',
+                'descricao' => 'Apresentação da Liga Acadêmica de Bioinformática.',
                 'palestrantes' => [['nome' => 'LABI', 'foto' => 'img/speakers/labi.jpeg']]
             ],
+
             [
                 'periodo' => 'Tarde',
                 'horario_inicio' => '14:30',
                 'horario_fim' => '15:00',
-                'titulo' => 'Apresentação da LAJD (Liga de Jogos Digitais)',
-                'local' => 'Auditório da Pós (CCET)',
-                'descricao' => 'A LAJD mostra seus projetos de desenvolvimento de jogos, game jams e como a liga une criatividade e tecnologia para quem quer atuar na indústria de games.',
-                'palestrantes' => [['nome' => 'Equipe LAJD', 'foto' => 'img/LAJD.jpeg']]
+                'titulo' => 'Apresentação da LAJD',
+                'local' => 'Auditório da Pós',
+                'descricao' => 'Apresentação da Liga de Jogos Digitais.',
+                'palestrantes' => [['nome' => 'LAJD', 'foto' => 'img/LAJD.jpeg']]
             ],
+
             [
                 'periodo' => 'Tarde',
                 'horario_inicio' => '15:00',
                 'horario_fim' => '16:00',
-                'titulo' => 'Apresentação DAComp',
-                'local' => 'Auditório da Pós (CCET)',
-                'descricao' => 'O Diretório Acadêmico de Computação apresenta sua estrutura, projetos estudantis e como os calouros podem participar ativamente da vida acadêmica do curso.',
-                'palestrantes' => [['nome' => 'Equipe DAComp', 'foto' => 'img/speakers/dacomp.jpeg']]
+                'titulo' => 'Apresentação do Diretório Acadêmico',
+                'local' => 'Auditório da Pós',
+                'descricao' => 'Apresentação do Diretório Acadêmico de Ciência da Computação.',
+                'palestrantes' => [['nome' => 'DAComp', 'foto' => 'img/speakers/dacomp.jpeg']]
             ],
+
             [
                 'periodo' => 'Tarde',
                 'horario_inicio' => '16:00',
                 'horario_fim' => '17:00',
-                'titulo' => 'Apresentação da Atlética',
-                'local' => 'Auditório da Pós (CCET)',
-                'descricao' => 'A Atlética do curso apresenta suas modalidades esportivas, eventos ao longo do semestre e como a integração esportiva faz parte da experiência universitária.',
-                'palestrantes' => [['nome' => 'Equipe da Atlética', 'foto' => 'img/speakers/lorde.png']]
-            ],
+                'titulo' => 'Apresentação da Atlética Lorde',
+                'local' => 'Auditório da Pós',
+                'descricao' => 'Apresentação da Atlética Lorde e suas atividades.',
+                'palestrantes' => [['nome' => 'Atlética Lorde', 'foto' => 'img/speakers/lorde.png']]
+            ]
         ]
     ],
+
     'dia2' => [
-        'label' => '18/06',
+        'label' => '20/08',
         'semana' => 'Quinta-feira',
         'atividades' => [
-            [
-                'periodo' => 'Manhã',
-                'horario_inicio' => '08:30',
-                'horario_fim' => '10:30',
-                'titulo' => 'Apresentação das Coordenações',
-                'local' => 'Auditório da Pós (CCET)',
-                'descricao' => 'A coordenação do curso apresenta a grade curricular, fluxos de matrícula, estágio, TCC e tudo que os calouros precisam saber para se organizar durante a graduação.',
-                'palestrantes' => [['nome' => 'Coordenação de Curso', 'foto' => 'img/speakers/DEINF.png']]
-            ],
+[
+    'periodo' => 'Manhã',
+    'horario_inicio' => '08:30',
+    'horario_fim' => '10:30',
+    'titulo' => 'Apresentação das Coordenações',
+    'local' => 'Auditório da Pós',
+    'descricao' => 'Os coordenadores do Núcleo Comum, Inteligência Artificial e Ciência da Computação apresentam a estrutura dos cursos, matriz curricular, funcionamento acadêmico, estágios, TCC e esclarecem as principais dúvidas dos ingressantes.',
+    'palestrantes' => [
+        [
+            'nome' => 'Prof. Dr. Darlan Bruno Pontes Quintanilha',
+            'foto' => 'img/speakers/darlan.png'
+        ],
+        [
+            'nome' => 'Prof. Dr. Francisco Glaubos Nunes Climaco',
+            'foto' => 'img/speakers/Glaubos-Climaco.webp'
+        ],
+        [
+            'nome' => 'Prof. Dr. Tiago Bonini Borchartt',
+            'foto' => 'img/speakers/bonini.png'
+        ]
+    ]
+],
+
             [
                 'periodo' => 'Manhã',
                 'horario_inicio' => '10:30',
                 'horario_fim' => '12:00',
-                'titulo' => 'Palestra: Carreira e Oportunidades',
-                'local' => 'Auditório da Pós (CCET)',
-                'descricao' => 'A Profa. Simara Vieira compartilha um panorama do mercado de tecnologia, caminhos de carreira possíveis para o profissional de Computação e dicas para aproveitar melhor os anos de graduação.',
-                'palestrantes' => [['nome' => 'Profa. Dra. Simara Vieira', 'foto' => 'img/speakers/simara.png']]
+                'titulo' => 'Palestra com a Professora Simara',
+                'local' => 'Auditório da Pós',
+                'descricao' => 'Palestra ministrada pela Professora Simara.',
+                'palestrantes' => [
+                    ['nome' => 'Profa. Dra. Simara Vieira', 'foto' => 'img/speakers/simara.png']
+                ]   
+            ],
+
+            [
+                'periodo' => 'Tarde',
+                'horario_inicio' => '14:00',
+                'horario_fim' => '15:30',
+                'titulo' => 'Palestra com o Professor Anselmo',
+                'local' => 'Auditório da Pós',
+                'descricao' => 'Palestra ministrada pelo Professor Anselmo.',
+                'palestrantes' => [
+    ['nome' => 'Prof. Dr. Anselmo Paiva', 'foto' => 'img/speakers/AnselmoPerfil.jpg']
+]
+            ],
+
+            [
+                'periodo' => 'Tarde',
+                'horario_inicio' => '15:30',
+                'horario_fim' => '17:30',
+                'titulo' => 'Mesa-redonda com os Egressos',
+                'local' => 'Auditório da Pós',
+                'descricao' => 'Conversa com ex-alunos compartilhando experiências acadêmicas e profissionais.',
+                'palestrantes' => [['nome' => 'Egressos', 'foto' => 'img/speakers/egressos.png']]
             ]
         ]
     ],
-    'dia3' => [
-        'label' => '19/06',
-        'semana' => 'Sexta-feira',
-        'atividades' => [
-            [
-                'periodo' => 'Manhã',
-                'horario_inicio' => '08:30',
-                'horario_fim' => '12:00',
-                'titulo' => 'Apresentação dos Laboratórios (Parte 1)',
-                'local' => 'Auditório da Pós (CCET)',
-                'descricao' => 'Visita guiada e apresentação das principais linhas de pesquisa e projetos dos laboratórios do DEINF.',
-                'palestrantes' => [['nome' => 'Equipe PETComp', 'foto' => 'img/speakers/pet.jpg']]
+
+'dia3' => [
+    'label' => '21/08',
+    'semana' => 'Sexta-feira',
+    'atividades' => [
+
+        [
+            'periodo' => 'Manhã',
+            'horario_inicio' => '08:30',
+            'horario_fim' => '09:00',
+            'titulo' => 'LabTour - LSDI',
+            'local' => 'Auditório da Pós',
+            'descricao' => 'Visita ao Laboratório de Sistemas Distribuídos e Inteligentes.',
+            'palestrantes' => [
+                ['nome' => 'Prof. Dr. Francisco José da Silva e Silva', 'foto' => 'img/speakers/silva.webp']
+            ]
+        ],
+
+        [
+            'periodo' => 'Manhã',
+            'horario_inicio' => '09:10',
+            'horario_fim' => '09:40',
+            'titulo' => 'LabTour - VipLab (DEINF)',
+            'local' => 'Auditório da Pós',
+            'descricao' => 'Visita ao laboratório VipLab.',
+            'palestrantes' => [
+                ['nome' => 'Prof. Dr. Geraldo Braz Júnior', 'foto' => 'img/speakers/geraldo.jpeg']
+            ]
+        ],
+
+        [
+            'periodo' => 'Manhã',
+            'horario_inicio' => '09:50',
+            'horario_fim' => '10:20',
+            'titulo' => 'LabTour - LAWS',
+            'local' => 'Auditório da Pós',
+            'descricao' => 'Visita ao laboratório LAWS.',
+            'palestrantes' => [
+                ['nome' => 'Prof. Dr. Mário Meireles Teixeira', 'foto' => 'img/speakers/mario.webp']
+            ]
+        ],
+
+        [
+            'periodo' => 'Manhã',
+            'horario_inicio' => '10:30',
+            'horario_fim' => '11:00',
+            'titulo' => 'LabTour - Telemídia',
+            'local' => 'Auditório da Pós',
+            'descricao' => 'Visita ao Laboratório TeleMídia, dedicado ao desenvolvimento de pesquisas em hipermídia, sistemas multimídia, aplicações web e tecnologias interativas.',
+            'palestrantes' => [
+                ['nome' => 'Prof. Dr. Carlos de Salles Soares Neto', 'foto' => 'img/speakers/salles.jpg']
+            ]
+        ],
+
+        [
+            'periodo' => 'Manhã',
+            'horario_inicio' => '11:10',
+            'horario_fim' => '11:40',
+            'titulo' => 'LabTour - LINT',
+            'local' => 'Auditório da Pós',
+            'descricao' => 'Visita ao laboratório LINT.',
+            'palestrantes' => [
+                ['nome' => 'Prof. Dr. Tiago Bonini Borchartt', 'foto' => 'img/speakers/bonini.png'] 
+            ]
+        ],
+
+        [
+            'periodo' => 'Manhã',
+            'horario_inicio' => '11:50',
+            'horario_fim' => '12:20',
+            'titulo' => 'LabTour - VipLab (Pós)',
+            'local' => 'Auditório da Pós',
+            'descricao' => 'Visita ao laboratório VipLab da Pós-Graduação.',
+            'palestrantes' => [
+                ['nome' => 'Prof. Dr. João Dallyson Sousa de Almeida', 'foto' => 'img/speakers/dallyson.png']
+            ]
+        ],
+
+        [
+            'periodo' => 'Tarde',
+            'horario_inicio' => '14:00',
+            'horario_fim' => '14:30',
+            'titulo' => 'LabTour - LACMOR',
+            'local' => 'Auditório da Pós',
+            'descricao' => 'Visita ao laboratório LACMOR.',
+            'palestrantes' => [
+                ['nome' => 'Prof. Dr. Alexandre César Muniz de Oliveira', 'foto' => 'img/speakers/alexandre.webp']
+            ]
+        ],
+
+        [
+            'periodo' => 'Tarde',
+            'horario_inicio' => '14:40',
+            'horario_fim' => '15:10',
+            'titulo' => 'LabTour - ModaI',
+            'local' => 'Auditório da Pós',
+            'descricao' => 'Visita ao laboratório ModaI.',
+            'palestrantes' => [
+                ['nome' => 'Prof. Dr. Glaubos Nunes Climaco', 'foto' => 'img/speakers/Glaubos-Climaco.webp']
+            ]
+        ],
+
+        [
+            'periodo' => 'Tarde',
+            'horario_inicio' => '15:20',
+            'horario_fim' => '15:50',
+            'titulo' => 'LabTour - InovTec',
+            'local' => 'Auditório da Pós',
+            'descricao' => 'Visita ao laboratório InovTec.',
+            'palestrantes' => [
+                ['nome' => 'Equipe InovTec', 'foto' => 'img/speakers/inovtec.png'] //Adicionar depois
+            ]
+        ],
+
+        [
+            'periodo' => 'Tarde',
+            'horario_inicio' => '16:00',
+            'horario_fim' => '18:00',
+            'titulo' => 'Dinâmica PETComp + Premiação',
+            'local' => 'Auditório da Pós',
+            'descricao' => 'Dinâmica de integração promovida pelo PETComp seguida da premiação das atividades.',
+            'palestrantes' => [
+                ['nome' => 'Equipe PETComp', 'foto' => 'img/speakers/pet.jpg']
+            ]
+        ],
+
+        [
+            'periodo' => 'Tarde',
+            'horario_inicio' => '18:00',
+            'horario_fim' => '18:30',
+            'titulo' => 'Encerramento',
+            'local' => 'Auditório da Pós',
+            'descricao' => 'Encerramento oficial da Acalourada 2026.2.',
+            'palestrantes' => [
+                ['nome' => 'Organização', 'foto' => 'img/speakers/pet.jpg']
             ]
         ]
     ]
-];
+]
+            ];
 $programacao_esta_vazia = empty($programacao) || $sem_programacao;
 
 $dias = array_keys($programacao);
