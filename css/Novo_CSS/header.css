@@ -34,7 +34,7 @@ body {
 
 .site-header__inner {
     min-height: 70px;
-    padding: 10px 28px;
+    padding: 20px 28px;
     display: flex;
     align-items: center;
     gap: 24px;
