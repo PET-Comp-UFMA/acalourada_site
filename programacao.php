@@ -161,7 +161,7 @@ $programacao = [
                 'horario_fim' => '09:00',
                 'titulo' => 'LabTour - LSDI',
                 'local' => 'Auditório da Pós',
-                'descricao' => 'Visita ao Laboratório de Sistemas Distribuídos e Inteligentes.',
+                'descricao' => 'Apresentação do Laboratório de Sistemas Distribuídos e Inteligentes.',
                 'palestrantes' => [
                     ['nome' => 'Prof. Dr. Francisco José da Silva e Silva', 'foto' => 'img/speakers/silva.webp']
                 ]
@@ -173,7 +173,7 @@ $programacao = [
                 'horario_fim' => '09:40',
                 'titulo' => 'LabTour - VipLab (DEINF)',
                 'local' => 'Auditório da Pós',
-                'descricao' => 'Visita ao laboratório VipLab.',
+                'descricao' => 'Apresentação do laboratório VipLab.',
                 'palestrantes' => [
                     ['nome' => 'Prof. Dr. Geraldo Braz Júnior', 'foto' => 'img/speakers/geraldo.jpeg']
                 ]
@@ -185,7 +185,7 @@ $programacao = [
                 'horario_fim' => '10:20',
                 'titulo' => 'LabTour - LAWS',
                 'local' => 'Auditório da Pós',
-                'descricao' => 'Visita ao laboratório LAWS.',
+                'descricao' => 'Apresentação do laboratório LAWS.',
                 'palestrantes' => [
                     ['nome' => 'Prof. Dr. Mário Meireles Teixeira', 'foto' => 'img/speakers/mario.webp']
                 ]
@@ -197,7 +197,7 @@ $programacao = [
                 'horario_fim' => '11:00',
                 'titulo' => 'LabTour - Telemídia',
                 'local' => 'Auditório da Pós',
-                'descricao' => 'Visita ao Laboratório TeleMídia, dedicado ao desenvolvimento de pesquisas em hipermídia, sistemas multimídia, aplicações web e tecnologias interativas.',
+                'descricao' => 'Apresentação do Laboratório TeleMídia, dedicado ao desenvolvimento de pesquisas em hipermídia, sistemas multimídia, aplicações web e tecnologias interativas.',
                 'palestrantes' => [
                     ['nome' => 'Prof. Dr. Carlos de Salles Soares Neto', 'foto' => 'img/speakers/salles.jpg']
                 ]
@@ -209,7 +209,7 @@ $programacao = [
                 'horario_fim' => '11:40',
                 'titulo' => 'LabTour - LINT',
                 'local' => 'Auditório da Pós',
-                'descricao' => 'Visita ao laboratório LINT.',
+                'descricao' => 'Apresentação do laboratório LINT.',
                 'palestrantes' => [
                     ['nome' => 'Prof. Dr. Tiago Bonini Borchartt', 'foto' => 'img/speakers/bonini.png']
                 ]
@@ -221,7 +221,7 @@ $programacao = [
                 'horario_fim' => '12:20',
                 'titulo' => 'LabTour - VipLab (Pós)',
                 'local' => 'Auditório da Pós',
-                'descricao' => 'Visita ao laboratório VipLab da Pós-Graduação.',
+                'descricao' => 'Apresentação do laboratório VipLab da Pós-Graduação.',
                 'palestrantes' => [
                     ['nome' => 'Prof. Dr. João Dallyson Sousa de Almeida', 'foto' => 'img/speakers/dallyson.png']
                 ]
@@ -233,9 +233,9 @@ $programacao = [
                 'horario_fim' => '14:30',
                 'titulo' => 'LabTour - LACMOR',
                 'local' => 'Auditório da Pós',
-                'descricao' => 'Visita ao laboratório LACMOR.',
+                'descricao' => 'Apresentação do laboratório LACMOR.',
                 'palestrantes' => [
-                    ['nome' => 'Prof. Dr. Alexandre César Muniz de Oliveira', 'foto' => 'img/speakers/alexandre.webp']
+                    ['nome' => 'Prof. Dr. Alexandre César Muniz de Oliveira', 'foto' => 'img/labs/coord-lacmor.jpeg']
                 ]
             ],
 
@@ -245,7 +245,7 @@ $programacao = [
                 'horario_fim' => '15:10',
                 'titulo' => 'LabTour - ModaI',
                 'local' => 'Auditório da Pós',
-                'descricao' => 'Visita ao laboratório ModaI.',
+                'descricao' => 'Apresentação do laboratório ModaI.',
                 'palestrantes' => [
                     ['nome' => 'Prof. Dr. Glaubos Nunes Climaco', 'foto' => 'img/speakers/Glaubos-Climaco.webp']
                 ]
@@ -257,9 +257,9 @@ $programacao = [
                 'horario_fim' => '15:50',
                 'titulo' => 'LabTour - InovTec',
                 'local' => 'Auditório da Pós',
-                'descricao' => 'Visita ao laboratório InovTec.',
+                'descricao' => 'Apresentação do laboratório InovTec.',
                 'palestrantes' => [
-                    ['nome' => 'Equipe InovTec', 'foto' => 'img/speakers/inovtec.png'] //Adicionar depois
+                    ['nome' => 'Equipe InovTec', 'foto' => 'img/labs/coord-inovtec.jpeg'] //Adicionar depois
                 ]
             ],
 
@@ -392,7 +392,7 @@ if (!$programacao_esta_vazia && isset($programacao[$dia_ativo]['atividades'])) {
 
             <?php foreach ($programacao as $chave => $dia):
                 $ativo = ($chave === $dia_ativo);
-            ?>
+                ?>
                 <a href="programacao?dia=<?= urlencode($chave) ?>" class="day-tab <?= $ativo ? 'active' : '' ?>" role="tab"
                     aria-selected="<?= $ativo ? 'true' : 'false' ?>">
 
@@ -542,8 +542,8 @@ if (!$programacao_esta_vazia && isset($programacao[$dia_ativo]['atividades'])) {
                         </div>
                     </div>
                 <?php endforeach; ?>
-                </div>
-            <?php endif; ?>
+            </div>
+        <?php endif; ?>
 </main>
 
 <?php
