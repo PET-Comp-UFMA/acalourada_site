@@ -5,7 +5,7 @@ require_once('header.php');
 echo '<link rel="stylesheet" href="css/Novo_CSS/programacao.css">';
 echo '<script src="js/programacao.js" defer></script>';
 
-$sem_programacao = true;
+$sem_programacao = false;
 
 $programacao = [               //Siga exatamente esse formato quando for criar a programaçao
     'dia1' => [                // tem como colocar mais de 3 dias, mas não garanto a resosivi
@@ -211,8 +211,8 @@ if (!$programacao_esta_vazia && isset($programacao[$dia_ativo]['atividades'])) {
 
             <?php foreach ($programacao as $chave => $dia):
                 $ativo = ($chave === $dia_ativo);
-                ?>
-                <a href="?dia=<?= urlencode($chave) ?>" class="day-tab <?= $ativo ? 'active' : '' ?>" role="tab"
+            ?>
+                <a href="programacao?dia=<?= urlencode($chave) ?>" class="day-tab <?= $ativo ? 'active' : '' ?>" role="tab"
                     aria-selected="<?= $ativo ? 'true' : 'false' ?>">
 
                     <span class="dt">
@@ -361,8 +361,8 @@ if (!$programacao_esta_vazia && isset($programacao[$dia_ativo]['atividades'])) {
                         </div>
                     </div>
                 <?php endforeach; ?>
-            </div>
-        <?php endif; ?>
+                </div>
+            <?php endif; ?>
 </main>
 
 <?php
