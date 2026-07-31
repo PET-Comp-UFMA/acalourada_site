@@ -34,7 +34,7 @@ body {
 
 .site-header__inner {
     min-height: 70px;
-    padding: 20px 28px;
+    padding: 20px clamp(12px, 2vw, 28px);
     display: flex;
     align-items: center;
     gap: 24px;
@@ -50,14 +50,14 @@ body {
 }
 
 .site-brand__icon {
-    width: 80px;
-    height: 80px;
+    width: clamp(48px, 6vw, 80px);
+    height: clamp(48px, 6vw, 80px);
     object-fit: contain;
     flex: 0 0 auto;
 }
 
 .site-brand__text {
-    width: 170px;
+    width: clamp(120px, 12vw, 170px);
     max-width: 42vw;
     height: auto;
     object-fit: contain;
@@ -71,28 +71,31 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    min-width: 0; /* permite que o flex item encolha de verdade */
 }
 
 .site-nav {
     display: flex;
     align-items: center;
-    gap: 18px;
+    gap: clamp(6px, 1.4vw, 18px);
     margin-left: auto;
     list-style: none;
     padding: 0;
     margin-bottom: 0;
+    flex-wrap: nowrap;
 }
 
 .site-nav .nav-link {
     color: var(--header-text-soft);
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: clamp(0.72rem, 1.05vw, 1.1rem);
     letter-spacing: 0.02em;
     text-transform: uppercase;
-    padding: 0.35rem 1.2rem;
+    padding: 0.35rem clamp(0.4rem, 1vw, 1.2rem);
     position: relative;
     transition: color 0.2s ease;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 .site-nav .nav-link:hover,
@@ -181,18 +184,19 @@ body {
 
 /* BOTÃO INSCREVA-SE */
 .btn-inscreva {
-    margin-left: 20px;
+    margin-left: clamp(8px, 1.5vw, 20px);
     background: var(--header-accent);
     color: #fff;
     text-decoration: none;
     font-weight: 800;
-    font-size: 1.3em;
+    font-size: clamp(0.85rem, 1.1vw, 1.3em);
     letter-spacing: 0.01em;
-    padding: 0.65rem 0.9rem;
+    padding: 0.65rem clamp(0.5rem, 1.2vw, 0.9rem);
     border-radius: 12px;
     line-height: 1;
     transition: background 0.2s ease, transform 0.2s ease;
     white-space: nowrap;
+    flex: 0 0 auto;
 }
 
 .btn-inscreva:hover,
@@ -208,7 +212,7 @@ body {
 }
 
 /* VERSÃO RESPONSIVA (TABLET / MOBILE) */
-@media (max-width: 770px) {
+@media (max-width: 1010px) {
     .site-header__inner {
         justify-content: space-between;
         padding: 12px 16px;

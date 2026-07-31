@@ -21,9 +21,9 @@ require_once('header.php');
             </h1>
 
             <p>
-                Um momento para dar boas-vindas, conectar
+                Um momento para dar boas-vindas,<br> conectar
                 pessoas e iniciar uma jornada incrível na área
-                da Computação e IA.
+                da<br> <strong>Computação e IA</strong>.
             </p>
 
             <a href="inscricoes" class="btn-participar">

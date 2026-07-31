@@ -11,7 +11,7 @@
                     class="img-fluid" id="img-dir"></a>
         </div>
     </div>
-    
+
     <header id="header">
         <div class="container">
             <nav id="nav-menu-container">
@@ -23,10 +23,11 @@
                     <li><a href="materiais.php">Guias</a></li>
                     <li><a href="faq.php">FAQ</a></li>
                     <li><a href="registros.php">Registros</a></li>
-
-                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown"
+                    <li class="menu-has-children">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown"
                             role="button" aria-haspopup="true" aria-expanded="false">Versões</a>
-                    <?php include '../dropdown_versoes.php'; ?>
+                        <?php include '../dropdown_versoes.php'; ?>
+                    </li>
                 </ul>
             </nav>
             <!-- #nav-menu-container -->
