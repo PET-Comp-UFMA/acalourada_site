@@ -142,6 +142,12 @@ p {
     align-items: center;
 }
 
+.card-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
 .card-form h2{
     font-family: "Karantina",  "Montserrat", sans-serif;
     color: #3AA3FC;
