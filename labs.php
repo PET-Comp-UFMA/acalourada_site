@@ -73,7 +73,7 @@ function componentePopUp($idPopUp, $cor, $caminhoLogo, $titulo, $subtitulo, $des
                 <span class="destaque">laboratórios</span> do curso
             </h1>
             <p class="banner-text">
-                Durante a Acalourada, você terá a chance de visitar os laboratórios de pesquisa da UFMA durante o LABTOUR. Veja de perto onde acontece a ciência que vai transformar sua jornada.
+                Durante a Acalourada, você terá a chance de conhecer os laboratórios de pesquisa da UFMA durante o LABTOUR. Descubra onde acontece a ciência que vai transformar sua jornada.
             </p>
         </div>
         <div class="banner-image">
@@ -327,8 +327,8 @@ function componentePopUp($idPopUp, $cor, $caminhoLogo, $titulo, $subtitulo, $des
     ?>
 
     <?php
-        require_once('footer.php');
-    ?> 
+    require_once('footer.php');
+    ?>
 
     <script>
         function abrirPopUp(idPopUp) {
