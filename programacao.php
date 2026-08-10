@@ -41,8 +41,8 @@ $programacao = [
                 'horario_fim' => '12:00',
                 'titulo' => 'Palestra SBC',
                 'local' => 'Auditório da Pós',
-                'descricao' => 'Apresentação da Sociedade Brasileira de Computação e das oportunidades para estudantes.',
-                'palestrantes' => [['nome' => 'SBC', 'foto' => 'img/Logo_SBC.jpeg']] //adicionar depois
+                'descricao' => 'Apresentação da Sociedade Brasileira de Computação e das oportunidades para estudantes ministrada pela  Prof.ª Dr.ª Alana de Araujo.',
+                'palestrantes' => [['nome' => ' Prof.ª Dr.ª Alana de Araujo', 'foto' => 'img/speakers/alana.png']] //adicionar depois
             ],
 
             [
@@ -61,7 +61,7 @@ $programacao = [
                 'horario_fim' => '15:00',
                 'titulo' => 'Apresentação da LAJD',
                 'local' => 'Auditório da Pós',
-                'descricao' => 'Apresentação da Liga de Jogos Digitais.',
+                'descricao' => 'Apresentação da Liga Acadêmica de Jogos Digitais.',
                 'palestrantes' => [['nome' => 'LAJD', 'foto' => 'img/LAJD.jpeg']]
             ],
 
@@ -69,20 +69,20 @@ $programacao = [
                 'periodo' => 'Tarde',
                 'horario_inicio' => '15:00',
                 'horario_fim' => '16:00',
-                'titulo' => 'Apresentação do Diretório Acadêmico',
+                'titulo' => 'Apresentação do LACRO',
                 'local' => 'Auditório da Pós',
-                'descricao' => 'Apresentação do Diretório Acadêmico de Ciência da Computação.',
-                'palestrantes' => [['nome' => 'DAComp', 'foto' => 'img/speakers/dacomp.jpeg']]
+                'descricao' => 'Apresentação do Liga Acadêmica de Computação e Robótica.',
+                'palestrantes' => [['nome' => 'LACRO', 'foto' => 'img/speakers/lacro.png']]
             ],
 
             [
                 'periodo' => 'Tarde',
                 'horario_inicio' => '16:00',
                 'horario_fim' => '17:00',
-                'titulo' => 'Apresentação da Atlética Lorde',
+                'titulo' => 'Apresentação da LASeg',
                 'local' => 'Auditório da Pós',
-                'descricao' => 'Apresentação da Atlética Lorde e suas atividades.',
-                'palestrantes' => [['nome' => 'Atlética Lorde', 'foto' => 'img/speakers/lorde.png']]
+                'descricao' => 'Apresentação da Liga Acadêmica de Cybersegurança.',
+                'palestrantes' => [['nome' => 'LASeg', 'foto' => 'img/speakers/laseg.png']]
             ]
         ]
     ],
@@ -118,11 +118,11 @@ $programacao = [
                 'periodo' => 'Manhã',
                 'horario_inicio' => '10:30',
                 'horario_fim' => '12:00',
-                'titulo' => 'Palestra com a Professora Simara',
+                'titulo' => 'Palestra com a  Prof.ª Dr.ª Simara',
                 'local' => 'Auditório da Pós',
-                'descricao' => 'Palestra ministrada pela Professora Simara.',
+                'descricao' => 'Palestra ministrada pela  Prof.ª Dr.ª Simara.',
                 'palestrantes' => [
-                    ['nome' => 'Profa. Dra. Simara Vieira', 'foto' => 'img/speakers/simara.png']
+                    ['nome' => ' Prof.ª Dr.ª Simara Vieira', 'foto' => 'img/speakers/simara.png']
                 ]
             ],
 
@@ -130,11 +130,11 @@ $programacao = [
                 'periodo' => 'Tarde',
                 'horario_inicio' => '14:00',
                 'horario_fim' => '15:30',
-                'titulo' => 'Palestra com o Professor Anselmo',
+                'titulo' => 'Palestra com o Fael Faray de Paiva',
                 'local' => 'Auditório da Pós',
-                'descricao' => 'Palestra ministrada pelo Professor Anselmo.',
+                'descricao' => 'Palestra ministrada por Fael Faray de Paiva discutindo a experiência em intercâmbio.',
                 'palestrantes' => [
-                    ['nome' => 'Prof. Dr. Anselmo Paiva', 'foto' => 'img/speakers/AnselmoPerfil.jpg']
+                    ['nome' => 'Fael Faray de Paiva', 'foto' => 'img/speakers/fael.jpg']
                 ]
             ],
 
@@ -175,7 +175,7 @@ $programacao = [
                 'local' => 'Auditório da Pós',
                 'descricao' => 'Apresentação do laboratório VipLab.',
                 'palestrantes' => [
-                    ['nome' => 'Prof. Dr. Geraldo Braz Júnior', 'foto' => 'img/speakers/geraldo.jpeg']
+                    ['nome' => 'Prof. Dr. Geraldo Braz Júnior', 'foto' => 'img/labs/coord-vip1.jpeg']
                 ]
             ],
 
