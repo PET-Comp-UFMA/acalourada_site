@@ -73,8 +73,8 @@
                 <ul class="site-nav">
 
                     <li class="nav-item">
-                        <a class="nav-link <?= (basename($_SERVER['PHP_SELF']) == 'index.php' || $_SERVER['REQUEST_URI'] == '/' || $_SERVER['REQUEST_URI'] == '') ? 'active' : '' ?>"
-                            href="index.php">
+                        <a class="nav-link <?= (basename($_SERVER['PHP_SELF']) == '' || $_SERVER['REQUEST_URI'] == '/' || $_SERVER['REQUEST_URI'] == '') ? 'active' : '' ?>"
+                            href="">
                             HOME
                         </a>
                     </li>
