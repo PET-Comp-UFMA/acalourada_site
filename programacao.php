@@ -69,9 +69,9 @@ $programacao = [
                 'periodo' => 'Tarde',
                 'horario_inicio' => '15:00',
                 'horario_fim' => '15:30',
-                'titulo' => 'Apresentação do LACRO',
+                'titulo' => 'Apresentação da LACRO',
                 'local' => 'Auditório da Pós',
-                'descricao' => 'Apresentação do Liga Acadêmica de Computação e Robótica.',
+                'descricao' => 'Apresentação da Liga Acadêmica de Computação e Robótica.',
                 'palestrantes' => [['nome' => 'LACRO', 'foto' => 'img/speakers/lacro.png']]
             ],
 
