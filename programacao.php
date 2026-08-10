@@ -68,7 +68,7 @@ $programacao = [
             [
                 'periodo' => 'Tarde',
                 'horario_inicio' => '15:00',
-                'horario_fim' => '16:00',
+                'horario_fim' => '15:30',
                 'titulo' => 'Apresentação do LACRO',
                 'local' => 'Auditório da Pós',
                 'descricao' => 'Apresentação do Liga Acadêmica de Computação e Robótica.',
@@ -77,8 +77,8 @@ $programacao = [
 
             [
                 'periodo' => 'Tarde',
-                'horario_inicio' => '16:00',
-                'horario_fim' => '17:00',
+                'horario_inicio' => '15:30',
+                'horario_fim' => '16:00',
                 'titulo' => 'Apresentação da LASeg',
                 'local' => 'Auditório da Pós',
                 'descricao' => 'Apresentação da Liga Acadêmica de Cybersegurança.',
