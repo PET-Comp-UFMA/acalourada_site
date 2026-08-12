@@ -83,6 +83,15 @@ $programacao = [
                 'local' => 'Auditório da Pós',
                 'descricao' => 'Apresentação da Liga Acadêmica de Cybersegurança.',
                 'palestrantes' => [['nome' => 'LASeg', 'foto' => 'img/speakers/laseg.png']]
+            ],
+            [
+                'periodo' => 'Tarde',
+                'horario_inicio' => '16:00',
+                'horario_fim' => '17:00',
+                'titulo' => 'Dinâmica de Jogos',
+                'local' => 'Auditório da Pós',
+                'descricao' => 'Dinâmica de integração com jogos e atividades interativas para promover a interação entre os calouros e veteranos.',
+                'palestrantes' => [['nome' => 'Equipe PETComp', 'foto' => 'img/speakers/pet.jpg']]
             ]
         ]
     ],
@@ -259,7 +268,7 @@ $programacao = [
                 'local' => 'Auditório da Pós',
                 'descricao' => 'Apresentação do laboratório InovTec.',
                 'palestrantes' => [
-                    ['nome' => 'Equipe InovTec', 'foto' => 'img/labs/coord-inovtec.jpeg'] //Adicionar depois
+                    ['nome' => 'Prof. Dr. Areolino', 'foto' => 'img/labs/coord-inovtec.jpeg'] //Adicionar depois
                 ]
             ],
 
@@ -283,7 +292,7 @@ $programacao = [
                 'local' => 'Auditório da Pós',
                 'descricao' => 'Encerramento oficial da Acalourada 2026.2.',
                 'palestrantes' => [
-                    ['nome' => 'Organização', 'foto' => 'img/speakers/pet.jpg']
+                    ['nome' => 'Equipe PETComp', 'foto' => 'img/speakers/pet.jpg']
                 ]
             ]
         ]
