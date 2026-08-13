@@ -42,7 +42,7 @@ $programacao = [
                 'titulo' => 'Palestra SBC',
                 'local' => 'Auditório da Pós',
                 'descricao' => 'Apresentação da Sociedade Brasileira de Computação e das oportunidades para estudantes ministrada pela  Prof.ª Dr.ª Alana de Araujo.',
-                'palestrantes' => [['nome' => ' Prof.ª Dr.ª Alana de Araujo', 'foto' => 'img/speakers/alana.png']] //adicionar depois
+                'palestrantes' => [['nome' => ' Prof.ª Dr.ª Alana de Araujo', 'foto' => 'img/speakers/alana.jpeg']] //adicionar depois
             ],
 
             [
