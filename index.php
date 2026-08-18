@@ -50,7 +50,7 @@ require_once('header.php');
 
             <p>
                 A Acalourada é uma atividade de recepção dos estudantes ingressantes no curso de Ciência da
-                Computação de forma presencial. Essa atividade já vem sendo desenvolvida de forma presencial há mais de
+                Computação e Inteligência Artificial de forma presencial. Essa atividade já vem sendo desenvolvida de forma presencial há mais de
                 6 anos em conjunto com a Coordenação de Computação, o Departamento de Informática e o PET de Computação,
                 e procura guiar os calouros através da universidade e do curso, além de mostrar as oportunidades que a
                 universidade oferece tanto de forma pessoal como profissional.
@@ -147,7 +147,7 @@ require_once('header.php');
 
         <p class="faq-desc">
             Aqui você encontra perguntas frequentes que você pode chegar a ter sobre o evento, o início das aulas ou
-            simplesmente sobre o curso.Não conseguiu a resposta que queria? Envie sua dúvida por nossos meios de
+            simplesmente sobre o curso. Não conseguiu a resposta que queria? Envie sua dúvida por nossos meios de
             comunicação no final dessa página.
         </p>
 
@@ -216,7 +216,7 @@ require_once('header.php');
             <div class="faq-answer">
                 O PETComp é o Programa de Ensino Tutorial de Computação e tem como objetivo realizar diversas atividades
                 de pesquisa, ensino e extensão. Dentre algumas das atividades podemos citar minicursos, Projetos de
-                Extensão,como por exemplo, ensino de pensamento computacional, organizar o Encontro Acadêmico de
+                Extensão, como por exemplo, ensino de pensamento computacional, organizar o Encontro Acadêmico de
                 Computação (EAComp), desenvolvimento de sistemas, entre outros.
             </div>
 
