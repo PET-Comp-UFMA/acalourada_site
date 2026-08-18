@@ -120,6 +120,20 @@ require_once('header.php');
             </div>
 
             <div class="organizacao-card">
+
+                <img src="img/supporters/CCIA.svg" alt="COCOM">
+
+                <h3>CCIA</h3>
+
+                <p>
+                    Coordenação do Curso de Inteligência Artificial
+                </p>
+            </div>
+
+
+            
+
+            <div class="organizacao-card">
                 <a href="https://petcompufma.org/ " target="_blank">
                     <img src="img/supporters/5.png" alt="PETComp">
                 </a>
