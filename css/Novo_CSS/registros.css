@@ -176,33 +176,36 @@ POP-UP (MODAL) AO CLICAR NO TABLET
 }
 
 .modal-content {
-    background: white;
-    width: 70%;
-    max-width: 900px;
-    border-radius: 20px;
-    padding: 30px;
+    background: transparent;
+    width: auto;
+    max-width: 90vw;
+    border-radius: 0;
+    padding: 0;
     position: relative;
+    display: inline-block;
 }
 
 .modal-content img {
+    display: block;
     max-width: 100%;
-    max-height: 100%;
-    border-radius: 15px;
+    max-height: 85vh;
+    border-radius: 15px; /* mantém o arredondado seguindo o da própria imagem */
 }
 
 .btn-fechar {
     position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 50px;
-    height: 50px;
+    top: -18px;
+    right: -18px;
+    width: 42px;
+    height: 42px;
     border-radius: 50%;
     border: none;
     background: #001249;
     color: white;
-    border: 3px solid #0d8fe3; /* borda ciano no botao azul escuro */
-    font-size: 24px;
+    border: 3px solid #0d8fe3;
+    font-size: 20px;
     cursor: pointer;
+    z-index: 2;
 }
 
 /* ------------------------------------------------------------------------------
@@ -278,17 +281,23 @@ RESPONSIVIDADE
     }
 
     .modal-content {
-        width: 88%;
-        padding: 15px;
-        border-radius: 14px;
+        width: auto;
+        max-width: 92vw;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .modal-content img {
+        max-height: 80vh;
+        border-radius: 10px;
     }
 
     .btn-fechar {
-        width: 38px;
-        height: 38px;
-        top: 12px;
-        right: 12px;
-        font-size: 20px;
+        width: 32px;
+        height: 32px;
+        top: -12px;
+        right: -12px;
+        font-size: 16px;
     }
 }
 

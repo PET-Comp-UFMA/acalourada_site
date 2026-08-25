@@ -14,21 +14,19 @@
     <div class="hero-registros-content">
         <h1>Registros Acalourada <span>2026.2</span></h1>
         <p>
-            Em breve, os melhores cliques dos três dias do evento vivido
+            Os melhores cliques dos três dias do evento vivido
             pelos calouros do curso de Ciência da Computação
             e Inteligência Artificial.
-            <!-- Para mais informações,
-            clique no tablet abaixo! -->
+            Para visualizar melhor,
+            clique no tablet abaixo!
         </p>
 
-
-
     <!-- descomentar os botoes quando as fotos estiverem disponiveis -->
-        <!-- <div class="botoes-dias">
+        <div class="botoes-dias">
             <button id="dia1" class="btn-dia ativo">Dia 1</button>
             <button id="dia2" class="btn-dia">Dia 2</button>
             <button id="dia3" class="btn-dia">Dia 3</button>
-        </div> -->
+        </div>
     </div>
 </section>
 
@@ -36,7 +34,7 @@
 
     <img
         id="banner-registros"
-        src="img/registros/2026.2/BannerRegistrosEmBreve.svg"
+        src="img/registros/2026.2/BannerRegistrosDia1.svg"
         alt="Banner registros"
         class="banner-registros-img">
 
@@ -46,20 +44,20 @@
 
 </section>
 
-<!-- <div id="modal-dia" class="modal">
+<div id="modal-dia" class="modal">
+    <div class="modal-content">
+        <button id="fechar-modal" class="btn-fechar">
+            X
+        </button>
 
-    <button id="fechar-modal" class="btn-fechar">
-        X
-    </button>
+        <img
+            id="boxFotos"
+            src=""
+            alt="Foto">
+    </div>
+</div>
 
-    <img
-        id="boxFotos"
-        src=""
-        alt="Foto">
-
-</div> -->
-
-<!-- <script src="js/registros.js"></script> -->
+<script src="js/registros.js"></script>
 
 <?php 
     require_once('footer.php');
