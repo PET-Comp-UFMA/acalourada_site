@@ -212,7 +212,7 @@ body {
 }
 
 /* VERSÃO RESPONSIVA (TABLET / MOBILE) */
-@media (max-width: 1010px) {
+@media (max-width: 1024px) {
     .site-header__inner {
         justify-content: space-between;
         padding: 12px 16px;

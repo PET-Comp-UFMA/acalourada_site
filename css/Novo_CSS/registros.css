@@ -47,7 +47,7 @@ HERO DA PAGINA REGISTROS (1a SESSÃƒO APOS O HEADER)
     margin-left: 40%;
     margin-right: 10%;
     /* max-width: 1200px; */
-    margin: 0 auto; /* centraliza horizontalmente */
+    margin: 0 auto; /* centraliza horizontalmente
     /* margin: 0 auto; /* centraliza horizontalmente */
     display: flex;
     flex-direction: column; /* formato de coluna (um embaixo do outro) */
@@ -212,14 +212,43 @@ POP-UP (MODAL) AO CLICAR NO TABLET
 RESPONSIVIDADE
 ------------------------------------------------------------------------------ */
 
-@media (max-width: 768px) {
+@media (max-width: 1536px) {
 
+    .hero-registros-content {
+        margin-left: 35%;
+        margin-right: 10%;
+    }
+    
+    .hero-registros-content h1 {
+        font-size: 63px;
+    }
+
+    .hero-registros-content p {
+        font-size: 23px;
+    }
+
+    .btn-dia {
+        width: 103px;
+        height: 32px;
+        font-size: 13px;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
+@media (max-width: 1024px) {
+
+
+    .hero-registros-content {
+        margin: 0 auto; /* centraliza horizontalmente */
+    }
+    
     .hero-fundo-azul {
-        min-height: 407px;
+        min-height: 392px;
     }
     .hero-registros {
-        margin-top: -407px;
-        min-height: 407px;
+        margin-top: -392px;
+        min-height: 392px;
     }
 
     .hero-registros-content {
@@ -229,7 +258,7 @@ RESPONSIVIDADE
 
     .hero-registros-content h1 {
         width: 100%;
-        font-size: 62px;
+        font-size: 59px;
         margin-bottom: 8px;
         line-height: 0.95;
         text-align: center;
@@ -237,7 +266,7 @@ RESPONSIVIDADE
 
     .hero-registros-content p {
         width: 100%;
-        font-size: 21px;
+        font-size: 20px;
         line-height: 1.2;
         text-align: center;
     }
@@ -250,9 +279,9 @@ RESPONSIVIDADE
     }
     
     .btn-dia {
-        width: 94px;
-        height: 29px;
-        font-size: 13px;
+        width: 90px;
+        height: 28px;
+        font-size: 12px;
         border-width: 1px;
         box-shadow: 2px 2px 0 rgba(0,0,0,0.2);
     }
@@ -301,16 +330,18 @@ RESPONSIVIDADE
     }
 }
 
+/* ---------------------------------------------------------------------------------------------- */
+
 @media (max-width: 425px) {
 
     .hero-fundo-azul {
-        min-height: 335px;
+        min-height: 346px;
     }
     .hero-registros {
-        margin-top: -335px;
-        min-height: 335px;
+        margin-top: -346px;
+        min-height: 346px;
     }
-
+    
     .hero-registros-content {
         width: 80%;
         align-items: center;
@@ -318,7 +349,7 @@ RESPONSIVIDADE
 
     .hero-registros-content h1 {
         width: 100%;
-        font-size: 51px;
+        font-size: 52px;
         margin-bottom: 8px;
         line-height: 0.95;
         text-align: center;
@@ -339,13 +370,15 @@ RESPONSIVIDADE
     }
     
     .btn-dia {
-        width: 77px;
+        width: 80px;
         height: 24px;
-        font-size: 10px;
+        font-size: 11px;
         border-width: 1px;
         box-shadow: 2px 2px 0 rgba(0,0,0,0.2);
     }
 }
+
+/* ---------------------------------------------------------------------------------------------- */
 
 @media (max-width: 375px) {
 
@@ -364,7 +397,7 @@ RESPONSIVIDADE
 
     .hero-registros-content h1 {
         width: 100%;
-        font-size: 45px;
+        font-size: 44px;
         margin-bottom: 8px;
         line-height: 0.95;
         text-align: center;
@@ -392,6 +425,8 @@ RESPONSIVIDADE
         box-shadow: 2px 2px 0 rgba(0,0,0,0.2);
     }
 }
+
+/* ---------------------------------------------------------------------------------------------- */
 
 @media (max-width: 320px) {
 
@@ -437,5 +472,4 @@ RESPONSIVIDADE
         border-width: 1px;
         box-shadow: 2px 2px 0 rgba(0,0,0,0.2);
     }
-    
 }
