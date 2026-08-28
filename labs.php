@@ -11,7 +11,7 @@ require_once('header.php');
 
 function componenteCard($titulo, $subtitulo, $Cor, $Logo, $idPopUp)
 {
-    ?>
+?>
     <div class="card">
         <div class="card-header">
             <div class="card-bg <?= $Cor ?>"></div>
@@ -23,12 +23,12 @@ function componenteCard($titulo, $subtitulo, $Cor, $Logo, $idPopUp)
             <button class="btn-saiba-mais" onclick="abrirPopUp('<?= $idPopUp ?>')">Saiba mais</button>
         </div>
     </div>
-    <?php
+<?php
 }
 
 function componentePopUp($idPopUp, $cor, $caminhoLogo, $titulo, $subtitulo, $descricao, $coordenadores = [], $site = null)
 {
-    ?>
+?>
     <div id="<?= $idPopUp ?>" class="popup-overlay">
         <div class="popup-container" style="background: linear-gradient(180deg, <?= $cor ?> 0%, #ffffff 25%);">
             <span class="close-btn" onclick="fecharPopUp('<?= $idPopUp ?>')">&times;</span>
@@ -51,8 +51,7 @@ function componentePopUp($idPopUp, $cor, $caminhoLogo, $titulo, $subtitulo, $des
                             <span><?= $coord['cargo'] ?></span>
                             <div class="links">
                                 <h5><a href="<?= $coord['email'] ?>" target="_blank" style="color: <?= $cor ?>;">E-mail</a></h5>
-                                <h5><a href="<?= $coord['lattes'] ?>" target="_blank" style="color: <?= $cor ?>;">Lattes</a>
-                                </h5>
+                                <h5><a href="<?= $coord['lattes'] ?>" target="_blank" style="color: <?= $cor ?>;">Lattes</a></h5>
                             </div>
                         </div>
                     <?php endforeach; ?>
@@ -61,7 +60,7 @@ function componentePopUp($idPopUp, $cor, $caminhoLogo, $titulo, $subtitulo, $des
             </div>
         </div>
     </div>
-    <?php
+<?php
 }
 
 ?>
@@ -74,8 +73,7 @@ function componentePopUp($idPopUp, $cor, $caminhoLogo, $titulo, $subtitulo, $des
                 <span class="destaque">laboratórios</span> do curso
             </h1>
             <p class="banner-text">
-                Durante a Acalourada, você terá a chance de conhecer os laboratórios de pesquisa da UFMA durante o
-                LABTOUR. Descubra onde acontece a ciência que vai transformar sua jornada.
+                Durante a Acalourada, você terá a chance de conhecer os laboratórios de pesquisa da UFMA durante o LABTOUR. Descubra onde acontece a ciência que vai transformar sua jornada.
             </p>
         </div>
         <div class="banner-image">
@@ -88,22 +86,14 @@ function componentePopUp($idPopUp, $cor, $caminhoLogo, $titulo, $subtitulo, $des
         <div class="card-sobre">
             <h2 class="titulo-sobre">SOBRE OS LABORATÓRIOS</h2>
             <p class="texto-sobre">
-                Os laboratórios de Ciência da Computação e Inteligência Artificial da UFMA (CCET) formam um ecossistema
-                integrado e colaborativo focado em inovação tecnológica e na resolução de problemas complexos. Em vez de
-                atuarem isoladamente, esses espaços se complementam em pesquisas de ponta que envolvem Inteligência
-                Artificial, Aprendizado de Máquina e Visão Computacional (com aplicações médicas e em dados
-                geográficos); Engenharia de Software e Interação Humano-Computador; além de Sistemas Web Avançados,
-                Computação Pervasiva, Mídias Interativas, TV Digital e jogos. Funcionando como verdadeiros centros de
-                formação, esses laboratórios mantêm as portas abertas para os alunos, que podem ingressar em projetos de
-                pesquisa, a partir do 2º período, por meio de contato direto e conversar com os professores
-                responsáveis.
+                Os laboratórios de Ciência da Computação e Inteligência Artificial da UFMA (CCET) formam um ecossistema integrado e colaborativo focado em inovação tecnológica e na resolução de problemas complexos. Em vez de atuarem isoladamente, esses espaços se complementam em pesquisas de ponta que envolvem Inteligência Artificial, Aprendizado de Máquina e Visão Computacional (com aplicações médicas e em dados geográficos); Engenharia de Software e Interação Humano-Computador; além de Sistemas Web Avançados, Computação Pervasiva, Mídias Interativas, TV Digital e jogos. Funcionando como verdadeiros centros de formação, esses laboratórios mantêm as portas abertas para os alunos, que podem ingressar em projetos de pesquisa, a partir do 2º período, por meio de contato direto e conversar com os professores responsáveis.
             </p>
         </div>
     </div>
 
     <div class="grid-container">
         <?php
-        //componenteCard("DEXTERS Lab", "Laboratório de Engenharia de Software", "bg-dxt", "img/labs/logo-dxt.png", "popUpDxt");
+        componenteCard("DEXTERS Lab", "Laboratório de Engenharia de Software", "bg-dxt", "img/labs/logo-dxt.png", "popUpDxt");
         componenteCard("VIPLAB", "Laboratório de Visão e Processamento de Imagens", "bg-vip", "img/labs/logo-viplab.png", "popUpVip");
         componenteCard("MODAL", "Laboratório de Modelagem Matemática e Algoritmos", "bg-modal", "img/labs/logo-modal.png", "popUpModal");
         componenteCard("LINT²", "Laboratório de Inteligência Interativa", "bg-lint", "svg/logo-lint.svg", "popUpLint");
@@ -118,7 +108,7 @@ function componentePopUp($idPopUp, $cor, $caminhoLogo, $titulo, $subtitulo, $des
     </div>
 
     <?php
-    /*componentePopUp(
+    componentePopUp(
         "popUpDxt",
         "#ABF3FF",
         "img/labs/logo-dxt.png",
@@ -135,7 +125,7 @@ function componentePopUp($idPopUp, $cor, $caminhoLogo, $titulo, $subtitulo, $des
             ]
         ]
     );
-    */
+
     componentePopUp(
         "popUpVip",
         "#B8DB87",
@@ -351,7 +341,7 @@ function componentePopUp($idPopUp, $cor, $caminhoLogo, $titulo, $subtitulo, $des
             popUp.style.display = 'none';
         }
 
-        window.onclick = function (event) {
+        window.onclick = function(event) {
             if (event.target.classList.contains('popup-overlay')) {
                 event.target.style.display = 'none';
             }
